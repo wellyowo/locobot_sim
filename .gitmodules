@@ -21,3 +21,43 @@
 [submodule "locobot_ws/src/ThirdParty/aws-robomaker-bookstore-world"]
 	path = locobot_ws/src/ThirdParty/aws-robomaker-bookstore-world
 	url = https://github.com/aws-robotics/aws-robomaker-bookstore-world.git
+[submodule "locobot_ws/src/ThirdParty/aws-robomaker-racetrack-world"]
+	path = locobot_ws/src/ThirdParty/aws-robomaker-racetrack-world
+	url = https://github.com/jmguerreroh/aws-robomaker-racetrack-world.git
+	branch = ros2
+[submodule "locobot_ws/src/ThirdParty/aws-robomaker-small-house-world"]
+	path = locobot_ws/src/ThirdParty/aws-robomaker-small-house-world
+	url = https://github.com/aws-robotics/aws-robomaker-small-house-world.git
+	branch = ros2
+[submodule "locobot_ws/src/ThirdParty/aws-robomaker-small-warehouse-world"]
+	path = locobot_ws/src/ThirdParty/aws-robomaker-small-warehouse-world
+	url = https://github.com/aws-robotics/aws-robomaker-small-warehouse-world.git
+	branch = ros2
+[submodule "locobot_ws/src/ThirdParty/ecl/ecl_core"]
+	path = locobot_ws/src/ThirdParty/ecl/ecl_core
+	url = https://github.com/Juancams/ecl_core.git
+	branch = devel
+[submodule "locobot_ws/src/ThirdParty/ecl/ecl_lite"]
+	path = locobot_ws/src/ThirdParty/ecl/ecl_lite
+	url = https://github.com/stonier/ecl_lite.git
+	branch = devel
+[submodule "locobot_ws/src/ThirdParty/gazebo_plugins"]
+	path = locobot_ws/src/ThirdParty/gazebo_plugins
+	url = https://github.com/fmrico/gazebo_ros_pkgs.git
+	branch = ros2_fix_depth
+[submodule "locobot_ws/src/ThirdParty/kobuki_core"]
+	path = locobot_ws/src/ThirdParty/kobuki_core
+	url = https://github.com/kobuki-base/kobuki_core.git
+	branch = release/1.3.x
+[submodule "locobot_ws/src/ThirdParty/kobuki_ros"]
+	path = locobot_ws/src/ThirdParty/kobuki_ros
+	url = https://github.com/Juancams/kobuki_ros.git
+	branch = humble-devel
+[submodule "locobot_ws/src/ThirdParty/rplidar_ros"]
+	path = locobot_ws/src/ThirdParty/rplidar_ros
+	url = https://github.com/Juancams/rplidar_ros.git
+	branch = ros2
+[submodule "locobot_ws/src/ThirdParty/sophus"]
+	path = locobot_ws/src/ThirdParty/sophus
+	url = https://github.com/stonier/sophus.git
+	branch = release/1.2.x
