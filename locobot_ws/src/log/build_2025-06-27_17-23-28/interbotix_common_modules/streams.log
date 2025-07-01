@@ -1,0 +1,71 @@
+[0.916s] Invoking command in '/home/wellyowo/locobot_sim/locobot_ws/src/interbotix_ros_toolboxes/interbotix_common_toolbox/interbotix_common_modules': PYTHONPATH=/home/wellyowo/locobot_sim/locobot_ws/src/build/interbotix_common_modules/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wellyowo/locobot_sim/locobot_ws/src/install/interbotix_common_modules/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/interbotix_common_modules build --build-base /home/wellyowo/locobot_sim/locobot_ws/src/build/interbotix_common_modules/build install --record /home/wellyowo/locobot_sim/locobot_ws/src/build/interbotix_common_modules/install.log --single-version-externally-managed install_data
+[4.415s] running egg_info
+[4.436s] creating ../../../build/interbotix_common_modules/interbotix_common_modules.egg-info
+[4.436s] writing ../../../build/interbotix_common_modules/interbotix_common_modules.egg-info/PKG-INFO
+[4.436s] writing dependency_links to ../../../build/interbotix_common_modules/interbotix_common_modules.egg-info/dependency_links.txt
+[4.437s] writing entry points to ../../../build/interbotix_common_modules/interbotix_common_modules.egg-info/entry_points.txt
+[4.437s] writing requirements to ../../../build/interbotix_common_modules/interbotix_common_modules.egg-info/requires.txt
+[4.437s] writing top-level names to ../../../build/interbotix_common_modules/interbotix_common_modules.egg-info/top_level.txt
+[4.437s] writing manifest file '../../../build/interbotix_common_modules/interbotix_common_modules.egg-info/SOURCES.txt'
+[4.437s] reading manifest file '../../../build/interbotix_common_modules/interbotix_common_modules.egg-info/SOURCES.txt'
+[4.437s] writing manifest file '../../../build/interbotix_common_modules/interbotix_common_modules.egg-info/SOURCES.txt'
+[4.437s] running build
+[4.437s] running build_py
+[4.437s] creating /home/wellyowo/locobot_sim/locobot_ws/src/build/interbotix_common_modules/build
+[4.437s] creating /home/wellyowo/locobot_sim/locobot_ws/src/build/interbotix_common_modules/build/lib
+[4.437s] creating /home/wellyowo/locobot_sim/locobot_ws/src/build/interbotix_common_modules/build/lib/interbotix_common_modules
+[4.437s] copying interbotix_common_modules/__init__.py -> /home/wellyowo/locobot_sim/locobot_ws/src/build/interbotix_common_modules/build/lib/interbotix_common_modules
+[4.437s] creating /home/wellyowo/locobot_sim/locobot_ws/src/build/interbotix_common_modules/build/lib/interbotix_common_modules/py_common
+[4.437s] copying interbotix_common_modules/py_common/__init__.py -> /home/wellyowo/locobot_sim/locobot_ws/src/build/interbotix_common_modules/build/lib/interbotix_common_modules/py_common
+[4.437s] copying interbotix_common_modules/py_common/params.py -> /home/wellyowo/locobot_sim/locobot_ws/src/build/interbotix_common_modules/build/lib/interbotix_common_modules/py_common
+[4.437s] creating /home/wellyowo/locobot_sim/locobot_ws/src/build/interbotix_common_modules/build/lib/interbotix_common_modules/launch
+[4.438s] copying interbotix_common_modules/launch/__init__.py -> /home/wellyowo/locobot_sim/locobot_ws/src/build/interbotix_common_modules/build/lib/interbotix_common_modules/launch
+[4.438s] copying interbotix_common_modules/launch/and_condition.py -> /home/wellyowo/locobot_sim/locobot_ws/src/build/interbotix_common_modules/build/lib/interbotix_common_modules/launch
+[4.438s] copying interbotix_common_modules/launch/or_condition.py -> /home/wellyowo/locobot_sim/locobot_ws/src/build/interbotix_common_modules/build/lib/interbotix_common_modules/launch
+[4.438s] creating /home/wellyowo/locobot_sim/locobot_ws/src/build/interbotix_common_modules/build/lib/interbotix_common_modules/common_robot
+[4.438s] copying interbotix_common_modules/common_robot/__init__.py -> /home/wellyowo/locobot_sim/locobot_ws/src/build/interbotix_common_modules/build/lib/interbotix_common_modules/common_robot
+[4.438s] copying interbotix_common_modules/common_robot/robot.py -> /home/wellyowo/locobot_sim/locobot_ws/src/build/interbotix_common_modules/build/lib/interbotix_common_modules/common_robot
+[4.438s] copying interbotix_common_modules/common_robot/exceptions.py -> /home/wellyowo/locobot_sim/locobot_ws/src/build/interbotix_common_modules/build/lib/interbotix_common_modules/common_robot
+[4.438s] creating /home/wellyowo/locobot_sim/locobot_ws/src/build/interbotix_common_modules/build/lib/interbotix_common_modules/angle_manipulation
+[4.438s] copying interbotix_common_modules/angle_manipulation/__init__.py -> /home/wellyowo/locobot_sim/locobot_ws/src/build/interbotix_common_modules/build/lib/interbotix_common_modules/angle_manipulation
+[4.438s] copying interbotix_common_modules/angle_manipulation/angle_manipulation.py -> /home/wellyowo/locobot_sim/locobot_ws/src/build/interbotix_common_modules/build/lib/interbotix_common_modules/angle_manipulation
+[4.438s] running install
+[4.438s] running install_lib
+[4.438s] creating /home/wellyowo/locobot_sim/locobot_ws/src/install/interbotix_common_modules/lib/python3.10/site-packages/interbotix_common_modules
+[4.438s] creating /home/wellyowo/locobot_sim/locobot_ws/src/install/interbotix_common_modules/lib/python3.10/site-packages/interbotix_common_modules/py_common
+[4.438s] copying /home/wellyowo/locobot_sim/locobot_ws/src/build/interbotix_common_modules/build/lib/interbotix_common_modules/py_common/__init__.py -> /home/wellyowo/locobot_sim/locobot_ws/src/install/interbotix_common_modules/lib/python3.10/site-packages/interbotix_common_modules/py_common
+[4.439s] copying /home/wellyowo/locobot_sim/locobot_ws/src/build/interbotix_common_modules/build/lib/interbotix_common_modules/py_common/params.py -> /home/wellyowo/locobot_sim/locobot_ws/src/install/interbotix_common_modules/lib/python3.10/site-packages/interbotix_common_modules/py_common
+[4.439s] creating /home/wellyowo/locobot_sim/locobot_ws/src/install/interbotix_common_modules/lib/python3.10/site-packages/interbotix_common_modules/launch
+[4.439s] copying /home/wellyowo/locobot_sim/locobot_ws/src/build/interbotix_common_modules/build/lib/interbotix_common_modules/launch/__init__.py -> /home/wellyowo/locobot_sim/locobot_ws/src/install/interbotix_common_modules/lib/python3.10/site-packages/interbotix_common_modules/launch
+[4.439s] copying /home/wellyowo/locobot_sim/locobot_ws/src/build/interbotix_common_modules/build/lib/interbotix_common_modules/launch/and_condition.py -> /home/wellyowo/locobot_sim/locobot_ws/src/install/interbotix_common_modules/lib/python3.10/site-packages/interbotix_common_modules/launch
+[4.443s] copying /home/wellyowo/locobot_sim/locobot_ws/src/build/interbotix_common_modules/build/lib/interbotix_common_modules/launch/or_condition.py -> /home/wellyowo/locobot_sim/locobot_ws/src/install/interbotix_common_modules/lib/python3.10/site-packages/interbotix_common_modules/launch
+[4.443s] creating /home/wellyowo/locobot_sim/locobot_ws/src/install/interbotix_common_modules/lib/python3.10/site-packages/interbotix_common_modules/common_robot
+[4.443s] copying /home/wellyowo/locobot_sim/locobot_ws/src/build/interbotix_common_modules/build/lib/interbotix_common_modules/common_robot/__init__.py -> /home/wellyowo/locobot_sim/locobot_ws/src/install/interbotix_common_modules/lib/python3.10/site-packages/interbotix_common_modules/common_robot
+[4.444s] copying /home/wellyowo/locobot_sim/locobot_ws/src/build/interbotix_common_modules/build/lib/interbotix_common_modules/common_robot/robot.py -> /home/wellyowo/locobot_sim/locobot_ws/src/install/interbotix_common_modules/lib/python3.10/site-packages/interbotix_common_modules/common_robot
+[4.444s] copying /home/wellyowo/locobot_sim/locobot_ws/src/build/interbotix_common_modules/build/lib/interbotix_common_modules/common_robot/exceptions.py -> /home/wellyowo/locobot_sim/locobot_ws/src/install/interbotix_common_modules/lib/python3.10/site-packages/interbotix_common_modules/common_robot
+[4.444s] copying /home/wellyowo/locobot_sim/locobot_ws/src/build/interbotix_common_modules/build/lib/interbotix_common_modules/__init__.py -> /home/wellyowo/locobot_sim/locobot_ws/src/install/interbotix_common_modules/lib/python3.10/site-packages/interbotix_common_modules
+[4.444s] creating /home/wellyowo/locobot_sim/locobot_ws/src/install/interbotix_common_modules/lib/python3.10/site-packages/interbotix_common_modules/angle_manipulation
+[4.444s] copying /home/wellyowo/locobot_sim/locobot_ws/src/build/interbotix_common_modules/build/lib/interbotix_common_modules/angle_manipulation/__init__.py -> /home/wellyowo/locobot_sim/locobot_ws/src/install/interbotix_common_modules/lib/python3.10/site-packages/interbotix_common_modules/angle_manipulation
+[4.444s] copying /home/wellyowo/locobot_sim/locobot_ws/src/build/interbotix_common_modules/build/lib/interbotix_common_modules/angle_manipulation/angle_manipulation.py -> /home/wellyowo/locobot_sim/locobot_ws/src/install/interbotix_common_modules/lib/python3.10/site-packages/interbotix_common_modules/angle_manipulation
+[4.444s] byte-compiling /home/wellyowo/locobot_sim/locobot_ws/src/install/interbotix_common_modules/lib/python3.10/site-packages/interbotix_common_modules/py_common/__init__.py to __init__.cpython-310.pyc
+[4.445s] byte-compiling /home/wellyowo/locobot_sim/locobot_ws/src/install/interbotix_common_modules/lib/python3.10/site-packages/interbotix_common_modules/py_common/params.py to params.cpython-310.pyc
+[4.445s] byte-compiling /home/wellyowo/locobot_sim/locobot_ws/src/install/interbotix_common_modules/lib/python3.10/site-packages/interbotix_common_modules/launch/__init__.py to __init__.cpython-310.pyc
+[4.445s] byte-compiling /home/wellyowo/locobot_sim/locobot_ws/src/install/interbotix_common_modules/lib/python3.10/site-packages/interbotix_common_modules/launch/and_condition.py to and_condition.cpython-310.pyc
+[4.445s] byte-compiling /home/wellyowo/locobot_sim/locobot_ws/src/install/interbotix_common_modules/lib/python3.10/site-packages/interbotix_common_modules/launch/or_condition.py to or_condition.cpython-310.pyc
+[4.449s] byte-compiling /home/wellyowo/locobot_sim/locobot_ws/src/install/interbotix_common_modules/lib/python3.10/site-packages/interbotix_common_modules/common_robot/__init__.py to __init__.cpython-310.pyc
+[4.449s] byte-compiling /home/wellyowo/locobot_sim/locobot_ws/src/install/interbotix_common_modules/lib/python3.10/site-packages/interbotix_common_modules/common_robot/robot.py to robot.cpython-310.pyc
+[4.449s] byte-compiling /home/wellyowo/locobot_sim/locobot_ws/src/install/interbotix_common_modules/lib/python3.10/site-packages/interbotix_common_modules/common_robot/exceptions.py to exceptions.cpython-310.pyc
+[4.449s] byte-compiling /home/wellyowo/locobot_sim/locobot_ws/src/install/interbotix_common_modules/lib/python3.10/site-packages/interbotix_common_modules/__init__.py to __init__.cpython-310.pyc
+[4.450s] byte-compiling /home/wellyowo/locobot_sim/locobot_ws/src/install/interbotix_common_modules/lib/python3.10/site-packages/interbotix_common_modules/angle_manipulation/__init__.py to __init__.cpython-310.pyc
+[4.450s] byte-compiling /home/wellyowo/locobot_sim/locobot_ws/src/install/interbotix_common_modules/lib/python3.10/site-packages/interbotix_common_modules/angle_manipulation/angle_manipulation.py to angle_manipulation.cpython-310.pyc
+[4.450s] running install_data
+[4.450s] creating /home/wellyowo/locobot_sim/locobot_ws/src/install/interbotix_common_modules/share/ament_index
+[4.450s] creating /home/wellyowo/locobot_sim/locobot_ws/src/install/interbotix_common_modules/share/ament_index/resource_index
+[4.450s] creating /home/wellyowo/locobot_sim/locobot_ws/src/install/interbotix_common_modules/share/ament_index/resource_index/packages
+[4.450s] copying resource/interbotix_common_modules -> /home/wellyowo/locobot_sim/locobot_ws/src/install/interbotix_common_modules/share/ament_index/resource_index/packages
+[4.450s] copying package.xml -> /home/wellyowo/locobot_sim/locobot_ws/src/install/interbotix_common_modules/share/interbotix_common_modules
+[4.450s] running install_egg_info
+[4.450s] Copying ../../../build/interbotix_common_modules/interbotix_common_modules.egg-info to /home/wellyowo/locobot_sim/locobot_ws/src/install/interbotix_common_modules/lib/python3.10/site-packages/interbotix_common_modules-0.0.0-py3.10.egg-info
+[4.450s] running install_scripts
+[4.451s] writing list of installed files to '/home/wellyowo/locobot_sim/locobot_ws/src/build/interbotix_common_modules/install.log'
+[4.466s] Invoked command in '/home/wellyowo/locobot_sim/locobot_ws/src/interbotix_ros_toolboxes/interbotix_common_toolbox/interbotix_common_modules' returned '0': PYTHONPATH=/home/wellyowo/locobot_sim/locobot_ws/src/build/interbotix_common_modules/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wellyowo/locobot_sim/locobot_ws/src/install/interbotix_common_modules/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/interbotix_common_modules build --build-base /home/wellyowo/locobot_sim/locobot_ws/src/build/interbotix_common_modules/build install --record /home/wellyowo/locobot_sim/locobot_ws/src/build/interbotix_common_modules/install.log --single-version-externally-managed install_data

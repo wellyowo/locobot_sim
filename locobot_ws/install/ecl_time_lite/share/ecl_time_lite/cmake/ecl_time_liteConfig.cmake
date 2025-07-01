@@ -1,0 +1,1 @@
+/home/wellyowo/locobot_sim/locobot_ws/build/ecl_time_lite/ament_cmake_core/ecl_time_liteConfig.cmake

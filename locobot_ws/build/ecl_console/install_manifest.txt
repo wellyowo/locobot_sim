@@ -1,0 +1,2 @@
+/home/wellyowo/locobot_sim/locobot_ws/install/ecl_console/include/ecl/console.hpp
+/home/wellyowo/locobot_sim/locobot_ws/install/ecl_console/share/ecl_console/cmake/ecl_consoleExport.cmake

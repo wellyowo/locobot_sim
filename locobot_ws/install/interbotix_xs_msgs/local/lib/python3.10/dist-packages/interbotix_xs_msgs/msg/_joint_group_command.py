@@ -1,0 +1,1 @@
+/home/wellyowo/locobot_sim/locobot_ws/build/interbotix_xs_msgs/rosidl_generator_py/interbotix_xs_msgs/msg/_joint_group_command.py

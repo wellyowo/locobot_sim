@@ -1,0 +1,14 @@
+/home/wellyowo/locobot_sim/locobot_ws/build/interbotix_xs_msgs/rosidl_adapter/interbotix_xs_msgs:msg/ArmJoy.idl
+/home/wellyowo/locobot_sim/locobot_ws/build/interbotix_xs_msgs/rosidl_adapter/interbotix_xs_msgs:msg/HexJoy.idl
+/home/wellyowo/locobot_sim/locobot_ws/build/interbotix_xs_msgs/rosidl_adapter/interbotix_xs_msgs:msg/JointGroupCommand.idl
+/home/wellyowo/locobot_sim/locobot_ws/build/interbotix_xs_msgs/rosidl_adapter/interbotix_xs_msgs:msg/JointSingleCommand.idl
+/home/wellyowo/locobot_sim/locobot_ws/build/interbotix_xs_msgs/rosidl_adapter/interbotix_xs_msgs:msg/JointTemps.idl
+/home/wellyowo/locobot_sim/locobot_ws/build/interbotix_xs_msgs/rosidl_adapter/interbotix_xs_msgs:msg/JointTrajectoryCommand.idl
+/home/wellyowo/locobot_sim/locobot_ws/build/interbotix_xs_msgs/rosidl_adapter/interbotix_xs_msgs:msg/LocobotJoy.idl
+/home/wellyowo/locobot_sim/locobot_ws/build/interbotix_xs_msgs/rosidl_adapter/interbotix_xs_msgs:msg/TurretJoy.idl
+/home/wellyowo/locobot_sim/locobot_ws/build/interbotix_xs_msgs/rosidl_adapter/interbotix_xs_msgs:srv/MotorGains.idl
+/home/wellyowo/locobot_sim/locobot_ws/build/interbotix_xs_msgs/rosidl_adapter/interbotix_xs_msgs:srv/OperatingModes.idl
+/home/wellyowo/locobot_sim/locobot_ws/build/interbotix_xs_msgs/rosidl_adapter/interbotix_xs_msgs:srv/Reboot.idl
+/home/wellyowo/locobot_sim/locobot_ws/build/interbotix_xs_msgs/rosidl_adapter/interbotix_xs_msgs:srv/RegisterValues.idl
+/home/wellyowo/locobot_sim/locobot_ws/build/interbotix_xs_msgs/rosidl_adapter/interbotix_xs_msgs:srv/RobotInfo.idl
+/home/wellyowo/locobot_sim/locobot_ws/build/interbotix_xs_msgs/rosidl_adapter/interbotix_xs_msgs:srv/TorqueEnable.idl

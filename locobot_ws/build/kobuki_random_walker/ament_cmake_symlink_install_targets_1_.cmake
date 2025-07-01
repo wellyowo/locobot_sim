@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/wellyowo/locobot_sim/locobot_ws/build/kobuki_random_walker/libkobuki_random_walker.so" "TARGETS" "kobuki_random_walker" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

@@ -1,0 +1,47 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"include/ecl/errors/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 7,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "include/ecl/errors",
+			"paths" : 
+			[
+				"include/ecl/errors/compile_time_assert.hpp",
+				"include/ecl/errors/flags.hpp",
+				"include/ecl/errors/handlers.hpp",
+				"include/ecl/errors/macros.hpp",
+				"include/ecl/errors/run_time_functions.hpp"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "include/ecl/errors",
+		"source" : "include/ecl/errors"
+	}
+}

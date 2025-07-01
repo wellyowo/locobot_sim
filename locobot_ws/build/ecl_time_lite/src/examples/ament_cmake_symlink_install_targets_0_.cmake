@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/wellyowo/locobot_sim/locobot_ws/build/ecl_time_lite/src/examples/demo_time_functions" "TARGETS" "demo_time_functions" "RUNTIME_DESTINATION" "lib/ecl_time_lite")

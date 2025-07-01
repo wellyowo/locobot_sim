@@ -1,0 +1,45 @@
+[0.035s] Invoking command in '/home/wellyowo/locobot_sim/locobot_ws/src/build/ecl_eigen': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/wellyowo/locobot_sim/locobot_ws/src/ThirdParty/ecl/ecl_core/ecl_eigen -DCMAKE_INSTALL_PREFIX=/home/wellyowo/locobot_sim/locobot_ws/src/install/ecl_eigen
+[0.228s] -- The C compiler identification is GNU 11.4.0
+[0.228s] -- The CXX compiler identification is GNU 11.4.0
+[0.228s] -- Detecting C compiler ABI info
+[0.228s] -- Detecting C compiler ABI info - done
+[0.228s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.228s] -- Detecting C compile features
+[0.228s] -- Detecting C compile features - done
+[0.228s] -- Detecting CXX compiler ABI info
+[0.235s] -- Detecting CXX compiler ABI info - done
+[0.245s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.245s] -- Detecting CXX compile features
+[0.245s] -- Detecting CXX compile features - done
+[0.249s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.551s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.276s] -- Configuring done
+[1.296s] -- Generating done
+[1.298s] -- Build files have been written to: /home/wellyowo/locobot_sim/locobot_ws/src/build/ecl_eigen
+[1.351s] Invoked command in '/home/wellyowo/locobot_sim/locobot_ws/src/build/ecl_eigen' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/wellyowo/locobot_sim/locobot_ws/src/ThirdParty/ecl/ecl_core/ecl_eigen -DCMAKE_INSTALL_PREFIX=/home/wellyowo/locobot_sim/locobot_ws/src/install/ecl_eigen
+[1.351s] Invoking command in '/home/wellyowo/locobot_sim/locobot_ws/src/build/ecl_eigen': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wellyowo/locobot_sim/locobot_ws/src/build/ecl_eigen -- -j16 -l16
+[4.507s] Invoked command in '/home/wellyowo/locobot_sim/locobot_ws/src/build/ecl_eigen' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wellyowo/locobot_sim/locobot_ws/src/build/ecl_eigen -- -j16 -l16
+[4.547s] Invoking command in '/home/wellyowo/locobot_sim/locobot_ws/src/build/ecl_eigen': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/wellyowo/locobot_sim/locobot_ws/src/build/ecl_eigen
+[4.704s] -- Install configuration: ""
+[4.705s] -- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/ecl_eigen/include/ecl/eigen.hpp
+[4.705s] -- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/ecl_eigen/share/ament_index/resource_index/package_run_dependencies/ecl_eigen
+[4.705s] -- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/ecl_eigen/share/ament_index/resource_index/parent_prefix_path/ecl_eigen
+[4.705s] -- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/ecl_eigen/share/ecl_eigen/environment/ament_prefix_path.sh
+[4.705s] -- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/ecl_eigen/share/ecl_eigen/environment/ament_prefix_path.dsv
+[4.705s] -- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/ecl_eigen/share/ecl_eigen/environment/path.sh
+[4.705s] -- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/ecl_eigen/share/ecl_eigen/environment/path.dsv
+[4.705s] -- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/ecl_eigen/share/ecl_eigen/local_setup.bash
+[4.705s] -- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/ecl_eigen/share/ecl_eigen/local_setup.sh
+[4.705s] -- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/ecl_eigen/share/ecl_eigen/local_setup.zsh
+[4.705s] -- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/ecl_eigen/share/ecl_eigen/local_setup.dsv
+[4.705s] -- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/ecl_eigen/share/ecl_eigen/package.dsv
+[4.706s] -- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/ecl_eigen/share/ament_index/resource_index/packages/ecl_eigen
+[4.706s] -- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/ecl_eigen/share/ecl_eigen/cmake/ecl_eigenExport.cmake
+[4.706s] -- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/ecl_eigen/share/ecl_eigen/cmake/ament_cmake_export_targets-extras.cmake
+[4.706s] -- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/ecl_eigen/share/ecl_eigen/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.706s] -- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/ecl_eigen/share/ecl_eigen/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.706s] -- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/ecl_eigen/share/ecl_eigen/cmake/ecl_eigenConfig.cmake
+[4.706s] -- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/ecl_eigen/share/ecl_eigen/cmake/ecl_eigenConfig-version.cmake
+[4.706s] -- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/ecl_eigen/share/ecl_eigen/package.xml
+[4.706s] -- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/ecl_eigen/share/licenses/eigen/COPYING.LESSER
+[4.726s] Invoked command in '/home/wellyowo/locobot_sim/locobot_ws/src/build/ecl_eigen' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/wellyowo/locobot_sim/locobot_ws/src/build/ecl_eigen

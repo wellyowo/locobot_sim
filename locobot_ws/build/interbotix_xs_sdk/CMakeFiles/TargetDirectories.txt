@@ -1,0 +1,10 @@
+/home/wellyowo/locobot_sim/locobot_ws/build/interbotix_xs_sdk/CMakeFiles/uninstall.dir
+/home/wellyowo/locobot_sim/locobot_ws/build/interbotix_xs_sdk/CMakeFiles/interbotix_xs_sdk_uninstall.dir
+/home/wellyowo/locobot_sim/locobot_ws/build/interbotix_xs_sdk/CMakeFiles/xs_sdk.dir
+/home/wellyowo/locobot_sim/locobot_ws/build/interbotix_xs_sdk/CMakeFiles/test.dir
+/home/wellyowo/locobot_sim/locobot_ws/build/interbotix_xs_sdk/CMakeFiles/edit_cache.dir
+/home/wellyowo/locobot_sim/locobot_ws/build/interbotix_xs_sdk/CMakeFiles/rebuild_cache.dir
+/home/wellyowo/locobot_sim/locobot_ws/build/interbotix_xs_sdk/CMakeFiles/list_install_components.dir
+/home/wellyowo/locobot_sim/locobot_ws/build/interbotix_xs_sdk/CMakeFiles/install.dir
+/home/wellyowo/locobot_sim/locobot_ws/build/interbotix_xs_sdk/CMakeFiles/install/local.dir
+/home/wellyowo/locobot_sim/locobot_ws/build/interbotix_xs_sdk/CMakeFiles/install/strip.dir

@@ -1,0 +1,9 @@
+{
+  "package_name": "interbotix_perception_msgs",
+  "non_idl_tuples": [
+    "/home/wellyowo/locobot_sim/locobot_ws/src/interbotix_ros_toolboxes/interbotix_perception_toolbox/interbotix_perception_msgs:msg/ClusterInfo.msg",
+    "/home/wellyowo/locobot_sim/locobot_ws/src/interbotix_ros_toolboxes/interbotix_perception_toolbox/interbotix_perception_msgs:srv/ClusterInfoArray.srv",
+    "/home/wellyowo/locobot_sim/locobot_ws/src/interbotix_ros_toolboxes/interbotix_perception_toolbox/interbotix_perception_msgs:srv/FilterParams.srv",
+    "/home/wellyowo/locobot_sim/locobot_ws/src/interbotix_ros_toolboxes/interbotix_perception_toolbox/interbotix_perception_msgs:srv/SnapPicture.srv"
+  ]
+}

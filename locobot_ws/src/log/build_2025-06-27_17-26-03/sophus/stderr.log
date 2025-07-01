@@ -1,0 +1,5 @@
+gmake[2]: *** [test/core/CMakeFiles/test_so3.dir/build.make:76: test/core/CMakeFiles/test_so3.dir/test_so3.cpp.o] Interrupt
+gmake[2]: *** [test/core/CMakeFiles/test_rxso3.dir/build.make:76: test/core/CMakeFiles/test_rxso3.dir/test_rxso3.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:326: test/core/CMakeFiles/test_so3.dir/all] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:378: test/core/CMakeFiles/test_rxso3.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

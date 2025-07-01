@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/ecl_test_endianness.dir/endianness.cpp.o -o ecl_test_endianness  ../../gtest/libgtest_main.a ../../gtest/libgtest.a -pthread 

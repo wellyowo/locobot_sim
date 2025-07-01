@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "include/ecl/linear_algebra/sophus",
+		"source" : "include/ecl/linear_algebra/sophus"
+	}
+}

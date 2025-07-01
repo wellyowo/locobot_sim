@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						4
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-1e74d0968527788cadc8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.4"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "test",
+					"childIndexes" : 
+					[
+						2,
+						3
+					],
+					"jsonFile" : "directory-test-Release-451c0598f41488bb20b9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.4"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "test"
+				},
+				{
+					"build" : "test/core",
+					"jsonFile" : "directory-test.core-Release-c4b39426032ed77405c5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.4"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "test/core",
+					"targetIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				},
+				{
+					"build" : "test/ceres",
+					"jsonFile" : "directory-test.ceres-Release-822e3d1de7d70c8cb827.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.4"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "test/ceres"
+				},
+				{
+					"build" : "examples",
+					"jsonFile" : "directory-examples-Release-1c8b83b621b6ef38a245.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.4"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "examples",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					],
+					"name" : "Sophus",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 4,
+					"id" : "HelloSO3::@714eac15f71a94114fdf",
+					"jsonFile" : "target-HelloSO3-Release-e0575602bdf32012d2b8.json",
+					"name" : "HelloSO3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "other::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-other-Release-a0aa7691a1cfc5d308ed.json",
+					"name" : "other",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "test_common::@7876481172fd1a677df2",
+					"jsonFile" : "target-test_common-Release-3865567b1158a2d639e5.json",
+					"name" : "test_common",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "test_geometry::@7876481172fd1a677df2",
+					"jsonFile" : "target-test_geometry-Release-9a907501cc20854c70d8.json",
+					"name" : "test_geometry",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "test_rxso2::@7876481172fd1a677df2",
+					"jsonFile" : "target-test_rxso2-Release-7a6e3a9bb6e865478fe8.json",
+					"name" : "test_rxso2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "test_rxso3::@7876481172fd1a677df2",
+					"jsonFile" : "target-test_rxso3-Release-2ea680bcc7c66d51e186.json",
+					"name" : "test_rxso3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "test_se2::@7876481172fd1a677df2",
+					"jsonFile" : "target-test_se2-Release-d542346b41251f7b033b.json",
+					"name" : "test_se2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "test_se3::@7876481172fd1a677df2",
+					"jsonFile" : "target-test_se3-Release-348d82cd60bcd25b5374.json",
+					"name" : "test_se3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "test_sim2::@7876481172fd1a677df2",
+					"jsonFile" : "target-test_sim2-Release-1ec9b912e9a522a6e522.json",
+					"name" : "test_sim2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "test_sim3::@7876481172fd1a677df2",
+					"jsonFile" : "target-test_sim3-Release-76353c32bc3a10270035.json",
+					"name" : "test_sim3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "test_so2::@7876481172fd1a677df2",
+					"jsonFile" : "target-test_so2-Release-ae94d8165f70bee605db.json",
+					"name" : "test_so2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "test_so3::@7876481172fd1a677df2",
+					"jsonFile" : "target-test_so3-Release-46bfabc9ba88e9e3e5c5.json",
+					"name" : "test_so3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "test_velocities::@7876481172fd1a677df2",
+					"jsonFile" : "target-test_velocities-Release-e9148b3c7b0457ad234f.json",
+					"name" : "test_velocities",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/wellyowo/locobot_sim/locobot_ws/build/sophus",
+		"source" : "/home/wellyowo/locobot_sim/locobot_ws/src/ThirdParty/sophus"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

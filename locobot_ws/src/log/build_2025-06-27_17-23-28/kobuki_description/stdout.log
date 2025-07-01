@@ -1,0 +1,127 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/wellyowo/locobot_sim/locobot_ws/src/build/kobuki_description
+-- Install configuration: ""
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_description/share/kobuki_description/launch
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_description/share/kobuki_description/launch/kobuki_astra_description.launch.py
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_description/share/kobuki_description/launch/kobuki_xtion_description.launch.py
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_description/share/kobuki_description/launch/spawn.launch.py
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_description/share/kobuki_description/launch/kobuki_description.launch.py
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_description/share/kobuki_description/meshes
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_description/share/kobuki_description/meshes/main_body.dae
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_description/share/kobuki_description/meshes/images
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_description/share/kobuki_description/meshes/images/wheel.jpg
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_description/share/kobuki_description/meshes/images/main_body.jpg
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_description/share/kobuki_description/meshes/sensors
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_description/share/kobuki_description/meshes/sensors/asus_xtion_pro_live.dae
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_description/share/kobuki_description/meshes/sensors/kinect.tga
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_description/share/kobuki_description/meshes/sensors/r200.jpg
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_description/share/kobuki_description/meshes/sensors/r200.dae
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_description/share/kobuki_description/meshes/sensors/xtion_pro_camera.dae
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_description/share/kobuki_description/meshes/sensors/asus_xtion_pro_live.png
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_description/share/kobuki_description/meshes/sensors/astra.jpg
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_description/share/kobuki_description/meshes/sensors/r200_bracket_end.stl
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_description/share/kobuki_description/meshes/sensors/sensor_pole.dae
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_description/share/kobuki_description/meshes/sensors/r200_bracket.stl
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_description/share/kobuki_description/meshes/sensors/astra.dae
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_description/share/kobuki_description/meshes/sensors/xtion_pro.jpg
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_description/share/kobuki_description/meshes/sensors/xtion_pro_stack.dae
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_description/share/kobuki_description/meshes/sensors/rplidar.dae
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_description/share/kobuki_description/meshes/sensors/kinect.dae
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_description/share/kobuki_description/meshes/sensors/0_xtion_pro.jpg
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_description/share/kobuki_description/meshes/sensors/kinect.jpg
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_description/share/kobuki_description/meshes/sensors/xtion_pro_camera.jpg
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_description/share/kobuki_description/meshes/wheel.dae
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_description/share/kobuki_description/meshes/stacks
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_description/share/kobuki_description/meshes/stacks/hexagons
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_description/share/kobuki_description/meshes/stacks/hexagons/plate_middle.dae
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_description/share/kobuki_description/meshes/stacks/hexagons/plate_top.dae
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_description/share/kobuki_description/meshes/stacks/hexagons/images
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_description/share/kobuki_description/meshes/stacks/hexagons/images/3f_stack.jpg
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_description/share/kobuki_description/meshes/stacks/hexagons/images/kinect_pole.jpg
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_description/share/kobuki_description/meshes/stacks/hexagons/images/3f_stack1.jpg
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_description/share/kobuki_description/meshes/stacks/hexagons/images/1f_pole.jpg
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_description/share/kobuki_description/meshes/stacks/hexagons/images/2f_stack.jpg
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_description/share/kobuki_description/meshes/stacks/hexagons/images/1f_stack.jpg
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_description/share/kobuki_description/meshes/stacks/hexagons/images/kinect_pole_old.jpg
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_description/share/kobuki_description/meshes/stacks/hexagons/images/3f_pole.jpg
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_description/share/kobuki_description/meshes/stacks/hexagons/images/2f_pole.jpg
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_description/share/kobuki_description/meshes/stacks/hexagons/pole_bottom.dae
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_description/share/kobuki_description/meshes/stacks/hexagons/plate_bottom.dae
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_description/share/kobuki_description/meshes/stacks/hexagons/pole_middle.dae
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_description/share/kobuki_description/meshes/stacks/hexagons/pole_top.dae
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_description/share/kobuki_description/meshes/stacks/hexagons/pole_kinect.dae
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_description/share/kobuki_description/meshes/stacks/circles
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_description/share/kobuki_description/meshes/stacks/circles/plate_0_logo.tga
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_description/share/kobuki_description/meshes/stacks/circles/plate_2_logo.tga
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_description/share/kobuki_description/meshes/stacks/circles/plate_0_logo.dae
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_description/share/kobuki_description/meshes/stacks/circles/68-04556-RA_Kinect_Standoff_Assy.3ds
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_description/share/kobuki_description/meshes/stacks/circles/68-02421-8000-RA_Turtlebot_F-F_Standoff.dae
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_description/share/kobuki_description/meshes/stacks/circles/68-04552-1000-RA_Turtlebot_M-F_Standoff.dae
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_description/share/kobuki_description/meshes/stacks/circles/68-04556-RA_Kinect_Standoff_Assy.dae
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_description/share/kobuki_description/meshes/stacks/circles/68-02421-8000-RA_Turtlebot_F-F_Standoff_color.png
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_description/share/kobuki_description/meshes/stacks/circles/plate_1_logo.dae
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_description/share/kobuki_description/meshes/stacks/circles/plate_2_logo.dae
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_description/share/kobuki_description/meshes/stacks/circles/68-04552-1000-RA_Turtlebot_M-F_Standoff_color.png
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_description/share/kobuki_description/meshes/stacks/circles/68-04552-2000-RA_Turtlebot_M-F_Standoff_color.png
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_description/share/kobuki_description/meshes/stacks/circles/68-02403-125_Spacer.dae
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_description/share/kobuki_description/meshes/stacks/circles/plate_1_logo.tga
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_description/share/kobuki_description/meshes/stacks/circles/68-04552-2000-RA_Turtlebot_M-F_Standoff.dae
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_description/share/kobuki_description/rviz
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_description/share/kobuki_description/rviz/model.rviz
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_description/share/kobuki_description/urdf
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_description/share/kobuki_description/urdf/hexagons.urdf.xacro
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_description/share/kobuki_description/urdf/turtlebot_gazebo.urdf.xacro
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_description/share/kobuki_description/urdf/kobuki_standalone.urdf.xacro
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_description/share/kobuki_description/urdf/kobuki_hexagons_asus_xtion_pro_sim.urdf.xacro
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_description/share/kobuki_description/urdf/turtlebot_common_library.urdf.xacro
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_description/share/kobuki_description/urdf/kobuki_gazebo.urdf.xacro
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_description/share/kobuki_description/urdf/asus_xtion_pro_offset.urdf.xacro
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_description/share/kobuki_description/urdf/sensors
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_description/share/kobuki_description/urdf/sensors/r200.urdf.xacro
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_description/share/kobuki_description/urdf/sensors/asus_xtion_pro.urdf.xacro
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_description/share/kobuki_description/urdf/sensors/asus_xtion_pro_offset.urdf.xacro
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_description/share/kobuki_description/urdf/sensors/kinect.urdf.xacro
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_description/share/kobuki_description/urdf/sensors/astra.urdf.xacro
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_description/share/kobuki_description/urdf/turtlebot_properties.urdf.xacro
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_description/share/kobuki_description/urdf/kobuki.urdf.xacro
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_description/share/kobuki_description/urdf/common_properties.urdf.xacro
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_description/share/kobuki_description/urdf/stacks
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_description/share/kobuki_description/urdf/stacks/hexagons.urdf.xacro
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_description/share/kobuki_description/urdf/stacks/circles.urdf.xacro
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_description/share/kobuki_description/urdf/kobuki_hexagons_asus_xtion_pro.urdf.xacro
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_description/share/ament_index/resource_index/package_run_dependencies/kobuki_description
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_description/share/ament_index/resource_index/parent_prefix_path/kobuki_description
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_description/share/kobuki_description/environment/ament_prefix_path.sh
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_description/share/kobuki_description/environment/ament_prefix_path.dsv
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_description/share/kobuki_description/environment/path.sh
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_description/share/kobuki_description/environment/path.dsv
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_description/share/kobuki_description/local_setup.bash
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_description/share/kobuki_description/local_setup.sh
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_description/share/kobuki_description/local_setup.zsh
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_description/share/kobuki_description/local_setup.dsv
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_description/share/kobuki_description/package.dsv
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_description/share/ament_index/resource_index/packages/kobuki_description
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_description/share/kobuki_description/cmake/kobuki_descriptionConfig.cmake
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_description/share/kobuki_description/cmake/kobuki_descriptionConfig-version.cmake
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_description/share/kobuki_description/package.xml

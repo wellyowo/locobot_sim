@@ -1,0 +1,15 @@
+/home/wellyowo/locobot_sim/locobot_ws/install/kobuki_ros/share/ament_index/resource_index/package_run_dependencies/kobuki_ros
+/home/wellyowo/locobot_sim/locobot_ws/install/kobuki_ros/share/ament_index/resource_index/parent_prefix_path/kobuki_ros
+/home/wellyowo/locobot_sim/locobot_ws/install/kobuki_ros/share/kobuki_ros/environment/ament_prefix_path.sh
+/home/wellyowo/locobot_sim/locobot_ws/install/kobuki_ros/share/kobuki_ros/environment/ament_prefix_path.dsv
+/home/wellyowo/locobot_sim/locobot_ws/install/kobuki_ros/share/kobuki_ros/environment/path.sh
+/home/wellyowo/locobot_sim/locobot_ws/install/kobuki_ros/share/kobuki_ros/environment/path.dsv
+/home/wellyowo/locobot_sim/locobot_ws/install/kobuki_ros/share/kobuki_ros/local_setup.bash
+/home/wellyowo/locobot_sim/locobot_ws/install/kobuki_ros/share/kobuki_ros/local_setup.sh
+/home/wellyowo/locobot_sim/locobot_ws/install/kobuki_ros/share/kobuki_ros/local_setup.zsh
+/home/wellyowo/locobot_sim/locobot_ws/install/kobuki_ros/share/kobuki_ros/local_setup.dsv
+/home/wellyowo/locobot_sim/locobot_ws/install/kobuki_ros/share/kobuki_ros/package.dsv
+/home/wellyowo/locobot_sim/locobot_ws/install/kobuki_ros/share/ament_index/resource_index/packages/kobuki_ros
+/home/wellyowo/locobot_sim/locobot_ws/install/kobuki_ros/share/kobuki_ros/cmake/kobuki_rosConfig.cmake
+/home/wellyowo/locobot_sim/locobot_ws/install/kobuki_ros/share/kobuki_ros/cmake/kobuki_rosConfig-version.cmake
+/home/wellyowo/locobot_sim/locobot_ws/install/kobuki_ros/share/kobuki_ros/package.xml

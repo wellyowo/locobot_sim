@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "openni2_camera__py",
+		"source" : "/home/wellyowo/locobot_sim/locobot_ws/src/build/openni2_camera/openni2_camera__py"
+	}
+}

@@ -1,0 +1,60 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ecl_build: 1.0.3 (/opt/ros/humble/share/ecl_build/cmake)
+-- Found ecl_config: 1.2.0 (/home/wellyowo/locobot_sim/locobot_ws/install/ecl_config/share/ecl_config/cmake)
+-- Found ecl_mpl: 1.2.1 (/home/wellyowo/locobot_sim/locobot_ws/install/ecl_mpl/share/ecl_mpl/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/wellyowo/locobot_sim/locobot_ws/build/ecl_type_traits
+[ 25%] [32mBuilding CXX object src/lib/CMakeFiles/ecl_type_traits.dir/numeric_limits.cpp.o[0m
+[ 50%] [32m[1mLinking CXX shared library libecl_type_traits.so[0m
+[ 50%] Built target ecl_type_traits
+[ 75%] [32mBuilding CXX object src/utils/CMakeFiles/ecl_detect_sizes.dir/detect_sizes.cpp.o[0m
+[100%] [32m[1mLinking CXX executable bin/ecl_detect_sizes[0m
+[100%] Built target ecl_detect_sizes
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_type_traits/include/ecl/type_traits/fundamental_types.hpp
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_type_traits/include/ecl/type_traits/macros.hpp
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_type_traits/include/ecl/type_traits/numeric_limits.hpp
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_type_traits/include/ecl/type_traits/traits.hpp
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_type_traits/include/ecl/type_traits.hpp
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_type_traits/bin/ecl_detect_sizes
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_type_traits/share/ecl_type_traits/environment/library_path.sh
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_type_traits/share/ecl_type_traits/environment/library_path.dsv
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_type_traits/share/ament_index/resource_index/package_run_dependencies/ecl_type_traits
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_type_traits/share/ament_index/resource_index/parent_prefix_path/ecl_type_traits
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_type_traits/share/ecl_type_traits/environment/ament_prefix_path.sh
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_type_traits/share/ecl_type_traits/environment/ament_prefix_path.dsv
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_type_traits/share/ecl_type_traits/environment/path.sh
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_type_traits/share/ecl_type_traits/environment/path.dsv
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_type_traits/share/ecl_type_traits/local_setup.bash
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_type_traits/share/ecl_type_traits/local_setup.sh
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_type_traits/share/ecl_type_traits/local_setup.zsh
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_type_traits/share/ecl_type_traits/local_setup.dsv
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_type_traits/share/ecl_type_traits/package.dsv
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_type_traits/share/ament_index/resource_index/packages/ecl_type_traits
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_type_traits/share/ecl_type_traits/cmake/ament_cmake_export_targets-extras.cmake
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_type_traits/share/ecl_type_traits/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_type_traits/share/ecl_type_traits/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_type_traits/share/ecl_type_traits/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_type_traits/share/ecl_type_traits/cmake/ecl_type_traitsConfig.cmake
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_type_traits/share/ecl_type_traits/cmake/ecl_type_traitsConfig-version.cmake
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_type_traits/share/ecl_type_traits/package.xml
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_type_traits/share/ecl_type_traits/cmake/ecl_type_traitsExport.cmake
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_type_traits/share/ecl_type_traits/cmake/ecl_type_traitsExport-noconfig.cmake
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_type_traits/lib/libecl_type_traits.so.1.2.1
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_type_traits/lib/libecl_type_traits.so

@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "include/ecl/linear_algebra/eigen/unsupported",
+		"source" : "include/ecl/linear_algebra/eigen/unsupported"
+	}
+}

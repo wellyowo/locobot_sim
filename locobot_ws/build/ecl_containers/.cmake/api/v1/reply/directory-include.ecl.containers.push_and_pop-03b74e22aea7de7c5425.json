@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "include/ecl/containers/push_and_pop",
+		"source" : "include/ecl/containers/push_and_pop"
+	}
+}

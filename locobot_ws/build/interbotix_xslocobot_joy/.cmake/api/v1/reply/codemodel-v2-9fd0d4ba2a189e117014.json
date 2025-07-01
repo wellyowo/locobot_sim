@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-53be9a7287bf6d4006d5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "interbotix_xslocobot_joy",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "interbotix_xslocobot_joy_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-interbotix_xslocobot_joy_uninstall-4c9639c530ac03f7fd93.json",
+					"name" : "interbotix_xslocobot_joy_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-54652f27f070b14f6b9a.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "xslocobot_joy::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-xslocobot_joy-90e8e1ca9480293ed456.json",
+					"name" : "xslocobot_joy",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/wellyowo/locobot_sim/locobot_ws/build/interbotix_xslocobot_joy",
+		"source" : "/home/wellyowo/locobot_sim/locobot_ws/src/interbotix_ros_rovers/interbotix_ros_xslocobots/examples/interbotix_xslocobot_joy"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

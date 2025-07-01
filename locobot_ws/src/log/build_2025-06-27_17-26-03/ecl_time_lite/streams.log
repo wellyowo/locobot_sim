@@ -1,0 +1,50 @@
+[0.450s] Invoking command in '/home/wellyowo/locobot_sim/locobot_ws/src/build/ecl_time_lite': AMENT_PREFIX_PATH=/home/wellyowo/locobot_sim/locobot_ws/src/install/ecl_errors:/home/wellyowo/locobot_sim/locobot_ws/src/install/ecl_config:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wellyowo/locobot_sim/locobot_ws/src/install/ecl_errors:/home/wellyowo/locobot_sim/locobot_ws/src/install/ecl_config:/opt/ros/humble LD_LIBRARY_PATH=/home/wellyowo/locobot_sim/locobot_ws/src/install/ecl_errors/lib:${LD_LIBRARY_PATH} PATH=/home/wellyowo/locobot_sim/locobot_ws/src/install/ecl_config/bin:${PATH} /usr/bin/cmake /home/wellyowo/locobot_sim/locobot_ws/src/ThirdParty/ecl/ecl_lite/ecl_time_lite -DCMAKE_INSTALL_PREFIX=/home/wellyowo/locobot_sim/locobot_ws/src/install/ecl_time_lite
+[0.642s] -- The C compiler identification is GNU 11.4.0
+[0.798s] -- The CXX compiler identification is GNU 11.4.0
+[0.817s] -- Detecting C compiler ABI info
+[1.173s] -- Detecting C compiler ABI info - done
+[1.206s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.210s] -- Detecting C compile features
+[1.210s] -- Detecting C compile features - done
+[1.232s] -- Detecting CXX compiler ABI info
+[1.723s] -- Detecting CXX compiler ABI info - done
+[1.763s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.770s] -- Detecting CXX compile features
+[1.773s] -- Detecting CXX compile features - done
+[1.800s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.746s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.145s] -- Found ecl_build: 1.0.3 (/opt/ros/humble/share/ecl_build/cmake)
+[3.166s] -- Found ecl_config: 1.2.0 (/home/wellyowo/locobot_sim/locobot_ws/src/install/ecl_config/share/ecl_config/cmake)
+[3.175s] -- Found ecl_errors: 1.2.0 (/home/wellyowo/locobot_sim/locobot_ws/src/install/ecl_errors/share/ecl_errors/cmake)
+[3.391s] -- Looking for _POSIX_VERSION
+[3.692s] -- Looking for _POSIX_VERSION - found
+[3.693s] -- Looking for realpath in rt
+[3.945s] -- Looking for realpath in rt - found
+[3.946s] -- Looking for clock_nanosleep in rt
+[4.317s] -- Looking for clock_nanosleep in rt - found
+[4.317s] -- Looking for clock_gettime in rt
+[4.578s] -- Looking for clock_gettime in rt - found
+[4.582s] -- Looking for pthread_mutex_timedlock in pthread
+[4.787s] -- Looking for pthread_mutex_timedlock in pthread - found
+[4.789s] -- Looking for nanosleep in pthread
+[5.034s] -- Looking for nanosleep in pthread - found
+[5.036s] -- Looking for shm_open in rt
+[5.355s] -- Looking for shm_open in rt - found
+[5.364s] -- Looking for sched_setscheduler in pthread
+[5.624s] -- Looking for sched_setscheduler in pthread - found
+[5.630s] -- Looking for sem_timedwait in pthread
+[6.041s] -- Looking for sem_timedwait in pthread - found
+[6.042s] -- Looking for sem_init in pthread
+[6.324s] -- Looking for sem_init in pthread - found
+[6.330s] -- Looking for CLOCK_MONOTONIC
+[6.670s] -- Looking for CLOCK_MONOTONIC - found
+[6.670s] -- Looking for CLOCK_PROCESS_CPUTIME_ID
+[6.884s] -- Looking for CLOCK_PROCESS_CPUTIME_ID - found
+[6.892s] -- Looking for pthread.h
+[7.173s] -- Looking for pthread.h - found
+[7.180s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[7.536s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[7.538s] -- Found Threads: TRUE  
+[7.624s] -- Configuring done
+[7.686s] -- Generating done
+[7.714s] -- Build files have been written to: /home/wellyowo/locobot_sim/locobot_ws/src/build/ecl_time_lite

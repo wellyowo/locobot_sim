@@ -1,0 +1,35 @@
+running develop
+running egg_info
+creating interbotix_perception_modules.egg-info
+writing interbotix_perception_modules.egg-info/PKG-INFO
+writing dependency_links to interbotix_perception_modules.egg-info/dependency_links.txt
+writing entry points to interbotix_perception_modules.egg-info/entry_points.txt
+writing requirements to interbotix_perception_modules.egg-info/requires.txt
+writing top-level names to interbotix_perception_modules.egg-info/top_level.txt
+writing manifest file 'interbotix_perception_modules.egg-info/SOURCES.txt'
+reading manifest file 'interbotix_perception_modules.egg-info/SOURCES.txt'
+writing manifest file 'interbotix_perception_modules.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_modules/lib/python3.10/site-packages/interbotix-perception-modules.egg-link (link to .)
+Installing armtag_tuner_gui script to /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_modules/lib/interbotix_perception_modules
+Installing picture_snapper script to /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_modules/lib/interbotix_perception_modules
+Installing pointcloud_tuner_gui script to /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_modules/lib/interbotix_perception_modules
+
+Installed /home/wellyowo/locobot_sim/locobot_ws/build/interbotix_perception_modules
+running symlink_data
+creating /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_modules/share/ament_index
+creating /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_modules/share/ament_index/resource_index
+creating /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_modules/share/ament_index/resource_index/packages
+symbolically linking /home/wellyowo/locobot_sim/locobot_ws/build/interbotix_perception_modules/resource/interbotix_perception_modules -> /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_modules/share/ament_index/resource_index/packages
+symbolically linking /home/wellyowo/locobot_sim/locobot_ws/build/interbotix_perception_modules/package.xml -> /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_modules/share/interbotix_perception_modules
+creating /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_modules/share/interbotix_perception_modules/launch
+symbolically linking /home/wellyowo/locobot_sim/locobot_ws/build/interbotix_perception_modules/launch/picture_snapper.launch.py -> /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_modules/share/interbotix_perception_modules/launch
+symbolically linking /home/wellyowo/locobot_sim/locobot_ws/build/interbotix_perception_modules/launch/armtag.launch.py -> /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_modules/share/interbotix_perception_modules/launch
+symbolically linking /home/wellyowo/locobot_sim/locobot_ws/build/interbotix_perception_modules/launch/apriltag.launch.py -> /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_modules/share/interbotix_perception_modules/launch
+symbolically linking /home/wellyowo/locobot_sim/locobot_ws/build/interbotix_perception_modules/launch/pc_filter.launch.py -> /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_modules/share/interbotix_perception_modules/launch
+creating /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_modules/share/interbotix_perception_modules/config
+symbolically linking /home/wellyowo/locobot_sim/locobot_ws/build/interbotix_perception_modules/config/tags.yaml -> /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_modules/share/interbotix_perception_modules/config
+symbolically linking /home/wellyowo/locobot_sim/locobot_ws/build/interbotix_perception_modules/config/filter_params.yaml -> /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_modules/share/interbotix_perception_modules/config
+creating /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_modules/share/interbotix_perception_modules/ui
+symbolically linking /home/wellyowo/locobot_sim/locobot_ws/build/interbotix_perception_modules/src/ui/pointcloudtunergui.ui -> /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_modules/share/interbotix_perception_modules/ui
+symbolically linking /home/wellyowo/locobot_sim/locobot_ws/build/interbotix_perception_modules/src/ui/armtagtunergui.ui -> /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_modules/share/interbotix_perception_modules/ui

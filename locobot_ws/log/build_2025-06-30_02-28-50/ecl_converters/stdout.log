@@ -1,0 +1,56 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ecl_build: 1.0.3 (/opt/ros/humble/share/ecl_build/cmake)
+-- Found ecl_config: 1.2.0 (/home/wellyowo/locobot_sim/locobot_ws/install/ecl_config/share/ecl_config/cmake)
+-- Found ecl_concepts: 1.2.1 (/home/wellyowo/locobot_sim/locobot_ws/install/ecl_concepts/share/ecl_concepts/cmake)
+-- Found ecl_errors: 1.2.0 (/home/wellyowo/locobot_sim/locobot_ws/install/ecl_errors/share/ecl_errors/cmake)
+-- Found ecl_exceptions: 1.2.1 (/home/wellyowo/locobot_sim/locobot_ws/install/ecl_exceptions/share/ecl_exceptions/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/wellyowo/locobot_sim/locobot_ws/build/ecl_converters
+[ 50%] [32mBuilding CXX object src/examples/CMakeFiles/demo_float_converters.dir/float_converters.cpp.o[0m
+[100%] [32m[1mLinking CXX executable demo_float_converters[0m
+[100%] Built target demo_float_converters
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_converters/include/ecl/converters/char.hpp
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_converters/include/ecl/converters/char_strings.hpp
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_converters/include/ecl/converters/converter.hpp
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_converters/include/ecl/converters/from_byte_array.hpp
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_converters/include/ecl/converters/integers.hpp
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_converters/include/ecl/converters/string.hpp
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_converters/include/ecl/converters/to_byte_array.hpp
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_converters/include/ecl/converters.hpp
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_converters/lib/ecl_converters/demo_float_converters
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_converters/share/ament_index/resource_index/package_run_dependencies/ecl_converters
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_converters/share/ament_index/resource_index/parent_prefix_path/ecl_converters
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_converters/share/ecl_converters/environment/ament_prefix_path.sh
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_converters/share/ecl_converters/environment/ament_prefix_path.dsv
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_converters/share/ecl_converters/environment/path.sh
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_converters/share/ecl_converters/environment/path.dsv
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_converters/share/ecl_converters/local_setup.bash
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_converters/share/ecl_converters/local_setup.sh
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_converters/share/ecl_converters/local_setup.zsh
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_converters/share/ecl_converters/local_setup.dsv
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_converters/share/ecl_converters/package.dsv
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_converters/share/ament_index/resource_index/packages/ecl_converters
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_converters/share/ecl_converters/cmake/ament_cmake_export_targets-extras.cmake
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_converters/share/ecl_converters/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_converters/share/ecl_converters/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_converters/share/ecl_converters/cmake/ecl_convertersConfig.cmake
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_converters/share/ecl_converters/cmake/ecl_convertersConfig-version.cmake
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_converters/share/ecl_converters/package.xml
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_converters/share/ecl_converters/cmake/ecl_convertersExport.cmake

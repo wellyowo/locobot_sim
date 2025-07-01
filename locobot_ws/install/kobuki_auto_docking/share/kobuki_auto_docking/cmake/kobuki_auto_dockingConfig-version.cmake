@@ -1,0 +1,1 @@
+/home/wellyowo/locobot_sim/locobot_ws/build/kobuki_auto_docking/ament_cmake_core/kobuki_auto_dockingConfig-version.cmake

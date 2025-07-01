@@ -1,0 +1,10 @@
+/home/wellyowo/locobot_sim/locobot_ws/build/interbotix_xslocobot_joy/CMakeFiles/uninstall.dir
+/home/wellyowo/locobot_sim/locobot_ws/build/interbotix_xslocobot_joy/CMakeFiles/interbotix_xslocobot_joy_uninstall.dir
+/home/wellyowo/locobot_sim/locobot_ws/build/interbotix_xslocobot_joy/CMakeFiles/xslocobot_joy.dir
+/home/wellyowo/locobot_sim/locobot_ws/build/interbotix_xslocobot_joy/CMakeFiles/test.dir
+/home/wellyowo/locobot_sim/locobot_ws/build/interbotix_xslocobot_joy/CMakeFiles/edit_cache.dir
+/home/wellyowo/locobot_sim/locobot_ws/build/interbotix_xslocobot_joy/CMakeFiles/rebuild_cache.dir
+/home/wellyowo/locobot_sim/locobot_ws/build/interbotix_xslocobot_joy/CMakeFiles/list_install_components.dir
+/home/wellyowo/locobot_sim/locobot_ws/build/interbotix_xslocobot_joy/CMakeFiles/install.dir
+/home/wellyowo/locobot_sim/locobot_ws/build/interbotix_xslocobot_joy/CMakeFiles/install/local.dir
+/home/wellyowo/locobot_sim/locobot_ws/build/interbotix_xslocobot_joy/CMakeFiles/install/strip.dir

@@ -1,0 +1,61 @@
+[0.214s] Invoking command in '/home/wellyowo/locobot_sim/locobot_ws/src/build/kobuki': AMENT_PREFIX_PATH=/home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_description:/opt/ros/humble /usr/bin/cmake --build /home/wellyowo/locobot_sim/locobot_ws/src/build/kobuki -- -j16 -l16
+[0.266s] [35m[1mConsolidate compiler generated dependencies of target kobuki[0m
+[0.318s] [ 50%] Built target kobuki
+[0.336s] [35m[1mConsolidate compiler generated dependencies of target fake_bumer_node[0m
+[0.385s] [100%] Built target fake_bumer_node
+[0.631s] Invoked command in '/home/wellyowo/locobot_sim/locobot_ws/src/build/kobuki' returned '0': AMENT_PREFIX_PATH=/home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_description:/opt/ros/humble /usr/bin/cmake --build /home/wellyowo/locobot_sim/locobot_ws/src/build/kobuki -- -j16 -l16
+[0.637s] Invoking command in '/home/wellyowo/locobot_sim/locobot_ws/src/build/kobuki': AMENT_PREFIX_PATH=/home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_description:/opt/ros/humble /usr/bin/cmake --install /home/wellyowo/locobot_sim/locobot_ws/src/build/kobuki
+[0.736s] -- Install configuration: ""
+[0.736s] -- Up-to-date: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki/bin/fake_bumer_node
+[0.736s] -- Up-to-date: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki/share/kobuki/launch
+[0.736s] -- Up-to-date: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki/share/kobuki/launch/navigation.launch.py
+[0.736s] -- Up-to-date: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki/share/kobuki/launch/kobuki.launch.py
+[0.736s] -- Up-to-date: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki/share/kobuki/launch/simulation.launch.py
+[0.736s] -- Up-to-date: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki/share/kobuki/launch/navigation_sim.launch.py
+[0.736s] -- Up-to-date: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki/share/kobuki/config
+[0.736s] -- Up-to-date: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki/share/kobuki/config/kobuki_nav_params.yaml
+[0.736s] -- Up-to-date: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki/share/kobuki/config/footprint_filter.yaml
+[0.736s] -- Up-to-date: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki/share/kobuki/config/kobuki_node_params.yaml
+[0.736s] -- Up-to-date: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki/share/kobuki/config/kobuki_sim_nav_params.yaml
+[0.739s] -- Up-to-date: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki/share/kobuki/maps
+[0.739s] -- Up-to-date: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki/share/kobuki/maps/aws_house_keep.yaml
+[0.739s] -- Up-to-date: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki/share/kobuki/maps/lab.pgm
+[0.739s] -- Up-to-date: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki/share/kobuki/maps/aws_bookstore.pgm
+[0.739s] -- Up-to-date: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki/share/kobuki/maps/map_1704984627.pgm
+[0.739s] -- Up-to-date: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki/share/kobuki/maps/aws_bookstore.yaml
+[0.739s] -- Up-to-date: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki/share/kobuki/maps/lab_robocup.pgm
+[0.739s] -- Up-to-date: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki/share/kobuki/maps/mapa_uni.yaml
+[0.739s] -- Up-to-date: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki/share/kobuki/maps/aws_warehouse.pgm
+[0.739s] -- Up-to-date: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki/share/kobuki/maps/lab_robocup.yaml
+[0.739s] -- Up-to-date: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki/share/kobuki/maps/aws_house.yaml
+[0.740s] -- Up-to-date: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki/share/kobuki/maps/aws_hospital.pgm
+[0.740s] -- Up-to-date: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki/share/kobuki/maps/dmarce_map.yaml
+[0.740s] -- Up-to-date: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki/share/kobuki/maps/aws_house.pgm
+[0.740s] -- Up-to-date: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki/share/kobuki/maps/aws_warehouse.yaml
+[0.740s] -- Up-to-date: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki/share/kobuki/maps/lab.yaml
+[0.740s] -- Up-to-date: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki/share/kobuki/maps/aws_hospital.yaml
+[0.740s] -- Up-to-date: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki/share/kobuki/maps/dmarce_map.pgm
+[0.740s] -- Up-to-date: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki/share/kobuki/maps/map_1704984627.yaml
+[0.740s] -- Up-to-date: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki/share/kobuki/maps/mapa_uni.pgm
+[0.740s] -- Up-to-date: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki/share/kobuki/maps/aws_house_keep.pgm
+[0.740s] -- Up-to-date: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki/include/
+[0.740s] -- Up-to-date: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki/include//kobuki
+[0.740s] -- Up-to-date: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki/include//kobuki/FakeBumper.hpp
+[0.740s] -- Up-to-date: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki/share/ament_index/resource_index/package_run_dependencies/kobuki
+[0.745s] -- Up-to-date: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki/share/ament_index/resource_index/parent_prefix_path/kobuki
+[0.745s] -- Up-to-date: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki/share/kobuki/environment/ament_prefix_path.sh
+[0.745s] -- Up-to-date: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki/share/kobuki/environment/ament_prefix_path.dsv
+[0.745s] -- Up-to-date: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki/share/kobuki/environment/path.sh
+[0.745s] -- Up-to-date: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki/share/kobuki/environment/path.dsv
+[0.745s] -- Up-to-date: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki/share/kobuki/local_setup.bash
+[0.745s] -- Up-to-date: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki/share/kobuki/local_setup.sh
+[0.745s] -- Up-to-date: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki/share/kobuki/local_setup.zsh
+[0.746s] -- Up-to-date: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki/share/kobuki/local_setup.dsv
+[0.746s] -- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki/share/kobuki/package.dsv
+[0.746s] -- Up-to-date: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki/share/ament_index/resource_index/packages/kobuki
+[0.746s] -- Up-to-date: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki/share/kobuki/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.746s] -- Up-to-date: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki/share/kobuki/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.746s] -- Up-to-date: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki/share/kobuki/cmake/kobukiConfig.cmake
+[0.746s] -- Up-to-date: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki/share/kobuki/cmake/kobukiConfig-version.cmake
+[0.746s] -- Up-to-date: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki/share/kobuki/package.xml
+[0.784s] Invoked command in '/home/wellyowo/locobot_sim/locobot_ws/src/build/kobuki' returned '0': AMENT_PREFIX_PATH=/home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_description:/opt/ros/humble /usr/bin/cmake --install /home/wellyowo/locobot_sim/locobot_ws/src/build/kobuki

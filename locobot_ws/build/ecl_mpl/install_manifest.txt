@@ -1,0 +1,1 @@
+/home/wellyowo/locobot_sim/locobot_ws/install/ecl_mpl/share/ecl_mpl/cmake/ecl_mplExport.cmake

@@ -1,0 +1,48 @@
+[0.255s] Invoking command in '/home/wellyowo/locobot_sim/locobot_ws/src/build/ecl_command_line': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wellyowo/locobot_sim/locobot_ws/src/build/ecl_command_line -- -j16 -l16
+[0.292s] [35m[1mConsolidate compiler generated dependencies of target ecl_demo_command_line[0m
+[0.328s] [100%] Built target ecl_demo_command_line
+[0.538s] Invoked command in '/home/wellyowo/locobot_sim/locobot_ws/src/build/ecl_command_line' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wellyowo/locobot_sim/locobot_ws/src/build/ecl_command_line -- -j16 -l16
+[0.551s] Invoking command in '/home/wellyowo/locobot_sim/locobot_ws/src/build/ecl_command_line': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/wellyowo/locobot_sim/locobot_ws/src/build/ecl_command_line
+[0.553s] -- Install configuration: ""
+[0.553s] -- Up-to-date: /home/wellyowo/locobot_sim/locobot_ws/src/install/ecl_command_line/share/ament_index/resource_index/package_run_dependencies/ecl_command_line
+[0.553s] -- Up-to-date: /home/wellyowo/locobot_sim/locobot_ws/src/install/ecl_command_line/share/ament_index/resource_index/parent_prefix_path/ecl_command_line
+[0.553s] -- Up-to-date: /home/wellyowo/locobot_sim/locobot_ws/src/install/ecl_command_line/share/ecl_command_line/environment/ament_prefix_path.sh
+[0.554s] -- Up-to-date: /home/wellyowo/locobot_sim/locobot_ws/src/install/ecl_command_line/share/ecl_command_line/environment/ament_prefix_path.dsv
+[0.556s] -- Up-to-date: /home/wellyowo/locobot_sim/locobot_ws/src/install/ecl_command_line/share/ecl_command_line/environment/path.sh
+[0.557s] -- Up-to-date: /home/wellyowo/locobot_sim/locobot_ws/src/install/ecl_command_line/share/ecl_command_line/environment/path.dsv
+[0.557s] -- Up-to-date: /home/wellyowo/locobot_sim/locobot_ws/src/install/ecl_command_line/share/ecl_command_line/local_setup.bash
+[0.557s] -- Up-to-date: /home/wellyowo/locobot_sim/locobot_ws/src/install/ecl_command_line/share/ecl_command_line/local_setup.sh
+[0.557s] -- Up-to-date: /home/wellyowo/locobot_sim/locobot_ws/src/install/ecl_command_line/share/ecl_command_line/local_setup.zsh
+[0.557s] -- Up-to-date: /home/wellyowo/locobot_sim/locobot_ws/src/install/ecl_command_line/share/ecl_command_line/local_setup.dsv
+[0.558s] -- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/ecl_command_line/share/ecl_command_line/package.dsv
+[0.558s] -- Up-to-date: /home/wellyowo/locobot_sim/locobot_ws/src/install/ecl_command_line/share/ament_index/resource_index/packages/ecl_command_line
+[0.558s] -- Up-to-date: /home/wellyowo/locobot_sim/locobot_ws/src/install/ecl_command_line/share/ecl_command_line/cmake/ecl_command_lineExport.cmake
+[0.562s] -- Up-to-date: /home/wellyowo/locobot_sim/locobot_ws/src/install/ecl_command_line/share/ecl_command_line/cmake/ament_cmake_export_targets-extras.cmake
+[0.562s] -- Up-to-date: /home/wellyowo/locobot_sim/locobot_ws/src/install/ecl_command_line/share/ecl_command_line/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.562s] -- Up-to-date: /home/wellyowo/locobot_sim/locobot_ws/src/install/ecl_command_line/share/ecl_command_line/cmake/ecl_command_lineConfig.cmake
+[0.563s] -- Up-to-date: /home/wellyowo/locobot_sim/locobot_ws/src/install/ecl_command_line/share/ecl_command_line/cmake/ecl_command_lineConfig-version.cmake
+[0.563s] -- Up-to-date: /home/wellyowo/locobot_sim/locobot_ws/src/install/ecl_command_line/share/ecl_command_line/package.xml
+[0.563s] -- Up-to-date: /home/wellyowo/locobot_sim/locobot_ws/src/install/ecl_command_line/include/ecl/command_line.hpp
+[0.563s] -- Up-to-date: /home/wellyowo/locobot_sim/locobot_ws/src/install/ecl_command_line/include/ecl/command_line/arg.hpp
+[0.563s] -- Up-to-date: /home/wellyowo/locobot_sim/locobot_ws/src/install/ecl_command_line/include/ecl/command_line/arg_exception.hpp
+[0.563s] -- Up-to-date: /home/wellyowo/locobot_sim/locobot_ws/src/install/ecl_command_line/include/ecl/command_line/cmd_line.hpp
+[0.563s] -- Up-to-date: /home/wellyowo/locobot_sim/locobot_ws/src/install/ecl_command_line/include/ecl/command_line/cmd_line_interface.hpp
+[0.567s] -- Up-to-date: /home/wellyowo/locobot_sim/locobot_ws/src/install/ecl_command_line/include/ecl/command_line/cmd_line_output.hpp
+[0.568s] -- Up-to-date: /home/wellyowo/locobot_sim/locobot_ws/src/install/ecl_command_line/include/ecl/command_line/constraint.hpp
+[0.568s] -- Up-to-date: /home/wellyowo/locobot_sim/locobot_ws/src/install/ecl_command_line/include/ecl/command_line/docbook_output.hpp
+[0.568s] -- Up-to-date: /home/wellyowo/locobot_sim/locobot_ws/src/install/ecl_command_line/include/ecl/command_line/help_visitor.hpp
+[0.568s] -- Up-to-date: /home/wellyowo/locobot_sim/locobot_ws/src/install/ecl_command_line/include/ecl/command_line/ignore_rest_visitor.hpp
+[0.568s] -- Up-to-date: /home/wellyowo/locobot_sim/locobot_ws/src/install/ecl_command_line/include/ecl/command_line/multi_arg.hpp
+[0.568s] -- Up-to-date: /home/wellyowo/locobot_sim/locobot_ws/src/install/ecl_command_line/include/ecl/command_line/multi_switch_arg.hpp
+[0.568s] -- Up-to-date: /home/wellyowo/locobot_sim/locobot_ws/src/install/ecl_command_line/include/ecl/command_line/optional_unlabeled_tracker.hpp
+[0.568s] -- Up-to-date: /home/wellyowo/locobot_sim/locobot_ws/src/install/ecl_command_line/include/ecl/command_line/std_output.hpp
+[0.568s] -- Up-to-date: /home/wellyowo/locobot_sim/locobot_ws/src/install/ecl_command_line/include/ecl/command_line/switch_arg.hpp
+[0.568s] -- Up-to-date: /home/wellyowo/locobot_sim/locobot_ws/src/install/ecl_command_line/include/ecl/command_line/unlabeled_multi_arg.hpp
+[0.569s] -- Up-to-date: /home/wellyowo/locobot_sim/locobot_ws/src/install/ecl_command_line/include/ecl/command_line/unlabeled_value_arg.hpp
+[0.569s] -- Up-to-date: /home/wellyowo/locobot_sim/locobot_ws/src/install/ecl_command_line/include/ecl/command_line/value_arg.hpp
+[0.569s] -- Up-to-date: /home/wellyowo/locobot_sim/locobot_ws/src/install/ecl_command_line/include/ecl/command_line/values_constraint.hpp
+[0.569s] -- Up-to-date: /home/wellyowo/locobot_sim/locobot_ws/src/install/ecl_command_line/include/ecl/command_line/version_visitor.hpp
+[0.569s] -- Up-to-date: /home/wellyowo/locobot_sim/locobot_ws/src/install/ecl_command_line/include/ecl/command_line/visitor.hpp
+[0.569s] -- Up-to-date: /home/wellyowo/locobot_sim/locobot_ws/src/install/ecl_command_line/include/ecl/command_line/xor_handler.hpp
+[0.569s] -- Up-to-date: /home/wellyowo/locobot_sim/locobot_ws/src/install/ecl_command_line/lib/ecl_command_line/demo_command_line
+[0.840s] Invoked command in '/home/wellyowo/locobot_sim/locobot_ws/src/build/ecl_command_line' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/wellyowo/locobot_sim/locobot_ws/src/build/ecl_command_line

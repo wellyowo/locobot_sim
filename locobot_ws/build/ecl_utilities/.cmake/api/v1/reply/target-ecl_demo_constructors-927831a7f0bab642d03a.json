@@ -1,0 +1,213 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "src/examples/demo_constructors"
+		}
+	],
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"ecl_utilities_add_demo",
+			"add_compile_options",
+			"ecl_enable_cxx_warnings",
+			"add_definitions",
+			"include",
+			"find_package",
+			"target_link_libraries"
+		],
+		"files" : 
+		[
+			"src/examples/CMakeLists.txt",
+			"/opt/ros/humble/share/ecl_build/cmake/ecl_cxx.cmake",
+			"CMakeLists.txt",
+			"/opt/ros/humble/share/ament_cmake_ros/cmake/ament_cmake_ros-extras.cmake",
+			"/opt/ros/humble/share/ament_cmake_ros/cmake/ament_cmake_rosConfig.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 16,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 6,
+				"parent" : 1
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 27,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 29,
+				"parent" : 4
+			},
+			{
+				"command" : 6,
+				"file" : 2,
+				"line" : 16,
+				"parent" : 3
+			},
+			{
+				"file" : 4,
+				"parent" : 6
+			},
+			{
+				"command" : 5,
+				"file" : 4,
+				"line" : 41,
+				"parent" : 7
+			},
+			{
+				"file" : 3,
+				"parent" : 8
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 25,
+				"parent" : 9
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 7,
+				"parent" : 1
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"backtrace" : 5,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-Werror"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-Wpedantic"
+				},
+				{
+					"fragment" : "-std=c++14"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 10,
+					"define" : "ROS_PACKAGE_NAME=\"ecl_utilities\""
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 11,
+					"path" : "/home/wellyowo/locobot_sim/locobot_ws/src/ThirdParty/ecl/ecl_core/ecl_utilities/include"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "/home/wellyowo/locobot_sim/locobot_ws/install/ecl_concepts/include"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "/home/wellyowo/locobot_sim/locobot_ws/install/ecl_config/include"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "/home/wellyowo/locobot_sim/locobot_ws/install/ecl_type_traits/include"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "/home/wellyowo/locobot_sim/locobot_ws/install/ecl_mpl/include"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					2
+				],
+				"standard" : "14"
+			},
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"id" : "ecl_demo_constructors::@9091d420513b4ac1bd05",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/home/wellyowo/locobot_sim/locobot_ws/install/ecl_type_traits/lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/wellyowo/locobot_sim/locobot_ws/install/ecl_type_traits/lib/libecl_type_traits.so.1.2.1",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "ecl_demo_constructors",
+	"nameOnDisk" : "demo_constructors",
+	"paths" : 
+	{
+		"build" : "src/examples",
+		"source" : "src/examples"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "src/examples/constructors.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

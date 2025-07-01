@@ -1,0 +1,1 @@
+/home/wellyowo/locobot_sim/locobot_ws/build/kobuki_bumper2pc/ament_cmake_core/kobuki_bumper2pcConfig-version.cmake

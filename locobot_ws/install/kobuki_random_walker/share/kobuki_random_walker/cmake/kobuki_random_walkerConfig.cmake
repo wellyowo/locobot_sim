@@ -1,0 +1,1 @@
+/home/wellyowo/locobot_sim/locobot_ws/build/kobuki_random_walker/ament_cmake_core/kobuki_random_walkerConfig.cmake

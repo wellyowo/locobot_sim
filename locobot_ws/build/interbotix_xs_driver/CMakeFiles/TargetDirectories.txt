@@ -1,0 +1,10 @@
+/home/wellyowo/locobot_sim/locobot_ws/build/interbotix_xs_driver/CMakeFiles/uninstall.dir
+/home/wellyowo/locobot_sim/locobot_ws/build/interbotix_xs_driver/CMakeFiles/interbotix_xs_driver_uninstall.dir
+/home/wellyowo/locobot_sim/locobot_ws/build/interbotix_xs_driver/CMakeFiles/interbotix_xs_driver.dir
+/home/wellyowo/locobot_sim/locobot_ws/build/interbotix_xs_driver/CMakeFiles/test.dir
+/home/wellyowo/locobot_sim/locobot_ws/build/interbotix_xs_driver/CMakeFiles/edit_cache.dir
+/home/wellyowo/locobot_sim/locobot_ws/build/interbotix_xs_driver/CMakeFiles/rebuild_cache.dir
+/home/wellyowo/locobot_sim/locobot_ws/build/interbotix_xs_driver/CMakeFiles/list_install_components.dir
+/home/wellyowo/locobot_sim/locobot_ws/build/interbotix_xs_driver/CMakeFiles/install.dir
+/home/wellyowo/locobot_sim/locobot_ws/build/interbotix_xs_driver/CMakeFiles/install/local.dir
+/home/wellyowo/locobot_sim/locobot_ws/build/interbotix_xs_driver/CMakeFiles/install/strip.dir

@@ -1,0 +1,214 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						8
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-52f8fa0819afbaab76e4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						2
+					]
+				},
+				{
+					"build" : "include",
+					"childIndexes" : 
+					[
+						2
+					],
+					"jsonFile" : "directory-include-7ead17b99bffc88b66bb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "include"
+				},
+				{
+					"build" : "include/ecl",
+					"childIndexes" : 
+					[
+						3
+					],
+					"jsonFile" : "directory-include.ecl-acb1bd6ed8caa689eca4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "include/ecl"
+				},
+				{
+					"build" : "include/ecl/containers",
+					"childIndexes" : 
+					[
+						4,
+						5,
+						6,
+						7
+					],
+					"jsonFile" : "directory-include.ecl.containers-4e51dcd07680535ae085.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 0,
+					"source" : "include/ecl/containers"
+				},
+				{
+					"build" : "include/ecl/containers/common",
+					"jsonFile" : "directory-include.ecl.containers.common-d5b625de5ef09c703502.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 0,
+					"source" : "include/ecl/containers/common"
+				},
+				{
+					"build" : "include/ecl/containers/array",
+					"jsonFile" : "directory-include.ecl.containers.array-bf4be7427db91131a5fc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 0,
+					"source" : "include/ecl/containers/array"
+				},
+				{
+					"build" : "include/ecl/containers/push_and_pop",
+					"jsonFile" : "directory-include.ecl.containers.push_and_pop-03b74e22aea7de7c5425.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 0,
+					"source" : "include/ecl/containers/push_and_pop"
+				},
+				{
+					"build" : "include/ecl/containers/stencil",
+					"jsonFile" : "directory-include.ecl.containers.stencil-dd62480427ab89a8c458.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 0,
+					"source" : "include/ecl/containers/stencil"
+				},
+				{
+					"build" : "src",
+					"childIndexes" : 
+					[
+						9
+					],
+					"jsonFile" : "directory-src-b6cf2213fc5053b67c22.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src"
+				},
+				{
+					"build" : "src/examples",
+					"jsonFile" : "directory-src.examples-3f09ad999e3bcadc2e14.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 8,
+					"projectIndex" : 0,
+					"source" : "src/examples",
+					"targetIndexes" : 
+					[
+						1
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
+					],
+					"name" : "ecl_containers",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ecl_containers_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ecl_containers_uninstall-add343c4a9778f4a60f6.json",
+					"name" : "ecl_containers_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "ecl_demo_formatters::@9091d420513b4ac1bd05",
+					"jsonFile" : "target-ecl_demo_formatters-329f4ff87c5aeef6f702.json",
+					"name" : "ecl_demo_formatters",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-72f5b33f3decb31acdb3.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/wellyowo/locobot_sim/locobot_ws/build/ecl_containers",
+		"source" : "/home/wellyowo/locobot_sim/locobot_ws/src/ThirdParty/ecl/ecl_core/ecl_containers"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

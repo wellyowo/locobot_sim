@@ -1,0 +1,1 @@
+/home/wellyowo/locobot_sim/locobot_ws/src/interbotix_ros_toolboxes/interbotix_common_toolbox/interbotix_tf_tools/scripts/static_trans_pub.py

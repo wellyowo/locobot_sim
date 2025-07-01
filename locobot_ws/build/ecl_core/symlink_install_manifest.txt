@@ -1,0 +1,15 @@
+/home/wellyowo/locobot_sim/locobot_ws/install/ecl_core/share/ament_index/resource_index/package_run_dependencies/ecl_core
+/home/wellyowo/locobot_sim/locobot_ws/install/ecl_core/share/ament_index/resource_index/parent_prefix_path/ecl_core
+/home/wellyowo/locobot_sim/locobot_ws/install/ecl_core/share/ecl_core/environment/ament_prefix_path.sh
+/home/wellyowo/locobot_sim/locobot_ws/install/ecl_core/share/ecl_core/environment/ament_prefix_path.dsv
+/home/wellyowo/locobot_sim/locobot_ws/install/ecl_core/share/ecl_core/environment/path.sh
+/home/wellyowo/locobot_sim/locobot_ws/install/ecl_core/share/ecl_core/environment/path.dsv
+/home/wellyowo/locobot_sim/locobot_ws/install/ecl_core/share/ecl_core/local_setup.bash
+/home/wellyowo/locobot_sim/locobot_ws/install/ecl_core/share/ecl_core/local_setup.sh
+/home/wellyowo/locobot_sim/locobot_ws/install/ecl_core/share/ecl_core/local_setup.zsh
+/home/wellyowo/locobot_sim/locobot_ws/install/ecl_core/share/ecl_core/local_setup.dsv
+/home/wellyowo/locobot_sim/locobot_ws/install/ecl_core/share/ecl_core/package.dsv
+/home/wellyowo/locobot_sim/locobot_ws/install/ecl_core/share/ament_index/resource_index/packages/ecl_core
+/home/wellyowo/locobot_sim/locobot_ws/install/ecl_core/share/ecl_core/cmake/ecl_coreConfig.cmake
+/home/wellyowo/locobot_sim/locobot_ws/install/ecl_core/share/ecl_core/cmake/ecl_coreConfig-version.cmake
+/home/wellyowo/locobot_sim/locobot_ws/install/ecl_core/share/ecl_core/package.xml

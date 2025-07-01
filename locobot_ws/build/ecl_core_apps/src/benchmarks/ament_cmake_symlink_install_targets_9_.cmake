@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/wellyowo/locobot_sim/locobot_ws/build/ecl_core_apps/src/benchmarks/ecl_bench_eigen3_transforms" "TARGETS" "ecl_bench_eigen3_transforms" "RUNTIME_DESTINATION" "bin")

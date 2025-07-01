@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-f2c98ec6810f75d44b5c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "kobuki_keyop",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "kobuki_keyop::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-kobuki_keyop-990e603c13a72eb1ba8e.json",
+					"name" : "kobuki_keyop",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "kobuki_keyop_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-kobuki_keyop_node-d9737685568ba8f54e8d.json",
+					"name" : "kobuki_keyop_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "kobuki_keyop_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-kobuki_keyop_uninstall-bdb1bbd168e36bb869ae.json",
+					"name" : "kobuki_keyop_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-7fb4033816f1a1fd4ff0.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/wellyowo/locobot_sim/locobot_ws/build/kobuki_keyop",
+		"source" : "/home/wellyowo/locobot_sim/locobot_ws/src/ThirdParty/kobuki_ros/kobuki_keyop"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

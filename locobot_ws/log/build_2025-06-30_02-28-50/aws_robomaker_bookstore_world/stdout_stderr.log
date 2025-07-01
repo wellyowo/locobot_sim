@@ -1,0 +1,308 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found gazebo_ros: 3.9.0 (/opt/ros/humble/share/gazebo_ros/cmake)
+-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+-- Checking for module 'bullet>=2.82'
+--   Found bullet, version 3.05
+-- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") 
+-- Found assimp: /usr/include (found version "5.2.0") 
+-- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+-- Looking for ignition-math6 -- found version 6.15.1
+-- Searching for dependencies of ignition-math6
+-- Looking for OGRE...
+-- OGRE_PREFIX_WATCH changed.
+-- Checking for module 'OGRE'
+--   Found OGRE, version 1.9.0
+-- Found Ogre Ghadamon (1.9.0)
+-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+-- Looking for OGRE_Paging...
+-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+-- Looking for OGRE_Terrain...
+-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+-- Looking for OGRE_Property...
+-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+-- Looking for OGRE_RTShaderSystem...
+-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+-- Looking for OGRE_Volume...
+-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+-- Looking for OGRE_Overlay...
+-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+-- Looking for ignition-math6 -- found version 6.15.1
+-- Looking for ignition-transport8 -- found version 8.2.1
+-- Searching for dependencies of ignition-transport8
+-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+-- Config-file not installed for ZeroMQ -- checking for pkg-config
+-- Checking for module 'libzmq >= 4'
+--   Found libzmq , version 4.3.4
+-- Found ZeroMQ: TRUE (Required is at least version "4") 
+-- Checking for module 'uuid'
+--   Found uuid, version 2.37.2
+-- Found UUID: TRUE  
+-- Looking for ignition-msgs5 -- found version 5.8.1
+-- Searching for dependencies of ignition-msgs5
+-- Looking for ignition-math6 -- found version 6.15.1
+-- Checking for module 'tinyxml2'
+--   Found tinyxml2, version 9.0.0
+-- Looking for ignition-msgs5 -- found version 5.8.1
+-- Looking for ignition-common3 -- found version 3.14.0
+-- Searching for dependencies of ignition-common3
+-- Looking for dlfcn.h - found
+-- Looking for libdl - found
+-- Found DL: TRUE  
+-- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") 
+-- Searching for <ignition-common3> component [graphics]
+-- Looking for ignition-common3-graphics -- found version 3.14.0
+-- Searching for dependencies of ignition-common3-graphics
+-- Looking for ignition-math6 -- found version 6.15.1
+-- Looking for ignition-fuel_tools4 -- found version 4.4.0
+-- Searching for dependencies of ignition-fuel_tools4
+-- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  
+-- Checking for module 'jsoncpp'
+--   Found jsoncpp, version 1.9.5
+-- Found JSONCPP: TRUE  
+-- Checking for module 'libzip'
+--   Found libzip, version 1.7.3
+-- Found ZIP: TRUE  
+-- Looking for ignition-common3 -- found version 3.14.0
+-- Looking for ignition-math6 -- found version 6.15.1
+-- Looking for ignition-msgs5 -- found version 5.8.1
+-- Gazebo version: 11.10
+-- Checking for module 'tbb'
+--   Found tbb, version 2021.5.0
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/wellyowo/locobot_sim/locobot_ws/build/aws_robomaker_bookstore_world
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/launch/bookstore.launch.py
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/launch/view_bookstore.launch.py
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/maps/turtlebot3_waffle_pi/map.pgm
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/maps/turtlebot3_waffle_pi/map.yaml
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_AirConditionerC_01/materials/textures/aws_AirConditionerC_01.png
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_AirConditionerC_01/meshes/aws_AirConditionerC_01_collision.DAE
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_AirConditionerC_01/meshes/aws_AirConditionerC_01_visual.DAE
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_AirConditionerC_01/model.config
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_AirConditionerC_01/model.sdf
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_Bicycle_01/materials/textures/aws_Bicycle_01.png
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_Bicycle_01/meshes/aws_Bicycle_01_collision.DAE
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_Bicycle_01/meshes/aws_Bicycle_01_visual.DAE
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_Bicycle_01/model.config
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_Bicycle_01/model.sdf
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_BookA_01/materials/textures/aws_BookA_01.png
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_BookA_01/meshes/aws_BookA_01_collision.DAE
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_BookA_01/meshes/aws_BookA_01_visual.DAE
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_BookA_01/model.config
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_BookA_01/model.sdf
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_BookB_01/materials/textures/aws_BookB_01.png
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_BookB_01/materials/textures/aws_BookB_02.png
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_BookB_01/meshes/aws_BookB_01_collision.DAE
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_BookB_01/meshes/aws_BookB_01_visual.DAE
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_BookB_01/model.config
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_BookB_01/model.sdf
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_BookC_01/materials/textures/aws_BookC_01.png
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_BookC_01/meshes/aws_BookC_01_collision.DAE
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_BookC_01/meshes/aws_BookC_01_visual.DAE
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_BookC_01/model.config
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_BookC_01/model.sdf
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_BookD_01/materials/textures/aws_BookD_01.png
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_BookD_01/meshes/aws_BookD_01_collision.DAE
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_BookD_01/meshes/aws_BookD_01_visual.DAE
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_BookD_01/model.config
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_BookD_01/model.sdf
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_BookE_01/materials/textures/aws_BookE_01.png
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_BookE_01/materials/textures/aws_BookE_02.png
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_BookE_01/meshes/aws_BookE_01_collision.DAE
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_BookE_01/meshes/aws_BookE_01_visual.DAE
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_BookE_01/model.config
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_BookE_01/model.sdf
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_BookF_01/materials/textures/aws_BookF_01.png
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_BookF_01/meshes/aws_BookF_01_collision.DAE
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_BookF_01/meshes/aws_BookF_01_visual.DAE
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_BookF_01/model.config
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_BookF_01/model.sdf
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_BookshelfA_01/materials/textures/aws_BookshelfA_01.png
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_BookshelfA_01/materials/textures/aws_BookshelfA_02.png
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_BookshelfA_01/materials/textures/aws_BookshelfA_03.png
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_BookshelfA_01/meshes/aws_BookshelfA_01_collision.DAE
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_BookshelfA_01/meshes/aws_BookshelfA_01_visual.DAE
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_BookshelfA_01/model.config
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_BookshelfA_01/model.sdf
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_BookshelfB_01/materials/textures/aws_BookshelfB_01.png
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_BookshelfB_01/materials/textures/aws_BookshelfB_02.png
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_BookshelfB_01/meshes/aws_BookshelfB_01_collision.DAE
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_BookshelfB_01/meshes/aws_BookshelfB_01_visual.DAE
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_BookshelfB_01/model.config
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_BookshelfB_01/model.sdf
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_BookshelfC_01/materials/textures/aws_BookshelfC_01.png
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_BookshelfC_01/meshes/aws_BookshelfC_01_collision.DAE
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_BookshelfC_01/meshes/aws_BookshelfC_01_visual.DAE
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_BookshelfC_01/model.config
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_BookshelfC_01/model.sdf
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_BookstoreLogo_01/materials/textures/aws_BookstoreLogo_01.png
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_BookstoreLogo_01/meshes/aws_BookstoreLogo_01_collision.DAE
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_BookstoreLogo_01/meshes/aws_BookstoreLogo_01_visual.DAE
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_BookstoreLogo_01/model.config
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_BookstoreLogo_01/model.sdf
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_ChairB_01/materials/textures/aws_ChairB_01.png
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_ChairB_01/meshes/aws_ChairB_01_collision.DAE
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_ChairB_01/meshes/aws_ChairB_01_visual.DAE
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_ChairB_01/model.config
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_ChairB_01/model.sdf
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_ColumnA_01/materials/textures/aws_ColumnA_01.png
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_ColumnA_01/meshes/aws_ColumnA_01_collision.DAE
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_ColumnA_01/meshes/aws_ColumnA_01_visual.DAE
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_ColumnA_01/model.config
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_ColumnA_01/model.sdf
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_ColumnB_01/materials/textures/aws_ColumnB_01.png
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_ColumnB_01/meshes/aws_ColumnB_01_collision.DAE
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_ColumnB_01/meshes/aws_ColumnB_01_visual.DAE
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_ColumnB_01/model.config
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_ColumnB_01/model.sdf
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_Computer_01/materials/textures/aws_Computer_01.png
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_Computer_01/meshes/aws_Computer_01_collision.DAE
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_Computer_01/meshes/aws_Computer_01_visual.DAE
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_Computer_01/model.config
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_Computer_01/model.sdf
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_DeskA_01/materials/textures/aws_DeskA_01.png
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_DeskA_01/materials/textures/aws_DeskA_02.png
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_DeskA_01/materials/textures/aws_DeskA_03.png
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_DeskA_01/meshes/aws_DeskA_01_collision.DAE
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_DeskA_01/meshes/aws_DeskA_01_visual.DAE
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_DeskA_01/model.config
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_DeskA_01/model.sdf
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_DeskB_01/materials/textures/aws_DeskB_01.png
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_DeskB_01/meshes/aws_DeskB_01_collision.DAE
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_DeskB_01/meshes/aws_DeskB_01_visual.DAE
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_DeskB_01/model.config
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_DeskB_01/model.sdf
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_DoorB_01/materials/textures/aws_DoorB_01.png
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_DoorB_01/meshes/aws_DoorB_01_collision.DAE
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_DoorB_01/meshes/aws_DoorB_01_visual.DAE
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_DoorB_01/model.config
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_DoorB_01/model.sdf
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_Holder_01/materials/textures/aws_Holder_01.png
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_Holder_01/meshes/aws_Holder_01_collision.DAE
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_Holder_01/meshes/aws_Holder_01_visual.DAE
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_Holder_01/model.config
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_Holder_01/model.sdf
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_Horologe_01/materials/textures/aws_Horologe_01.png
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_Horologe_01/meshes/aws_Horologe_01_collision.DAE
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_Horologe_01/meshes/aws_Horologe_01_visual.DAE
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_Horologe_01/model.config
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_Horologe_01/model.sdf
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_InfoDesk_01/materials/textures/aws_InfoDesk_01.png
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_InfoDesk_01/meshes/aws_InfoDesk_01_collision.DAE
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_InfoDesk_01/meshes/aws_InfoDesk_01_visual.DAE
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_InfoDesk_01/model.config
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_InfoDesk_01/model.sdf
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_LightA_01/materials/textures/aws_LightA_01.png
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_LightA_01/meshes/aws_LightA_01_collision.DAE
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_LightA_01/meshes/aws_LightA_01_visual.DAE
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_LightA_01/model.config
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_LightA_01/model.sdf
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_MagicCube_01/materials/textures/aws_MagicCube_01.png
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_MagicCube_01/meshes/aws_MagicCube_01_collision.DAE
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_MagicCube_01/meshes/aws_MagicCube_01_visual.DAE
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_MagicCube_01/model.config
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_MagicCube_01/model.sdf
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_RetailShopCeiling_01/materials/textures/aws_RetailShopCeiling_01.png
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_RetailShopCeiling_01/meshes/aws_RetailShopCeiling_01_collision.DAE
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_RetailShopCeiling_01/meshes/aws_RetailShopCeiling_01_visual.DAE
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_RetailShopCeiling_01/model.config
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_RetailShopCeiling_01/model.sdf
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_RetailShopFloor_01/materials/textures/aws_RetailShopFloor_01.png
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_RetailShopFloor_01/meshes/aws_RetailShopFloor_01_collision.DAE
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_RetailShopFloor_01/meshes/aws_RetailShopFloor_01_visual.DAE
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_RetailShopFloor_01/model.config
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_RetailShopFloor_01/model.sdf
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_RetailShopWall_01/materials/textures/aws_RetailShopWall_01.png
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_RetailShopWall_01/meshes/aws_RetailShopWall_01_collision.DAE
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_RetailShopWall_01/meshes/aws_RetailShopWall_01_visual.DAE
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_RetailShopWall_01/model.config
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_RetailShopWall_01/model.sdf
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_SecurityCamera_01/materials/textures/aws_SecurityCamera_01.png
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_SecurityCamera_01/meshes/aws_SecurityCamera_01_collision.DAE
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_SecurityCamera_01/meshes/aws_SecurityCamera_01_visual.DAE
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_SecurityCamera_01/model.config
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_SecurityCamera_01/model.sdf
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_ShopWindow_01/materials/textures/aws_ShopWindow_01.png
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_ShopWindow_01/meshes/aws_ShopWindow_01_collision.DAE
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_ShopWindow_01/meshes/aws_ShopWindow_01_visual.DAE
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_ShopWindow_01/model.config
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_ShopWindow_01/model.sdf
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_SmartSpeakerSmall_01/materials/textures/aws_SmartSpeakerSmall_01.png
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_SmartSpeakerSmall_01/meshes/aws_SmartSpeakerSmall_01_collision.DAE
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_SmartSpeakerSmall_01/meshes/aws_SmartSpeakerSmall_01_visual.DAE
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_SmartSpeakerSmall_01/model.config
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_SmartSpeakerSmall_01/model.sdf
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_SmartSpeakerTall_01/materials/textures/aws_SmartSpeakerTall_01.png
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_SmartSpeakerTall_01/meshes/aws_SmartSpeakerTall_01_collision.DAE
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_SmartSpeakerTall_01/meshes/aws_SmartSpeakerTall_01_visual.DAE
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_SmartSpeakerTall_01/model.config
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_SmartSpeakerTall_01/model.sdf
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_Spotlight_01/materials/textures/aws_SpotlightDiffuse_01.png
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_Spotlight_01/meshes/aws_spotlight_01_collision.DAE
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_Spotlight_01/meshes/aws_spotlight_01_visual.DAE
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_Spotlight_01/model.config
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_Spotlight_01/model.sdf
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_TabletB_01/materials/textures/aws_TabletB_01.png
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_TabletB_01/meshes/aws_TabletB_01_collision.DAE
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_TabletB_01/meshes/aws_TabletB_01_visual.DAE
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_TabletB_01/model.config
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_TabletB_01/model.sdf
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_Tablet_01/materials/textures/aws_Tablet_01_nologo.png
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_Tablet_01/meshes/aws_Tablet_01_collision.DAE
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_Tablet_01/meshes/aws_Tablet_01_visual.DAE
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_Tablet_01/model.config
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/models/aws_robomaker_retail_Tablet_01/model.sdf
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/routes/route.yaml
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/param/burger.yaml
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/param/waffle.yaml
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/param/waffle_pi.yaml
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/worlds/bookstore.world
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/ament_index/resource_index/package_run_dependencies/aws_robomaker_bookstore_world
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/ament_index/resource_index/parent_prefix_path/aws_robomaker_bookstore_world
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/environment/ament_prefix_path.sh
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/environment/ament_prefix_path.dsv
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/environment/path.sh
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/environment/path.dsv
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/local_setup.bash
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/local_setup.sh
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/local_setup.zsh
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/local_setup.dsv
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/package.dsv
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/ament_index/resource_index/packages/aws_robomaker_bookstore_world
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/cmake/aws_robomaker_bookstore_worldConfig.cmake
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/cmake/aws_robomaker_bookstore_worldConfig-version.cmake
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_bookstore_world/share/aws_robomaker_bookstore_world/package.xml

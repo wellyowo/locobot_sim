@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/wellyowo/locobot_sim/locobot_ws/build/ecl_time/src/examples/demo_random_number_generator" "TARGETS" "ecl_time_example_random_number_generator" "RUNTIME_DESTINATION" "lib/ecl_time")

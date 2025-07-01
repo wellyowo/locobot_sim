@@ -1,0 +1,17 @@
+[31mCMake Error at CMakeLists.txt:19 (find_package):
+  By not providing "Findinterbotix_xs_driver.cmake" in CMAKE_MODULE_PATH this
+  project has asked CMake to find a package configuration file provided by
+  "interbotix_xs_driver", but CMake did not find one.
+
+  Could not find a package configuration file provided by
+  "interbotix_xs_driver" with any of the following names:
+
+    interbotix_xs_driverConfig.cmake
+    interbotix_xs_driver-config.cmake
+
+  Add the installation prefix of "interbotix_xs_driver" to CMAKE_PREFIX_PATH
+  or set "interbotix_xs_driver_DIR" to a directory containing one of the
+  above files.  If "interbotix_xs_driver" provides a separate development
+  package or SDK, be sure it has been installed.
+
+[0m

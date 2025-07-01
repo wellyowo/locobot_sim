@@ -1,0 +1,66 @@
+[0.056s] Invoking command in '/home/wellyowo/locobot_sim/locobot_ws/build/ecl_errors': AMENT_PREFIX_PATH=/home/wellyowo/locobot_sim/locobot_ws/install/ecl_config:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wellyowo/locobot_sim/locobot_ws/install/ecl_config:/opt/ros/humble PATH=/home/wellyowo/locobot_sim/locobot_ws/install/ecl_config/bin:${PATH} /usr/bin/cmake /home/wellyowo/locobot_sim/locobot_ws/src/ThirdParty/ecl/ecl_lite/ecl_errors -DBUILD_TESTING=OFF -DCMAKE_PREFIX_PATH= -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/wellyowo/locobot_sim/locobot_ws/install/ecl_errors
+[28.801s] -- The C compiler identification is GNU 11.4.0
+[28.802s] -- The CXX compiler identification is GNU 11.4.0
+[28.802s] -- Detecting C compiler ABI info
+[28.802s] -- Detecting C compiler ABI info - done
+[28.805s] -- Check for working C compiler: /usr/bin/cc - skipped
+[28.805s] -- Detecting C compile features
+[28.805s] -- Detecting C compile features - done
+[28.805s] -- Detecting CXX compiler ABI info
+[28.809s] -- Detecting CXX compiler ABI info - done
+[28.813s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[28.813s] -- Detecting CXX compile features
+[28.815s] -- Detecting CXX compile features - done
+[28.815s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[28.815s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[28.815s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[28.816s] -- Found ecl_build: 1.0.3 (/opt/ros/humble/share/ecl_build/cmake)
+[28.833s] -- Found ecl_config: 1.2.0 (/home/wellyowo/locobot_sim/locobot_ws/install/ecl_config/share/ecl_config/cmake)
+[28.833s] -- Configuring done
+[28.836s] -- Generating done
+[28.836s] -- Build files have been written to: /home/wellyowo/locobot_sim/locobot_ws/build/ecl_errors
+[28.929s] Invoked command in '/home/wellyowo/locobot_sim/locobot_ws/build/ecl_errors' returned '0': AMENT_PREFIX_PATH=/home/wellyowo/locobot_sim/locobot_ws/install/ecl_config:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wellyowo/locobot_sim/locobot_ws/install/ecl_config:/opt/ros/humble PATH=/home/wellyowo/locobot_sim/locobot_ws/install/ecl_config/bin:${PATH} /usr/bin/cmake /home/wellyowo/locobot_sim/locobot_ws/src/ThirdParty/ecl/ecl_lite/ecl_errors -DBUILD_TESTING=OFF -DCMAKE_PREFIX_PATH= -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/wellyowo/locobot_sim/locobot_ws/install/ecl_errors
+[28.929s] Invoking command in '/home/wellyowo/locobot_sim/locobot_ws/build/ecl_errors': AMENT_PREFIX_PATH=/home/wellyowo/locobot_sim/locobot_ws/install/ecl_config:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wellyowo/locobot_sim/locobot_ws/install/ecl_config:/opt/ros/humble PATH=/home/wellyowo/locobot_sim/locobot_ws/install/ecl_config/bin:${PATH} /usr/bin/cmake --build /home/wellyowo/locobot_sim/locobot_ws/build/ecl_errors -- -j16 -l16
+[29.802s] [ 25%] [32mBuilding CXX object src/lib/CMakeFiles/ecl_errors.dir/run_time_functions.cpp.o[0m
+[29.803s] [ 50%] [32m[1mLinking CXX shared library libecl_errors.so[0m
+[29.803s] [ 50%] Built target ecl_errors
+[29.803s] [ 75%] [32mBuilding CXX object src/examples/CMakeFiles/ecl_errors_example_errors.dir/errors.cpp.o[0m
+[30.297s] [100%] [32m[1mLinking CXX executable demo_errors[0m
+[30.579s] [100%] Built target ecl_errors_example_errors
+[30.632s] Invoked command in '/home/wellyowo/locobot_sim/locobot_ws/build/ecl_errors' returned '0': AMENT_PREFIX_PATH=/home/wellyowo/locobot_sim/locobot_ws/install/ecl_config:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wellyowo/locobot_sim/locobot_ws/install/ecl_config:/opt/ros/humble PATH=/home/wellyowo/locobot_sim/locobot_ws/install/ecl_config/bin:${PATH} /usr/bin/cmake --build /home/wellyowo/locobot_sim/locobot_ws/build/ecl_errors -- -j16 -l16
+[30.632s] Invoking command in '/home/wellyowo/locobot_sim/locobot_ws/build/ecl_errors': AMENT_PREFIX_PATH=/home/wellyowo/locobot_sim/locobot_ws/install/ecl_config:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wellyowo/locobot_sim/locobot_ws/install/ecl_config:/opt/ros/humble PATH=/home/wellyowo/locobot_sim/locobot_ws/install/ecl_config/bin:${PATH} /usr/bin/cmake --install /home/wellyowo/locobot_sim/locobot_ws/build/ecl_errors
+[30.839s] -- Install configuration: ""
+[30.840s] -- Execute custom install script
+[30.840s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_errors/include/ecl/errors/compile_time_assert.hpp
+[30.840s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_errors/include/ecl/errors/flags.hpp
+[30.840s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_errors/include/ecl/errors/handlers.hpp
+[30.840s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_errors/include/ecl/errors/macros.hpp
+[30.840s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_errors/include/ecl/errors/run_time_functions.hpp
+[30.840s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_errors/include/ecl/errors.hpp
+[30.856s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_errors/lib/ecl_errors/demo_errors
+[30.906s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_errors/share/ecl_errors/environment/library_path.sh
+[30.961s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_errors/share/ecl_errors/environment/library_path.dsv
+[30.986s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_errors/share/ament_index/resource_index/package_run_dependencies/ecl_errors
+[30.999s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_errors/share/ament_index/resource_index/parent_prefix_path/ecl_errors
+[31.037s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_errors/share/ecl_errors/environment/ament_prefix_path.sh
+[31.063s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_errors/share/ecl_errors/environment/ament_prefix_path.dsv
+[31.090s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_errors/share/ecl_errors/environment/path.sh
+[31.116s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_errors/share/ecl_errors/environment/path.dsv
+[31.143s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_errors/share/ecl_errors/local_setup.bash
+[31.175s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_errors/share/ecl_errors/local_setup.sh
+[31.205s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_errors/share/ecl_errors/local_setup.zsh
+[31.257s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_errors/share/ecl_errors/local_setup.dsv
+[31.282s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_errors/share/ecl_errors/package.dsv
+[31.325s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_errors/share/ament_index/resource_index/packages/ecl_errors
+[31.349s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_errors/share/ecl_errors/cmake/ament_cmake_export_targets-extras.cmake
+[31.381s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_errors/share/ecl_errors/cmake/ament_cmake_export_include_directories-extras.cmake
+[31.408s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_errors/share/ecl_errors/cmake/ament_cmake_export_libraries-extras.cmake
+[31.432s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_errors/share/ecl_errors/cmake/ament_cmake_export_dependencies-extras.cmake
+[31.464s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_errors/share/ecl_errors/cmake/ecl_errorsConfig.cmake
+[31.487s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_errors/share/ecl_errors/cmake/ecl_errorsConfig-version.cmake
+[31.510s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_errors/share/ecl_errors/package.xml
+[31.538s] -- Installing: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_errors/share/ecl_errors/cmake/ecl_errorsExport.cmake
+[31.539s] -- Installing: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_errors/share/ecl_errors/cmake/ecl_errorsExport-noconfig.cmake
+[31.540s] -- Installing: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_errors/lib/libecl_errors.so.1.2.0
+[31.542s] -- Installing: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_errors/lib/libecl_errors.so
+[31.556s] Invoked command in '/home/wellyowo/locobot_sim/locobot_ws/build/ecl_errors' returned '0': AMENT_PREFIX_PATH=/home/wellyowo/locobot_sim/locobot_ws/install/ecl_config:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wellyowo/locobot_sim/locobot_ws/install/ecl_config:/opt/ros/humble PATH=/home/wellyowo/locobot_sim/locobot_ws/install/ecl_config/bin:${PATH} /usr/bin/cmake --install /home/wellyowo/locobot_sim/locobot_ws/build/ecl_errors

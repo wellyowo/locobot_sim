@@ -1,0 +1,1 @@
+/home/wellyowo/locobot_sim/locobot_ws/build/ecl_mpl/ament_cmake_core/ecl_mplConfig-version.cmake

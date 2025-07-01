@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/wellyowo/locobot_sim/locobot_ws/build/ecl_core_apps/src/utils/bin/ecl_process_statistics" "TARGETS" "ecl_process_statistics" "RUNTIME_DESTINATION" "bin")

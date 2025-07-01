@@ -1,0 +1,1 @@
+/home/wellyowo/locobot_sim/locobot_ws/build/interbotix_xs_msgs/rosidl_cmake/srv/OperatingModes_Request.msg

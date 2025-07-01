@@ -1,0 +1,8 @@
+source;share/ecl_converters/hook/cmake_prefix_path.ps1
+source;share/ecl_converters/hook/cmake_prefix_path.dsv
+source;share/ecl_converters/hook/cmake_prefix_path.sh
+source;share/ecl_converters/local_setup.bash
+source;share/ecl_converters/local_setup.dsv
+source;share/ecl_converters/local_setup.ps1
+source;share/ecl_converters/local_setup.sh
+source;share/ecl_converters/local_setup.zsh

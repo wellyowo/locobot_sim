@@ -1,0 +1,3 @@
+Invoking command in '/home/wellyowo/locobot_sim/locobot_ws/src/build/sophus': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/wellyowo/locobot_sim/locobot_ws/src/ThirdParty/sophus -DCMAKE_INSTALL_PREFIX=/home/wellyowo/locobot_sim/locobot_ws/src/install/sophus
+Invoked command in '/home/wellyowo/locobot_sim/locobot_ws/src/build/sophus' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/wellyowo/locobot_sim/locobot_ws/src/ThirdParty/sophus -DCMAKE_INSTALL_PREFIX=/home/wellyowo/locobot_sim/locobot_ws/src/install/sophus
+Invoking command in '/home/wellyowo/locobot_sim/locobot_ws/src/build/sophus': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wellyowo/locobot_sim/locobot_ws/src/build/sophus -- -j16 -l16

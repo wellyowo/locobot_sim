@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/wellyowo/locobot_sim/locobot_ws/build/kobuki_core/src/demos/demo_custom_logging" "TARGETS" "kobuki_core_demo_custom_logging" "RUNTIME_DESTINATION" "lib/kobuki_core")

@@ -1,0 +1,23 @@
+[submodule "locobot_ws/src/interbotix_ros_rovers"]
+	path = locobot_ws/src/interbotix_ros_rovers
+	url = git@github.com:wellyowo/interbotix_ros_rovers.git
+	branch = humble
+[submodule "locobot_ws/src/kobuki"]
+	path = locobot_ws/src/kobuki
+	url = https://github.com/IntelligentRoboticsLabs/kobuki.git
+	branch = humble
+[submodule "locobot_ws/src/interbotix_ros_core"]
+	path = locobot_ws/src/interbotix_ros_core
+	url = https://github.com/Interbotix/interbotix_ros_core.git
+	branch = humble
+[submodule "locobot_ws/src/interbotix_ros_toolboxes"]
+	path = locobot_ws/src/interbotix_ros_toolboxes
+	url = https://github.com/Interbotix/interbotix_ros_toolboxes.git
+	branch = humble
+[submodule "locobot_ws/src/moveit_visual_tools"]
+	path = locobot_ws/src/moveit_visual_tools
+	url = https://github.com/ros-planning/moveit_visual_tools.git
+	branch = ros2
+[submodule "locobot_ws/src/ThirdParty/aws-robomaker-bookstore-world"]
+	path = locobot_ws/src/ThirdParty/aws-robomaker-bookstore-world
+	url = https://github.com/aws-robotics/aws-robomaker-bookstore-world.git

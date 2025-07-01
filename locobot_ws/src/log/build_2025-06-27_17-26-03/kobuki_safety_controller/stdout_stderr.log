@@ -1,0 +1,32 @@
+[35m[1mConsolidate compiler generated dependencies of target kobuki_safety_controller[0m
+[35m[1mConsolidate compiler generated dependencies of target kobuki_safety_controller_node[0m
+[ 50%] Built target kobuki_safety_controller
+[100%] Built target kobuki_safety_controller_node
+-- Install configuration: ""
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_safety_controller/lib/kobuki_safety_controller/kobuki_safety_controller_node
+-- Set runtime path of "/home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_safety_controller/lib/kobuki_safety_controller/kobuki_safety_controller_node" to ""
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_safety_controller/lib/libkobuki_safety_controller.so
+-- Set runtime path of "/home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_safety_controller/lib/libkobuki_safety_controller.so" to ""
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_safety_controller/include/kobuki_safety_controller
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_safety_controller/include/kobuki_safety_controller/safety_controller.hpp
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_safety_controller/share/kobuki_safety_controller/config
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_safety_controller/share/kobuki_safety_controller/config/safety_controller_params.yaml
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_safety_controller/share/kobuki_safety_controller/launch
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_safety_controller/share/kobuki_safety_controller/launch/safety_controller-composed-launch.py
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_safety_controller/share/kobuki_safety_controller/launch/safety_controller-launch.py
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_safety_controller/share/ament_index/resource_index/package_run_dependencies/kobuki_safety_controller
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_safety_controller/share/ament_index/resource_index/parent_prefix_path/kobuki_safety_controller
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_safety_controller/share/kobuki_safety_controller/environment/ament_prefix_path.sh
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_safety_controller/share/kobuki_safety_controller/environment/ament_prefix_path.dsv
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_safety_controller/share/kobuki_safety_controller/environment/path.sh
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_safety_controller/share/kobuki_safety_controller/environment/path.dsv
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_safety_controller/share/kobuki_safety_controller/local_setup.bash
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_safety_controller/share/kobuki_safety_controller/local_setup.sh
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_safety_controller/share/kobuki_safety_controller/local_setup.zsh
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_safety_controller/share/kobuki_safety_controller/local_setup.dsv
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_safety_controller/share/kobuki_safety_controller/package.dsv
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_safety_controller/share/ament_index/resource_index/packages/kobuki_safety_controller
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_safety_controller/share/ament_index/resource_index/rclcpp_components/kobuki_safety_controller
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_safety_controller/share/kobuki_safety_controller/cmake/kobuki_safety_controllerConfig.cmake
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_safety_controller/share/kobuki_safety_controller/cmake/kobuki_safety_controllerConfig-version.cmake
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_safety_controller/share/kobuki_safety_controller/package.xml

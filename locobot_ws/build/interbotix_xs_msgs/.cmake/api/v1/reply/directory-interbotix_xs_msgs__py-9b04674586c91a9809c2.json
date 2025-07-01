@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "interbotix_xs_msgs__py",
+		"source" : "/home/wellyowo/locobot_sim/locobot_ws/build/interbotix_xs_msgs/interbotix_xs_msgs__py"
+	}
+}

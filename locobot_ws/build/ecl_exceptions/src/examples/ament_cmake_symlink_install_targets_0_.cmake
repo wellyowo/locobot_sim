@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/wellyowo/locobot_sim/locobot_ws/build/ecl_exceptions/src/examples/demo_exceptions" "TARGETS" "ecl_demo_exceptions" "RUNTIME_DESTINATION" "lib/ecl_exceptions")

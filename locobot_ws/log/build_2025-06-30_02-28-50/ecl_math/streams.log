@@ -1,0 +1,52 @@
+[0.224s] Invoking command in '/home/wellyowo/locobot_sim/locobot_ws/build/ecl_math': AMENT_PREFIX_PATH=/home/wellyowo/locobot_sim/locobot_ws/install/ecl_type_traits:/home/wellyowo/locobot_sim/locobot_ws/install/ecl_mpl:/home/wellyowo/locobot_sim/locobot_ws/install/ecl_config:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wellyowo/locobot_sim/locobot_ws/install/ecl_type_traits:/home/wellyowo/locobot_sim/locobot_ws/install/ecl_mpl:/home/wellyowo/locobot_sim/locobot_ws/install/ecl_config:/opt/ros/humble LD_LIBRARY_PATH=/home/wellyowo/locobot_sim/locobot_ws/install/ecl_type_traits/lib:${LD_LIBRARY_PATH} PATH=/home/wellyowo/locobot_sim/locobot_ws/install/ecl_type_traits/bin:/home/wellyowo/locobot_sim/locobot_ws/install/ecl_config/bin:${PATH} /usr/bin/cmake /home/wellyowo/locobot_sim/locobot_ws/src/ThirdParty/ecl/ecl_core/ecl_math -DBUILD_TESTING=OFF -DCMAKE_PREFIX_PATH= -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/wellyowo/locobot_sim/locobot_ws/install/ecl_math
+[6.368s] -- The C compiler identification is GNU 11.4.0
+[6.368s] -- The CXX compiler identification is GNU 11.4.0
+[6.368s] -- Detecting C compiler ABI info
+[6.368s] -- Detecting C compiler ABI info - done
+[6.368s] -- Check for working C compiler: /usr/bin/cc - skipped
+[6.368s] -- Detecting C compile features
+[6.369s] -- Detecting C compile features - done
+[6.369s] -- Detecting CXX compiler ABI info
+[6.369s] -- Detecting CXX compiler ABI info - done
+[6.369s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[6.369s] -- Detecting CXX compile features
+[6.369s] -- Detecting CXX compile features - done
+[6.369s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[6.369s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[6.369s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[6.369s] -- Found ecl_build: 1.0.3 (/opt/ros/humble/share/ecl_build/cmake)
+[6.369s] -- Found ecl_type_traits: 1.2.1 (/home/wellyowo/locobot_sim/locobot_ws/install/ecl_type_traits/share/ecl_type_traits/cmake)
+[6.369s] -- Configuring done
+[6.369s] -- Generating done
+[6.370s] -- Build files have been written to: /home/wellyowo/locobot_sim/locobot_ws/build/ecl_math
+[6.447s] Invoked command in '/home/wellyowo/locobot_sim/locobot_ws/build/ecl_math' returned '0': AMENT_PREFIX_PATH=/home/wellyowo/locobot_sim/locobot_ws/install/ecl_type_traits:/home/wellyowo/locobot_sim/locobot_ws/install/ecl_mpl:/home/wellyowo/locobot_sim/locobot_ws/install/ecl_config:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wellyowo/locobot_sim/locobot_ws/install/ecl_type_traits:/home/wellyowo/locobot_sim/locobot_ws/install/ecl_mpl:/home/wellyowo/locobot_sim/locobot_ws/install/ecl_config:/opt/ros/humble LD_LIBRARY_PATH=/home/wellyowo/locobot_sim/locobot_ws/install/ecl_type_traits/lib:${LD_LIBRARY_PATH} PATH=/home/wellyowo/locobot_sim/locobot_ws/install/ecl_type_traits/bin:/home/wellyowo/locobot_sim/locobot_ws/install/ecl_config/bin:${PATH} /usr/bin/cmake /home/wellyowo/locobot_sim/locobot_ws/src/ThirdParty/ecl/ecl_core/ecl_math -DBUILD_TESTING=OFF -DCMAKE_PREFIX_PATH= -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/wellyowo/locobot_sim/locobot_ws/install/ecl_math
+[6.448s] Invoking command in '/home/wellyowo/locobot_sim/locobot_ws/build/ecl_math': AMENT_PREFIX_PATH=/home/wellyowo/locobot_sim/locobot_ws/install/ecl_type_traits:/home/wellyowo/locobot_sim/locobot_ws/install/ecl_mpl:/home/wellyowo/locobot_sim/locobot_ws/install/ecl_config:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wellyowo/locobot_sim/locobot_ws/install/ecl_type_traits:/home/wellyowo/locobot_sim/locobot_ws/install/ecl_mpl:/home/wellyowo/locobot_sim/locobot_ws/install/ecl_config:/opt/ros/humble LD_LIBRARY_PATH=/home/wellyowo/locobot_sim/locobot_ws/install/ecl_type_traits/lib:${LD_LIBRARY_PATH} PATH=/home/wellyowo/locobot_sim/locobot_ws/install/ecl_type_traits/bin:/home/wellyowo/locobot_sim/locobot_ws/install/ecl_config/bin:${PATH} /usr/bin/cmake --build /home/wellyowo/locobot_sim/locobot_ws/build/ecl_math -- -j16 -l16
+[9.568s] Invoked command in '/home/wellyowo/locobot_sim/locobot_ws/build/ecl_math' returned '0': AMENT_PREFIX_PATH=/home/wellyowo/locobot_sim/locobot_ws/install/ecl_type_traits:/home/wellyowo/locobot_sim/locobot_ws/install/ecl_mpl:/home/wellyowo/locobot_sim/locobot_ws/install/ecl_config:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wellyowo/locobot_sim/locobot_ws/install/ecl_type_traits:/home/wellyowo/locobot_sim/locobot_ws/install/ecl_mpl:/home/wellyowo/locobot_sim/locobot_ws/install/ecl_config:/opt/ros/humble LD_LIBRARY_PATH=/home/wellyowo/locobot_sim/locobot_ws/install/ecl_type_traits/lib:${LD_LIBRARY_PATH} PATH=/home/wellyowo/locobot_sim/locobot_ws/install/ecl_type_traits/bin:/home/wellyowo/locobot_sim/locobot_ws/install/ecl_config/bin:${PATH} /usr/bin/cmake --build /home/wellyowo/locobot_sim/locobot_ws/build/ecl_math -- -j16 -l16
+[9.573s] Invoking command in '/home/wellyowo/locobot_sim/locobot_ws/build/ecl_math': AMENT_PREFIX_PATH=/home/wellyowo/locobot_sim/locobot_ws/install/ecl_type_traits:/home/wellyowo/locobot_sim/locobot_ws/install/ecl_mpl:/home/wellyowo/locobot_sim/locobot_ws/install/ecl_config:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wellyowo/locobot_sim/locobot_ws/install/ecl_type_traits:/home/wellyowo/locobot_sim/locobot_ws/install/ecl_mpl:/home/wellyowo/locobot_sim/locobot_ws/install/ecl_config:/opt/ros/humble LD_LIBRARY_PATH=/home/wellyowo/locobot_sim/locobot_ws/install/ecl_type_traits/lib:${LD_LIBRARY_PATH} PATH=/home/wellyowo/locobot_sim/locobot_ws/install/ecl_type_traits/bin:/home/wellyowo/locobot_sim/locobot_ws/install/ecl_config/bin:${PATH} /usr/bin/cmake --install /home/wellyowo/locobot_sim/locobot_ws/build/ecl_math
+[10.097s] -- Install configuration: ""
+[10.098s] -- Execute custom install script
+[10.101s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_math/include/ecl/math/constants.hpp
+[10.101s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_math/include/ecl/math/fuzzy.hpp
+[10.101s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_math/include/ecl/math/norms.hpp
+[10.102s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_math/include/ecl/math/simple.hpp
+[10.102s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_math/include/ecl/math.hpp
+[10.102s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_math/share/ament_index/resource_index/package_run_dependencies/ecl_math
+[10.102s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_math/share/ament_index/resource_index/parent_prefix_path/ecl_math
+[10.112s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_math/share/ecl_math/environment/ament_prefix_path.sh
+[10.112s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_math/share/ecl_math/environment/ament_prefix_path.dsv
+[10.112s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_math/share/ecl_math/environment/path.sh
+[10.112s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_math/share/ecl_math/environment/path.dsv
+[10.112s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_math/share/ecl_math/local_setup.bash
+[10.113s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_math/share/ecl_math/local_setup.sh
+[10.113s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_math/share/ecl_math/local_setup.zsh
+[10.114s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_math/share/ecl_math/local_setup.dsv
+[10.115s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_math/share/ecl_math/package.dsv
+[10.116s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_math/share/ament_index/resource_index/packages/ecl_math
+[10.138s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_math/share/ecl_math/cmake/ament_cmake_export_targets-extras.cmake
+[10.162s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_math/share/ecl_math/cmake/ament_cmake_export_include_directories-extras.cmake
+[10.199s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_math/share/ecl_math/cmake/ament_cmake_export_dependencies-extras.cmake
+[10.247s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_math/share/ecl_math/cmake/ecl_mathConfig.cmake
+[10.300s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_math/share/ecl_math/cmake/ecl_mathConfig-version.cmake
+[10.328s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_math/share/ecl_math/package.xml
+[10.353s] -- Installing: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_math/share/ecl_math/cmake/ecl_mathExport.cmake
+[10.382s] Invoked command in '/home/wellyowo/locobot_sim/locobot_ws/build/ecl_math' returned '0': AMENT_PREFIX_PATH=/home/wellyowo/locobot_sim/locobot_ws/install/ecl_type_traits:/home/wellyowo/locobot_sim/locobot_ws/install/ecl_mpl:/home/wellyowo/locobot_sim/locobot_ws/install/ecl_config:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wellyowo/locobot_sim/locobot_ws/install/ecl_type_traits:/home/wellyowo/locobot_sim/locobot_ws/install/ecl_mpl:/home/wellyowo/locobot_sim/locobot_ws/install/ecl_config:/opt/ros/humble LD_LIBRARY_PATH=/home/wellyowo/locobot_sim/locobot_ws/install/ecl_type_traits/lib:${LD_LIBRARY_PATH} PATH=/home/wellyowo/locobot_sim/locobot_ws/install/ecl_type_traits/bin:/home/wellyowo/locobot_sim/locobot_ws/install/ecl_config/bin:${PATH} /usr/bin/cmake --install /home/wellyowo/locobot_sim/locobot_ws/build/ecl_math

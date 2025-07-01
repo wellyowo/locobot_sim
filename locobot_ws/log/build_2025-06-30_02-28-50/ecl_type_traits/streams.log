@@ -1,0 +1,66 @@
+[0.053s] Invoking command in '/home/wellyowo/locobot_sim/locobot_ws/build/ecl_type_traits': AMENT_PREFIX_PATH=/home/wellyowo/locobot_sim/locobot_ws/install/ecl_mpl:/home/wellyowo/locobot_sim/locobot_ws/install/ecl_config:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wellyowo/locobot_sim/locobot_ws/install/ecl_mpl:/home/wellyowo/locobot_sim/locobot_ws/install/ecl_config:/opt/ros/humble PATH=/home/wellyowo/locobot_sim/locobot_ws/install/ecl_config/bin:${PATH} /usr/bin/cmake /home/wellyowo/locobot_sim/locobot_ws/src/ThirdParty/ecl/ecl_core/ecl_type_traits -DBUILD_TESTING=OFF -DCMAKE_PREFIX_PATH= -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/wellyowo/locobot_sim/locobot_ws/install/ecl_type_traits
+[28.804s] -- The C compiler identification is GNU 11.4.0
+[28.815s] -- The CXX compiler identification is GNU 11.4.0
+[28.815s] -- Detecting C compiler ABI info
+[28.816s] -- Detecting C compiler ABI info - done
+[28.816s] -- Check for working C compiler: /usr/bin/cc - skipped
+[28.816s] -- Detecting C compile features
+[28.816s] -- Detecting C compile features - done
+[28.816s] -- Detecting CXX compiler ABI info
+[28.816s] -- Detecting CXX compiler ABI info - done
+[28.816s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[28.816s] -- Detecting CXX compile features
+[28.816s] -- Detecting CXX compile features - done
+[28.816s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[28.816s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[28.816s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[28.816s] -- Found ecl_build: 1.0.3 (/opt/ros/humble/share/ecl_build/cmake)
+[28.816s] -- Found ecl_config: 1.2.0 (/home/wellyowo/locobot_sim/locobot_ws/install/ecl_config/share/ecl_config/cmake)
+[28.817s] -- Found ecl_mpl: 1.2.1 (/home/wellyowo/locobot_sim/locobot_ws/install/ecl_mpl/share/ecl_mpl/cmake)
+[28.817s] -- Configuring done
+[28.817s] -- Generating done
+[28.817s] -- Build files have been written to: /home/wellyowo/locobot_sim/locobot_ws/build/ecl_type_traits
+[28.895s] Invoked command in '/home/wellyowo/locobot_sim/locobot_ws/build/ecl_type_traits' returned '0': AMENT_PREFIX_PATH=/home/wellyowo/locobot_sim/locobot_ws/install/ecl_mpl:/home/wellyowo/locobot_sim/locobot_ws/install/ecl_config:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wellyowo/locobot_sim/locobot_ws/install/ecl_mpl:/home/wellyowo/locobot_sim/locobot_ws/install/ecl_config:/opt/ros/humble PATH=/home/wellyowo/locobot_sim/locobot_ws/install/ecl_config/bin:${PATH} /usr/bin/cmake /home/wellyowo/locobot_sim/locobot_ws/src/ThirdParty/ecl/ecl_core/ecl_type_traits -DBUILD_TESTING=OFF -DCMAKE_PREFIX_PATH= -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/wellyowo/locobot_sim/locobot_ws/install/ecl_type_traits
+[28.895s] Invoking command in '/home/wellyowo/locobot_sim/locobot_ws/build/ecl_type_traits': AMENT_PREFIX_PATH=/home/wellyowo/locobot_sim/locobot_ws/install/ecl_mpl:/home/wellyowo/locobot_sim/locobot_ws/install/ecl_config:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wellyowo/locobot_sim/locobot_ws/install/ecl_mpl:/home/wellyowo/locobot_sim/locobot_ws/install/ecl_config:/opt/ros/humble PATH=/home/wellyowo/locobot_sim/locobot_ws/install/ecl_config/bin:${PATH} /usr/bin/cmake --build /home/wellyowo/locobot_sim/locobot_ws/build/ecl_type_traits -- -j16 -l16
+[30.594s] [ 25%] [32mBuilding CXX object src/lib/CMakeFiles/ecl_type_traits.dir/numeric_limits.cpp.o[0m
+[30.595s] [ 50%] [32m[1mLinking CXX shared library libecl_type_traits.so[0m
+[30.595s] [ 50%] Built target ecl_type_traits
+[30.595s] [ 75%] [32mBuilding CXX object src/utils/CMakeFiles/ecl_detect_sizes.dir/detect_sizes.cpp.o[0m
+[30.595s] [100%] [32m[1mLinking CXX executable bin/ecl_detect_sizes[0m
+[30.595s] [100%] Built target ecl_detect_sizes
+[30.625s] Invoked command in '/home/wellyowo/locobot_sim/locobot_ws/build/ecl_type_traits' returned '0': AMENT_PREFIX_PATH=/home/wellyowo/locobot_sim/locobot_ws/install/ecl_mpl:/home/wellyowo/locobot_sim/locobot_ws/install/ecl_config:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wellyowo/locobot_sim/locobot_ws/install/ecl_mpl:/home/wellyowo/locobot_sim/locobot_ws/install/ecl_config:/opt/ros/humble PATH=/home/wellyowo/locobot_sim/locobot_ws/install/ecl_config/bin:${PATH} /usr/bin/cmake --build /home/wellyowo/locobot_sim/locobot_ws/build/ecl_type_traits -- -j16 -l16
+[30.627s] Invoking command in '/home/wellyowo/locobot_sim/locobot_ws/build/ecl_type_traits': AMENT_PREFIX_PATH=/home/wellyowo/locobot_sim/locobot_ws/install/ecl_mpl:/home/wellyowo/locobot_sim/locobot_ws/install/ecl_config:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wellyowo/locobot_sim/locobot_ws/install/ecl_mpl:/home/wellyowo/locobot_sim/locobot_ws/install/ecl_config:/opt/ros/humble PATH=/home/wellyowo/locobot_sim/locobot_ws/install/ecl_config/bin:${PATH} /usr/bin/cmake --install /home/wellyowo/locobot_sim/locobot_ws/build/ecl_type_traits
+[31.523s] -- Install configuration: ""
+[31.523s] -- Execute custom install script
+[31.524s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_type_traits/include/ecl/type_traits/fundamental_types.hpp
+[31.524s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_type_traits/include/ecl/type_traits/macros.hpp
+[31.524s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_type_traits/include/ecl/type_traits/numeric_limits.hpp
+[31.524s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_type_traits/include/ecl/type_traits/traits.hpp
+[31.524s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_type_traits/include/ecl/type_traits.hpp
+[31.525s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_type_traits/bin/ecl_detect_sizes
+[31.528s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_type_traits/share/ecl_type_traits/environment/library_path.sh
+[31.528s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_type_traits/share/ecl_type_traits/environment/library_path.dsv
+[31.528s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_type_traits/share/ament_index/resource_index/package_run_dependencies/ecl_type_traits
+[31.528s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_type_traits/share/ament_index/resource_index/parent_prefix_path/ecl_type_traits
+[31.528s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_type_traits/share/ecl_type_traits/environment/ament_prefix_path.sh
+[31.528s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_type_traits/share/ecl_type_traits/environment/ament_prefix_path.dsv
+[31.528s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_type_traits/share/ecl_type_traits/environment/path.sh
+[31.528s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_type_traits/share/ecl_type_traits/environment/path.dsv
+[31.528s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_type_traits/share/ecl_type_traits/local_setup.bash
+[31.529s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_type_traits/share/ecl_type_traits/local_setup.sh
+[31.529s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_type_traits/share/ecl_type_traits/local_setup.zsh
+[31.529s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_type_traits/share/ecl_type_traits/local_setup.dsv
+[31.529s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_type_traits/share/ecl_type_traits/package.dsv
+[31.529s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_type_traits/share/ament_index/resource_index/packages/ecl_type_traits
+[31.529s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_type_traits/share/ecl_type_traits/cmake/ament_cmake_export_targets-extras.cmake
+[31.529s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_type_traits/share/ecl_type_traits/cmake/ament_cmake_export_include_directories-extras.cmake
+[31.529s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_type_traits/share/ecl_type_traits/cmake/ament_cmake_export_libraries-extras.cmake
+[31.530s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_type_traits/share/ecl_type_traits/cmake/ament_cmake_export_dependencies-extras.cmake
+[31.530s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_type_traits/share/ecl_type_traits/cmake/ecl_type_traitsConfig.cmake
+[31.530s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_type_traits/share/ecl_type_traits/cmake/ecl_type_traitsConfig-version.cmake
+[31.534s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_type_traits/share/ecl_type_traits/package.xml
+[31.534s] -- Installing: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_type_traits/share/ecl_type_traits/cmake/ecl_type_traitsExport.cmake
+[31.535s] -- Installing: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_type_traits/share/ecl_type_traits/cmake/ecl_type_traitsExport-noconfig.cmake
+[31.535s] -- Installing: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_type_traits/lib/libecl_type_traits.so.1.2.1
+[31.535s] -- Installing: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_type_traits/lib/libecl_type_traits.so
+[31.743s] Invoked command in '/home/wellyowo/locobot_sim/locobot_ws/build/ecl_type_traits' returned '0': AMENT_PREFIX_PATH=/home/wellyowo/locobot_sim/locobot_ws/install/ecl_mpl:/home/wellyowo/locobot_sim/locobot_ws/install/ecl_config:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wellyowo/locobot_sim/locobot_ws/install/ecl_mpl:/home/wellyowo/locobot_sim/locobot_ws/install/ecl_config:/opt/ros/humble PATH=/home/wellyowo/locobot_sim/locobot_ws/install/ecl_config/bin:${PATH} /usr/bin/cmake --install /home/wellyowo/locobot_sim/locobot_ws/build/ecl_type_traits

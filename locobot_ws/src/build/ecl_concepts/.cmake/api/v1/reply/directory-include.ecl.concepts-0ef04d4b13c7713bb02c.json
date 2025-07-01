@@ -1,0 +1,48 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"include/ecl/concepts/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 7,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "include/ecl/concepts",
+			"paths" : 
+			[
+				"include/ecl/concepts/blueprints.hpp",
+				"include/ecl/concepts/containers.hpp",
+				"include/ecl/concepts/devices.hpp",
+				"include/ecl/concepts/macros.hpp",
+				"include/ecl/concepts/nullary_function.hpp",
+				"include/ecl/concepts/streams.hpp"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "include/ecl/concepts",
+		"source" : "include/ecl/concepts"
+	}
+}

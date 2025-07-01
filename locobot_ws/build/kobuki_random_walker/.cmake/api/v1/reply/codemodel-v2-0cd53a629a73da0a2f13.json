@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-0fa89396e8492630d8e7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "kobuki_random_walker",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "kobuki_random_walker::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-kobuki_random_walker-d73ffc1d9e1940737dd9.json",
+					"name" : "kobuki_random_walker",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "kobuki_random_walker_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-kobuki_random_walker_node-ff8944d582e16f6dca77.json",
+					"name" : "kobuki_random_walker_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "kobuki_random_walker_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-kobuki_random_walker_uninstall-d8e96d36e1be850d4144.json",
+					"name" : "kobuki_random_walker_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-07d9f70d2d70443b46d7.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/wellyowo/locobot_sim/locobot_ws/build/kobuki_random_walker",
+		"source" : "/home/wellyowo/locobot_sim/locobot_ws/src/ThirdParty/kobuki_ros/kobuki_random_walker"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

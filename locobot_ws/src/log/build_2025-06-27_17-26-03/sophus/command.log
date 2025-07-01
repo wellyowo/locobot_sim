@@ -1,0 +1,1 @@
+Invoking command in '/home/wellyowo/locobot_sim/locobot_ws/src/build/sophus': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wellyowo/locobot_sim/locobot_ws/src/build/sophus -- -j16 -l16

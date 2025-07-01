@@ -1,0 +1,1 @@
+/home/wellyowo/locobot_sim/locobot_ws/build/interbotix_perception_msgs/rosidl_cmake/rosidl_cmake-extras.cmake

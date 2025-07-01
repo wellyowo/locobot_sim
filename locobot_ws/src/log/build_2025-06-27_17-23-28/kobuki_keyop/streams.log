@@ -1,0 +1,74 @@
+[0.191s] Invoking command in '/home/wellyowo/locobot_sim/locobot_ws/src/build/kobuki_keyop': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/wellyowo/locobot_sim/locobot_ws/src/ThirdParty/kobuki_ros/kobuki_keyop -DCMAKE_INSTALL_PREFIX=/home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_keyop
+[1.751s] -- The C compiler identification is GNU 11.4.0
+[1.751s] -- The CXX compiler identification is GNU 11.4.0
+[1.751s] -- Detecting C compiler ABI info
+[1.751s] -- Detecting C compiler ABI info - done
+[1.751s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.751s] -- Detecting C compile features
+[1.751s] -- Detecting C compile features - done
+[1.751s] -- Detecting CXX compiler ABI info
+[1.752s] -- Detecting CXX compiler ABI info - done
+[1.752s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.752s] -- Detecting CXX compile features
+[1.752s] -- Detecting CXX compile features - done
+[1.752s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.752s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.809s] -- Found ecl_build: 1.0.3 (/opt/ros/humble/share/ecl_build/cmake)
+[1.857s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[2.017s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.037s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.083s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.189s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.266s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.368s] -- Found kobuki_ros_interfaces: 1.0.0 (/opt/ros/humble/share/kobuki_ros_interfaces/cmake)
+[2.526s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[2.795s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.830s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.125s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.256s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.407s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.448s] -- Looking for pthread.h
+[3.627s] -- Looking for pthread.h - found
+[3.627s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.842s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.844s] -- Found Threads: TRUE  
+[3.999s] -- Found rclcpp_components: 16.0.12 (/opt/ros/humble/share/rclcpp_components/cmake)
+[4.293s] -- Configuring done
+[4.345s] -- Generating done
+[4.359s] -- Build files have been written to: /home/wellyowo/locobot_sim/locobot_ws/src/build/kobuki_keyop
+[4.426s] Invoked command in '/home/wellyowo/locobot_sim/locobot_ws/src/build/kobuki_keyop' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/wellyowo/locobot_sim/locobot_ws/src/ThirdParty/kobuki_ros/kobuki_keyop -DCMAKE_INSTALL_PREFIX=/home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_keyop
+[4.433s] Invoking command in '/home/wellyowo/locobot_sim/locobot_ws/src/build/kobuki_keyop': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wellyowo/locobot_sim/locobot_ws/src/build/kobuki_keyop -- -j16 -l16
+[4.635s] [ 25%] [32mBuilding CXX object CMakeFiles/kobuki_keyop.dir/src/keyop.cpp.o[0m
+[4.635s] [ 50%] [32mBuilding CXX object CMakeFiles/kobuki_keyop_node.dir/rclcpp_components/node_main_kobuki_keyop_node.cpp.o[0m
+[17.062s] [ 75%] [32m[1mLinking CXX executable kobuki_keyop_node[0m
+[19.836s] [ 75%] Built target kobuki_keyop_node
+[61.453s] [100%] [32m[1mLinking CXX shared library libkobuki_keyop.so[0m
+[62.666s] [100%] Built target kobuki_keyop
+[62.703s] Invoked command in '/home/wellyowo/locobot_sim/locobot_ws/src/build/kobuki_keyop' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wellyowo/locobot_sim/locobot_ws/src/build/kobuki_keyop -- -j16 -l16
+[62.709s] Invoking command in '/home/wellyowo/locobot_sim/locobot_ws/src/build/kobuki_keyop': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/wellyowo/locobot_sim/locobot_ws/src/build/kobuki_keyop
+[66.032s] -- Install configuration: ""
+[66.032s] -- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_keyop/lib/kobuki_keyop/kobuki_keyop_node
+[66.032s] -- Set runtime path of "/home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_keyop/lib/kobuki_keyop/kobuki_keyop_node" to ""
+[66.033s] -- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_keyop/lib/libkobuki_keyop.so
+[66.033s] -- Set runtime path of "/home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_keyop/lib/libkobuki_keyop.so" to ""
+[66.033s] -- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_keyop/include/kobuki_keyop
+[66.033s] -- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_keyop/include/kobuki_keyop/keyop.hpp
+[66.033s] -- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_keyop/share/kobuki_keyop/config
+[66.033s] -- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_keyop/share/kobuki_keyop/config/keyop_params.yaml
+[66.033s] -- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_keyop/share/ament_index/resource_index/package_run_dependencies/kobuki_keyop
+[66.033s] -- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_keyop/share/ament_index/resource_index/parent_prefix_path/kobuki_keyop
+[66.033s] -- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_keyop/share/kobuki_keyop/environment/ament_prefix_path.sh
+[66.033s] -- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_keyop/share/kobuki_keyop/environment/ament_prefix_path.dsv
+[66.033s] -- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_keyop/share/kobuki_keyop/environment/path.sh
+[66.033s] -- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_keyop/share/kobuki_keyop/environment/path.dsv
+[66.033s] -- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_keyop/share/kobuki_keyop/local_setup.bash
+[66.033s] -- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_keyop/share/kobuki_keyop/local_setup.sh
+[66.033s] -- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_keyop/share/kobuki_keyop/local_setup.zsh
+[66.033s] -- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_keyop/share/kobuki_keyop/local_setup.dsv
+[66.033s] -- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_keyop/share/kobuki_keyop/package.dsv
+[66.033s] -- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_keyop/share/ament_index/resource_index/packages/kobuki_keyop
+[66.034s] -- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_keyop/share/ament_index/resource_index/rclcpp_components/kobuki_keyop
+[66.034s] -- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_keyop/share/kobuki_keyop/cmake/kobuki_keyopConfig.cmake
+[66.034s] -- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_keyop/share/kobuki_keyop/cmake/kobuki_keyopConfig-version.cmake
+[66.034s] -- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_keyop/share/kobuki_keyop/package.xml
+[66.321s] Invoked command in '/home/wellyowo/locobot_sim/locobot_ws/src/build/kobuki_keyop' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/wellyowo/locobot_sim/locobot_ws/src/build/kobuki_keyop

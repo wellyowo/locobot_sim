@@ -1,0 +1,89 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ecl_build: 1.0.3 (/opt/ros/humble/share/ecl_build/cmake)
+-- Found ecl_config: 1.2.0 (/home/wellyowo/locobot_sim/locobot_ws/install/ecl_config/share/ecl_config/cmake)
+-- Found ecl_errors: 1.2.0 (/home/wellyowo/locobot_sim/locobot_ws/install/ecl_errors/share/ecl_errors/cmake)
+-- Found ecl_concepts: 1.2.1 (/home/wellyowo/locobot_sim/locobot_ws/install/ecl_concepts/share/ecl_concepts/cmake)
+-- Found ecl_exceptions: 1.2.1 (/home/wellyowo/locobot_sim/locobot_ws/install/ecl_exceptions/share/ecl_exceptions/cmake)
+-- Found ecl_time: 1.2.1 (/home/wellyowo/locobot_sim/locobot_ws/install/ecl_time/share/ecl_time/cmake)
+-- Found ecl_utilities: 1.2.1 (/home/wellyowo/locobot_sim/locobot_ws/install/ecl_utilities/share/ecl_utilities/cmake)
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/wellyowo/locobot_sim/locobot_ws/build/ecl_threads
+[  9%] [32mBuilding CXX object src/lib/CMakeFiles/ecl_threads.dir/mutex_pos.cpp.o[0m
+[ 18%] [32mBuilding CXX object src/lib/CMakeFiles/ecl_threads.dir/thread_win.cpp.o[0m
+[ 27%] [32mBuilding CXX object src/lib/CMakeFiles/ecl_threads.dir/thread_pos.cpp.o[0m
+[ 36%] [32mBuilding CXX object src/lib/CMakeFiles/ecl_threads.dir/priority_win.cpp.o[0m
+[ 45%] [32mBuilding CXX object src/lib/CMakeFiles/ecl_threads.dir/priority_pos.cpp.o[0m
+[ 54%] [32mBuilding CXX object src/lib/CMakeFiles/ecl_threads.dir/mutex_w32.cpp.o[0m
+[ 63%] [32m[1mLinking CXX shared library libecl_threads.so[0m
+[ 63%] Built target ecl_threads
+[ 72%] [32mBuilding CXX object src/examples/CMakeFiles/ecl_demo_thread.dir/thread.cpp.o[0m
+[ 81%] [32m[1mLinking CXX executable demo_thread[0m
+[ 81%] Built target ecl_demo_thread
+[ 90%] [32mBuilding CXX object src/examples/CMakeFiles/ecl_demo_mutex.dir/mutex.cpp.o[0m
+[100%] [32m[1mLinking CXX executable demo_mutex[0m
+[100%] Built target ecl_demo_mutex
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_threads/include/ecl/threads/macros.hpp
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_threads/include/ecl/threads/mutex.hpp
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_threads/include/ecl/threads/mutex_pos.hpp
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_threads/include/ecl/threads/mutex_w32.hpp
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_threads/include/ecl/threads/priority.hpp
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_threads/include/ecl/threads/priority_common.hpp
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_threads/include/ecl/threads/priority_pos.hpp
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_threads/include/ecl/threads/priority_win.hpp
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_threads/include/ecl/threads/thread.hpp
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_threads/include/ecl/threads/thread_exceptions_pos.hpp
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_threads/include/ecl/threads/thread_pos.hpp
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_threads/include/ecl/threads/thread_win.hpp
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_threads/include/ecl/threads/threadable.hpp
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_threads/include/ecl/threads.hpp
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_threads/lib/ecl_threads/demo_thread
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_threads/lib/ecl_threads/demo_mutex
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_threads/share/ecl_threads/environment/library_path.sh
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_threads/share/ecl_threads/environment/library_path.dsv
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_threads/share/ament_index/resource_index/package_run_dependencies/ecl_threads
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_threads/share/ament_index/resource_index/parent_prefix_path/ecl_threads
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_threads/share/ecl_threads/environment/ament_prefix_path.sh
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_threads/share/ecl_threads/environment/ament_prefix_path.dsv
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_threads/share/ecl_threads/environment/path.sh
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_threads/share/ecl_threads/environment/path.dsv
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_threads/share/ecl_threads/local_setup.bash
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_threads/share/ecl_threads/local_setup.sh
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_threads/share/ecl_threads/local_setup.zsh
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_threads/share/ecl_threads/local_setup.dsv
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_threads/share/ecl_threads/package.dsv
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_threads/share/ament_index/resource_index/packages/ecl_threads
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_threads/share/ecl_threads/cmake/ecl_threads-extras.cmake
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_threads/share/ecl_threads/cmake/ament_cmake_export_targets-extras.cmake
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_threads/share/ecl_threads/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_threads/share/ecl_threads/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_threads/share/ecl_threads/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_threads/share/ecl_threads/cmake/ecl_threadsConfig.cmake
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_threads/share/ecl_threads/cmake/ecl_threadsConfig-version.cmake
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_threads/share/ecl_threads/package.xml
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_threads/share/ecl_threads/cmake/ecl_threadsExport.cmake
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_threads/share/ecl_threads/cmake/ecl_threadsExport-noconfig.cmake
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_threads/lib/libecl_threads.so.1.2.1
+-- Set runtime path of "/home/wellyowo/locobot_sim/locobot_ws/install/ecl_threads/lib/libecl_threads.so.1.2.1" to ""
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_threads/lib/libecl_threads.so

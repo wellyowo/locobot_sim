@@ -1,0 +1,1 @@
+/home/wellyowo/locobot_sim/locobot_ws/src/ThirdParty/rplidar_ros/launch/view_rplidar_a3_launch.py

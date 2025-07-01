@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/wellyowo/locobot_sim/locobot_ws/build/ecl_streams/src/examples/demo_console_streams" "TARGETS" "ecl_time_example_console_streams" "RUNTIME_DESTINATION" "lib/ecl_streams")

@@ -1,0 +1,24 @@
+/home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xs_rviz/share/interbotix_xs_rviz//plugin_description.xml
+/home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xs_rviz/include//interbotix_xs_rviz/interbotix_control_panel.hpp
+/home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xs_rviz/include//interbotix_xs_rviz/xs_register_descriptions.hpp
+/home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xs_rviz/share/interbotix_xs_rviz//icons/classes/Interbotix Control Panel.png
+/home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xs_rviz/share/interbotix_xs_rviz/environment/library_path.sh
+/home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xs_rviz/share/interbotix_xs_rviz/environment/library_path.dsv
+/home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xs_rviz/share/ament_index/resource_index/package_run_dependencies/interbotix_xs_rviz
+/home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xs_rviz/share/ament_index/resource_index/parent_prefix_path/interbotix_xs_rviz
+/home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xs_rviz/share/interbotix_xs_rviz/environment/ament_prefix_path.sh
+/home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xs_rviz/share/interbotix_xs_rviz/environment/ament_prefix_path.dsv
+/home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xs_rviz/share/interbotix_xs_rviz/environment/path.sh
+/home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xs_rviz/share/interbotix_xs_rviz/environment/path.dsv
+/home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xs_rviz/share/interbotix_xs_rviz/local_setup.bash
+/home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xs_rviz/share/interbotix_xs_rviz/local_setup.sh
+/home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xs_rviz/share/interbotix_xs_rviz/local_setup.zsh
+/home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xs_rviz/share/interbotix_xs_rviz/local_setup.dsv
+/home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xs_rviz/share/interbotix_xs_rviz/package.dsv
+/home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xs_rviz/share/ament_index/resource_index/packages/interbotix_xs_rviz
+/home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xs_rviz/share/ament_index/resource_index/rviz_common__pluginlib__plugin/interbotix_xs_rviz
+/home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xs_rviz/share/interbotix_xs_rviz/cmake/ament_cmake_export_targets-extras.cmake
+/home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xs_rviz/share/interbotix_xs_rviz/cmake/ament_cmake_export_dependencies-extras.cmake
+/home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xs_rviz/share/interbotix_xs_rviz/cmake/interbotix_xs_rvizConfig.cmake
+/home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xs_rviz/share/interbotix_xs_rviz/cmake/interbotix_xs_rvizConfig-version.cmake
+/home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xs_rviz/share/interbotix_xs_rviz/package.xml

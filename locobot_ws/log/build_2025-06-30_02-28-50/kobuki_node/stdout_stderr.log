@@ -1,0 +1,98 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found angles: 1.15.0 (/opt/ros/humble/share/angles/cmake)
+-- Found diagnostic_msgs: 4.9.0 (/opt/ros/humble/share/diagnostic_msgs/cmake)
+-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found diagnostic_updater: 4.0.6 (/opt/ros/humble/share/diagnostic_updater/cmake)
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found ecl_build: 1.0.3 (/opt/ros/humble/share/ecl_build/cmake)
+-- Found ecl_errors: 1.2.0 (/home/wellyowo/locobot_sim/locobot_ws/install/ecl_errors/share/ecl_errors/cmake)
+-- Found ecl_exceptions: 1.2.1 (/home/wellyowo/locobot_sim/locobot_ws/install/ecl_exceptions/share/ecl_exceptions/cmake)
+-- Found ecl_geometry: 1.2.1 (/home/wellyowo/locobot_sim/locobot_ws/install/ecl_geometry/share/ecl_geometry/cmake)
+-- Found ecl_sigslots: 1.2.1 (/home/wellyowo/locobot_sim/locobot_ws/install/ecl_sigslots/share/ecl_sigslots/cmake)
+[33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (Threads)
+  does not match the name of the calling package (ecl_threads).  This can
+  lead to problems in calling code that expects `find_package` result
+  variables (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/share/cmake-3.22/Modules/FindThreads.cmake:238 (FIND_PACKAGE_HANDLE_STANDARD_ARGS)
+  /opt/ros/humble/share/ecl_build/cmake/ecl_platform_detection.cmake:225 (include)
+  /home/wellyowo/locobot_sim/locobot_ws/install/ecl_threads/share/ecl_threads/cmake/ecl_threads-extras.cmake:4 (ecl_detect_threads)
+  /home/wellyowo/locobot_sim/locobot_ws/install/ecl_threads/share/ecl_threads/cmake/ecl_threadsConfig.cmake:41 (include)
+  /home/wellyowo/locobot_sim/locobot_ws/install/ecl_sigslots/share/ecl_sigslots/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /home/wellyowo/locobot_sim/locobot_ws/install/ecl_sigslots/share/ecl_sigslots/cmake/ecl_sigslotsConfig.cmake:41 (include)
+  CMakeLists.txt:13 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+-- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+-- Found kobuki_core: 1.3.1 (/home/wellyowo/locobot_sim/locobot_ws/install/kobuki_core/share/kobuki_core/cmake)
+-- Found kobuki_ros_interfaces: 1.0.0 (/opt/ros/humble/share/kobuki_ros_interfaces/cmake)
+-- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+-- Found rclcpp_components: 16.0.12 (/opt/ros/humble/share/rclcpp_components/cmake)
+-- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+-- Found tf2: 0.25.13 (/opt/ros/humble/share/tf2/cmake)
+-- Found tf2_ros: 0.25.13 (/opt/ros/humble/share/tf2_ros/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/wellyowo/locobot_sim/locobot_ws/build/kobuki_node
+[ 33%] [32mBuilding CXX object CMakeFiles/kobuki_ros_node.dir/rclcpp_components/node_main_kobuki_ros_node.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/kobuki_ros.dir/src/diagnostics.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/kobuki_ros.dir/src/odometry.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/kobuki_ros.dir/src/kobuki_ros.cpp.o[0m
+[ 83%] [32m[1mLinking CXX executable kobuki_ros_node[0m
+[ 83%] Built target kobuki_ros_node
+[100%] [32m[1mLinking CXX shared library libkobuki_ros.so[0m
+[100%] Built target kobuki_ros
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/kobuki_node/lib/kobuki_node/kobuki_ros_node
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/kobuki_node/lib/libkobuki_ros.so
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/kobuki_node/include/kobuki_node/diagnostics.hpp
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/kobuki_node/include/kobuki_node/kobuki_ros.hpp
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/kobuki_node/include/kobuki_node/odometry.hpp
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/kobuki_node/share/kobuki_node/config/kobuki_node_params.yaml
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/kobuki_node/share/kobuki_node/launch/kobuki_node-composed-launch.py
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/kobuki_node/share/kobuki_node/launch/kobuki_node-launch.py
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/kobuki_node/share/ament_index/resource_index/package_run_dependencies/kobuki_node
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/kobuki_node/share/ament_index/resource_index/parent_prefix_path/kobuki_node
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/kobuki_node/share/kobuki_node/environment/ament_prefix_path.sh
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/kobuki_node/share/kobuki_node/environment/ament_prefix_path.dsv
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/kobuki_node/share/kobuki_node/environment/path.sh
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/kobuki_node/share/kobuki_node/environment/path.dsv
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/kobuki_node/share/kobuki_node/local_setup.bash
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/kobuki_node/share/kobuki_node/local_setup.sh
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/kobuki_node/share/kobuki_node/local_setup.zsh
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/kobuki_node/share/kobuki_node/local_setup.dsv
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/kobuki_node/share/kobuki_node/package.dsv
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/kobuki_node/share/ament_index/resource_index/packages/kobuki_node
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/kobuki_node/share/ament_index/resource_index/rclcpp_components/kobuki_node
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/kobuki_node/share/kobuki_node/cmake/kobuki_nodeConfig.cmake
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/kobuki_node/share/kobuki_node/cmake/kobuki_nodeConfig-version.cmake
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/kobuki_node/share/kobuki_node/package.xml

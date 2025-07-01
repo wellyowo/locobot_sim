@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-93a2a750275f80141d24.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "interbotix_perception_pipelines",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "interbotix_perception_pipelines_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-interbotix_perception_pipelines_uninstall-4936443017b8d6c5e7fe.json",
+					"name" : "interbotix_perception_pipelines_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pointcloud_pipeline::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pointcloud_pipeline-b6ddc4ada54f7fe83758.json",
+					"name" : "pointcloud_pipeline",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-1e4ee4c5f5dbbe6854bb.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/wellyowo/locobot_sim/locobot_ws/build/interbotix_perception_pipelines",
+		"source" : "/home/wellyowo/locobot_sim/locobot_ws/src/interbotix_ros_toolboxes/interbotix_perception_toolbox/interbotix_perception_pipelines"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

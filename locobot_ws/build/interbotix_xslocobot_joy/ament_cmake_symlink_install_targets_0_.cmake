@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/wellyowo/locobot_sim/locobot_ws/build/interbotix_xslocobot_joy/xslocobot_joy" "TARGETS" "xslocobot_joy" "DESTINATION" "lib/interbotix_xslocobot_joy")

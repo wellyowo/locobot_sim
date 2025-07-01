@@ -1,0 +1,45 @@
+[35m[1mConsolidate compiler generated dependencies of target ecl_detect_endian[0m
+[35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[35m[1mConsolidate compiler generated dependencies of target ecl_detect_posix[0m
+[35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[ 12%] Built target gtest
+[ 25%] Built target ecl_detect_posix
+[ 37%] Built target ecl_detect_endian
+[ 50%] Built target gtest_main
+[35m[1mConsolidate compiler generated dependencies of target ecl_test_endianness[0m
+[35m[1mConsolidate compiler generated dependencies of target ecl_test_char_sign[0m
+[35m[1mConsolidate compiler generated dependencies of target ecl_test_macros[0m
+[35m[1mConsolidate compiler generated dependencies of target ecl_test_portable_types[0m
+[ 62%] Built target ecl_test_endianness
+[ 75%] Built target ecl_test_macros
+[ 87%] Built target ecl_test_char_sign
+[100%] Built target ecl_test_portable_types
+-- Install configuration: ""
+-- Up-to-date: /home/wellyowo/locobot_sim/locobot_ws/src/install/ecl_config/share/ament_index/resource_index/package_run_dependencies/ecl_config
+-- Up-to-date: /home/wellyowo/locobot_sim/locobot_ws/src/install/ecl_config/share/ament_index/resource_index/parent_prefix_path/ecl_config
+-- Up-to-date: /home/wellyowo/locobot_sim/locobot_ws/src/install/ecl_config/share/ecl_config/environment/ament_prefix_path.sh
+-- Up-to-date: /home/wellyowo/locobot_sim/locobot_ws/src/install/ecl_config/share/ecl_config/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/wellyowo/locobot_sim/locobot_ws/src/install/ecl_config/share/ecl_config/environment/path.sh
+-- Up-to-date: /home/wellyowo/locobot_sim/locobot_ws/src/install/ecl_config/share/ecl_config/environment/path.dsv
+-- Up-to-date: /home/wellyowo/locobot_sim/locobot_ws/src/install/ecl_config/share/ecl_config/local_setup.bash
+-- Up-to-date: /home/wellyowo/locobot_sim/locobot_ws/src/install/ecl_config/share/ecl_config/local_setup.sh
+-- Up-to-date: /home/wellyowo/locobot_sim/locobot_ws/src/install/ecl_config/share/ecl_config/local_setup.zsh
+-- Up-to-date: /home/wellyowo/locobot_sim/locobot_ws/src/install/ecl_config/share/ecl_config/local_setup.dsv
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/ecl_config/share/ecl_config/package.dsv
+-- Up-to-date: /home/wellyowo/locobot_sim/locobot_ws/src/install/ecl_config/share/ament_index/resource_index/packages/ecl_config
+-- Up-to-date: /home/wellyowo/locobot_sim/locobot_ws/src/install/ecl_config/share/ecl_config/cmake/ecl_configExport.cmake
+-- Up-to-date: /home/wellyowo/locobot_sim/locobot_ws/src/install/ecl_config/share/ecl_config/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date: /home/wellyowo/locobot_sim/locobot_ws/src/install/ecl_config/share/ecl_config/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/wellyowo/locobot_sim/locobot_ws/src/install/ecl_config/share/ecl_config/cmake/ecl_configConfig.cmake
+-- Up-to-date: /home/wellyowo/locobot_sim/locobot_ws/src/install/ecl_config/share/ecl_config/cmake/ecl_configConfig-version.cmake
+-- Up-to-date: /home/wellyowo/locobot_sim/locobot_ws/src/install/ecl_config/share/ecl_config/package.xml
+-- Up-to-date: /home/wellyowo/locobot_sim/locobot_ws/src/install/ecl_config/include/ecl/config.hpp
+-- Up-to-date: /home/wellyowo/locobot_sim/locobot_ws/src/install/ecl_config/include/ecl/config/ecl.hpp
+-- Up-to-date: /home/wellyowo/locobot_sim/locobot_ws/src/install/ecl_config/include/ecl/config/char_sign.hpp
+-- Up-to-date: /home/wellyowo/locobot_sim/locobot_ws/src/install/ecl_config/include/ecl/config/ecl_unknown.hpp
+-- Up-to-date: /home/wellyowo/locobot_sim/locobot_ws/src/install/ecl_config/include/ecl/config/endianness.hpp
+-- Up-to-date: /home/wellyowo/locobot_sim/locobot_ws/src/install/ecl_config/include/ecl/config/macros.hpp
+-- Up-to-date: /home/wellyowo/locobot_sim/locobot_ws/src/install/ecl_config/include/ecl/config/portable_types.hpp
+-- Up-to-date: /home/wellyowo/locobot_sim/locobot_ws/src/install/ecl_config/include/ecl/config/windows.hpp
+-- Up-to-date: /home/wellyowo/locobot_sim/locobot_ws/src/install/ecl_config/bin/ecl_detect_endian
+-- Up-to-date: /home/wellyowo/locobot_sim/locobot_ws/src/install/ecl_config/bin/ecl_detect_posix

@@ -1,0 +1,63 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"INSTALL"
+		],
+		"files" : 
+		[
+			"include/ecl/command_line/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 7,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "include/ecl/command_line",
+			"paths" : 
+			[
+				"include/ecl/command_line/arg.hpp",
+				"include/ecl/command_line/arg_exception.hpp",
+				"include/ecl/command_line/cmd_line.hpp",
+				"include/ecl/command_line/cmd_line_interface.hpp",
+				"include/ecl/command_line/cmd_line_output.hpp",
+				"include/ecl/command_line/constraint.hpp",
+				"include/ecl/command_line/docbook_output.hpp",
+				"include/ecl/command_line/help_visitor.hpp",
+				"include/ecl/command_line/ignore_rest_visitor.hpp",
+				"include/ecl/command_line/multi_arg.hpp",
+				"include/ecl/command_line/multi_switch_arg.hpp",
+				"include/ecl/command_line/optional_unlabeled_tracker.hpp",
+				"include/ecl/command_line/std_output.hpp",
+				"include/ecl/command_line/switch_arg.hpp",
+				"include/ecl/command_line/unlabeled_multi_arg.hpp",
+				"include/ecl/command_line/unlabeled_value_arg.hpp",
+				"include/ecl/command_line/value_arg.hpp",
+				"include/ecl/command_line/values_constraint.hpp",
+				"include/ecl/command_line/version_visitor.hpp",
+				"include/ecl/command_line/visitor.hpp",
+				"include/ecl/command_line/xor_handler.hpp"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "include/ecl/command_line",
+		"source" : "include/ecl/command_line"
+	}
+}

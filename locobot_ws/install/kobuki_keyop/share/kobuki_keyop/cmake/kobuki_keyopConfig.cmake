@@ -1,0 +1,1 @@
+/home/wellyowo/locobot_sim/locobot_ws/build/kobuki_keyop/ament_cmake_core/kobuki_keyopConfig.cmake

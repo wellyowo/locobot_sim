@@ -1,0 +1,1 @@
+/home/wellyowo/locobot_sim/locobot_ws/build/interbotix_tf_tools/ament_cmake_environment_hooks/local_setup.zsh

@@ -1,0 +1,5 @@
+[35m[1mConsolidate compiler generated dependencies of target moveit_visual_tools[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/moveit_visual_tools.dir/src/imarker_robot_state.cpp.o[0m
+gmake[2]: *** [CMakeFiles/moveit_visual_tools.dir/build.make:90: CMakeFiles/moveit_visual_tools.dir/src/imarker_robot_state.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/moveit_visual_tools.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

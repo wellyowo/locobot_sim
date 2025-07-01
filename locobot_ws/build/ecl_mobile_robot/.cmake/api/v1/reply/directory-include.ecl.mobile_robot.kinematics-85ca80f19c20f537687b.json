@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "include/ecl/mobile_robot/kinematics",
+		"source" : "include/ecl/mobile_robot/kinematics"
+	}
+}

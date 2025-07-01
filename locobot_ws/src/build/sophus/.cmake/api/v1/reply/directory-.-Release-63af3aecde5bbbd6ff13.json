@@ -1,0 +1,102 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 118,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 148,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 155,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "share/sophus/cmake",
+			"exportName" : "SophusTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "sophus::@6890427a1f51a3e7e1df",
+					"index" : 0
+				}
+			],
+			"paths" : 
+			[
+				"CMakeFiles/Export/share/sophus/cmake/SophusTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "share/sophus/cmake",
+			"paths" : 
+			[
+				"/home/wellyowo/locobot_sim/locobot_ws/src/build/sophus/SophusConfig.cmake",
+				"/home/wellyowo/locobot_sim/locobot_ws/src/build/sophus/SophusConfigVersion.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "include/sophus",
+			"paths" : 
+			[
+				"sophus/average.hpp",
+				"sophus/common.hpp",
+				"sophus/geometry.hpp",
+				"sophus/interpolate.hpp",
+				"sophus/interpolate_details.hpp",
+				"sophus/num_diff.hpp",
+				"sophus/rotation_matrix.hpp",
+				"sophus/rxso2.hpp",
+				"sophus/rxso3.hpp",
+				"sophus/se2.hpp",
+				"sophus/se3.hpp",
+				"sophus/sim2.hpp",
+				"sophus/sim3.hpp",
+				"sophus/sim_details.hpp",
+				"sophus/so2.hpp",
+				"sophus/so3.hpp",
+				"sophus/types.hpp",
+				"sophus/velocities.hpp",
+				"sophus/formatstring.hpp"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	}
+}

@@ -1,0 +1,1 @@
+/home/wellyowo/locobot_sim/locobot_ws/src/ThirdParty/aws-robomaker-bookstore-world/launch/view_bookstore.launch.py

@@ -1,0 +1,1 @@
+/home/wellyowo/locobot_sim/locobot_ws/src/ThirdParty/gazebo_plugins/gazebo_plugins/include/gazebo_plugins/multi_camera_plugin.hpp

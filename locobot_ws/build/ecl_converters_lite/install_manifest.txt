@@ -1,0 +1,1 @@
+/home/wellyowo/locobot_sim/locobot_ws/install/ecl_converters_lite/share/ecl_converters_lite/cmake/ecl_converters_liteExport.cmake

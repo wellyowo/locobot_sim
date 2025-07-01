@@ -1,0 +1,46 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"include/ecl/type_traits/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 7,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "include/ecl/type_traits",
+			"paths" : 
+			[
+				"include/ecl/type_traits/fundamental_types.hpp",
+				"include/ecl/type_traits/macros.hpp",
+				"include/ecl/type_traits/numeric_limits.hpp",
+				"include/ecl/type_traits/traits.hpp"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "include/ecl/type_traits",
+		"source" : "include/ecl/type_traits"
+	}
+}

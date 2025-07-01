@@ -1,0 +1,1 @@
+/home/wellyowo/locobot_sim/locobot_ws/build/kobuki_core/ament_cmake_core/kobuki_coreConfig-version.cmake

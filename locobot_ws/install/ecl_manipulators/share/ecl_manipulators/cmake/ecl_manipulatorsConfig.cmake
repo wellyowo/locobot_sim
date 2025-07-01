@@ -1,0 +1,1 @@
+/home/wellyowo/locobot_sim/locobot_ws/build/ecl_manipulators/ament_cmake_core/ecl_manipulatorsConfig.cmake

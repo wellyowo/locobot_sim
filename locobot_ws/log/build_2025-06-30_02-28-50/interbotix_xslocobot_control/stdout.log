@@ -1,0 +1,55 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/wellyowo/locobot_sim/locobot_ws/build/interbotix_xslocobot_control
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xslocobot_control/lib/interbotix_xslocobot_control/bartender.py
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xslocobot_control/lib/interbotix_xslocobot_control/combo_control.py
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xslocobot_control/lib/interbotix_xslocobot_control/ee_cartesian_trajectory.py
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xslocobot_control/lib/interbotix_xslocobot_control/ee_pose_components.py
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xslocobot_control/lib/interbotix_xslocobot_control/ee_pose_matrix_control.py
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xslocobot_control/lib/interbotix_xslocobot_control/gripper_control.py
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xslocobot_control/lib/interbotix_xslocobot_control/joint_position_control.py
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xslocobot_control/lib/interbotix_xslocobot_control/joint_pwm_control.py
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xslocobot_control/lib/interbotix_xslocobot_control/move_base.py
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xslocobot_control/lib/interbotix_xslocobot_control/pan_tilt_control.py
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xslocobot_control/share/interbotix_xslocobot_control//config/kobuki_node_params.yaml
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xslocobot_control/share/interbotix_xslocobot_control//config/locobot_base.yaml
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xslocobot_control/share/interbotix_xslocobot_control//config/locobot_px100.yaml
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xslocobot_control/share/interbotix_xslocobot_control//config/locobot_wx200.yaml
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xslocobot_control/share/interbotix_xslocobot_control//config/locobot_wx250s.yaml
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xslocobot_control/share/interbotix_xslocobot_control//config/modes_all.yaml
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xslocobot_control/share/interbotix_xslocobot_control//config/modes_base.yaml
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xslocobot_control/share/interbotix_xslocobot_control//config/rs_camera.yaml
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xslocobot_control/share/interbotix_xslocobot_control//config/tf_rebroadcaster.yaml
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xslocobot_control/share/interbotix_xslocobot_control//launch/xslocobot_control.launch.py
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xslocobot_control/share/ament_index/resource_index/package_run_dependencies/interbotix_xslocobot_control
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xslocobot_control/share/ament_index/resource_index/parent_prefix_path/interbotix_xslocobot_control
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xslocobot_control/share/interbotix_xslocobot_control/environment/ament_prefix_path.sh
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xslocobot_control/share/interbotix_xslocobot_control/environment/ament_prefix_path.dsv
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xslocobot_control/share/interbotix_xslocobot_control/environment/path.sh
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xslocobot_control/share/interbotix_xslocobot_control/environment/path.dsv
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xslocobot_control/share/interbotix_xslocobot_control/local_setup.bash
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xslocobot_control/share/interbotix_xslocobot_control/local_setup.sh
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xslocobot_control/share/interbotix_xslocobot_control/local_setup.zsh
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xslocobot_control/share/interbotix_xslocobot_control/local_setup.dsv
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xslocobot_control/share/interbotix_xslocobot_control/package.dsv
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xslocobot_control/share/ament_index/resource_index/packages/interbotix_xslocobot_control
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xslocobot_control/share/interbotix_xslocobot_control/cmake/interbotix_xslocobot_controlConfig.cmake
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xslocobot_control/share/interbotix_xslocobot_control/cmake/interbotix_xslocobot_controlConfig-version.cmake
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xslocobot_control/share/interbotix_xslocobot_control/package.xml

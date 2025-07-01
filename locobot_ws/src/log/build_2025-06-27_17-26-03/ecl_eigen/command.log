@@ -1,0 +1,4 @@
+Invoking command in '/home/wellyowo/locobot_sim/locobot_ws/src/build/ecl_eigen': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wellyowo/locobot_sim/locobot_ws/src/build/ecl_eigen -- -j16 -l16
+Invoked command in '/home/wellyowo/locobot_sim/locobot_ws/src/build/ecl_eigen' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wellyowo/locobot_sim/locobot_ws/src/build/ecl_eigen -- -j16 -l16
+Invoking command in '/home/wellyowo/locobot_sim/locobot_ws/src/build/ecl_eigen': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/wellyowo/locobot_sim/locobot_ws/src/build/ecl_eigen
+Invoked command in '/home/wellyowo/locobot_sim/locobot_ws/src/build/ecl_eigen' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/wellyowo/locobot_sim/locobot_ws/src/build/ecl_eigen

@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/wellyowo/locobot_sim/locobot_ws/build/interbotix_perception_pipelines/pointcloud_pipeline" "TARGETS" "pointcloud_pipeline" "DESTINATION" "lib/interbotix_perception_pipelines")

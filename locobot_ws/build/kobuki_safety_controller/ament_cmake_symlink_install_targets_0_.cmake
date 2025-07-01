@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/wellyowo/locobot_sim/locobot_ws/build/kobuki_safety_controller/kobuki_safety_controller_node" "TARGETS" "kobuki_safety_controller_node" "DESTINATION" "lib/kobuki_safety_controller")

@@ -1,0 +1,1 @@
+/home/wellyowo/locobot_sim/locobot_ws/build/interbotix_xs_ros_control/ament_cmake_core/interbotix_xs_ros_controlConfig.cmake

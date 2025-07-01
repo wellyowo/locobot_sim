@@ -1,0 +1,28 @@
+[0.038s] Invoking command in '/home/wellyowo/locobot_sim/locobot_ws/src/build/sophus': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wellyowo/locobot_sim/locobot_ws/src/build/sophus -- -j16 -l16
+[0.294s] [35m[1mConsolidate compiler generated dependencies of target test_common[0m
+[0.294s] [35m[1mConsolidate compiler generated dependencies of target test_so2[0m
+[0.295s] [35m[1mConsolidate compiler generated dependencies of target test_se2[0m
+[0.295s] [35m[1mConsolidate compiler generated dependencies of target test_rxso2[0m
+[0.295s] [35m[1mConsolidate compiler generated dependencies of target test_sim2[0m
+[0.295s] [35m[1mConsolidate compiler generated dependencies of target test_se3[0m
+[0.295s] [35m[1mConsolidate compiler generated dependencies of target test_velocities[0m
+[0.295s] [35m[1mConsolidate compiler generated dependencies of target test_sim3[0m
+[0.295s] [35m[1mConsolidate compiler generated dependencies of target HelloSO3[0m
+[0.295s] [  4%] [32mBuilding CXX object test/core/CMakeFiles/test_so3.dir/test_so3.cpp.o[0m
+[0.295s] [ 12%] Built target test_common
+[0.295s] [35m[1mConsolidate compiler generated dependencies of target test_geometry[0m
+[0.295s] [ 20%] Built target test_so2
+[0.295s] [ 29%] Built target test_rxso2
+[0.295s] [ 37%] Built target test_velocities
+[0.295s] [ 45%] Built target test_se3
+[0.295s] [ 54%] Built target test_se2
+[0.295s] [ 58%] [32mBuilding CXX object test/core/CMakeFiles/test_rxso3.dir/test_rxso3.cpp.o[0m
+[0.296s] [ 66%] Built target test_sim3
+[0.296s] [ 75%] Built target test_sim2
+[0.296s] [ 83%] Built target HelloSO3
+[0.296s] [ 91%] Built target test_geometry
+[17.539s] gmake[2]: *** [test/core/CMakeFiles/test_so3.dir/build.make:76: test/core/CMakeFiles/test_so3.dir/test_so3.cpp.o] Interrupt
+[17.539s] gmake[2]: *** [test/core/CMakeFiles/test_rxso3.dir/build.make:76: test/core/CMakeFiles/test_rxso3.dir/test_rxso3.cpp.o] Interrupt
+[17.540s] gmake[1]: *** [CMakeFiles/Makefile2:326: test/core/CMakeFiles/test_so3.dir/all] Interrupt
+[17.540s] gmake[1]: *** [CMakeFiles/Makefile2:378: test/core/CMakeFiles/test_rxso3.dir/all] Interrupt
+[17.540s] gmake: *** [Makefile:146: all] Interrupt

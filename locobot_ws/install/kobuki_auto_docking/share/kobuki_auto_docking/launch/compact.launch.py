@@ -1,0 +1,1 @@
+/home/wellyowo/locobot_sim/locobot_ws/src/ThirdParty/kobuki_ros/kobuki_auto_docking/launch/compact.launch.py

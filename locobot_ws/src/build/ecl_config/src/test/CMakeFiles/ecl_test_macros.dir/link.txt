@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/ecl_test_macros.dir/macros.cpp.o -o ecl_test_macros  ../../gtest/libgtest_main.a ../../gtest/libgtest.a -pthread 

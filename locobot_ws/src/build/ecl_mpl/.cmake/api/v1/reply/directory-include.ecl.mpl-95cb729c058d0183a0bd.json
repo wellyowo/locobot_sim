@@ -1,0 +1,47 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"include/ecl/mpl/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 7,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "include/ecl/mpl",
+			"paths" : 
+			[
+				"include/ecl/mpl/bool.hpp",
+				"include/ecl/mpl/converters.hpp",
+				"include/ecl/mpl/enable_if.hpp",
+				"include/ecl/mpl/failed_object.hpp",
+				"include/ecl/mpl/if.hpp"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "include/ecl/mpl",
+		"source" : "include/ecl/mpl"
+	}
+}

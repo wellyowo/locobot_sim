@@ -1,0 +1,1 @@
+/home/wellyowo/locobot_sim/locobot_ws/build/ecl_type_traits/ament_cmake_core/ecl_type_traitsConfig.cmake

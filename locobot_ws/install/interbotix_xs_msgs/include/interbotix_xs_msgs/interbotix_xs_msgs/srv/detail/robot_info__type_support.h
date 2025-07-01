@@ -1,0 +1,1 @@
+/home/wellyowo/locobot_sim/locobot_ws/build/interbotix_xs_msgs/rosidl_generator_c/interbotix_xs_msgs/srv/detail/robot_info__type_support.h

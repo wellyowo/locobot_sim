@@ -1,0 +1,1 @@
+/home/wellyowo/locobot_sim/locobot_ws/build/ecl_math/ament_cmake_core/ecl_mathConfig-version.cmake

@@ -1,0 +1,14 @@
+source;share/kobuki/hook/cmake_prefix_path.ps1
+source;share/kobuki/hook/cmake_prefix_path.dsv
+source;share/kobuki/hook/cmake_prefix_path.sh
+source;share/kobuki/hook/path.ps1
+source;share/kobuki/hook/path.dsv
+source;share/kobuki/hook/path.sh
+source;share/kobuki/hook/pythonscriptspath.ps1
+source;share/kobuki/hook/pythonscriptspath.dsv
+source;share/kobuki/hook/pythonscriptspath.sh
+source;share/kobuki/local_setup.bash
+source;share/kobuki/local_setup.dsv
+source;share/kobuki/local_setup.ps1
+source;share/kobuki/local_setup.sh
+source;share/kobuki/local_setup.zsh

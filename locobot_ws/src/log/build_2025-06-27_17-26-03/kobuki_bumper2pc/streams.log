@@ -1,0 +1,33 @@
+[0.257s] Invoking command in '/home/wellyowo/locobot_sim/locobot_ws/src/build/kobuki_bumper2pc': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wellyowo/locobot_sim/locobot_ws/src/build/kobuki_bumper2pc -- -j16 -l16
+[0.335s] [35m[1mConsolidate compiler generated dependencies of target kobuki_bumper2pc[0m
+[0.339s] [35m[1mConsolidate compiler generated dependencies of target kobuki_bumper2pc_node[0m
+[0.379s] [ 50%] Built target kobuki_bumper2pc
+[0.379s] [100%] Built target kobuki_bumper2pc_node
+[0.670s] Invoked command in '/home/wellyowo/locobot_sim/locobot_ws/src/build/kobuki_bumper2pc' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wellyowo/locobot_sim/locobot_ws/src/build/kobuki_bumper2pc -- -j16 -l16
+[0.672s] Invoking command in '/home/wellyowo/locobot_sim/locobot_ws/src/build/kobuki_bumper2pc': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/wellyowo/locobot_sim/locobot_ws/src/build/kobuki_bumper2pc
+[0.789s] -- Install configuration: ""
+[0.789s] -- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_bumper2pc/lib/kobuki_bumper2pc/kobuki_bumper2pc_node
+[0.789s] -- Set runtime path of "/home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_bumper2pc/lib/kobuki_bumper2pc/kobuki_bumper2pc_node" to ""
+[0.789s] -- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_bumper2pc/lib/libkobuki_bumper2pc.so
+[0.789s] -- Set runtime path of "/home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_bumper2pc/lib/libkobuki_bumper2pc.so" to ""
+[0.789s] -- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_bumper2pc/include/kobuki_bumper2pc
+[0.789s] -- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_bumper2pc/include/kobuki_bumper2pc/kobuki_bumper2pc.hpp
+[0.789s] -- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_bumper2pc/share/kobuki_bumper2pc/launch
+[0.789s] -- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_bumper2pc/share/kobuki_bumper2pc/launch/kobuki_bumper2pc-launch.py
+[0.790s] -- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_bumper2pc/share/ament_index/resource_index/package_run_dependencies/kobuki_bumper2pc
+[0.790s] -- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_bumper2pc/share/ament_index/resource_index/parent_prefix_path/kobuki_bumper2pc
+[0.790s] -- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_bumper2pc/share/kobuki_bumper2pc/environment/ament_prefix_path.sh
+[0.790s] -- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_bumper2pc/share/kobuki_bumper2pc/environment/ament_prefix_path.dsv
+[0.790s] -- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_bumper2pc/share/kobuki_bumper2pc/environment/path.sh
+[0.790s] -- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_bumper2pc/share/kobuki_bumper2pc/environment/path.dsv
+[0.790s] -- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_bumper2pc/share/kobuki_bumper2pc/local_setup.bash
+[0.790s] -- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_bumper2pc/share/kobuki_bumper2pc/local_setup.sh
+[0.790s] -- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_bumper2pc/share/kobuki_bumper2pc/local_setup.zsh
+[0.790s] -- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_bumper2pc/share/kobuki_bumper2pc/local_setup.dsv
+[0.790s] -- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_bumper2pc/share/kobuki_bumper2pc/package.dsv
+[0.790s] -- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_bumper2pc/share/ament_index/resource_index/packages/kobuki_bumper2pc
+[0.790s] -- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_bumper2pc/share/ament_index/resource_index/rclcpp_components/kobuki_bumper2pc
+[0.793s] -- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_bumper2pc/share/kobuki_bumper2pc/cmake/kobuki_bumper2pcConfig.cmake
+[0.797s] -- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_bumper2pc/share/kobuki_bumper2pc/cmake/kobuki_bumper2pcConfig-version.cmake
+[0.797s] -- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/kobuki_bumper2pc/share/kobuki_bumper2pc/package.xml
+[0.909s] Invoked command in '/home/wellyowo/locobot_sim/locobot_ws/src/build/kobuki_bumper2pc' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/wellyowo/locobot_sim/locobot_ws/src/build/kobuki_bumper2pc

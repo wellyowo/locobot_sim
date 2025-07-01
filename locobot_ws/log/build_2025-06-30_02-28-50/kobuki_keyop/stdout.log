@@ -1,0 +1,66 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ecl_build: 1.0.3 (/opt/ros/humble/share/ecl_build/cmake)
+-- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found kobuki_ros_interfaces: 1.0.0 (/opt/ros/humble/share/kobuki_ros_interfaces/cmake)
+-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found rclcpp_components: 16.0.12 (/opt/ros/humble/share/rclcpp_components/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/wellyowo/locobot_sim/locobot_ws/build/kobuki_keyop
+[ 25%] [32mBuilding CXX object CMakeFiles/kobuki_keyop_node.dir/rclcpp_components/node_main_kobuki_keyop_node.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/kobuki_keyop.dir/src/keyop.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable kobuki_keyop_node[0m
+[ 75%] Built target kobuki_keyop_node
+[100%] [32m[1mLinking CXX shared library libkobuki_keyop.so[0m
+[100%] Built target kobuki_keyop
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/kobuki_keyop/lib/kobuki_keyop/kobuki_keyop_node
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/kobuki_keyop/lib/libkobuki_keyop.so
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/kobuki_keyop/include/kobuki_keyop/keyop.hpp
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/kobuki_keyop/share/kobuki_keyop/config/keyop_params.yaml
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/kobuki_keyop/share/ament_index/resource_index/package_run_dependencies/kobuki_keyop
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/kobuki_keyop/share/ament_index/resource_index/parent_prefix_path/kobuki_keyop
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/kobuki_keyop/share/kobuki_keyop/environment/ament_prefix_path.sh
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/kobuki_keyop/share/kobuki_keyop/environment/ament_prefix_path.dsv
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/kobuki_keyop/share/kobuki_keyop/environment/path.sh
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/kobuki_keyop/share/kobuki_keyop/environment/path.dsv
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/kobuki_keyop/share/kobuki_keyop/local_setup.bash
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/kobuki_keyop/share/kobuki_keyop/local_setup.sh
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/kobuki_keyop/share/kobuki_keyop/local_setup.zsh
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/kobuki_keyop/share/kobuki_keyop/local_setup.dsv
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/kobuki_keyop/share/kobuki_keyop/package.dsv
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/kobuki_keyop/share/ament_index/resource_index/packages/kobuki_keyop
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/kobuki_keyop/share/ament_index/resource_index/rclcpp_components/kobuki_keyop
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/kobuki_keyop/share/kobuki_keyop/cmake/kobuki_keyopConfig.cmake
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/kobuki_keyop/share/kobuki_keyop/cmake/kobuki_keyopConfig-version.cmake
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/kobuki_keyop/share/kobuki_keyop/package.xml

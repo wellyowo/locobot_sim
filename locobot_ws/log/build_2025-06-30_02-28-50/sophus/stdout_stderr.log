@@ -1,0 +1,81 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found Eigen3: /usr/include/eigen3 (Required is at least version "3.3.0") 
+-- Configuring done
+-- Generating done
+[33mCMake Warning:
+  Manually-specified variables were not used by the project:
+
+    BUILD_TESTING
+
+[0m
+-- Build files have been written to: /home/wellyowo/locobot_sim/locobot_ws/build/sophus
+[  4%] [32mBuilding CXX object test/core/CMakeFiles/test_se2.dir/test_se2.cpp.o[0m
+[  8%] [32mBuilding CXX object test/core/CMakeFiles/test_common.dir/test_common.cpp.o[0m
+[ 12%] [32mBuilding CXX object test/core/CMakeFiles/test_sim2.dir/test_sim2.cpp.o[0m
+[ 16%] [32mBuilding CXX object test/core/CMakeFiles/test_so2.dir/test_so2.cpp.o[0m
+[ 20%] [32mBuilding CXX object test/core/CMakeFiles/test_rxso3.dir/test_rxso3.cpp.o[0m
+[ 25%] [32mBuilding CXX object test/core/CMakeFiles/test_rxso2.dir/test_rxso2.cpp.o[0m
+[ 29%] [32mBuilding CXX object test/core/CMakeFiles/test_se3.dir/test_se3.cpp.o[0m
+[ 37%] [32mBuilding CXX object test/core/CMakeFiles/test_so3.dir/test_so3.cpp.o[0m
+[ 37%] [32mBuilding CXX object test/core/CMakeFiles/test_velocities.dir/test_velocities.cpp.o[0m
+[ 41%] [32mBuilding CXX object test/core/CMakeFiles/test_sim3.dir/test_sim3.cpp.o[0m
+[ 45%] [32mBuilding CXX object test/core/CMakeFiles/test_geometry.dir/test_geometry.cpp.o[0m
+[ 50%] [32mBuilding CXX object examples/CMakeFiles/HelloSO3.dir/HelloSO3.cpp.o[0m
+[ 54%] [32m[1mLinking CXX executable test_common[0m
+[ 54%] Built target test_common
+[ 58%] [32m[1mLinking CXX executable HelloSO3[0m
+[ 58%] Built target HelloSO3
+[ 62%] [32m[1mLinking CXX executable test_velocities[0m
+[ 62%] Built target test_velocities
+[ 66%] [32m[1mLinking CXX executable test_geometry[0m
+[ 66%] Built target test_geometry
+[ 70%] [32m[1mLinking CXX executable test_so2[0m
+[ 70%] Built target test_so2
+[ 75%] [32m[1mLinking CXX executable test_rxso2[0m
+[ 75%] Built target test_rxso2
+[ 79%] [32m[1mLinking CXX executable test_sim2[0m
+[ 79%] Built target test_sim2
+[ 83%] [32m[1mLinking CXX executable test_se2[0m
+[ 83%] Built target test_se2
+[ 87%] [32m[1mLinking CXX executable test_sim3[0m
+[ 87%] Built target test_sim3
+[ 91%] [32m[1mLinking CXX executable test_se3[0m
+[ 91%] Built target test_se3
+[ 95%] [32m[1mLinking CXX executable test_rxso3[0m
+[ 95%] Built target test_rxso3
+[100%] [32m[1mLinking CXX executable test_so3[0m
+[100%] Built target test_so3
+-- Install configuration: "Release"
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/install/sophus/share/sophus/cmake/SophusTargets.cmake
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/install/sophus/share/sophus/cmake/SophusConfig.cmake
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/install/sophus/share/sophus/cmake/SophusConfigVersion.cmake
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/install/sophus/include/sophus/average.hpp
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/install/sophus/include/sophus/common.hpp
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/install/sophus/include/sophus/geometry.hpp
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/install/sophus/include/sophus/interpolate.hpp
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/install/sophus/include/sophus/interpolate_details.hpp
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/install/sophus/include/sophus/num_diff.hpp
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/install/sophus/include/sophus/rotation_matrix.hpp
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/install/sophus/include/sophus/rxso2.hpp
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/install/sophus/include/sophus/rxso3.hpp
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/install/sophus/include/sophus/se2.hpp
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/install/sophus/include/sophus/se3.hpp
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/install/sophus/include/sophus/sim2.hpp
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/install/sophus/include/sophus/sim3.hpp
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/install/sophus/include/sophus/sim_details.hpp
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/install/sophus/include/sophus/so2.hpp
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/install/sophus/include/sophus/so3.hpp
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/install/sophus/include/sophus/types.hpp
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/install/sophus/include/sophus/velocities.hpp
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/install/sophus/include/sophus/formatstring.hpp

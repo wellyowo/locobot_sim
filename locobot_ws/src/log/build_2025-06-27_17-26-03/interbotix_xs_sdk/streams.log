@@ -1,0 +1,56 @@
+[0.216s] Invoking command in '/home/wellyowo/locobot_sim/locobot_ws/src/build/interbotix_xs_sdk': AMENT_PREFIX_PATH=/home/wellyowo/locobot_sim/locobot_ws/src/install/interbotix_xs_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wellyowo/locobot_sim/locobot_ws/src/install/interbotix_xs_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/wellyowo/locobot_sim/locobot_ws/src/install/interbotix_xs_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/wellyowo/locobot_sim/locobot_ws/src/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/wellyowo/locobot_sim/locobot_ws/src/interbotix_ros_core/interbotix_ros_xseries/interbotix_xs_sdk -DCMAKE_INSTALL_PREFIX=/home/wellyowo/locobot_sim/locobot_ws/src/install/interbotix_xs_sdk
+[0.399s] -- The C compiler identification is GNU 11.4.0
+[0.589s] -- The CXX compiler identification is GNU 11.4.0
+[0.616s] -- Detecting C compiler ABI info
+[0.878s] -- Detecting C compiler ABI info - done
+[0.881s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.881s] -- Detecting C compile features
+[0.881s] -- Detecting C compile features - done
+[0.884s] -- Detecting CXX compiler ABI info
+[1.134s] -- Detecting CXX compiler ABI info - done
+[1.178s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.178s] -- Detecting CXX compile features
+[1.178s] -- Detecting CXX compile features - done
+[1.207s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.887s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.338s] -- Found ament_index_cpp: 1.4.0 (/opt/ros/humble/share/ament_index_cpp/cmake)
+[2.356s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[2.506s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.543s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.589s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.613s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.651s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.890s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.921s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.420s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.563s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.854s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.941s] -- Looking for pthread.h
+[4.213s] -- Looking for pthread.h - found
+[4.214s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.514s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.516s] -- Found Threads: TRUE  
+[4.941s] -- Found rclpy: 3.3.16 (/opt/ros/humble/share/rclpy/cmake)
+[4.964s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[5.230s] -- Found urdf: 2.6.1 (/opt/ros/humble/share/urdf/cmake)
+[5.469s] -- Found interbotix_xs_msgs: 0.0.0 (/home/wellyowo/locobot_sim/locobot_ws/src/install/interbotix_xs_msgs/share/interbotix_xs_msgs/cmake)
+[5.628s] [31mCMake Error at CMakeLists.txt:19 (find_package):
+[5.628s]   By not providing "Findinterbotix_xs_driver.cmake" in CMAKE_MODULE_PATH this
+[5.628s]   project has asked CMake to find a package configuration file provided by
+[5.628s]   "interbotix_xs_driver", but CMake did not find one.
+[5.628s] 
+[5.628s]   Could not find a package configuration file provided by
+[5.628s]   "interbotix_xs_driver" with any of the following names:
+[5.628s] 
+[5.628s]     interbotix_xs_driverConfig.cmake
+[5.628s]     interbotix_xs_driver-config.cmake
+[5.628s] 
+[5.628s]   Add the installation prefix of "interbotix_xs_driver" to CMAKE_PREFIX_PATH
+[5.628s]   or set "interbotix_xs_driver_DIR" to a directory containing one of the
+[5.629s]   above files.  If "interbotix_xs_driver" provides a separate development
+[5.629s]   package or SDK, be sure it has been installed.
+[5.629s] 
+[5.629s] [0m
+[5.629s] -- Configuring incomplete, errors occurred!
+[5.629s] See also "/home/wellyowo/locobot_sim/locobot_ws/src/build/interbotix_xs_sdk/CMakeFiles/CMakeOutput.log".
+[5.716s] Invoked command in '/home/wellyowo/locobot_sim/locobot_ws/src/build/interbotix_xs_sdk' returned '1': AMENT_PREFIX_PATH=/home/wellyowo/locobot_sim/locobot_ws/src/install/interbotix_xs_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wellyowo/locobot_sim/locobot_ws/src/install/interbotix_xs_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/wellyowo/locobot_sim/locobot_ws/src/install/interbotix_xs_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/wellyowo/locobot_sim/locobot_ws/src/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/wellyowo/locobot_sim/locobot_ws/src/interbotix_ros_core/interbotix_ros_xseries/interbotix_xs_sdk -DCMAKE_INSTALL_PREFIX=/home/wellyowo/locobot_sim/locobot_ws/src/install/interbotix_xs_sdk

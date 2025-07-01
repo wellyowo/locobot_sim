@@ -1,0 +1,8 @@
+source;share/ecl_containers/hook/cmake_prefix_path.ps1
+source;share/ecl_containers/hook/cmake_prefix_path.dsv
+source;share/ecl_containers/hook/cmake_prefix_path.sh
+source;share/ecl_containers/local_setup.bash
+source;share/ecl_containers/local_setup.dsv
+source;share/ecl_containers/local_setup.ps1
+source;share/ecl_containers/local_setup.sh
+source;share/ecl_containers/local_setup.zsh

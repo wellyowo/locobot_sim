@@ -1,0 +1,125 @@
+[0.182s] Invoking command in '/home/wellyowo/locobot_sim/locobot_ws/build/moveit_visual_tools': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/wellyowo/locobot_sim/locobot_ws/src/moveit_visual_tools -DBUILD_TESTING=OFF -DCMAKE_PREFIX_PATH= -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/wellyowo/locobot_sim/locobot_ws/install/moveit_visual_tools
+[2.538s] -- The C compiler identification is GNU 11.4.0
+[2.540s] -- The CXX compiler identification is GNU 11.4.0
+[2.540s] -- Detecting C compiler ABI info
+[2.540s] -- Detecting C compiler ABI info - done
+[2.540s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.541s] -- Detecting C compile features
+[2.541s] -- Detecting C compile features - done
+[2.541s] -- Detecting CXX compiler ABI info
+[2.541s] -- Detecting CXX compiler ABI info - done
+[2.541s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.541s] -- Detecting CXX compile features
+[2.541s] -- Detecting CXX compile features - done
+[2.541s] -- Found moveit_common: 2.5.9 (/opt/ros/humble/share/moveit_common/cmake)
+[2.541s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.775s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.713s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[4.172s] [0mmoveit_visual_tools: You did not request a specific build type: Choosing 'Release' for maximum performance[0m
+[4.226s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system 
+[4.292s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[4.522s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[4.575s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[4.646s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[4.755s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.896s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.230s] -- Found graph_msgs: 0.2.0 (/opt/ros/humble/share/graph_msgs/cmake)
+[5.387s] -- Found moveit_core: 2.5.9 (/opt/ros/humble/share/moveit_core/cmake)
+[7.090s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[7.436s] -- Found parameter_traits: 0.5.0 (/opt/ros/humble/share/parameter_traits/cmake)
+[7.725s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[7.743s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[8.162s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[8.251s] -- Found FastRTPS: /opt/ros/humble/include  
+[8.532s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[8.590s] -- Found Threads: TRUE  
+[8.899s] -- Found rclcpp_lifecycle: 16.0.12 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[9.023s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[9.373s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[9.496s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[9.497s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[11.055s] -- Found moveit_ros_planning: 2.5.9 (/opt/ros/humble/share/moveit_ros_planning/cmake)
+[11.093s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[11.214s] -- Found rviz_visual_tools: 4.1.4 (/opt/ros/humble/share/rviz_visual_tools/cmake)
+[11.297s] -- Setting assimp_DIR to: '/opt/ros/humble/share/rviz_assimp_vendor/cmake/../../../opt/rviz_assimp_vendor/lib/cmake/assimp-4.1'
+[11.307s] -- Setting OGRE_DIR to: '/opt/ros/humble/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[11.319s] -- Found OGRE
+[11.320s] --   static     : OFF
+[11.324s] --   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[11.324s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[11.325s] --   media      : /opt/ros/humble/opt/rviz_ogre_vendor/share/OGRE/Media
+[11.325s] -- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[11.325s] -- OGRE_LIBRARY_DIRS: /opt/ros/humble/opt/rviz_ogre_vendor/lib
+[11.325s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[11.325s] -- OGRE_PLUGIN_DIR: /opt/ros/humble/opt/rviz_ogre_vendor/lib/OGRE
+[11.325s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[11.325s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[11.325s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[11.325s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[11.359s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[11.386s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+[11.748s] -- Found X11: /usr/include   
+[11.749s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[12.250s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[12.251s] -- Looking for gethostbyname
+[13.022s] -- Looking for gethostbyname - found
+[13.023s] -- Looking for connect
+[13.751s] -- Looking for connect - found
+[13.751s] -- Looking for remove
+[14.102s] -- Looking for remove - found
+[14.107s] -- Looking for shmat
+[14.831s] -- Looking for shmat - found
+[14.831s] -- Looking for IceConnectionNumber in ICE
+[15.919s] -- Looking for IceConnectionNumber in ICE - found
+[17.001s] -- Configuring done
+[17.803s] -- Generating done
+[18.047s] -- Build files have been written to: /home/wellyowo/locobot_sim/locobot_ws/build/moveit_visual_tools
+[18.486s] Invoked command in '/home/wellyowo/locobot_sim/locobot_ws/build/moveit_visual_tools' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/wellyowo/locobot_sim/locobot_ws/src/moveit_visual_tools -DBUILD_TESTING=OFF -DCMAKE_PREFIX_PATH= -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/wellyowo/locobot_sim/locobot_ws/install/moveit_visual_tools
+[18.487s] Invoking command in '/home/wellyowo/locobot_sim/locobot_ws/build/moveit_visual_tools': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wellyowo/locobot_sim/locobot_ws/build/moveit_visual_tools -- -j16 -l16
+[53.686s] [ 16%] [32mBuilding CXX object CMakeFiles/moveit_visual_tools.dir/src/moveit_visual_tools.cpp.o[0m
+[105.718s] [ 33%] [32mBuilding CXX object CMakeFiles/moveit_visual_tools.dir/src/imarker_end_effector.cpp.o[0m
+[121.154s] [ 50%] [32mBuilding CXX object CMakeFiles/moveit_visual_tools.dir/src/imarker_robot_state.cpp.o[0m
+[132.116s] [ 66%] [32m[1mLinking CXX shared library libmoveit_visual_tools.so[0m
+[132.398s] [ 66%] Built target moveit_visual_tools
+[132.416s] [ 83%] [32mBuilding CXX object CMakeFiles/moveit_visual_tools_demo.dir/src/moveit_visual_tools_demo.cpp.o[0m
+[142.060s] [100%] [32m[1mLinking CXX executable moveit_visual_tools_demo[0m
+[142.371s] [100%] Built target moveit_visual_tools_demo
+[142.379s] Invoked command in '/home/wellyowo/locobot_sim/locobot_ws/build/moveit_visual_tools' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wellyowo/locobot_sim/locobot_ws/build/moveit_visual_tools -- -j16 -l16
+[142.380s] Invoking command in '/home/wellyowo/locobot_sim/locobot_ws/build/moveit_visual_tools': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/wellyowo/locobot_sim/locobot_ws/build/moveit_visual_tools
+[142.385s] -- Install configuration: "Release"
+[142.386s] -- Execute custom install script
+[142.386s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/moveit_visual_tools/share/moveit_visual_tools/environment/library_path.sh
+[142.392s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/moveit_visual_tools/share/moveit_visual_tools/environment/library_path.dsv
+[142.398s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/moveit_visual_tools/lib/moveit_visual_tools/moveit_visual_tools_demo
+[142.404s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/moveit_visual_tools/include/moveit_visual_tools/imarker_end_effector.h
+[142.410s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/moveit_visual_tools/include/moveit_visual_tools/imarker_robot_state.h
+[142.416s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/moveit_visual_tools/include/moveit_visual_tools/moveit_visual_tools.h
+[142.421s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/moveit_visual_tools/share/moveit_visual_tools/launch/demo.rviz
+[142.427s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/moveit_visual_tools/share/moveit_visual_tools/launch/demo_rviz.launch.py
+[142.433s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/moveit_visual_tools/share/moveit_visual_tools/resources/demo.png
+[142.438s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/moveit_visual_tools/share/moveit_visual_tools/resources/demo_mesh.stl
+[142.444s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/moveit_visual_tools/share/moveit_visual_tools/resources/rrbot.srdf
+[142.450s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/moveit_visual_tools/share/moveit_visual_tools/resources/rrbot.urdf
+[142.456s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/moveit_visual_tools/share/moveit_visual_tools/resources/screenshot.png
+[142.462s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/moveit_visual_tools/share/ament_index/resource_index/package_run_dependencies/moveit_visual_tools
+[142.468s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/moveit_visual_tools/share/ament_index/resource_index/parent_prefix_path/moveit_visual_tools
+[142.475s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/moveit_visual_tools/share/moveit_visual_tools/environment/ament_prefix_path.sh
+[142.481s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/moveit_visual_tools/share/moveit_visual_tools/environment/ament_prefix_path.dsv
+[142.486s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/moveit_visual_tools/share/moveit_visual_tools/environment/path.sh
+[142.492s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/moveit_visual_tools/share/moveit_visual_tools/environment/path.dsv
+[142.499s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/moveit_visual_tools/share/moveit_visual_tools/local_setup.bash
+[142.506s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/moveit_visual_tools/share/moveit_visual_tools/local_setup.sh
+[142.513s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/moveit_visual_tools/share/moveit_visual_tools/local_setup.zsh
+[142.519s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/moveit_visual_tools/share/moveit_visual_tools/local_setup.dsv
+[142.525s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/moveit_visual_tools/share/moveit_visual_tools/package.dsv
+[142.531s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/moveit_visual_tools/share/ament_index/resource_index/packages/moveit_visual_tools
+[142.538s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/moveit_visual_tools/share/moveit_visual_tools/cmake/ament_cmake_export_targets-extras.cmake
+[142.545s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/moveit_visual_tools/share/moveit_visual_tools/cmake/ament_cmake_export_dependencies-extras.cmake
+[142.552s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/moveit_visual_tools/share/moveit_visual_tools/cmake/moveit_visual_toolsConfig.cmake
+[142.558s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/moveit_visual_tools/share/moveit_visual_tools/cmake/moveit_visual_toolsConfig-version.cmake
+[142.565s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/moveit_visual_tools/share/moveit_visual_tools/package.xml
+[142.571s] -- Installing: /home/wellyowo/locobot_sim/locobot_ws/install/moveit_visual_tools/lib/libmoveit_visual_tools.so
+[142.573s] -- Set runtime path of "/home/wellyowo/locobot_sim/locobot_ws/install/moveit_visual_tools/lib/libmoveit_visual_tools.so" to ""
+[142.573s] -- Installing: /home/wellyowo/locobot_sim/locobot_ws/install/moveit_visual_tools/share/moveit_visual_tools/cmake/export_moveit_visual_toolsExport.cmake
+[142.573s] -- Installing: /home/wellyowo/locobot_sim/locobot_ws/install/moveit_visual_tools/share/moveit_visual_tools/cmake/export_moveit_visual_toolsExport-release.cmake
+[142.575s] Invoked command in '/home/wellyowo/locobot_sim/locobot_ws/build/moveit_visual_tools' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/wellyowo/locobot_sim/locobot_ws/build/moveit_visual_tools

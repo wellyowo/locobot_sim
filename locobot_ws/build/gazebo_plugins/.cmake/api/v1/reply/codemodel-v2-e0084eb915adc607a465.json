@@ -1,0 +1,277 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-f261c1e51abbdedab024.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.2"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "gazebo_plugins",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "gazebo_plugins_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gazebo_plugins_uninstall-e2bb19950007a3a6eede.json",
+					"name" : "gazebo_plugins_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gazebo_ros_ackermann_drive::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gazebo_ros_ackermann_drive-5e0597d86b7eee3b2ee9.json",
+					"name" : "gazebo_ros_ackermann_drive",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gazebo_ros_bumper::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gazebo_ros_bumper-dbb77b9d0c2a599ccd4b.json",
+					"name" : "gazebo_ros_bumper",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gazebo_ros_camera::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gazebo_ros_camera-e770d8b6c4bf364a8618.json",
+					"name" : "gazebo_ros_camera",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gazebo_ros_diff_drive::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gazebo_ros_diff_drive-5ec22e8557eccc0f1a84.json",
+					"name" : "gazebo_ros_diff_drive",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gazebo_ros_elevator::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gazebo_ros_elevator-d4166c32229eaf393ca3.json",
+					"name" : "gazebo_ros_elevator",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gazebo_ros_force::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gazebo_ros_force-421eda9c5a12cfe08c9a.json",
+					"name" : "gazebo_ros_force",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gazebo_ros_ft_sensor::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gazebo_ros_ft_sensor-9eca2762ae6f00f04093.json",
+					"name" : "gazebo_ros_ft_sensor",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gazebo_ros_gps_sensor::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gazebo_ros_gps_sensor-4ce8ed7c82f7ec600a11.json",
+					"name" : "gazebo_ros_gps_sensor",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gazebo_ros_hand_of_god::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gazebo_ros_hand_of_god-6f4c036ea0c110c03895.json",
+					"name" : "gazebo_ros_hand_of_god",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gazebo_ros_harness::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gazebo_ros_harness-4cc7352cd8c8407166a4.json",
+					"name" : "gazebo_ros_harness",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gazebo_ros_imu_sensor::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gazebo_ros_imu_sensor-f547358e07b1f4ea5ab2.json",
+					"name" : "gazebo_ros_imu_sensor",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gazebo_ros_joint_pose_trajectory::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gazebo_ros_joint_pose_trajectory-a019a596c6229be50a71.json",
+					"name" : "gazebo_ros_joint_pose_trajectory",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gazebo_ros_joint_state_publisher::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gazebo_ros_joint_state_publisher-8af8408df3dd2d5b5b04.json",
+					"name" : "gazebo_ros_joint_state_publisher",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gazebo_ros_p3d::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gazebo_ros_p3d-aec10f6cb3f074f224d7.json",
+					"name" : "gazebo_ros_p3d",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gazebo_ros_planar_move::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gazebo_ros_planar_move-08b12a003918a36a3b69.json",
+					"name" : "gazebo_ros_planar_move",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gazebo_ros_projector::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gazebo_ros_projector-815f029c0bd77b7cde1c.json",
+					"name" : "gazebo_ros_projector",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gazebo_ros_ray_sensor::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gazebo_ros_ray_sensor-f9eebdfd6a45bbb9c040.json",
+					"name" : "gazebo_ros_ray_sensor",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gazebo_ros_template::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gazebo_ros_template-c7e74a99be90f002aa15.json",
+					"name" : "gazebo_ros_template",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gazebo_ros_tricycle_drive::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gazebo_ros_tricycle_drive-3e7e21c69450893731ea.json",
+					"name" : "gazebo_ros_tricycle_drive",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gazebo_ros_vacuum_gripper::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gazebo_ros_vacuum_gripper-94f9e123a449c5c7c4f0.json",
+					"name" : "gazebo_ros_vacuum_gripper",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gazebo_ros_video::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gazebo_ros_video-bbd75f0e698cfc521183.json",
+					"name" : "gazebo_ros_video",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gazebo_ros_wheel_slip::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gazebo_ros_wheel_slip-9d52e36c528d24e02342.json",
+					"name" : "gazebo_ros_wheel_slip",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "multi_camera_plugin::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-multi_camera_plugin-c78aa8ee8be047c78376.json",
+					"name" : "multi_camera_plugin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-33fc9ae8fb8486038def.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/wellyowo/locobot_sim/locobot_ws/build/gazebo_plugins",
+		"source" : "/home/wellyowo/locobot_sim/locobot_ws/src/ThirdParty/gazebo_plugins/gazebo_plugins"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

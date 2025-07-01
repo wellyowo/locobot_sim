@@ -1,0 +1,1 @@
+/home/wellyowo/locobot_sim/locobot_ws/build/interbotix_xslocobot_descriptions/ament_cmake_core/interbotix_xslocobot_descriptionsConfig-version.cmake

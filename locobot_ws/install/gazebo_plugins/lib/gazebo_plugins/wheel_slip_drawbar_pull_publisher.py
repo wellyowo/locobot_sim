@@ -1,0 +1,1 @@
+/home/wellyowo/locobot_sim/locobot_ws/src/ThirdParty/gazebo_plugins/gazebo_plugins/scripts/wheel_slip_drawbar_pull_publisher.py

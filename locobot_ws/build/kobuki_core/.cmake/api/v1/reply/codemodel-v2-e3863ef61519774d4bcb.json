@@ -1,0 +1,242 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-6b407d561866406bcc60.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						10,
+						11
+					]
+				},
+				{
+					"build" : "include",
+					"jsonFile" : "directory-include-7ead17b99bffc88b66bb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "include"
+				},
+				{
+					"build" : "src",
+					"childIndexes" : 
+					[
+						3,
+						4,
+						5
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-src-b6cf2213fc5053b67c22.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src"
+				},
+				{
+					"build" : "src/driver",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-src.driver-d691a14c814626c20d96.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 0,
+					"source" : "src/driver",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "src/demos",
+					"jsonFile" : "directory-src.demos-1501e4e83cf1b5293098.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 0,
+					"source" : "src/demos",
+					"targetIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				},
+				{
+					"build" : "src/tools",
+					"jsonFile" : "directory-src.tools-45cf6c62ebae9991927b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 0,
+					"source" : "src/tools",
+					"targetIndexes" : 
+					[
+						8,
+						9
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"name" : "kobuki_core",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 3,
+					"id" : "kobuki_core::@49e83f50c4c71b496537",
+					"jsonFile" : "target-kobuki_core-677467b7eacb07a9530c.json",
+					"name" : "kobuki_core",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "kobuki_core_demo_buttons::@46e0403ce4e0bd9aa1c8",
+					"jsonFile" : "target-kobuki_core_demo_buttons-465a55dddcdc9eb896f7.json",
+					"name" : "kobuki_core_demo_buttons",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "kobuki_core_demo_chirp::@46e0403ce4e0bd9aa1c8",
+					"jsonFile" : "target-kobuki_core_demo_chirp-b9033380c016ee0a6419.json",
+					"name" : "kobuki_core_demo_chirp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "kobuki_core_demo_custom_logging::@46e0403ce4e0bd9aa1c8",
+					"jsonFile" : "target-kobuki_core_demo_custom_logging-5418b84976715ab6d022.json",
+					"name" : "kobuki_core_demo_custom_logging",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "kobuki_core_demo_data_stream::@46e0403ce4e0bd9aa1c8",
+					"jsonFile" : "target-kobuki_core_demo_data_stream-694be66ff1ed3bdd6e8c.json",
+					"name" : "kobuki_core_demo_data_stream",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "kobuki_core_demo_raw_data_stream::@46e0403ce4e0bd9aa1c8",
+					"jsonFile" : "target-kobuki_core_demo_raw_data_stream-e60eb72f0fef1a9f18bd.json",
+					"name" : "kobuki_core_demo_raw_data_stream",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "kobuki_core_demo_simple_loop::@46e0403ce4e0bd9aa1c8",
+					"jsonFile" : "target-kobuki_core_demo_simple_loop-380c0e0b1166fddf62d9.json",
+					"name" : "kobuki_core_demo_simple_loop",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "kobuki_core_demo_velocity_commands::@46e0403ce4e0bd9aa1c8",
+					"jsonFile" : "target-kobuki_core_demo_velocity_commands-e479fcbee381797eca0b.json",
+					"name" : "kobuki_core_demo_velocity_commands",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "kobuki_core_tool_simple_keyop::@de05559f4338c8534979",
+					"jsonFile" : "target-kobuki_core_tool_simple_keyop-9b366e97192932abb056.json",
+					"name" : "kobuki_core_tool_simple_keyop",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "kobuki_core_tool_version_info::@de05559f4338c8534979",
+					"jsonFile" : "target-kobuki_core_tool_version_info-f2cc8a8e48e744e6d99f.json",
+					"name" : "kobuki_core_tool_version_info",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "kobuki_core_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-kobuki_core_uninstall-8f1df11266f4197b51f5.json",
+					"name" : "kobuki_core_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-3211bfa8f3b758f66fbf.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/wellyowo/locobot_sim/locobot_ws/build/kobuki_core",
+		"source" : "/home/wellyowo/locobot_sim/locobot_ws/src/ThirdParty/kobuki_core"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

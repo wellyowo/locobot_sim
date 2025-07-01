@@ -1,0 +1,51 @@
+[35m[1mConsolidate compiler generated dependencies of target openni2_camera__rosidl_generator_c[0m
+[35m[1mConsolidate compiler generated dependencies of target openni2_camera_driver[0m
+[35m[1mConsolidate compiler generated dependencies of target openni2_wrapper[0m
+[35m[1mConsolidate compiler generated dependencies of target usb_reset[0m
+[  2%] Built target openni2_camera__cpp
+[  8%] Built target openni2_camera__rosidl_generator_c
+[  8%] Built target ament_cmake_python_copy_openni2_camera
+[ 12%] Built target usb_reset
+[35m[1mConsolidate compiler generated dependencies of target openni2_camera__rosidl_typesupport_fastrtps_c[0m
+[35m[1mConsolidate compiler generated dependencies of target openni2_camera__rosidl_typesupport_cpp[0m
+[ 16%] Built target openni2_camera_driver
+[35m[1mConsolidate compiler generated dependencies of target openni2_camera__rosidl_typesupport_introspection_c[0m
+[35m[1mConsolidate compiler generated dependencies of target openni2_camera__rosidl_typesupport_fastrtps_cpp[0m
+[35m[1mConsolidate compiler generated dependencies of target openni2_camera__rosidl_typesupport_c[0m
+[35m[1mConsolidate compiler generated dependencies of target openni2_camera__rosidl_typesupport_introspection_cpp[0m
+[ 22%] Built target openni2_camera__rosidl_typesupport_fastrtps_c
+[ 28%] Built target openni2_camera__rosidl_typesupport_cpp
+[ 46%] Built target openni2_wrapper
+[ 52%] Built target openni2_camera__rosidl_typesupport_introspection_c
+[ 58%] Built target openni2_camera__rosidl_typesupport_fastrtps_cpp
+[ 64%] Built target openni2_camera__rosidl_typesupport_c
+[35m[1mConsolidate compiler generated dependencies of target list_devices[0m
+[ 70%] Built target openni2_camera__rosidl_typesupport_introspection_cpp
+[35m[1mConsolidate compiler generated dependencies of target openni2_camera_lib[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/test_wrapper.dir/test/test_wrapper.cpp.o[0m
+[ 76%] Built target list_devices
+[ 76%] Built target openni2_camera
+[ 78%] [32mBuilding CXX object CMakeFiles/openni2_camera_lib.dir/src/openni2_driver.cpp.o[0m
+[ 80%] [34m[1mGenerating Python code for ROS interfaces[0m
+running egg_info
+writing openni2_camera.egg-info/PKG-INFO
+writing dependency_links to openni2_camera.egg-info/dependency_links.txt
+writing top-level names to openni2_camera.egg-info/top_level.txt
+reading manifest file 'openni2_camera.egg-info/SOURCES.txt'
+writing manifest file 'openni2_camera.egg-info/SOURCES.txt'
+[ 80%] Built target ament_cmake_python_build_openni2_camera_egg
+[ 80%] Built target openni2_camera__py
+[ 82%] [32mBuilding C object CMakeFiles/openni2_camera__rosidl_generator_py.dir/rosidl_generator_py/openni2_camera/srv/_get_serial_s.c.o[0m
+[ 84%] [32m[1mLinking C shared library rosidl_generator_py/openni2_camera/libopenni2_camera__rosidl_generator_py.so[0m
+[ 84%] Built target openni2_camera__rosidl_generator_py
+[ 86%] [32mBuilding C object CMakeFiles/openni2_camera__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/openni2_camera/_openni2_camera_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[ 88%] [32mBuilding C object CMakeFiles/openni2_camera__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/openni2_camera/_openni2_camera_s.ep.rosidl_typesupport_c.c.o[0m
+[ 90%] [32mBuilding C object CMakeFiles/openni2_camera__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/openni2_camera/_openni2_camera_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[ 92%] [32m[1mLinking C shared library rosidl_generator_py/openni2_camera/openni2_camera_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[ 92%] Built target openni2_camera__rosidl_typesupport_introspection_c__pyext
+[ 94%] [32m[1mLinking C shared library rosidl_generator_py/openni2_camera/openni2_camera_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[ 96%] [32m[1mLinking C shared library rosidl_generator_py/openni2_camera/openni2_camera_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[ 96%] Built target openni2_camera__rosidl_typesupport_fastrtps_c__pyext
+[ 96%] Built target openni2_camera__rosidl_typesupport_c__pyext
+[ 98%] [32m[1mLinking CXX executable test_wrapper[0m
+[ 98%] Built target test_wrapper

@@ -1,0 +1,1 @@
+/home/wellyowo/locobot_sim/locobot_ws/build/interbotix_perception_msgs/rosidl_generator_py/interbotix_perception_msgs/srv/_snap_picture.py

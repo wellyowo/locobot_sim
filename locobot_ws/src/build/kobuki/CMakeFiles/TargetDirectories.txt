@@ -1,0 +1,11 @@
+/home/wellyowo/locobot_sim/locobot_ws/src/build/kobuki/CMakeFiles/uninstall.dir
+/home/wellyowo/locobot_sim/locobot_ws/src/build/kobuki/CMakeFiles/kobuki_uninstall.dir
+/home/wellyowo/locobot_sim/locobot_ws/src/build/kobuki/CMakeFiles/kobuki.dir
+/home/wellyowo/locobot_sim/locobot_ws/src/build/kobuki/CMakeFiles/fake_bumer_node.dir
+/home/wellyowo/locobot_sim/locobot_ws/src/build/kobuki/CMakeFiles/test.dir
+/home/wellyowo/locobot_sim/locobot_ws/src/build/kobuki/CMakeFiles/edit_cache.dir
+/home/wellyowo/locobot_sim/locobot_ws/src/build/kobuki/CMakeFiles/rebuild_cache.dir
+/home/wellyowo/locobot_sim/locobot_ws/src/build/kobuki/CMakeFiles/list_install_components.dir
+/home/wellyowo/locobot_sim/locobot_ws/src/build/kobuki/CMakeFiles/install.dir
+/home/wellyowo/locobot_sim/locobot_ws/src/build/kobuki/CMakeFiles/install/local.dir
+/home/wellyowo/locobot_sim/locobot_ws/src/build/kobuki/CMakeFiles/install/strip.dir

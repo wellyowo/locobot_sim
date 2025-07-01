@@ -1,0 +1,76 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"ecl_exceptions_add_demo"
+		],
+		"files" : 
+		[
+			"src/examples/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 16,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 9,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 17,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 9,
+				"parent" : 3
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib/ecl_exceptions",
+			"paths" : 
+			[
+				"src/examples/demo_exceptions"
+			],
+			"targetId" : "ecl_demo_exceptions::@9091d420513b4ac1bd05",
+			"targetIndex" : 1,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "lib/ecl_exceptions",
+			"paths" : 
+			[
+				"src/examples/demo_exception_tracer"
+			],
+			"targetId" : "ecl_demo_exception_tracer::@9091d420513b4ac1bd05",
+			"targetIndex" : 0,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "src/examples",
+		"source" : "src/examples"
+	}
+}

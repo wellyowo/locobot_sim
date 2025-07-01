@@ -1,0 +1,1 @@
+/home/wellyowo/locobot_sim/locobot_ws/build/ecl_sigslots_lite/ament_cmake_environment_hooks/local_setup.sh

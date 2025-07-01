@@ -1,0 +1,48 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"include/ecl/sigslots_lite/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 7,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "include/ecl/sigslots_lite",
+			"paths" : 
+			[
+				"include/ecl/sigslots_lite/connect.hpp",
+				"include/ecl/sigslots_lite/errors.hpp",
+				"include/ecl/sigslots_lite/managers.hpp",
+				"include/ecl/sigslots_lite/signal.hpp",
+				"include/ecl/sigslots_lite/slot.hpp",
+				"include/ecl/sigslots_lite/utilities.hpp"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "include/ecl/sigslots_lite",
+		"source" : "include/ecl/sigslots_lite"
+	}
+}

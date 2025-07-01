@@ -1,0 +1,70 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ecl_build: 1.0.3 (/opt/ros/humble/share/ecl_build/cmake)
+-- Found ecl_config: 1.2.0 (/home/wellyowo/locobot_sim/locobot_ws/install/ecl_config/share/ecl_config/cmake)
+-- Found ecl_converters: 1.2.1 (/home/wellyowo/locobot_sim/locobot_ws/install/ecl_converters/share/ecl_converters/cmake)
+-- Found ecl_formatters: 1.2.1 (/home/wellyowo/locobot_sim/locobot_ws/install/ecl_formatters/share/ecl_formatters/cmake)
+-- Found ecl_utilities: 1.2.1 (/home/wellyowo/locobot_sim/locobot_ws/install/ecl_utilities/share/ecl_utilities/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/wellyowo/locobot_sim/locobot_ws/build/ecl_containers
+[ 50%] [32mBuilding CXX object src/examples/CMakeFiles/ecl_demo_formatters.dir/formatters.cpp.o[0m
+[100%] [32m[1mLinking CXX executable demo_formatters[0m
+[100%] Built target ecl_demo_formatters
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_containers/include/ecl/containers/common/formatters.hpp
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_containers/include/ecl/containers/array/array_dynamic_mem_check.hpp
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_containers/include/ecl/containers/array/array_dynamic_no_mem_check.hpp
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_containers/include/ecl/containers/array/array_mem_check.hpp
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_containers/include/ecl/containers/array/array_no_mem_check.hpp
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_containers/include/ecl/containers/array/converters.hpp
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_containers/include/ecl/containers/array/formatters.hpp
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_containers/include/ecl/containers/push_and_pop/formatters.hpp
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_containers/include/ecl/containers/push_and_pop/push_and_pop_dynamic.hpp
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_containers/include/ecl/containers/push_and_pop/push_and_pop_fixed.hpp
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_containers/include/ecl/containers/stencil/converters.hpp
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_containers/include/ecl/containers/stencil/formatters.hpp
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_containers/include/ecl/containers/stencil/specialisations.hpp
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_containers/include/ecl/containers/stencil/stencil.hpp
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_containers/include/ecl/containers/array.hpp
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_containers/include/ecl/containers/converters.hpp
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_containers/include/ecl/containers/definitions.hpp
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_containers/include/ecl/containers/fifo.hpp
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_containers/include/ecl/containers/initialiser.hpp
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_containers/include/ecl/containers/push_and_pop.hpp
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_containers/include/ecl/containers/stencil.hpp
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_containers/include/ecl/containers.hpp
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_containers/lib/ecl_containers/demo_formatters
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_containers/share/ament_index/resource_index/package_run_dependencies/ecl_containers
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_containers/share/ament_index/resource_index/parent_prefix_path/ecl_containers
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_containers/share/ecl_containers/environment/ament_prefix_path.sh
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_containers/share/ecl_containers/environment/ament_prefix_path.dsv
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_containers/share/ecl_containers/environment/path.sh
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_containers/share/ecl_containers/environment/path.dsv
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_containers/share/ecl_containers/local_setup.bash
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_containers/share/ecl_containers/local_setup.sh
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_containers/share/ecl_containers/local_setup.zsh
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_containers/share/ecl_containers/local_setup.dsv
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_containers/share/ecl_containers/package.dsv
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_containers/share/ament_index/resource_index/packages/ecl_containers
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_containers/share/ecl_containers/cmake/ament_cmake_export_targets-extras.cmake
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_containers/share/ecl_containers/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_containers/share/ecl_containers/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_containers/share/ecl_containers/cmake/ecl_containersConfig.cmake
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_containers/share/ecl_containers/cmake/ecl_containersConfig-version.cmake
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_containers/share/ecl_containers/package.xml
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_containers/share/ecl_containers/cmake/ecl_containersExport.cmake

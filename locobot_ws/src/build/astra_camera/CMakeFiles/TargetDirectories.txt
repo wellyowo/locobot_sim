@@ -1,0 +1,11 @@
+/home/wellyowo/locobot_sim/locobot_ws/src/build/astra_camera/CMakeFiles/uninstall.dir
+/home/wellyowo/locobot_sim/locobot_ws/src/build/astra_camera/CMakeFiles/astra_camera_uninstall.dir
+/home/wellyowo/locobot_sim/locobot_ws/src/build/astra_camera/CMakeFiles/astra_camera.dir
+/home/wellyowo/locobot_sim/locobot_ws/src/build/astra_camera/CMakeFiles/list_devices_node.dir
+/home/wellyowo/locobot_sim/locobot_ws/src/build/astra_camera/CMakeFiles/test.dir
+/home/wellyowo/locobot_sim/locobot_ws/src/build/astra_camera/CMakeFiles/edit_cache.dir
+/home/wellyowo/locobot_sim/locobot_ws/src/build/astra_camera/CMakeFiles/rebuild_cache.dir
+/home/wellyowo/locobot_sim/locobot_ws/src/build/astra_camera/CMakeFiles/list_install_components.dir
+/home/wellyowo/locobot_sim/locobot_ws/src/build/astra_camera/CMakeFiles/install.dir
+/home/wellyowo/locobot_sim/locobot_ws/src/build/astra_camera/CMakeFiles/install/local.dir
+/home/wellyowo/locobot_sim/locobot_ws/src/build/astra_camera/CMakeFiles/install/strip.dir

@@ -1,0 +1,1 @@
+/home/wellyowo/locobot_sim/locobot_ws/build/ecl_exceptions/ament_cmake_environment_hooks/local_setup.zsh

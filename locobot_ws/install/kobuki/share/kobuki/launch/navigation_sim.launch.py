@@ -1,0 +1,1 @@
+/home/wellyowo/locobot_sim/locobot_ws/src/kobuki/launch/navigation_sim.launch.py

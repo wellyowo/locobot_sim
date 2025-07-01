@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-ffbc6b0a6a089c1222c7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "kobuki_safety_controller",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "kobuki_safety_controller::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-kobuki_safety_controller-5436aadd2b9141178cbc.json",
+					"name" : "kobuki_safety_controller",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "kobuki_safety_controller_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-kobuki_safety_controller_node-4156747338d16f4bf6f4.json",
+					"name" : "kobuki_safety_controller_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "kobuki_safety_controller_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-kobuki_safety_controller_uninstall-a0196dc239e1a0fda739.json",
+					"name" : "kobuki_safety_controller_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-6d18f0edefc6c39990a2.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/wellyowo/locobot_sim/locobot_ws/build/kobuki_safety_controller",
+		"source" : "/home/wellyowo/locobot_sim/locobot_ws/src/ThirdParty/kobuki_ros/kobuki_safety_controller"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

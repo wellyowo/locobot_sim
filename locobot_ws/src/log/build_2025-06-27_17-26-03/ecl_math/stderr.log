@@ -1,0 +1,3 @@
+gmake[2]: *** [src/test/CMakeFiles/ecl_test_simple.dir/build.make:76: src/test/CMakeFiles/ecl_test_simple.dir/simple.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:321: src/test/CMakeFiles/ecl_test_simple.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

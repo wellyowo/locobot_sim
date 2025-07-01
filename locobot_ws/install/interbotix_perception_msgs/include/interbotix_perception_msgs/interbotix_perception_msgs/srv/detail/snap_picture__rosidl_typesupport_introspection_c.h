@@ -1,0 +1,1 @@
+/home/wellyowo/locobot_sim/locobot_ws/build/interbotix_perception_msgs/rosidl_typesupport_introspection_c/interbotix_perception_msgs/srv/detail/snap_picture__rosidl_typesupport_introspection_c.h

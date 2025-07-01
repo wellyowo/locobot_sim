@@ -1,0 +1,59 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found ecl_build: 1.0.3 (/opt/ros/humble/share/ecl_build/cmake)
+-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/wellyowo/locobot_sim/locobot_ws/src/build/ecl_mpl
+[ 16%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[ 33%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[ 50%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[ 50%] Built target gtest_main
+[ 66%] [32m[1mLinking CXX static library libgtest.a[0m
+[ 66%] Built target gtest
+[ 83%] [32mBuilding CXX object src/test/CMakeFiles/test_enable_if.dir/enable_if.cpp.o[0m
+[100%] [32m[1mLinking CXX executable test_enable_if[0m
+[100%] Built target test_enable_if
+-- Install configuration: ""
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/ecl_mpl/share/ament_index/resource_index/package_run_dependencies/ecl_mpl
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/ecl_mpl/share/ament_index/resource_index/parent_prefix_path/ecl_mpl
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/ecl_mpl/share/ecl_mpl/environment/ament_prefix_path.sh
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/ecl_mpl/share/ecl_mpl/environment/ament_prefix_path.dsv
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/ecl_mpl/share/ecl_mpl/environment/path.sh
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/ecl_mpl/share/ecl_mpl/environment/path.dsv
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/ecl_mpl/share/ecl_mpl/local_setup.bash
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/ecl_mpl/share/ecl_mpl/local_setup.sh
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/ecl_mpl/share/ecl_mpl/local_setup.zsh
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/ecl_mpl/share/ecl_mpl/local_setup.dsv
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/ecl_mpl/share/ecl_mpl/package.dsv
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/ecl_mpl/share/ament_index/resource_index/packages/ecl_mpl
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/ecl_mpl/share/ecl_mpl/cmake/ecl_mplExport.cmake
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/ecl_mpl/share/ecl_mpl/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/ecl_mpl/share/ecl_mpl/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/ecl_mpl/share/ecl_mpl/cmake/ecl_mplConfig.cmake
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/ecl_mpl/share/ecl_mpl/cmake/ecl_mplConfig-version.cmake
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/ecl_mpl/share/ecl_mpl/package.xml
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/ecl_mpl/include/ecl/mpl.hpp
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/ecl_mpl/include/ecl/mpl/bool.hpp
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/ecl_mpl/include/ecl/mpl/converters.hpp
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/ecl_mpl/include/ecl/mpl/enable_if.hpp
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/ecl_mpl/include/ecl/mpl/failed_object.hpp
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/src/install/ecl_mpl/include/ecl/mpl/if.hpp

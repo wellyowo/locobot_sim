@@ -1,0 +1,1 @@
+/home/wellyowo/locobot_sim/locobot_ws/build/interbotix_perception_pipelines/ament_cmake_core/interbotix_perception_pipelinesConfig.cmake

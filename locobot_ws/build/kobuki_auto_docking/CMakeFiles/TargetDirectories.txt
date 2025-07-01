@@ -1,0 +1,11 @@
+/home/wellyowo/locobot_sim/locobot_ws/build/kobuki_auto_docking/CMakeFiles/uninstall.dir
+/home/wellyowo/locobot_sim/locobot_ws/build/kobuki_auto_docking/CMakeFiles/kobuki_auto_docking_uninstall.dir
+/home/wellyowo/locobot_sim/locobot_ws/build/kobuki_auto_docking/CMakeFiles/kobuki_auto_docking.dir
+/home/wellyowo/locobot_sim/locobot_ws/build/kobuki_auto_docking/CMakeFiles/kobuki_auto_docking_node.dir
+/home/wellyowo/locobot_sim/locobot_ws/build/kobuki_auto_docking/CMakeFiles/test.dir
+/home/wellyowo/locobot_sim/locobot_ws/build/kobuki_auto_docking/CMakeFiles/edit_cache.dir
+/home/wellyowo/locobot_sim/locobot_ws/build/kobuki_auto_docking/CMakeFiles/rebuild_cache.dir
+/home/wellyowo/locobot_sim/locobot_ws/build/kobuki_auto_docking/CMakeFiles/list_install_components.dir
+/home/wellyowo/locobot_sim/locobot_ws/build/kobuki_auto_docking/CMakeFiles/install.dir
+/home/wellyowo/locobot_sim/locobot_ws/build/kobuki_auto_docking/CMakeFiles/install/local.dir
+/home/wellyowo/locobot_sim/locobot_ws/build/kobuki_auto_docking/CMakeFiles/install/strip.dir

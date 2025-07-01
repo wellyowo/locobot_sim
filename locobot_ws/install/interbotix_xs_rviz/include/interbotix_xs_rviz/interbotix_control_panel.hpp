@@ -1,0 +1,1 @@
+/home/wellyowo/locobot_sim/locobot_ws/src/interbotix_ros_toolboxes/interbotix_xs_toolbox/interbotix_xs_rviz/include/interbotix_xs_rviz/interbotix_control_panel.hpp

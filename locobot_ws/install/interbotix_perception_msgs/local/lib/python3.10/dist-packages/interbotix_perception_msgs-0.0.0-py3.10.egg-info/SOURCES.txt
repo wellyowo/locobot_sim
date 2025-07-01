@@ -1,0 +1,1 @@
+/home/wellyowo/locobot_sim/locobot_ws/build/interbotix_perception_msgs/ament_cmake_python/interbotix_perception_msgs/interbotix_perception_msgs.egg-info/SOURCES.txt
