@@ -1,0 +1,71 @@
+[0.013s] Invoking command in '/home/wellyowo/locobot_sim/locobot_ws/build/interbotix_gravity_compensation': AMENT_PREFIX_PATH=/home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xs_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xs_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xs_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/wellyowo/locobot_sim/locobot_ws/src/interbotix_ros_toolboxes/interbotix_common_toolbox/interbotix_gravity_compensation -DBUILD_TESTING=OFF -DCMAKE_PREFIX_PATH= -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/wellyowo/locobot_sim/locobot_ws/install/interbotix_gravity_compensation
+[0.076s] -- The C compiler identification is GNU 11.4.0
+[0.140s] -- The CXX compiler identification is GNU 11.4.0
+[0.149s] -- Detecting C compiler ABI info
+[0.222s] -- Detecting C compiler ABI info - done
+[0.230s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.230s] -- Detecting C compile features
+[0.231s] -- Detecting C compile features - done
+[0.233s] -- Detecting CXX compiler ABI info
+[0.334s] -- Detecting CXX compiler ABI info - done
+[0.344s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.345s] -- Detecting CXX compile features
+[0.345s] -- Detecting CXX compile features - done
+[0.349s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.538s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.604s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.647s] -- Found interbotix_xs_msgs: 0.0.0 (/home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/cmake)
+[0.703s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.713s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.726s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.745s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.771s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.886s] -- Found kdl_parser: 2.6.4 (/opt/ros/humble/share/kdl_parser/cmake)
+[0.904s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.905s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[0.905s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.909s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.950s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.953s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.055s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.089s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.144s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.155s] -- Looking for pthread.h
+[1.233s] -- Looking for pthread.h - found
+[1.234s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.315s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.316s] -- Found Threads: TRUE  
+[1.357s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.374s] -- Found std_srvs: 4.9.0 (/opt/ros/humble/share/std_srvs/cmake)
+[1.384s] -- Found yaml_cpp_vendor: 8.0.2 (/opt/ros/humble/share/yaml_cpp_vendor/cmake)
+[1.452s] -- Configuring done
+[1.470s] -- Generating done
+[1.473s] -- Build files have been written to: /home/wellyowo/locobot_sim/locobot_ws/build/interbotix_gravity_compensation
+[1.485s] Invoked command in '/home/wellyowo/locobot_sim/locobot_ws/build/interbotix_gravity_compensation' returned '0': AMENT_PREFIX_PATH=/home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xs_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xs_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xs_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/wellyowo/locobot_sim/locobot_ws/src/interbotix_ros_toolboxes/interbotix_common_toolbox/interbotix_gravity_compensation -DBUILD_TESTING=OFF -DCMAKE_PREFIX_PATH= -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/wellyowo/locobot_sim/locobot_ws/install/interbotix_gravity_compensation
+[1.487s] Invoking command in '/home/wellyowo/locobot_sim/locobot_ws/build/interbotix_gravity_compensation': AMENT_PREFIX_PATH=/home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xs_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xs_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xs_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/wellyowo/locobot_sim/locobot_ws/build/interbotix_gravity_compensation -- -j16 -l16
+[1.537s] [ 33%] [32mBuilding CXX object CMakeFiles/interbotix_gravity_compensation.dir/src/interbotix_gravity_compensation_node.cpp.o[0m
+[8.542s] [ 66%] [32mBuilding CXX object CMakeFiles/interbotix_gravity_compensation.dir/src/interbotix_gravity_compensation.cpp.o[0m
+[20.608s] [100%] [32m[1mLinking CXX executable interbotix_gravity_compensation[0m
+[21.170s] [100%] Built target interbotix_gravity_compensation
+[21.180s] Invoked command in '/home/wellyowo/locobot_sim/locobot_ws/build/interbotix_gravity_compensation' returned '0': AMENT_PREFIX_PATH=/home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xs_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xs_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xs_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/wellyowo/locobot_sim/locobot_ws/build/interbotix_gravity_compensation -- -j16 -l16
+[21.181s] Invoking command in '/home/wellyowo/locobot_sim/locobot_ws/build/interbotix_gravity_compensation': AMENT_PREFIX_PATH=/home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xs_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xs_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xs_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/wellyowo/locobot_sim/locobot_ws/build/interbotix_gravity_compensation
+[21.188s] -- Install configuration: ""
+[21.189s] -- Execute custom install script
+[21.189s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_gravity_compensation/lib/interbotix_gravity_compensation/interbotix_gravity_compensation
+[21.197s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_gravity_compensation/share/interbotix_gravity_compensation/config/motor_specs_example.yaml
+[21.205s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_gravity_compensation/share/ament_index/resource_index/package_run_dependencies/interbotix_gravity_compensation
+[21.212s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_gravity_compensation/share/ament_index/resource_index/parent_prefix_path/interbotix_gravity_compensation
+[21.220s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_gravity_compensation/share/interbotix_gravity_compensation/environment/ament_prefix_path.sh
+[21.228s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_gravity_compensation/share/interbotix_gravity_compensation/environment/ament_prefix_path.dsv
+[21.235s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_gravity_compensation/share/interbotix_gravity_compensation/environment/path.sh
+[21.243s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_gravity_compensation/share/interbotix_gravity_compensation/environment/path.dsv
+[21.251s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_gravity_compensation/share/interbotix_gravity_compensation/local_setup.bash
+[21.258s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_gravity_compensation/share/interbotix_gravity_compensation/local_setup.sh
+[21.266s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_gravity_compensation/share/interbotix_gravity_compensation/local_setup.zsh
+[21.273s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_gravity_compensation/share/interbotix_gravity_compensation/local_setup.dsv
+[21.280s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_gravity_compensation/share/interbotix_gravity_compensation/package.dsv
+[21.287s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_gravity_compensation/share/ament_index/resource_index/packages/interbotix_gravity_compensation
+[21.294s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_gravity_compensation/share/interbotix_gravity_compensation/cmake/interbotix_gravity_compensationConfig.cmake
+[21.302s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_gravity_compensation/share/interbotix_gravity_compensation/cmake/interbotix_gravity_compensationConfig-version.cmake
+[21.309s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_gravity_compensation/share/interbotix_gravity_compensation/package.xml
+[21.319s] Invoked command in '/home/wellyowo/locobot_sim/locobot_ws/build/interbotix_gravity_compensation' returned '0': AMENT_PREFIX_PATH=/home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xs_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xs_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xs_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/wellyowo/locobot_sim/locobot_ws/build/interbotix_gravity_compensation

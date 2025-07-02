@@ -1,0 +1,3 @@
+[console_scripts]
+keyboard_control_py = locobot_control_python.keyboard_control:main
+

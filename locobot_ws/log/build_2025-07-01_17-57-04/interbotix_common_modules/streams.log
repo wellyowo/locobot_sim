@@ -1,0 +1,23 @@
+[1.101s] Invoking command in '/home/wellyowo/locobot_sim/locobot_ws/build/interbotix_common_modules': PYTHONPATH=/home/wellyowo/locobot_sim/locobot_ws/build/interbotix_common_modules/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wellyowo/locobot_sim/locobot_ws/install/interbotix_common_modules/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/wellyowo/locobot_sim/locobot_ws/build/interbotix_common_modules/build --no-deps symlink_data
+[3.577s] running develop
+[3.578s] running egg_info
+[3.578s] creating interbotix_common_modules.egg-info
+[3.578s] writing interbotix_common_modules.egg-info/PKG-INFO
+[3.578s] writing dependency_links to interbotix_common_modules.egg-info/dependency_links.txt
+[3.578s] writing entry points to interbotix_common_modules.egg-info/entry_points.txt
+[3.578s] writing requirements to interbotix_common_modules.egg-info/requires.txt
+[3.578s] writing top-level names to interbotix_common_modules.egg-info/top_level.txt
+[3.578s] writing manifest file 'interbotix_common_modules.egg-info/SOURCES.txt'
+[3.578s] reading manifest file 'interbotix_common_modules.egg-info/SOURCES.txt'
+[3.578s] writing manifest file 'interbotix_common_modules.egg-info/SOURCES.txt'
+[3.579s] running build_ext
+[3.579s] Creating /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_common_modules/lib/python3.10/site-packages/interbotix-common-modules.egg-link (link to .)
+[3.579s] 
+[3.579s] Installed /home/wellyowo/locobot_sim/locobot_ws/build/interbotix_common_modules
+[3.579s] running symlink_data
+[3.579s] creating /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_common_modules/share/ament_index
+[3.579s] creating /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_common_modules/share/ament_index/resource_index
+[3.579s] creating /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_common_modules/share/ament_index/resource_index/packages
+[3.579s] symbolically linking /home/wellyowo/locobot_sim/locobot_ws/build/interbotix_common_modules/resource/interbotix_common_modules -> /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_common_modules/share/ament_index/resource_index/packages
+[3.579s] symbolically linking /home/wellyowo/locobot_sim/locobot_ws/build/interbotix_common_modules/package.xml -> /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_common_modules/share/interbotix_common_modules
+[3.698s] Invoked command in '/home/wellyowo/locobot_sim/locobot_ws/build/interbotix_common_modules' returned '0': PYTHONPATH=/home/wellyowo/locobot_sim/locobot_ws/build/interbotix_common_modules/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wellyowo/locobot_sim/locobot_ws/install/interbotix_common_modules/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/wellyowo/locobot_sim/locobot_ws/build/interbotix_common_modules/build --no-deps symlink_data

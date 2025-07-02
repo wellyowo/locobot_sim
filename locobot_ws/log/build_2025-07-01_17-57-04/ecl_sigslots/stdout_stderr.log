@@ -1,0 +1,75 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ecl_build: 1.0.3 (/opt/ros/humble/share/ecl_build/cmake)
+-- Found ecl_config: 1.2.0 (/home/wellyowo/locobot_sim/locobot_ws/install/ecl_config/share/ecl_config/cmake)
+-- Found ecl_threads: 1.2.1 (/home/wellyowo/locobot_sim/locobot_ws/install/ecl_threads/share/ecl_threads/cmake)
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (Threads)
+  does not match the name of the calling package (ecl_threads).  This can
+  lead to problems in calling code that expects `find_package` result
+  variables (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/share/cmake-3.22/Modules/FindThreads.cmake:238 (FIND_PACKAGE_HANDLE_STANDARD_ARGS)
+  /opt/ros/humble/share/ecl_build/cmake/ecl_platform_detection.cmake:225 (include)
+  /home/wellyowo/locobot_sim/locobot_ws/install/ecl_threads/share/ecl_threads/cmake/ecl_threads-extras.cmake:4 (ecl_detect_threads)
+  /home/wellyowo/locobot_sim/locobot_ws/install/ecl_threads/share/ecl_threads/cmake/ecl_threadsConfig.cmake:41 (include)
+  CMakeLists.txt:19 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+-- Found Threads: TRUE  
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/wellyowo/locobot_sim/locobot_ws/build/ecl_sigslots
+[ 25%] [32mBuilding CXX object src/examples/CMakeFiles/ecl_demo_sigslots.dir/sigslots.cpp.o[0m
+[ 50%] [32m[1mLinking CXX executable demo_sigslots[0m
+[ 50%] Built target ecl_demo_sigslots
+[ 75%] [32mBuilding CXX object src/examples/CMakeFiles/ecl_demo_sigslots_manager.dir/sigslots_manager.cpp.o[0m
+[100%] [32m[1mLinking CXX executable demo_sigslots_manager[0m
+[100%] Built target ecl_demo_sigslots_manager
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_sigslots/include/ecl/sigslots/macros.hpp
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_sigslots/include/ecl/sigslots/manager.hpp
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_sigslots/include/ecl/sigslots/signal.hpp
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_sigslots/include/ecl/sigslots/sigslot.hpp
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_sigslots/include/ecl/sigslots/slot.hpp
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_sigslots/include/ecl/sigslots/topic.hpp
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_sigslots/include/ecl/sigslots.hpp
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_sigslots/lib/ecl_sigslots/demo_sigslots
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_sigslots/lib/ecl_sigslots/demo_sigslots_manager
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_sigslots/share/ament_index/resource_index/package_run_dependencies/ecl_sigslots
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_sigslots/share/ament_index/resource_index/parent_prefix_path/ecl_sigslots
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_sigslots/share/ecl_sigslots/environment/ament_prefix_path.sh
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_sigslots/share/ecl_sigslots/environment/ament_prefix_path.dsv
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_sigslots/share/ecl_sigslots/environment/path.sh
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_sigslots/share/ecl_sigslots/environment/path.dsv
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_sigslots/share/ecl_sigslots/local_setup.bash
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_sigslots/share/ecl_sigslots/local_setup.sh
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_sigslots/share/ecl_sigslots/local_setup.zsh
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_sigslots/share/ecl_sigslots/local_setup.dsv
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_sigslots/share/ecl_sigslots/package.dsv
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_sigslots/share/ament_index/resource_index/packages/ecl_sigslots
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_sigslots/share/ecl_sigslots/cmake/ament_cmake_export_targets-extras.cmake
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_sigslots/share/ecl_sigslots/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_sigslots/share/ecl_sigslots/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_sigslots/share/ecl_sigslots/cmake/ecl_sigslotsConfig.cmake
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_sigslots/share/ecl_sigslots/cmake/ecl_sigslotsConfig-version.cmake
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_sigslots/share/ecl_sigslots/package.xml
+-- Installing: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_sigslots/share/ecl_sigslots/cmake/ecl_sigslotsExport.cmake

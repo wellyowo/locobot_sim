@@ -1,0 +1,51 @@
+[0.037s] Invoking command in '/home/wellyowo/locobot_sim/locobot_ws/build/ecl_mpl': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/wellyowo/locobot_sim/locobot_ws/src/ThirdParty/ecl/ecl_core/ecl_mpl -DBUILD_TESTING=OFF -DCMAKE_PREFIX_PATH= -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/wellyowo/locobot_sim/locobot_ws/install/ecl_mpl
+[0.248s] -- The C compiler identification is GNU 11.4.0
+[0.248s] -- The CXX compiler identification is GNU 11.4.0
+[0.248s] -- Detecting C compiler ABI info
+[0.323s] -- Detecting C compiler ABI info - done
+[0.333s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.333s] -- Detecting C compile features
+[0.334s] -- Detecting C compile features - done
+[0.338s] -- Detecting CXX compiler ABI info
+[0.461s] -- Detecting CXX compiler ABI info - done
+[0.473s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.473s] -- Detecting CXX compile features
+[0.473s] -- Detecting CXX compile features - done
+[0.475s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.707s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.849s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.980s] -- Found ecl_build: 1.0.3 (/opt/ros/humble/share/ecl_build/cmake)
+[1.137s] -- Configuring done
+[1.160s] -- Generating done
+[1.168s] -- Build files have been written to: /home/wellyowo/locobot_sim/locobot_ws/build/ecl_mpl
+[1.193s] Invoked command in '/home/wellyowo/locobot_sim/locobot_ws/build/ecl_mpl' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/wellyowo/locobot_sim/locobot_ws/src/ThirdParty/ecl/ecl_core/ecl_mpl -DBUILD_TESTING=OFF -DCMAKE_PREFIX_PATH= -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/wellyowo/locobot_sim/locobot_ws/install/ecl_mpl
+[1.204s] Invoking command in '/home/wellyowo/locobot_sim/locobot_ws/build/ecl_mpl': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wellyowo/locobot_sim/locobot_ws/build/ecl_mpl -- -j16 -l16
+[3.605s] Invoked command in '/home/wellyowo/locobot_sim/locobot_ws/build/ecl_mpl' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wellyowo/locobot_sim/locobot_ws/build/ecl_mpl -- -j16 -l16
+[3.631s] Invoking command in '/home/wellyowo/locobot_sim/locobot_ws/build/ecl_mpl': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/wellyowo/locobot_sim/locobot_ws/build/ecl_mpl
+[3.884s] -- Install configuration: ""
+[3.884s] -- Execute custom install script
+[3.884s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_mpl/include/ecl/mpl/bool.hpp
+[3.885s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_mpl/include/ecl/mpl/converters.hpp
+[3.885s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_mpl/include/ecl/mpl/enable_if.hpp
+[3.885s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_mpl/include/ecl/mpl/failed_object.hpp
+[3.885s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_mpl/include/ecl/mpl/if.hpp
+[3.885s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_mpl/include/ecl/mpl.hpp
+[3.886s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_mpl/share/ament_index/resource_index/package_run_dependencies/ecl_mpl
+[3.919s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_mpl/share/ament_index/resource_index/parent_prefix_path/ecl_mpl
+[3.956s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_mpl/share/ecl_mpl/environment/ament_prefix_path.sh
+[3.975s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_mpl/share/ecl_mpl/environment/ament_prefix_path.dsv
+[4.000s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_mpl/share/ecl_mpl/environment/path.sh
+[4.032s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_mpl/share/ecl_mpl/environment/path.dsv
+[4.046s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_mpl/share/ecl_mpl/local_setup.bash
+[4.085s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_mpl/share/ecl_mpl/local_setup.sh
+[4.116s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_mpl/share/ecl_mpl/local_setup.zsh
+[4.166s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_mpl/share/ecl_mpl/local_setup.dsv
+[4.200s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_mpl/share/ecl_mpl/package.dsv
+[4.228s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_mpl/share/ament_index/resource_index/packages/ecl_mpl
+[4.278s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_mpl/share/ecl_mpl/cmake/ament_cmake_export_targets-extras.cmake
+[4.355s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_mpl/share/ecl_mpl/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.399s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_mpl/share/ecl_mpl/cmake/ecl_mplConfig.cmake
+[4.425s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_mpl/share/ecl_mpl/cmake/ecl_mplConfig-version.cmake
+[4.486s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_mpl/share/ecl_mpl/package.xml
+[4.562s] -- Installing: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_mpl/share/ecl_mpl/cmake/ecl_mplExport.cmake
+[4.574s] Invoked command in '/home/wellyowo/locobot_sim/locobot_ws/build/ecl_mpl' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/wellyowo/locobot_sim/locobot_ws/build/ecl_mpl

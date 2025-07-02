@@ -1,0 +1,163 @@
+[0.041s] Invoking command in '/home/wellyowo/locobot_sim/locobot_ws/build/ecl_config': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/wellyowo/locobot_sim/locobot_ws/src/ThirdParty/ecl/ecl_lite/ecl_config -DBUILD_TESTING=OFF -DCMAKE_PREFIX_PATH= -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/wellyowo/locobot_sim/locobot_ws/install/ecl_config
+[0.250s] -- The C compiler identification is GNU 11.4.0
+[0.250s] -- The CXX compiler identification is GNU 11.4.0
+[0.250s] -- Detecting C compiler ABI info
+[0.333s] -- Detecting C compiler ABI info - done
+[0.340s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.340s] -- Detecting C compile features
+[0.340s] -- Detecting C compile features - done
+[0.345s] -- Detecting CXX compiler ABI info
+[0.473s] -- Detecting CXX compiler ABI info - done
+[0.486s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.486s] -- Detecting CXX compile features
+[0.487s] -- Detecting CXX compile features - done
+[0.491s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.746s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.930s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.089s] -- Found ecl_build: 1.0.3 (/opt/ros/humble/share/ecl_build/cmake)
+[1.107s] -- Looking for _POSIX_VERSION
+[1.281s] -- Looking for _POSIX_VERSION - found
+[1.284s] -- Looking for realpath in rt
+[1.408s] -- Looking for realpath in rt - found
+[1.410s] -- Looking for clock_nanosleep in rt
+[1.590s] -- Looking for clock_nanosleep in rt - found
+[1.590s] -- Looking for clock_gettime in rt
+[1.769s] -- Looking for clock_gettime in rt - found
+[1.769s] -- Looking for pthread_mutex_timedlock in pthread
+[1.926s] -- Looking for pthread_mutex_timedlock in pthread - found
+[1.926s] -- Looking for nanosleep in pthread
+[2.091s] -- Looking for nanosleep in pthread - found
+[2.091s] -- Looking for shm_open in rt
+[2.249s] -- Looking for shm_open in rt - found
+[2.251s] -- Looking for sched_setscheduler in pthread
+[2.427s] -- Looking for sched_setscheduler in pthread - found
+[2.428s] -- Looking for sem_timedwait in pthread
+[2.569s] -- Looking for sem_timedwait in pthread - found
+[2.569s] -- Looking for sem_init in pthread
+[2.763s] -- Looking for sem_init in pthread - found
+[2.771s] -- Looking for CLOCK_MONOTONIC
+[2.965s] -- Looking for CLOCK_MONOTONIC - found
+[2.965s] -- Looking for CLOCK_PROCESS_CPUTIME_ID
+[3.221s] -- Looking for CLOCK_PROCESS_CPUTIME_ID - found
+[3.222s] -- Looking for pthread.h
+[3.438s] -- Looking for pthread.h - found
+[3.438s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.610s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.617s] -- Found Threads: TRUE  
+[3.617s] -- Looking for sys/types.h
+[3.919s] -- Looking for sys/types.h - found
+[3.920s] -- Looking for stdint.h
+[4.182s] -- Looking for stdint.h - found
+[4.183s] -- Looking for stddef.h
+[4.534s] -- Looking for stddef.h - found
+[4.535s] -- Check size of char
+[5.079s] -- Check size of char - done
+[5.080s] -- Check size of short
+[5.314s] -- Check size of short - done
+[5.315s] -- Check size of int
+[5.491s] -- Check size of int - done
+[5.493s] -- Check size of long
+[5.691s] -- Check size of long - done
+[5.693s] -- Check size of long long
+[5.903s] -- Check size of long long - done
+[5.904s] -- Check size of float
+[6.240s] -- Check size of float - done
+[6.241s] -- Check size of double
+[6.499s] -- Check size of double - done
+[6.499s] -- Check size of long double
+[6.782s] -- Check size of long double - done
+[6.794s] -- -------------------------------------------------------------------
+[6.794s] -- Platform Summary
+[6.795s] -- -------------------------------------------------------------------
+[6.798s] -- 
+[6.798s] -- System type.....................posix
+[6.798s] -- Operating System................Linux-6.8.0-60-generic
+[6.799s] -- Timer model.....................real-time
+[6.802s] -- Thread model....................posix
+[6.803s] -- Size of char....................1
+[6.803s] -- Size of short...................2
+[6.804s] -- Size of int.....................4
+[6.804s] -- Size of long....................8
+[6.804s] -- Size of long long...............8
+[6.804s] -- Size of float...................4
+[6.805s] -- Size of double..................8
+[6.805s] -- Size of long double.............16
+[6.805s] -- Size of pointer.................64-bit
+[6.806s] -- Endianness......................little-endian
+[6.806s] -- 
+[6.806s] -- -------------------------------------------------------------------
+[6.806s] -- Posix Specifications
+[6.807s] -- -------------------------------------------------------------------
+[6.807s] -- 
+[6.807s] -- Clock selection.................yes
+[6.807s] -- Monotonic clock.................yes
+[6.807s] -- Priority scheduling.............yes
+[6.807s] -- Semaphores......................yes
+[6.807s] -- Shared memory objects...........yes
+[6.807s] -- Timers..........................yes
+[6.807s] -- Timeouts........................yes
+[6.807s] --  - clock_gettime................yes
+[6.807s] --  - clock_nanosleep..............yes
+[6.807s] --  - nanosleep....................yes
+[6.807s] --  - pthread_mutex_timedlock......yes
+[6.807s] --  - sched_setscheduler...........yes
+[6.808s] --  - sem_init.....................yes
+[6.808s] --  - sem_timedwait................yes
+[6.808s] --  - shm_open.....................yes
+[6.808s] -- 
+[6.808s] -- -------------------------------------------------------------------
+[6.808s] -- Build Environment
+[6.812s] -- -------------------------------------------------------------------
+[6.816s] -- 
+[6.816s] -- Compiler......................../usr/bin/c++
+[6.820s] --  - version......................c++ (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0
+[6.822s] Copyright (C) 2021 Free Software Foundation, Inc.
+[6.824s] This is free software see the source for copying conditions.  There is NO
+[6.824s] warranty not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+[6.825s] 
+[6.825s] 
+[6.825s] -- 
+[6.965s] -- Configuring done
+[6.993s] -- Generating done
+[7.002s] -- Build files have been written to: /home/wellyowo/locobot_sim/locobot_ws/build/ecl_config
+[7.058s] Invoked command in '/home/wellyowo/locobot_sim/locobot_ws/build/ecl_config' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/wellyowo/locobot_sim/locobot_ws/src/ThirdParty/ecl/ecl_lite/ecl_config -DBUILD_TESTING=OFF -DCMAKE_PREFIX_PATH= -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/wellyowo/locobot_sim/locobot_ws/install/ecl_config
+[7.059s] Invoking command in '/home/wellyowo/locobot_sim/locobot_ws/build/ecl_config': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wellyowo/locobot_sim/locobot_ws/build/ecl_config -- -j16 -l16
+[11.602s] [ 25%] [32mBuilding CXX object src/utilities/CMakeFiles/ecl_detect_posix.dir/detect_posix.cpp.o[0m
+[11.603s] [ 50%] [32mBuilding CXX object src/utilities/CMakeFiles/ecl_detect_endian.dir/detect_endian.cpp.o[0m
+[11.610s] [ 75%] [32m[1mLinking CXX executable bin/ecl_detect_posix[0m
+[11.612s] [100%] [32m[1mLinking CXX executable bin/ecl_detect_endian[0m
+[11.612s] [100%] Built target ecl_detect_posix
+[11.612s] [100%] Built target ecl_detect_endian
+[11.617s] Invoked command in '/home/wellyowo/locobot_sim/locobot_ws/build/ecl_config' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wellyowo/locobot_sim/locobot_ws/build/ecl_config -- -j16 -l16
+[11.617s] Invoking command in '/home/wellyowo/locobot_sim/locobot_ws/build/ecl_config': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/wellyowo/locobot_sim/locobot_ws/build/ecl_config
+[18.032s] -- Install configuration: ""
+[18.032s] -- Execute custom install script
+[18.032s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_config/include/ecl/config/ecl.hpp
+[18.032s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_config/include/ecl/config/char_sign.hpp
+[18.032s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_config/include/ecl/config/ecl_unknown.hpp
+[18.032s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_config/include/ecl/config/endianness.hpp
+[18.032s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_config/include/ecl/config/macros.hpp
+[18.032s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_config/include/ecl/config/portable_types.hpp
+[18.032s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_config/include/ecl/config/windows.hpp
+[18.032s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_config/include/ecl/config.hpp
+[18.032s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_config/bin/ecl_detect_endian
+[18.032s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_config/bin/ecl_detect_posix
+[18.032s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_config/share/ament_index/resource_index/package_run_dependencies/ecl_config
+[18.033s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_config/share/ament_index/resource_index/parent_prefix_path/ecl_config
+[18.033s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_config/share/ecl_config/environment/ament_prefix_path.sh
+[18.033s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_config/share/ecl_config/environment/ament_prefix_path.dsv
+[18.033s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_config/share/ecl_config/environment/path.sh
+[18.033s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_config/share/ecl_config/environment/path.dsv
+[18.033s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_config/share/ecl_config/local_setup.bash
+[18.037s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_config/share/ecl_config/local_setup.sh
+[18.037s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_config/share/ecl_config/local_setup.zsh
+[18.037s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_config/share/ecl_config/local_setup.dsv
+[18.037s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_config/share/ecl_config/package.dsv
+[18.038s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_config/share/ament_index/resource_index/packages/ecl_config
+[18.038s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_config/share/ecl_config/cmake/ament_cmake_export_targets-extras.cmake
+[18.038s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_config/share/ecl_config/cmake/ament_cmake_export_include_directories-extras.cmake
+[18.038s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_config/share/ecl_config/cmake/ecl_configConfig.cmake
+[18.038s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_config/share/ecl_config/cmake/ecl_configConfig-version.cmake
+[18.038s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_config/share/ecl_config/package.xml
+[18.038s] -- Installing: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_config/share/ecl_config/cmake/ecl_configExport.cmake
+[18.048s] Invoked command in '/home/wellyowo/locobot_sim/locobot_ws/build/ecl_config' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/wellyowo/locobot_sim/locobot_ws/build/ecl_config

@@ -3,6 +3,7 @@
 . "/home/wellyowo/locobot_sim/locobot_ws/install/interbotix_common_modules/share/interbotix_common_modules/package.sh"
 . "/home/wellyowo/locobot_sim/locobot_ws/install/interbotix_common_sim/share/interbotix_common_sim/package.sh"
 . "/home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/package.sh"
+. "/home/wellyowo/locobot_sim/locobot_ws/install/kobuki_description/share/kobuki_description/package.sh"
 . "/home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xs_driver/share/interbotix_xs_driver/package.sh"
 . "/home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xs_sdk/share/interbotix_xs_sdk/package.sh"
 . "/home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xs_modules/share/interbotix_xs_modules/package.sh"

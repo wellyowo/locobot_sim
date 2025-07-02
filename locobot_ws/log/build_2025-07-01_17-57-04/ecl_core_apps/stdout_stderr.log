@@ -1,0 +1,133 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ecl_build: 1.0.3 (/opt/ros/humble/share/ecl_build/cmake)
+-- Found ecl_config: 1.2.0 (/home/wellyowo/locobot_sim/locobot_ws/install/ecl_config/share/ecl_config/cmake)
+-- Found ecl_linear_algebra: 1.2.1 (/home/wellyowo/locobot_sim/locobot_ws/install/ecl_linear_algebra/share/ecl_linear_algebra/cmake)
+-- Found ecl_command_line: 1.2.1 (/home/wellyowo/locobot_sim/locobot_ws/install/ecl_command_line/share/ecl_command_line/cmake)
+-- Found ecl_containers: 1.2.1 (/home/wellyowo/locobot_sim/locobot_ws/install/ecl_containers/share/ecl_containers/cmake)
+-- Found ecl_devices: 1.2.1 (/home/wellyowo/locobot_sim/locobot_ws/install/ecl_devices/share/ecl_devices/cmake)
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (Threads)
+  does not match the name of the calling package (ecl_threads).  This can
+  lead to problems in calling code that expects `find_package` result
+  variables (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/share/cmake-3.22/Modules/FindThreads.cmake:238 (FIND_PACKAGE_HANDLE_STANDARD_ARGS)
+  /opt/ros/humble/share/ecl_build/cmake/ecl_platform_detection.cmake:225 (include)
+  /home/wellyowo/locobot_sim/locobot_ws/install/ecl_threads/share/ecl_threads/cmake/ecl_threads-extras.cmake:4 (ecl_detect_threads)
+  /home/wellyowo/locobot_sim/locobot_ws/install/ecl_threads/share/ecl_threads/cmake/ecl_threadsConfig.cmake:41 (include)
+  /home/wellyowo/locobot_sim/locobot_ws/install/ecl_devices/share/ecl_devices/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /home/wellyowo/locobot_sim/locobot_ws/install/ecl_devices/share/ecl_devices/cmake/ecl_devicesConfig.cmake:41 (include)
+  CMakeLists.txt:26 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+-- Found Threads: TRUE  
+-- Found ecl_geometry: 1.2.1 (/home/wellyowo/locobot_sim/locobot_ws/install/ecl_geometry/share/ecl_geometry/cmake)
+-- Found ecl_ipc: 1.2.1 (/home/wellyowo/locobot_sim/locobot_ws/install/ecl_ipc/share/ecl_ipc/cmake)
+-- Found ecl_sigslots: 1.2.1 (/home/wellyowo/locobot_sim/locobot_ws/install/ecl_sigslots/share/ecl_sigslots/cmake)
+-- Found ecl_streams: 1.2.1 (/home/wellyowo/locobot_sim/locobot_ws/install/ecl_streams/share/ecl_streams/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/wellyowo/locobot_sim/locobot_ws/build/ecl_core_apps
+[  2%] [32mBuilding CXX object src/benchmarks/CMakeFiles/ecl_bench_containers.dir/containers.cpp.o[0m
+[  5%] [32m[1mLinking CXX executable ecl_bench_containers[0m
+[  5%] Built target ecl_bench_containers
+[  8%] [32mBuilding CXX object src/utils/CMakeFiles/ecl_quaternion2yaw.dir/quaternion2yaw.cpp.o[0m
+[ 11%] [32m[1mLinking CXX executable bin/ecl_quaternion2yaw[0m
+[ 11%] Built target ecl_quaternion2yaw
+[ 14%] [32mBuilding CXX object src/utils/CMakeFiles/ecl_process_statistics.dir/process_statistics.cpp.o[0m
+[ 26%] [32mBuilding CXX object src/utils/CMakeFiles/ecl_socket_client.dir/socket_client.cpp.o[0m
+[ 26%] [32mBuilding CXX object src/utils/CMakeFiles/ecl_serial.dir/serial.cpp.o[0m
+[ 26%] [32mBuilding CXX object src/utils/CMakeFiles/ecl_yaw2quaternion.dir/yaw2quaternion.cpp.o[0m
+[ 26%] [32mBuilding CXX object src/utils/CMakeFiles/ecl_socket_server.dir/socket_server.cpp.o[0m
+[ 29%] [32m[1mLinking CXX executable bin/ecl_process_statistics[0m
+[ 29%] Built target ecl_process_statistics
+[ 32%] [32mBuilding CXX object src/benchmarks/CMakeFiles/ecl_bench_eigen3_transforms.dir/eigen3_transforms.cpp.o[0m
+[ 35%] [32mBuilding CXX object src/benchmarks/CMakeFiles/ecl_bench_eigen3_decompositions.dir/eigen3_decompositions.cpp.o[0m
+[ 38%] [32mBuilding CXX object src/utils/CMakeFiles/ecl_hex.dir/hex.cpp.o[0m
+[ 41%] [32m[1mLinking CXX executable ecl_socket_server[0m
+[ 44%] [32m[1mLinking CXX executable ecl_socket_client[0m
+[ 47%] [32m[1mLinking CXX executable ecl_serial[0m
+[ 47%] Built target ecl_socket_server
+[ 52%] [32mBuilding CXX object src/benchmarks/CMakeFiles/ecl_bench_eigen3_inverse.dir/eigen3_inverse.cpp.o[0m
+[ 52%] [32mBuilding CXX object src/benchmarks/CMakeFiles/ecl_bench_string_conversions.dir/string_conversions.cpp.o[0m
+[ 55%] [32mBuilding CXX object src/benchmarks/CMakeFiles/ecl_bench_streams.dir/streams.cpp.o[0m
+[ 58%] [32mBuilding CXX object src/benchmarks/CMakeFiles/ecl_bench_snooze.dir/snooze.cpp.o[0m
+[ 61%] [32mBuilding CXX object src/benchmarks/CMakeFiles/ecl_bench_exceptions.dir/exceptions.cpp.o[0m
+[ 61%] Built target ecl_socket_client
+[ 64%] [32mBuilding CXX object src/benchmarks/CMakeFiles/ecl_bench_flops.dir/flops.cpp.o[0m
+[ 64%] Built target ecl_serial
+[ 67%] [32mBuilding CXX object src/benchmarks/CMakeFiles/ecl_bench_files.dir/files.cpp.o[0m
+[ 70%] [32m[1mLinking CXX executable ecl_hex[0m
+[ 73%] [32m[1mLinking CXX executable ecl_bench_exceptions[0m
+[ 76%] [32m[1mLinking CXX executable ecl_bench_string_conversions[0m
+[ 76%] Built target ecl_bench_exceptions
+[ 76%] Built target ecl_hex
+[ 76%] Built target ecl_bench_string_conversions
+[ 79%] [32m[1mLinking CXX executable ecl_bench_snooze[0m
+[ 82%] [32m[1mLinking CXX executable ecl_bench_files[0m
+[ 82%] Built target ecl_bench_snooze
+[ 82%] Built target ecl_bench_files
+[ 85%] [32m[1mLinking CXX executable ecl_bench_streams[0m
+[ 85%] Built target ecl_bench_streams
+[ 88%] [32m[1mLinking CXX executable ecl_bench_flops[0m
+[ 88%] Built target ecl_bench_flops
+[ 91%] [32m[1mLinking CXX executable bin/ecl_yaw2quaternion[0m
+[ 91%] Built target ecl_yaw2quaternion
+[ 94%] [32m[1mLinking CXX executable ecl_bench_eigen3_inverse[0m
+[ 94%] Built target ecl_bench_eigen3_inverse
+[ 97%] [32m[1mLinking CXX executable ecl_bench_eigen3_transforms[0m
+[ 97%] Built target ecl_bench_eigen3_transforms
+[100%] [32m[1mLinking CXX executable ecl_bench_eigen3_decompositions[0m
+[100%] Built target ecl_bench_eigen3_decompositions
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_core_apps/bin/ecl_bench_containers
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_core_apps/bin/ecl_bench_files
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_core_apps/bin/ecl_bench_flops
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_core_apps/bin/ecl_bench_exceptions
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_core_apps/bin/ecl_bench_snooze
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_core_apps/bin/ecl_bench_streams
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_core_apps/bin/ecl_bench_string_conversions
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_core_apps/bin/ecl_bench_eigen3_inverse
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_core_apps/bin/ecl_bench_eigen3_decompositions
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_core_apps/bin/ecl_bench_eigen3_transforms
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_core_apps/lib/ecl_core_apps/ecl_hex
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_core_apps/lib/ecl_core_apps/ecl_serial
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_core_apps/lib/ecl_core_apps/ecl_socket_client
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_core_apps/lib/ecl_core_apps/ecl_socket_server
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_core_apps/bin/ecl_process_statistics
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_core_apps/bin/ecl_quaternion2yaw
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_core_apps/bin/ecl_yaw2quaternion
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_core_apps/share/ament_index/resource_index/package_run_dependencies/ecl_core_apps
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_core_apps/share/ament_index/resource_index/parent_prefix_path/ecl_core_apps
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_core_apps/share/ecl_core_apps/environment/ament_prefix_path.sh
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_core_apps/share/ecl_core_apps/environment/ament_prefix_path.dsv
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_core_apps/share/ecl_core_apps/environment/path.sh
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_core_apps/share/ecl_core_apps/environment/path.dsv
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_core_apps/share/ecl_core_apps/local_setup.bash
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_core_apps/share/ecl_core_apps/local_setup.sh
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_core_apps/share/ecl_core_apps/local_setup.zsh
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_core_apps/share/ecl_core_apps/local_setup.dsv
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_core_apps/share/ecl_core_apps/package.dsv
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_core_apps/share/ament_index/resource_index/packages/ecl_core_apps
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_core_apps/share/ecl_core_apps/cmake/ecl_core_appsConfig.cmake
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_core_apps/share/ecl_core_apps/cmake/ecl_core_appsConfig-version.cmake
+-- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_core_apps/share/ecl_core_apps/package.xml

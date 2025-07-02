@@ -1,0 +1,117 @@
+[0.183s] Invoking command in '/home/wellyowo/locobot_sim/locobot_ws/build/interbotix_xs_rviz': AMENT_PREFIX_PATH=/home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xs_sdk:/home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xs_driver:/home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xs_msgs:/home/wellyowo/locobot_sim/locobot_ws/install/dynamixel_workbench_toolbox:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xs_sdk:/home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xs_driver:/home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xs_msgs:/home/wellyowo/locobot_sim/locobot_ws/install/dynamixel_workbench_toolbox:/opt/ros/humble LD_LIBRARY_PATH=/home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xs_driver/lib:/home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xs_msgs/lib:/home/wellyowo/locobot_sim/locobot_ws/install/dynamixel_workbench_toolbox/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/wellyowo/locobot_sim/locobot_ws/src/interbotix_ros_toolboxes/interbotix_xs_toolbox/interbotix_xs_rviz -DBUILD_TESTING=OFF -DCMAKE_PREFIX_PATH= -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xs_rviz
+[0.223s] -- The C compiler identification is GNU 11.4.0
+[0.268s] -- The CXX compiler identification is GNU 11.4.0
+[0.276s] -- Detecting C compiler ABI info
+[0.337s] -- Detecting C compiler ABI info - done
+[0.343s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.344s] -- Detecting C compile features
+[0.344s] -- Detecting C compile features - done
+[0.346s] -- Detecting CXX compiler ABI info
+[0.422s] -- Detecting CXX compiler ABI info - done
+[0.433s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.433s] -- Detecting CXX compile features
+[0.434s] -- Detecting CXX compile features - done
+[0.438s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.577s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.633s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.663s] -- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)
+[0.711s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.737s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.742s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.750s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.762s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.772s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.813s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.816s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.840s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.881s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.883s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.895s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.897s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.905s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.912s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.920s] -- Looking for pthread.h
+[0.979s] -- Looking for pthread.h - found
+[0.979s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.037s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.038s] -- Found Threads: TRUE  
+[1.082s] -- Found rviz_common: 11.2.17 (/opt/ros/humble/share/rviz_common/cmake)
+[1.087s] -- Setting assimp_DIR to: '/opt/ros/humble/share/rviz_assimp_vendor/cmake/../../../opt/rviz_assimp_vendor/lib/cmake/assimp-4.1'
+[1.093s] -- Setting OGRE_DIR to: '/opt/ros/humble/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[1.094s] -- Found OGRE
+[1.094s] --   static     : OFF
+[1.094s] --   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[1.094s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[1.094s] --   media      : /opt/ros/humble/opt/rviz_ogre_vendor/share/OGRE/Media
+[1.094s] -- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[1.094s] -- OGRE_LIBRARY_DIRS: /opt/ros/humble/opt/rviz_ogre_vendor/lib
+[1.094s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[1.094s] -- OGRE_PLUGIN_DIR: /opt/ros/humble/opt/rviz_ogre_vendor/lib/OGRE
+[1.094s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[1.094s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[1.095s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[1.095s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[1.107s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[1.110s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+[1.172s] -- Found X11: /usr/include   
+[1.172s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[1.229s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[1.230s] -- Looking for gethostbyname
+[1.287s] -- Looking for gethostbyname - found
+[1.287s] -- Looking for connect
+[1.342s] -- Looking for connect - found
+[1.343s] -- Looking for remove
+[1.397s] -- Looking for remove - found
+[1.398s] -- Looking for shmat
+[1.453s] -- Looking for shmat - found
+[1.453s] -- Looking for IceConnectionNumber in ICE
+[1.510s] -- Looking for IceConnectionNumber in ICE - found
+[1.580s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[1.623s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.623s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.717s] -- Found interbotix_xs_msgs: 0.0.0 (/home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xs_msgs/share/interbotix_xs_msgs/cmake)
+[1.813s] -- Configuring done
+[1.848s] -- Generating done
+[1.852s] -- Build files have been written to: /home/wellyowo/locobot_sim/locobot_ws/build/interbotix_xs_rviz
+[1.864s] Invoked command in '/home/wellyowo/locobot_sim/locobot_ws/build/interbotix_xs_rviz' returned '0': AMENT_PREFIX_PATH=/home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xs_sdk:/home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xs_driver:/home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xs_msgs:/home/wellyowo/locobot_sim/locobot_ws/install/dynamixel_workbench_toolbox:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xs_sdk:/home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xs_driver:/home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xs_msgs:/home/wellyowo/locobot_sim/locobot_ws/install/dynamixel_workbench_toolbox:/opt/ros/humble LD_LIBRARY_PATH=/home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xs_driver/lib:/home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xs_msgs/lib:/home/wellyowo/locobot_sim/locobot_ws/install/dynamixel_workbench_toolbox/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/wellyowo/locobot_sim/locobot_ws/src/interbotix_ros_toolboxes/interbotix_xs_toolbox/interbotix_xs_rviz -DBUILD_TESTING=OFF -DCMAKE_PREFIX_PATH= -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xs_rviz
+[1.866s] Invoking command in '/home/wellyowo/locobot_sim/locobot_ws/build/interbotix_xs_rviz': AMENT_PREFIX_PATH=/home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xs_sdk:/home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xs_driver:/home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xs_msgs:/home/wellyowo/locobot_sim/locobot_ws/install/dynamixel_workbench_toolbox:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xs_sdk:/home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xs_driver:/home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xs_msgs:/home/wellyowo/locobot_sim/locobot_ws/install/dynamixel_workbench_toolbox:/opt/ros/humble LD_LIBRARY_PATH=/home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xs_driver/lib:/home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xs_msgs/lib:/home/wellyowo/locobot_sim/locobot_ws/install/dynamixel_workbench_toolbox/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/wellyowo/locobot_sim/locobot_ws/build/interbotix_xs_rviz -- -j16 -l16
+[1.908s] [ 20%] [34m[1mAutomatic MOC for target interbotix_xs_rviz[0m
+[2.186s] [ 20%] Built target interbotix_xs_rviz_autogen
+[2.194s] [ 40%] [34m[1mGenerating ui_interbotix_control_panel.h[0m
+[2.223s] [ 60%] [32mBuilding CXX object CMakeFiles/interbotix_xs_rviz.dir/interbotix_xs_rviz_autogen/mocs_compilation.cpp.o[0m
+[6.657s] [ 80%] [32mBuilding CXX object CMakeFiles/interbotix_xs_rviz.dir/src/interbotix_control_panel.cpp.o[0m
+[14.974s] [100%] [32m[1mLinking CXX shared library libinterbotix_xs_rviz.so[0m
+[17.216s] [100%] Built target interbotix_xs_rviz
+[17.225s] Invoked command in '/home/wellyowo/locobot_sim/locobot_ws/build/interbotix_xs_rviz' returned '0': AMENT_PREFIX_PATH=/home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xs_sdk:/home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xs_driver:/home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xs_msgs:/home/wellyowo/locobot_sim/locobot_ws/install/dynamixel_workbench_toolbox:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xs_sdk:/home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xs_driver:/home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xs_msgs:/home/wellyowo/locobot_sim/locobot_ws/install/dynamixel_workbench_toolbox:/opt/ros/humble LD_LIBRARY_PATH=/home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xs_driver/lib:/home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xs_msgs/lib:/home/wellyowo/locobot_sim/locobot_ws/install/dynamixel_workbench_toolbox/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/wellyowo/locobot_sim/locobot_ws/build/interbotix_xs_rviz -- -j16 -l16
+[17.226s] Invoking command in '/home/wellyowo/locobot_sim/locobot_ws/build/interbotix_xs_rviz': AMENT_PREFIX_PATH=/home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xs_sdk:/home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xs_driver:/home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xs_msgs:/home/wellyowo/locobot_sim/locobot_ws/install/dynamixel_workbench_toolbox:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xs_sdk:/home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xs_driver:/home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xs_msgs:/home/wellyowo/locobot_sim/locobot_ws/install/dynamixel_workbench_toolbox:/opt/ros/humble LD_LIBRARY_PATH=/home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xs_driver/lib:/home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xs_msgs/lib:/home/wellyowo/locobot_sim/locobot_ws/install/dynamixel_workbench_toolbox/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/wellyowo/locobot_sim/locobot_ws/build/interbotix_xs_rviz
+[17.232s] -- Install configuration: ""
+[17.232s] -- Execute custom install script
+[17.232s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xs_rviz/share/interbotix_xs_rviz//plugin_description.xml
+[17.239s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xs_rviz/include//interbotix_xs_rviz/interbotix_control_panel.hpp
+[17.246s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xs_rviz/include//interbotix_xs_rviz/xs_register_descriptions.hpp
+[17.252s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xs_rviz/share/interbotix_xs_rviz//icons/classes/Interbotix Control Panel.png
+[17.259s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xs_rviz/share/interbotix_xs_rviz/environment/library_path.sh
+[17.265s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xs_rviz/share/interbotix_xs_rviz/environment/library_path.dsv
+[17.271s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xs_rviz/share/ament_index/resource_index/package_run_dependencies/interbotix_xs_rviz
+[17.278s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xs_rviz/share/ament_index/resource_index/parent_prefix_path/interbotix_xs_rviz
+[17.284s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xs_rviz/share/interbotix_xs_rviz/environment/ament_prefix_path.sh
+[17.290s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xs_rviz/share/interbotix_xs_rviz/environment/ament_prefix_path.dsv
+[17.296s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xs_rviz/share/interbotix_xs_rviz/environment/path.sh
+[17.302s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xs_rviz/share/interbotix_xs_rviz/environment/path.dsv
+[17.308s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xs_rviz/share/interbotix_xs_rviz/local_setup.bash
+[17.315s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xs_rviz/share/interbotix_xs_rviz/local_setup.sh
+[17.321s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xs_rviz/share/interbotix_xs_rviz/local_setup.zsh
+[17.327s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xs_rviz/share/interbotix_xs_rviz/local_setup.dsv
+[17.333s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xs_rviz/share/interbotix_xs_rviz/package.dsv
+[17.339s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xs_rviz/share/ament_index/resource_index/packages/interbotix_xs_rviz
+[17.345s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xs_rviz/share/ament_index/resource_index/rviz_common__pluginlib__plugin/interbotix_xs_rviz
+[17.350s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xs_rviz/share/interbotix_xs_rviz/cmake/ament_cmake_export_targets-extras.cmake
+[17.356s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xs_rviz/share/interbotix_xs_rviz/cmake/ament_cmake_export_dependencies-extras.cmake
+[17.361s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xs_rviz/share/interbotix_xs_rviz/cmake/interbotix_xs_rvizConfig.cmake
+[17.367s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xs_rviz/share/interbotix_xs_rviz/cmake/interbotix_xs_rvizConfig-version.cmake
+[17.373s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xs_rviz/share/interbotix_xs_rviz/package.xml
+[17.378s] -- Installing: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xs_rviz/lib/libinterbotix_xs_rviz.so
+[17.383s] -- Set runtime path of "/home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xs_rviz/lib/libinterbotix_xs_rviz.so" to ""
+[17.383s] -- Installing: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xs_rviz/share/interbotix_xs_rviz/cmake/interbotix_xs_rvizExport.cmake
+[17.384s] -- Installing: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xs_rviz/share/interbotix_xs_rviz/cmake/interbotix_xs_rvizExport-noconfig.cmake
+[17.385s] Invoked command in '/home/wellyowo/locobot_sim/locobot_ws/build/interbotix_xs_rviz' returned '0': AMENT_PREFIX_PATH=/home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xs_sdk:/home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xs_driver:/home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xs_msgs:/home/wellyowo/locobot_sim/locobot_ws/install/dynamixel_workbench_toolbox:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xs_sdk:/home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xs_driver:/home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xs_msgs:/home/wellyowo/locobot_sim/locobot_ws/install/dynamixel_workbench_toolbox:/opt/ros/humble LD_LIBRARY_PATH=/home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xs_driver/lib:/home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xs_msgs/lib:/home/wellyowo/locobot_sim/locobot_ws/install/dynamixel_workbench_toolbox/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/wellyowo/locobot_sim/locobot_ws/build/interbotix_xs_rviz

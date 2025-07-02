@@ -7,6 +7,7 @@
 /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xslocobot_descriptions/share/interbotix_xslocobot_descriptions//urdf/arms/mobile_wx250s.urdf.xacro
 /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xslocobot_descriptions/share/interbotix_xslocobot_descriptions//urdf/battery.urdf.xacro
 /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xslocobot_descriptions/share/interbotix_xslocobot_descriptions//urdf/camera_tower.urdf.xacro
+/home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xslocobot_descriptions/share/interbotix_xslocobot_descriptions//urdf/camera_tower_copy.urdf.xacro
 /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xslocobot_descriptions/share/interbotix_xslocobot_descriptions//urdf/create3_version/README.md
 /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xslocobot_descriptions/share/interbotix_xslocobot_descriptions//urdf/create3_version/bump_caster.urdf.xacro
 /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xslocobot_descriptions/share/interbotix_xslocobot_descriptions//urdf/create3_version/bumper.urdf.xacro
@@ -27,7 +28,10 @@
 /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xslocobot_descriptions/share/interbotix_xslocobot_descriptions//urdf/kobuki_version/locobot_kobuki.urdf.xacro
 /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xslocobot_descriptions/share/interbotix_xslocobot_descriptions//urdf/lidar.urdf.xacro
 /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xslocobot_descriptions/share/interbotix_xslocobot_descriptions//urdf/locobot.urdf.xacro
+/home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xslocobot_descriptions/share/interbotix_xslocobot_descriptions//urdf/locobot_copy.urdf.xacro
+/home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xslocobot_descriptions/share/interbotix_xslocobot_descriptions//urdf/old_locobot.urdf.xacro
 /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xslocobot_descriptions/share/interbotix_xslocobot_descriptions//urdf/pan_and_tilt.urdf.xacro
+/home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xslocobot_descriptions/share/interbotix_xslocobot_descriptions//urdf/pan_and_tilt_copy.urdf.xacro
 /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xslocobot_descriptions/share/interbotix_xslocobot_descriptions//urdf/plate.urdf.xacro
 /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xslocobot_descriptions/share/interbotix_xslocobot_descriptions//launch/remote_view.launch.py
 /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xslocobot_descriptions/share/interbotix_xslocobot_descriptions//launch/xslocobot_description.launch.py
@@ -61,6 +65,8 @@
 /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xslocobot_descriptions/share/interbotix_xslocobot_descriptions//meshes/locobot_meshes/locobot_camera.stl
 /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xslocobot_descriptions/share/interbotix_xslocobot_descriptions//meshes/locobot_meshes/locobot_camera_tower_large.stl
 /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xslocobot_descriptions/share/interbotix_xslocobot_descriptions//meshes/locobot_meshes/locobot_camera_tower_large_simple.stl
+/home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xslocobot_descriptions/share/interbotix_xslocobot_descriptions//meshes/locobot_meshes/locobot_camera_tower_old.STL
+/home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xslocobot_descriptions/share/interbotix_xslocobot_descriptions//meshes/locobot_meshes/locobot_camera_tower_old_simple.STL
 /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xslocobot_descriptions/share/interbotix_xslocobot_descriptions//meshes/locobot_meshes/locobot_camera_tower_small.stl
 /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xslocobot_descriptions/share/interbotix_xslocobot_descriptions//meshes/locobot_meshes/locobot_camera_tower_small_simple.stl
 /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_xslocobot_descriptions/share/interbotix_xslocobot_descriptions//meshes/locobot_meshes/locobot_lidar.stl

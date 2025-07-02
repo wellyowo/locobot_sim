@@ -1,0 +1,288 @@
+[0.048s] Invoking command in '/home/wellyowo/locobot_sim/locobot_ws/build/interbotix_perception_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/wellyowo/locobot_sim/locobot_ws/src/interbotix_ros_toolboxes/interbotix_perception_toolbox/interbotix_perception_msgs -DBUILD_TESTING=OFF -DCMAKE_PREFIX_PATH= -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs
+[0.624s] -- The C compiler identification is GNU 11.4.0
+[0.681s] -- The CXX compiler identification is GNU 11.4.0
+[0.727s] -- Detecting C compiler ABI info
+[0.970s] -- Detecting C compiler ABI info - done
+[1.035s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.035s] -- Detecting C compile features
+[1.035s] -- Detecting C compile features - done
+[1.046s] -- Detecting CXX compiler ABI info
+[1.419s] -- Detecting CXX compiler ABI info - done
+[1.444s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.445s] -- Detecting CXX compile features
+[1.447s] -- Detecting CXX compile features - done
+[1.450s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.463s] -- Found ament_cmake_core: 1.3.11 (/opt/ros/humble/share/ament_cmake_core/cmake)
+[1.930s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.069s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.073s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.105s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.260s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.338s] -- Found std_msgs: 4.9.0 (/opt/ros/humble/share/std_msgs/cmake)
+[2.413s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[2.474s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[4.236s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[6.145s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[7.078s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.145s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[7.146s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[7.189s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[7.191s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[7.192s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[7.193s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[7.237s] -- Found PythonExtra: .so  
+[7.525s] -- Configuring done
+[7.686s] -- Generating done
+[7.730s] -- Build files have been written to: /home/wellyowo/locobot_sim/locobot_ws/build/interbotix_perception_msgs
+[7.811s] Invoked command in '/home/wellyowo/locobot_sim/locobot_ws/build/interbotix_perception_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/wellyowo/locobot_sim/locobot_ws/src/interbotix_ros_toolboxes/interbotix_perception_toolbox/interbotix_perception_msgs -DBUILD_TESTING=OFF -DCMAKE_PREFIX_PATH= -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs
+[7.812s] Invoking command in '/home/wellyowo/locobot_sim/locobot_ws/build/interbotix_perception_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wellyowo/locobot_sim/locobot_ws/build/interbotix_perception_msgs -- -j16 -l16
+[14.204s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[14.204s] [  3%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[14.204s] [  3%] Built target ament_cmake_python_symlink_interbotix_perception_msgs
+[14.205s] running egg_info
+[14.205s] creating interbotix_perception_msgs.egg-info
+[14.205s] writing interbotix_perception_msgs.egg-info/PKG-INFO
+[14.205s] writing dependency_links to interbotix_perception_msgs.egg-info/dependency_links.txt
+[14.205s] writing top-level names to interbotix_perception_msgs.egg-info/top_level.txt
+[14.205s] writing manifest file 'interbotix_perception_msgs.egg-info/SOURCES.txt'
+[14.205s] reading manifest file 'interbotix_perception_msgs.egg-info/SOURCES.txt'
+[14.205s] writing manifest file 'interbotix_perception_msgs.egg-info/SOURCES.txt'
+[14.205s] [  3%] Built target ament_cmake_python_build_interbotix_perception_msgs_egg
+[14.206s] [  3%] Built target interbotix_perception_msgs__cpp
+[14.206s] [  5%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[14.206s] [  7%] [32mBuilding C object CMakeFiles/interbotix_perception_msgs__rosidl_generator_c.dir/rosidl_generator_c/interbotix_perception_msgs/srv/detail/cluster_info_array__functions.c.o[0m
+[14.206s] [  9%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[14.206s] [ 10%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[14.206s] [ 14%] [32mBuilding C object CMakeFiles/interbotix_perception_msgs__rosidl_generator_c.dir/rosidl_generator_c/interbotix_perception_msgs/srv/detail/snap_picture__functions.c.o[0m
+[14.206s] [ 14%] [32mBuilding C object CMakeFiles/interbotix_perception_msgs__rosidl_generator_c.dir/rosidl_generator_c/interbotix_perception_msgs/msg/detail/cluster_info__functions.c.o[0m
+[14.206s] [ 16%] [32mBuilding C object CMakeFiles/interbotix_perception_msgs__rosidl_generator_c.dir/rosidl_generator_c/interbotix_perception_msgs/srv/detail/filter_params__functions.c.o[0m
+[14.206s] [ 18%] [32m[1mLinking C shared library libinterbotix_perception_msgs__rosidl_generator_c.so[0m
+[14.206s] [ 18%] Built target interbotix_perception_msgs__rosidl_generator_c
+[14.206s] [ 20%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[14.206s] [ 21%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[14.206s] [ 23%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[14.918s] [ 25%] [32mBuilding CXX object CMakeFiles/interbotix_perception_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/interbotix_perception_msgs/srv/snap_picture__type_support.cpp.o[0m
+[14.934s] [ 27%] [32mBuilding CXX object CMakeFiles/interbotix_perception_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/interbotix_perception_msgs/msg/cluster_info__type_support.cpp.o[0m
+[14.942s] [ 29%] [32mBuilding CXX object CMakeFiles/interbotix_perception_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/interbotix_perception_msgs/srv/cluster_info_array__type_support.cpp.o[0m
+[14.943s] [ 30%] [32mBuilding CXX object CMakeFiles/interbotix_perception_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/interbotix_perception_msgs/srv/filter_params__type_support.cpp.o[0m
+[15.078s] [ 32%] [32m[1mLinking CXX shared library libinterbotix_perception_msgs__rosidl_typesupport_c.so[0m
+[15.174s] [ 32%] Built target interbotix_perception_msgs__rosidl_typesupport_c
+[16.270s] [ 34%] [32mBuilding CXX object CMakeFiles/interbotix_perception_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interbotix_perception_msgs/srv/detail/cluster_info_array__type_support.cpp.o[0m
+[16.318s] [ 36%] [32mBuilding CXX object CMakeFiles/interbotix_perception_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interbotix_perception_msgs/srv/detail/filter_params__type_support.cpp.o[0m
+[16.318s] [ 40%] [32mBuilding CXX object CMakeFiles/interbotix_perception_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interbotix_perception_msgs/msg/detail/cluster_info__type_support.cpp.o[0m
+[16.320s] [ 38%] [32mBuilding CXX object CMakeFiles/interbotix_perception_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interbotix_perception_msgs/srv/detail/snap_picture__type_support.cpp.o[0m
+[18.176s] [ 41%] [32mBuilding C object CMakeFiles/interbotix_perception_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interbotix_perception_msgs/srv/detail/cluster_info_array__type_support.c.o[0m
+[18.177s] [ 43%] [32mBuilding C object CMakeFiles/interbotix_perception_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interbotix_perception_msgs/msg/detail/cluster_info__type_support.c.o[0m
+[18.177s] [ 45%] [32mBuilding C object CMakeFiles/interbotix_perception_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interbotix_perception_msgs/srv/detail/filter_params__type_support.c.o[0m
+[18.180s] [ 47%] [32mBuilding C object CMakeFiles/interbotix_perception_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interbotix_perception_msgs/srv/detail/snap_picture__type_support.c.o[0m
+[18.431s] [ 49%] [32m[1mLinking C shared library libinterbotix_perception_msgs__rosidl_typesupport_introspection_c.so[0m
+[18.538s] [ 49%] Built target interbotix_perception_msgs__rosidl_typesupport_introspection_c
+[19.466s] [ 50%] [32mBuilding CXX object CMakeFiles/interbotix_perception_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interbotix_perception_msgs/msg/cluster_info__type_support.cpp.o[0m
+[20.008s] [ 52%] [32mBuilding CXX object CMakeFiles/interbotix_perception_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interbotix_perception_msgs/srv/snap_picture__type_support.cpp.o[0m
+[20.693s] [ 54%] [32mBuilding CXX object CMakeFiles/interbotix_perception_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interbotix_perception_msgs/srv/filter_params__type_support.cpp.o[0m
+[21.254s] [ 56%] [32mBuilding CXX object CMakeFiles/interbotix_perception_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interbotix_perception_msgs/msg/detail/dds_fastrtps/cluster_info__type_support.cpp.o[0m
+[21.385s] [ 58%] [32mBuilding CXX object CMakeFiles/interbotix_perception_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interbotix_perception_msgs/srv/cluster_info_array__type_support.cpp.o[0m
+[21.955s] [ 60%] [32m[1mLinking CXX shared library libinterbotix_perception_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[22.271s] [ 61%] [32mBuilding CXX object CMakeFiles/interbotix_perception_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interbotix_perception_msgs/srv/detail/dds_fastrtps/snap_picture__type_support.cpp.o[0m
+[22.527s] [ 61%] Built target interbotix_perception_msgs__rosidl_typesupport_introspection_cpp
+[22.650s] [ 63%] [32mBuilding CXX object CMakeFiles/interbotix_perception_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interbotix_perception_msgs/msg/detail/cluster_info__type_support_c.cpp.o[0m
+[23.730s] [ 65%] [32m[1mLinking CXX shared library libinterbotix_perception_msgs__rosidl_typesupport_cpp.so[0m
+[23.864s] [ 65%] Built target interbotix_perception_msgs__rosidl_typesupport_cpp
+[23.954s] [ 67%] [32mBuilding CXX object CMakeFiles/interbotix_perception_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interbotix_perception_msgs/srv/detail/snap_picture__type_support_c.cpp.o[0m
+[24.681s] [ 69%] [32mBuilding CXX object CMakeFiles/interbotix_perception_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interbotix_perception_msgs/srv/detail/filter_params__type_support_c.cpp.o[0m
+[25.467s] [ 70%] [32mBuilding CXX object CMakeFiles/interbotix_perception_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interbotix_perception_msgs/srv/detail/cluster_info_array__type_support_c.cpp.o[0m
+[27.063s] [ 72%] [32mBuilding CXX object CMakeFiles/interbotix_perception_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interbotix_perception_msgs/srv/detail/dds_fastrtps/filter_params__type_support.cpp.o[0m
+[29.304s] [ 74%] [32m[1mLinking CXX shared library libinterbotix_perception_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[29.352s] [ 76%] [32mBuilding CXX object CMakeFiles/interbotix_perception_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interbotix_perception_msgs/srv/detail/dds_fastrtps/cluster_info_array__type_support.cpp.o[0m
+[29.703s] [ 76%] Built target interbotix_perception_msgs__rosidl_typesupport_fastrtps_c
+[30.930s] [ 78%] [32m[1mLinking CXX shared library libinterbotix_perception_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[32.360s] [ 78%] Built target interbotix_perception_msgs__rosidl_typesupport_fastrtps_cpp
+[32.411s] [ 78%] Built target interbotix_perception_msgs
+[32.593s] [ 80%] [34m[1mGenerating Python code for ROS interfaces[0m
+[40.945s] [ 80%] Built target interbotix_perception_msgs__py
+[41.040s] [ 81%] [32mBuilding C object CMakeFiles/interbotix_perception_msgs__rosidl_generator_py.dir/rosidl_generator_py/interbotix_perception_msgs/msg/_cluster_info_s.c.o[0m
+[41.775s] [ 83%] [32mBuilding C object CMakeFiles/interbotix_perception_msgs__rosidl_generator_py.dir/rosidl_generator_py/interbotix_perception_msgs/srv/_snap_picture_s.c.o[0m
+[42.298s] [ 85%] [32mBuilding C object CMakeFiles/interbotix_perception_msgs__rosidl_generator_py.dir/rosidl_generator_py/interbotix_perception_msgs/srv/_filter_params_s.c.o[0m
+[42.799s] [ 87%] [32mBuilding C object CMakeFiles/interbotix_perception_msgs__rosidl_generator_py.dir/rosidl_generator_py/interbotix_perception_msgs/srv/_cluster_info_array_s.c.o[0m
+[43.249s] [ 89%] [32m[1mLinking C shared library rosidl_generator_py/interbotix_perception_msgs/libinterbotix_perception_msgs__rosidl_generator_py.so[0m
+[43.435s] [ 89%] Built target interbotix_perception_msgs__rosidl_generator_py
+[43.517s] [ 90%] [32mBuilding C object CMakeFiles/interbotix_perception_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/interbotix_perception_msgs/_interbotix_perception_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[43.740s] [ 92%] [32m[1mLinking C shared library rosidl_generator_py/interbotix_perception_msgs/interbotix_perception_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[43.890s] [ 92%] Built target interbotix_perception_msgs__rosidl_typesupport_fastrtps_c__pyext
+[43.977s] [ 94%] [32mBuilding C object CMakeFiles/interbotix_perception_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/interbotix_perception_msgs/_interbotix_perception_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[44.577s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/interbotix_perception_msgs/interbotix_perception_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[44.839s] [ 96%] Built target interbotix_perception_msgs__rosidl_typesupport_c__pyext
+[45.003s] [ 98%] [32mBuilding C object CMakeFiles/interbotix_perception_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/interbotix_perception_msgs/_interbotix_perception_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[45.254s] [100%] [32m[1mLinking C shared library rosidl_generator_py/interbotix_perception_msgs/interbotix_perception_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[45.370s] [100%] Built target interbotix_perception_msgs__rosidl_typesupport_introspection_c__pyext
+[45.416s] Invoked command in '/home/wellyowo/locobot_sim/locobot_ws/build/interbotix_perception_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wellyowo/locobot_sim/locobot_ws/build/interbotix_perception_msgs -- -j16 -l16
+[45.416s] Invoking command in '/home/wellyowo/locobot_sim/locobot_ws/build/interbotix_perception_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/wellyowo/locobot_sim/locobot_ws/build/interbotix_perception_msgs
+[74.844s] -- Install configuration: ""
+[74.844s] -- Execute custom install script
+[74.844s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/share/ament_index/resource_index/rosidl_interfaces/interbotix_perception_msgs
+[74.844s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/include/interbotix_perception_msgs/interbotix_perception_msgs/msg/cluster_info.h
+[74.844s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/include/interbotix_perception_msgs/interbotix_perception_msgs/msg/detail/cluster_info__functions.h
+[74.863s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/include/interbotix_perception_msgs/interbotix_perception_msgs/msg/detail/cluster_info__struct.h
+[74.863s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/include/interbotix_perception_msgs/interbotix_perception_msgs/msg/detail/cluster_info__type_support.h
+[74.863s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/include/interbotix_perception_msgs/interbotix_perception_msgs/msg/rosidl_generator_c__visibility_control.h
+[74.863s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/include/interbotix_perception_msgs/interbotix_perception_msgs/srv/cluster_info_array.h
+[74.863s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/include/interbotix_perception_msgs/interbotix_perception_msgs/srv/detail/cluster_info_array__functions.h
+[74.863s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/include/interbotix_perception_msgs/interbotix_perception_msgs/srv/detail/cluster_info_array__struct.h
+[74.863s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/include/interbotix_perception_msgs/interbotix_perception_msgs/srv/detail/cluster_info_array__type_support.h
+[74.863s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/include/interbotix_perception_msgs/interbotix_perception_msgs/srv/detail/filter_params__functions.h
+[74.863s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/include/interbotix_perception_msgs/interbotix_perception_msgs/srv/detail/filter_params__struct.h
+[74.863s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/include/interbotix_perception_msgs/interbotix_perception_msgs/srv/detail/filter_params__type_support.h
+[74.863s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/include/interbotix_perception_msgs/interbotix_perception_msgs/srv/detail/snap_picture__functions.h
+[74.864s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/include/interbotix_perception_msgs/interbotix_perception_msgs/srv/detail/snap_picture__struct.h
+[74.867s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/include/interbotix_perception_msgs/interbotix_perception_msgs/srv/detail/snap_picture__type_support.h
+[74.867s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/include/interbotix_perception_msgs/interbotix_perception_msgs/srv/filter_params.h
+[74.867s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/include/interbotix_perception_msgs/interbotix_perception_msgs/srv/snap_picture.h
+[74.867s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/share/interbotix_perception_msgs/environment/library_path.sh
+[74.867s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/share/interbotix_perception_msgs/environment/library_path.dsv
+[74.867s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/include/interbotix_perception_msgs/interbotix_perception_msgs/msg/detail/cluster_info__rosidl_typesupport_fastrtps_c.h
+[74.867s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/include/interbotix_perception_msgs/interbotix_perception_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[74.873s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/include/interbotix_perception_msgs/interbotix_perception_msgs/srv/detail/cluster_info_array__rosidl_typesupport_fastrtps_c.h
+[74.873s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/include/interbotix_perception_msgs/interbotix_perception_msgs/srv/detail/filter_params__rosidl_typesupport_fastrtps_c.h
+[74.873s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/include/interbotix_perception_msgs/interbotix_perception_msgs/srv/detail/snap_picture__rosidl_typesupport_fastrtps_c.h
+[74.873s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/include/interbotix_perception_msgs/interbotix_perception_msgs/msg/detail/cluster_info__rosidl_typesupport_introspection_c.h
+[74.874s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/include/interbotix_perception_msgs/interbotix_perception_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[74.874s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/include/interbotix_perception_msgs/interbotix_perception_msgs/srv/detail/cluster_info_array__rosidl_typesupport_introspection_c.h
+[74.874s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/include/interbotix_perception_msgs/interbotix_perception_msgs/srv/detail/filter_params__rosidl_typesupport_introspection_c.h
+[74.874s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/include/interbotix_perception_msgs/interbotix_perception_msgs/srv/detail/snap_picture__rosidl_typesupport_introspection_c.h
+[74.874s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/include/interbotix_perception_msgs/interbotix_perception_msgs/msg/cluster_info.hpp
+[74.874s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/include/interbotix_perception_msgs/interbotix_perception_msgs/msg/detail/cluster_info__builder.hpp
+[74.874s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/include/interbotix_perception_msgs/interbotix_perception_msgs/msg/detail/cluster_info__struct.hpp
+[74.874s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/include/interbotix_perception_msgs/interbotix_perception_msgs/msg/detail/cluster_info__traits.hpp
+[74.874s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/include/interbotix_perception_msgs/interbotix_perception_msgs/msg/detail/cluster_info__type_support.hpp
+[74.874s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/include/interbotix_perception_msgs/interbotix_perception_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[74.874s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/include/interbotix_perception_msgs/interbotix_perception_msgs/srv/cluster_info_array.hpp
+[74.875s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/include/interbotix_perception_msgs/interbotix_perception_msgs/srv/detail/cluster_info_array__builder.hpp
+[74.875s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/include/interbotix_perception_msgs/interbotix_perception_msgs/srv/detail/cluster_info_array__struct.hpp
+[74.875s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/include/interbotix_perception_msgs/interbotix_perception_msgs/srv/detail/cluster_info_array__traits.hpp
+[74.875s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/include/interbotix_perception_msgs/interbotix_perception_msgs/srv/detail/cluster_info_array__type_support.hpp
+[74.885s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/include/interbotix_perception_msgs/interbotix_perception_msgs/srv/detail/filter_params__builder.hpp
+[74.886s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/include/interbotix_perception_msgs/interbotix_perception_msgs/srv/detail/filter_params__struct.hpp
+[74.886s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/include/interbotix_perception_msgs/interbotix_perception_msgs/srv/detail/filter_params__traits.hpp
+[74.886s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/include/interbotix_perception_msgs/interbotix_perception_msgs/srv/detail/filter_params__type_support.hpp
+[74.886s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/include/interbotix_perception_msgs/interbotix_perception_msgs/srv/detail/snap_picture__builder.hpp
+[74.886s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/include/interbotix_perception_msgs/interbotix_perception_msgs/srv/detail/snap_picture__struct.hpp
+[74.887s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/include/interbotix_perception_msgs/interbotix_perception_msgs/srv/detail/snap_picture__traits.hpp
+[74.887s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/include/interbotix_perception_msgs/interbotix_perception_msgs/srv/detail/snap_picture__type_support.hpp
+[74.887s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/include/interbotix_perception_msgs/interbotix_perception_msgs/srv/filter_params.hpp
+[74.887s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/include/interbotix_perception_msgs/interbotix_perception_msgs/srv/snap_picture.hpp
+[74.887s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/include/interbotix_perception_msgs/interbotix_perception_msgs/msg/detail/cluster_info__rosidl_typesupport_fastrtps_cpp.hpp
+[74.887s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/include/interbotix_perception_msgs/interbotix_perception_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[74.887s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/include/interbotix_perception_msgs/interbotix_perception_msgs/srv/detail/cluster_info_array__rosidl_typesupport_fastrtps_cpp.hpp
+[74.887s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/include/interbotix_perception_msgs/interbotix_perception_msgs/srv/detail/filter_params__rosidl_typesupport_fastrtps_cpp.hpp
+[74.887s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/include/interbotix_perception_msgs/interbotix_perception_msgs/srv/detail/snap_picture__rosidl_typesupport_fastrtps_cpp.hpp
+[74.887s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/include/interbotix_perception_msgs/interbotix_perception_msgs/msg/detail/cluster_info__rosidl_typesupport_introspection_cpp.hpp
+[74.887s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/include/interbotix_perception_msgs/interbotix_perception_msgs/srv/detail/cluster_info_array__rosidl_typesupport_introspection_cpp.hpp
+[74.888s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/include/interbotix_perception_msgs/interbotix_perception_msgs/srv/detail/filter_params__rosidl_typesupport_introspection_cpp.hpp
+[74.888s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/include/interbotix_perception_msgs/interbotix_perception_msgs/srv/detail/snap_picture__rosidl_typesupport_introspection_cpp.hpp
+[74.888s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/share/interbotix_perception_msgs/environment/pythonpath.sh
+[74.891s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/share/interbotix_perception_msgs/environment/pythonpath.dsv
+[74.891s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/local/lib/python3.10/dist-packages/interbotix_perception_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[74.891s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/local/lib/python3.10/dist-packages/interbotix_perception_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[74.891s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/local/lib/python3.10/dist-packages/interbotix_perception_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[74.892s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/local/lib/python3.10/dist-packages/interbotix_perception_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[74.892s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/local/lib/python3.10/dist-packages/interbotix_perception_msgs/__init__.py
+[74.892s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/local/lib/python3.10/dist-packages/interbotix_perception_msgs/_interbotix_perception_msgs_s.ep.rosidl_typesupport_c.c
+[74.892s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/local/lib/python3.10/dist-packages/interbotix_perception_msgs/_interbotix_perception_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[74.893s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/local/lib/python3.10/dist-packages/interbotix_perception_msgs/_interbotix_perception_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[74.893s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/local/lib/python3.10/dist-packages/interbotix_perception_msgs/interbotix_perception_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[74.893s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/local/lib/python3.10/dist-packages/interbotix_perception_msgs/interbotix_perception_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[74.893s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/local/lib/python3.10/dist-packages/interbotix_perception_msgs/interbotix_perception_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[74.893s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/local/lib/python3.10/dist-packages/interbotix_perception_msgs/libinterbotix_perception_msgs__rosidl_generator_py.so
+[74.893s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/local/lib/python3.10/dist-packages/interbotix_perception_msgs/msg/__init__.py
+[74.893s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/local/lib/python3.10/dist-packages/interbotix_perception_msgs/msg/_cluster_info.py
+[74.893s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/local/lib/python3.10/dist-packages/interbotix_perception_msgs/msg/_cluster_info_s.c
+[74.896s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/local/lib/python3.10/dist-packages/interbotix_perception_msgs/srv/__init__.py
+[74.897s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/local/lib/python3.10/dist-packages/interbotix_perception_msgs/srv/_cluster_info_array.py
+[74.904s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/local/lib/python3.10/dist-packages/interbotix_perception_msgs/srv/_cluster_info_array_s.c
+[74.905s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/local/lib/python3.10/dist-packages/interbotix_perception_msgs/srv/_filter_params.py
+[74.905s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/local/lib/python3.10/dist-packages/interbotix_perception_msgs/srv/_filter_params_s.c
+[74.905s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/local/lib/python3.10/dist-packages/interbotix_perception_msgs/srv/_snap_picture.py
+[74.905s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/local/lib/python3.10/dist-packages/interbotix_perception_msgs/srv/_snap_picture_s.c
+[74.905s] -- Up-to-date symlink: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/local/lib/python3.10/dist-packages/interbotix_perception_msgs/interbotix_perception_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[74.916s] -- Up-to-date symlink: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/local/lib/python3.10/dist-packages/interbotix_perception_msgs/interbotix_perception_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[74.919s] -- Up-to-date symlink: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/local/lib/python3.10/dist-packages/interbotix_perception_msgs/interbotix_perception_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[74.920s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/share/interbotix_perception_msgs/msg/ClusterInfo.idl
+[74.920s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/share/interbotix_perception_msgs/srv/ClusterInfoArray.idl
+[74.920s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/share/interbotix_perception_msgs/srv/FilterParams.idl
+[74.920s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/share/interbotix_perception_msgs/srv/SnapPicture.idl
+[74.942s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/share/interbotix_perception_msgs/msg/ClusterInfo.msg
+[74.995s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/share/interbotix_perception_msgs/srv/ClusterInfoArray.srv
+[75.027s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/share/interbotix_perception_msgs/srv/ClusterInfoArray_Request.msg
+[75.070s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/share/interbotix_perception_msgs/srv/ClusterInfoArray_Response.msg
+[75.105s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/share/interbotix_perception_msgs/srv/FilterParams.srv
+[75.136s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/share/interbotix_perception_msgs/srv/FilterParams_Request.msg
+[75.187s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/share/interbotix_perception_msgs/srv/FilterParams_Response.msg
+[75.229s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/share/interbotix_perception_msgs/srv/SnapPicture.srv
+[75.337s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/share/interbotix_perception_msgs/srv/SnapPicture_Request.msg
+[75.400s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/share/interbotix_perception_msgs/srv/SnapPicture_Response.msg
+[75.401s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/share/ament_index/resource_index/package_run_dependencies/interbotix_perception_msgs
+[75.429s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/share/ament_index/resource_index/parent_prefix_path/interbotix_perception_msgs
+[75.476s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/share/interbotix_perception_msgs/environment/ament_prefix_path.sh
+[75.508s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/share/interbotix_perception_msgs/environment/ament_prefix_path.dsv
+[75.543s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/share/interbotix_perception_msgs/environment/path.sh
+[75.576s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/share/interbotix_perception_msgs/environment/path.dsv
+[75.591s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/share/interbotix_perception_msgs/local_setup.bash
+[75.618s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/share/interbotix_perception_msgs/local_setup.sh
+[75.656s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/share/interbotix_perception_msgs/local_setup.zsh
+[75.669s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/share/interbotix_perception_msgs/local_setup.dsv
+[75.686s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/share/interbotix_perception_msgs/package.dsv
+[75.705s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/share/ament_index/resource_index/packages/interbotix_perception_msgs
+[75.755s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/share/interbotix_perception_msgs/cmake/rosidl_cmake-extras.cmake
+[75.793s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/share/interbotix_perception_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[75.826s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/share/interbotix_perception_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[75.874s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/share/interbotix_perception_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[75.918s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/share/interbotix_perception_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[75.947s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/share/interbotix_perception_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[75.983s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/share/interbotix_perception_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[76.032s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/share/interbotix_perception_msgs/cmake/interbotix_perception_msgsConfig.cmake
+[76.070s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/share/interbotix_perception_msgs/cmake/interbotix_perception_msgsConfig-version.cmake
+[76.118s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/share/interbotix_perception_msgs/package.xml
+[76.151s] -- Installing: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/lib/libinterbotix_perception_msgs__rosidl_generator_c.so
+[76.153s] -- Set runtime path of "/home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/lib/libinterbotix_perception_msgs__rosidl_generator_c.so" to ""
+[76.154s] -- Installing: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/lib/libinterbotix_perception_msgs__rosidl_typesupport_fastrtps_c.so
+[76.156s] -- Set runtime path of "/home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/lib/libinterbotix_perception_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[76.159s] -- Installing: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/lib/libinterbotix_perception_msgs__rosidl_typesupport_introspection_c.so
+[76.159s] -- Set runtime path of "/home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/lib/libinterbotix_perception_msgs__rosidl_typesupport_introspection_c.so" to ""
+[76.164s] -- Installing: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/lib/libinterbotix_perception_msgs__rosidl_typesupport_c.so
+[76.169s] -- Set runtime path of "/home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/lib/libinterbotix_perception_msgs__rosidl_typesupport_c.so" to ""
+[76.170s] -- Installing: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/lib/libinterbotix_perception_msgs__rosidl_typesupport_fastrtps_cpp.so
+[76.173s] -- Set runtime path of "/home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/lib/libinterbotix_perception_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[76.175s] -- Installing: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/lib/libinterbotix_perception_msgs__rosidl_typesupport_introspection_cpp.so
+[76.176s] -- Set runtime path of "/home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/lib/libinterbotix_perception_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[76.189s] -- Installing: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/lib/libinterbotix_perception_msgs__rosidl_typesupport_cpp.so
+[76.189s] -- Set runtime path of "/home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/lib/libinterbotix_perception_msgs__rosidl_typesupport_cpp.so" to ""
+[76.339s] Listing '/home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/local/lib/python3.10/dist-packages/interbotix_perception_msgs'...
+[76.340s] Compiling '/home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/local/lib/python3.10/dist-packages/interbotix_perception_msgs/__init__.py'...
+[76.340s] Listing '/home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/local/lib/python3.10/dist-packages/interbotix_perception_msgs/msg'...
+[76.340s] Compiling '/home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/local/lib/python3.10/dist-packages/interbotix_perception_msgs/msg/__init__.py'...
+[76.341s] Compiling '/home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/local/lib/python3.10/dist-packages/interbotix_perception_msgs/msg/_cluster_info.py'...
+[76.341s] Listing '/home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/local/lib/python3.10/dist-packages/interbotix_perception_msgs/srv'...
+[76.341s] Compiling '/home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/local/lib/python3.10/dist-packages/interbotix_perception_msgs/srv/__init__.py'...
+[76.341s] Compiling '/home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/local/lib/python3.10/dist-packages/interbotix_perception_msgs/srv/_cluster_info_array.py'...
+[76.341s] Compiling '/home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/local/lib/python3.10/dist-packages/interbotix_perception_msgs/srv/_filter_params.py'...
+[76.341s] Compiling '/home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/local/lib/python3.10/dist-packages/interbotix_perception_msgs/srv/_snap_picture.py'...
+[76.347s] -- Installing: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/lib/libinterbotix_perception_msgs__rosidl_generator_py.so
+[76.347s] -- Set runtime path of "/home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/lib/libinterbotix_perception_msgs__rosidl_generator_py.so" to ""
+[76.348s] -- Installing: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/share/interbotix_perception_msgs/cmake/export_interbotix_perception_msgs__rosidl_generator_cExport.cmake
+[76.348s] -- Installing: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/share/interbotix_perception_msgs/cmake/export_interbotix_perception_msgs__rosidl_generator_cExport-noconfig.cmake
+[76.348s] -- Installing: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/share/interbotix_perception_msgs/cmake/export_interbotix_perception_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[76.348s] -- Installing: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/share/interbotix_perception_msgs/cmake/export_interbotix_perception_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[76.348s] -- Installing: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/share/interbotix_perception_msgs/cmake/interbotix_perception_msgs__rosidl_typesupport_introspection_cExport.cmake
+[76.349s] -- Installing: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/share/interbotix_perception_msgs/cmake/interbotix_perception_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[76.349s] -- Installing: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/share/interbotix_perception_msgs/cmake/interbotix_perception_msgs__rosidl_typesupport_cExport.cmake
+[76.349s] -- Installing: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/share/interbotix_perception_msgs/cmake/interbotix_perception_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[76.350s] -- Installing: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/share/interbotix_perception_msgs/cmake/export_interbotix_perception_msgs__rosidl_generator_cppExport.cmake
+[76.350s] -- Installing: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/share/interbotix_perception_msgs/cmake/export_interbotix_perception_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[76.351s] -- Installing: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/share/interbotix_perception_msgs/cmake/export_interbotix_perception_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[76.351s] -- Installing: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/share/interbotix_perception_msgs/cmake/interbotix_perception_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[76.352s] -- Installing: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/share/interbotix_perception_msgs/cmake/interbotix_perception_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[76.352s] -- Installing: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/share/interbotix_perception_msgs/cmake/interbotix_perception_msgs__rosidl_typesupport_cppExport.cmake
+[76.353s] -- Installing: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/share/interbotix_perception_msgs/cmake/interbotix_perception_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[76.354s] -- Installing: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/share/interbotix_perception_msgs/cmake/export_interbotix_perception_msgs__rosidl_generator_pyExport.cmake
+[76.354s] -- Installing: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/share/interbotix_perception_msgs/cmake/export_interbotix_perception_msgs__rosidl_generator_pyExport-noconfig.cmake
+[76.542s] Invoked command in '/home/wellyowo/locobot_sim/locobot_ws/build/interbotix_perception_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/wellyowo/locobot_sim/locobot_ws/build/interbotix_perception_msgs

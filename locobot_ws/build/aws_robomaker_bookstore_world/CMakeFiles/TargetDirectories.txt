@@ -1,9 +1,0 @@
-/home/wellyowo/locobot_sim/locobot_ws/build/aws_robomaker_bookstore_world/CMakeFiles/uninstall.dir
-/home/wellyowo/locobot_sim/locobot_ws/build/aws_robomaker_bookstore_world/CMakeFiles/aws_robomaker_bookstore_world_uninstall.dir
-/home/wellyowo/locobot_sim/locobot_ws/build/aws_robomaker_bookstore_world/CMakeFiles/test.dir
-/home/wellyowo/locobot_sim/locobot_ws/build/aws_robomaker_bookstore_world/CMakeFiles/edit_cache.dir
-/home/wellyowo/locobot_sim/locobot_ws/build/aws_robomaker_bookstore_world/CMakeFiles/rebuild_cache.dir
-/home/wellyowo/locobot_sim/locobot_ws/build/aws_robomaker_bookstore_world/CMakeFiles/list_install_components.dir
-/home/wellyowo/locobot_sim/locobot_ws/build/aws_robomaker_bookstore_world/CMakeFiles/install.dir
-/home/wellyowo/locobot_sim/locobot_ws/build/aws_robomaker_bookstore_world/CMakeFiles/install/local.dir
-/home/wellyowo/locobot_sim/locobot_ws/build/aws_robomaker_bookstore_world/CMakeFiles/install/strip.dir

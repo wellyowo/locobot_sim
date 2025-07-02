@@ -1,0 +1,59 @@
+[0.052s] Invoking command in '/home/wellyowo/locobot_sim/locobot_ws/build/ecl_sigslots_lite': AMENT_PREFIX_PATH=/home/wellyowo/locobot_sim/locobot_ws/install/ecl_errors:/home/wellyowo/locobot_sim/locobot_ws/install/ecl_config:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wellyowo/locobot_sim/locobot_ws/install/ecl_errors:/home/wellyowo/locobot_sim/locobot_ws/install/ecl_config:/opt/ros/humble LD_LIBRARY_PATH=/home/wellyowo/locobot_sim/locobot_ws/install/ecl_errors/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PATH=/home/wellyowo/locobot_sim/locobot_ws/install/ecl_config/bin:${PATH} /usr/bin/cmake /home/wellyowo/locobot_sim/locobot_ws/src/ThirdParty/ecl/ecl_lite/ecl_sigslots_lite -DBUILD_TESTING=OFF -DCMAKE_PREFIX_PATH= -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/wellyowo/locobot_sim/locobot_ws/install/ecl_sigslots_lite
+[5.418s] -- The C compiler identification is GNU 11.4.0
+[5.418s] -- The CXX compiler identification is GNU 11.4.0
+[5.418s] -- Detecting C compiler ABI info
+[5.419s] -- Detecting C compiler ABI info - done
+[5.419s] -- Check for working C compiler: /usr/bin/cc - skipped
+[5.419s] -- Detecting C compile features
+[5.419s] -- Detecting C compile features - done
+[5.419s] -- Detecting CXX compiler ABI info
+[5.419s] -- Detecting CXX compiler ABI info - done
+[5.419s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[5.423s] -- Detecting CXX compile features
+[5.433s] -- Detecting CXX compile features - done
+[5.433s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[5.433s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[5.434s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[5.434s] -- Found ecl_build: 1.0.3 (/opt/ros/humble/share/ecl_build/cmake)
+[5.434s] -- Found ecl_config: 1.2.0 (/home/wellyowo/locobot_sim/locobot_ws/install/ecl_config/share/ecl_config/cmake)
+[5.434s] -- Found ecl_errors: 1.2.0 (/home/wellyowo/locobot_sim/locobot_ws/install/ecl_errors/share/ecl_errors/cmake)
+[5.434s] -- Configuring done
+[5.434s] -- Generating done
+[5.434s] -- Build files have been written to: /home/wellyowo/locobot_sim/locobot_ws/build/ecl_sigslots_lite
+[5.564s] Invoked command in '/home/wellyowo/locobot_sim/locobot_ws/build/ecl_sigslots_lite' returned '0': AMENT_PREFIX_PATH=/home/wellyowo/locobot_sim/locobot_ws/install/ecl_errors:/home/wellyowo/locobot_sim/locobot_ws/install/ecl_config:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wellyowo/locobot_sim/locobot_ws/install/ecl_errors:/home/wellyowo/locobot_sim/locobot_ws/install/ecl_config:/opt/ros/humble LD_LIBRARY_PATH=/home/wellyowo/locobot_sim/locobot_ws/install/ecl_errors/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PATH=/home/wellyowo/locobot_sim/locobot_ws/install/ecl_config/bin:${PATH} /usr/bin/cmake /home/wellyowo/locobot_sim/locobot_ws/src/ThirdParty/ecl/ecl_lite/ecl_sigslots_lite -DBUILD_TESTING=OFF -DCMAKE_PREFIX_PATH= -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/wellyowo/locobot_sim/locobot_ws/install/ecl_sigslots_lite
+[5.565s] Invoking command in '/home/wellyowo/locobot_sim/locobot_ws/build/ecl_sigslots_lite': AMENT_PREFIX_PATH=/home/wellyowo/locobot_sim/locobot_ws/install/ecl_errors:/home/wellyowo/locobot_sim/locobot_ws/install/ecl_config:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wellyowo/locobot_sim/locobot_ws/install/ecl_errors:/home/wellyowo/locobot_sim/locobot_ws/install/ecl_config:/opt/ros/humble LD_LIBRARY_PATH=/home/wellyowo/locobot_sim/locobot_ws/install/ecl_errors/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PATH=/home/wellyowo/locobot_sim/locobot_ws/install/ecl_config/bin:${PATH} /usr/bin/cmake --build /home/wellyowo/locobot_sim/locobot_ws/build/ecl_sigslots_lite -- -j16 -l16
+[6.551s] [ 50%] [32mBuilding CXX object src/examples/CMakeFiles/demo_sigslots_lite.dir/sigslots.cpp.o[0m
+[7.582s] [100%] [32m[1mLinking CXX executable demo_sigslots_lite[0m
+[8.491s] [100%] Built target demo_sigslots_lite
+[8.561s] Invoked command in '/home/wellyowo/locobot_sim/locobot_ws/build/ecl_sigslots_lite' returned '0': AMENT_PREFIX_PATH=/home/wellyowo/locobot_sim/locobot_ws/install/ecl_errors:/home/wellyowo/locobot_sim/locobot_ws/install/ecl_config:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wellyowo/locobot_sim/locobot_ws/install/ecl_errors:/home/wellyowo/locobot_sim/locobot_ws/install/ecl_config:/opt/ros/humble LD_LIBRARY_PATH=/home/wellyowo/locobot_sim/locobot_ws/install/ecl_errors/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PATH=/home/wellyowo/locobot_sim/locobot_ws/install/ecl_config/bin:${PATH} /usr/bin/cmake --build /home/wellyowo/locobot_sim/locobot_ws/build/ecl_sigslots_lite -- -j16 -l16
+[8.562s] Invoking command in '/home/wellyowo/locobot_sim/locobot_ws/build/ecl_sigslots_lite': AMENT_PREFIX_PATH=/home/wellyowo/locobot_sim/locobot_ws/install/ecl_errors:/home/wellyowo/locobot_sim/locobot_ws/install/ecl_config:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wellyowo/locobot_sim/locobot_ws/install/ecl_errors:/home/wellyowo/locobot_sim/locobot_ws/install/ecl_config:/opt/ros/humble LD_LIBRARY_PATH=/home/wellyowo/locobot_sim/locobot_ws/install/ecl_errors/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PATH=/home/wellyowo/locobot_sim/locobot_ws/install/ecl_config/bin:${PATH} /usr/bin/cmake --install /home/wellyowo/locobot_sim/locobot_ws/build/ecl_sigslots_lite
+[11.423s] -- Install configuration: ""
+[11.423s] -- Execute custom install script
+[11.423s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_sigslots_lite/include/ecl/sigslots_lite/connect.hpp
+[11.423s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_sigslots_lite/include/ecl/sigslots_lite/errors.hpp
+[11.423s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_sigslots_lite/include/ecl/sigslots_lite/managers.hpp
+[11.423s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_sigslots_lite/include/ecl/sigslots_lite/signal.hpp
+[11.423s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_sigslots_lite/include/ecl/sigslots_lite/slot.hpp
+[11.423s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_sigslots_lite/include/ecl/sigslots_lite/utilities.hpp
+[11.423s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_sigslots_lite/include/ecl/sigslots_lite.hpp
+[11.423s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_sigslots_lite/lib/ecl_sigslots_lite/demo_sigslots_lite
+[11.423s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_sigslots_lite/share/ament_index/resource_index/package_run_dependencies/ecl_sigslots_lite
+[11.423s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_sigslots_lite/share/ament_index/resource_index/parent_prefix_path/ecl_sigslots_lite
+[11.423s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_sigslots_lite/share/ecl_sigslots_lite/environment/ament_prefix_path.sh
+[11.424s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_sigslots_lite/share/ecl_sigslots_lite/environment/ament_prefix_path.dsv
+[11.424s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_sigslots_lite/share/ecl_sigslots_lite/environment/path.sh
+[11.424s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_sigslots_lite/share/ecl_sigslots_lite/environment/path.dsv
+[11.424s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_sigslots_lite/share/ecl_sigslots_lite/local_setup.bash
+[11.424s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_sigslots_lite/share/ecl_sigslots_lite/local_setup.sh
+[11.424s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_sigslots_lite/share/ecl_sigslots_lite/local_setup.zsh
+[11.424s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_sigslots_lite/share/ecl_sigslots_lite/local_setup.dsv
+[11.424s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_sigslots_lite/share/ecl_sigslots_lite/package.dsv
+[11.424s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_sigslots_lite/share/ament_index/resource_index/packages/ecl_sigslots_lite
+[11.425s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_sigslots_lite/share/ecl_sigslots_lite/cmake/ament_cmake_export_targets-extras.cmake
+[11.425s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_sigslots_lite/share/ecl_sigslots_lite/cmake/ament_cmake_export_include_directories-extras.cmake
+[11.425s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_sigslots_lite/share/ecl_sigslots_lite/cmake/ament_cmake_export_dependencies-extras.cmake
+[11.425s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_sigslots_lite/share/ecl_sigslots_lite/cmake/ecl_sigslots_liteConfig.cmake
+[11.425s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_sigslots_lite/share/ecl_sigslots_lite/cmake/ecl_sigslots_liteConfig-version.cmake
+[11.426s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_sigslots_lite/share/ecl_sigslots_lite/package.xml
+[11.426s] -- Installing: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_sigslots_lite/share/ecl_sigslots_lite/cmake/ecl_sigslots_liteExport.cmake
+[11.476s] Invoked command in '/home/wellyowo/locobot_sim/locobot_ws/build/ecl_sigslots_lite' returned '0': AMENT_PREFIX_PATH=/home/wellyowo/locobot_sim/locobot_ws/install/ecl_errors:/home/wellyowo/locobot_sim/locobot_ws/install/ecl_config:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wellyowo/locobot_sim/locobot_ws/install/ecl_errors:/home/wellyowo/locobot_sim/locobot_ws/install/ecl_config:/opt/ros/humble LD_LIBRARY_PATH=/home/wellyowo/locobot_sim/locobot_ws/install/ecl_errors/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PATH=/home/wellyowo/locobot_sim/locobot_ws/install/ecl_config/bin:${PATH} /usr/bin/cmake --install /home/wellyowo/locobot_sim/locobot_ws/build/ecl_sigslots_lite

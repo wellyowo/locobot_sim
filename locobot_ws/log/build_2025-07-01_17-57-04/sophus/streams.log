@@ -1,0 +1,87 @@
+[0.034s] Invoking command in '/home/wellyowo/locobot_sim/locobot_ws/build/sophus': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/wellyowo/locobot_sim/locobot_ws/src/ThirdParty/sophus -DBUILD_TESTING=OFF -DCMAKE_PREFIX_PATH= -DCMAKE_INSTALL_PREFIX=/home/wellyowo/locobot_sim/locobot_ws/install/sophus
+[0.243s] -- The C compiler identification is GNU 11.4.0
+[0.243s] -- The CXX compiler identification is GNU 11.4.0
+[0.243s] -- Detecting C compiler ABI info
+[0.314s] -- Detecting C compiler ABI info - done
+[0.322s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.322s] -- Detecting C compile features
+[0.322s] -- Detecting C compile features - done
+[0.333s] -- Detecting CXX compiler ABI info
+[0.450s] -- Detecting CXX compiler ABI info - done
+[0.460s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.461s] -- Detecting CXX compile features
+[0.461s] -- Detecting CXX compile features - done
+[0.470s] -- Found Eigen3: /usr/include/eigen3 (Required is at least version "3.3.0") 
+[0.536s] -- Configuring done
+[0.553s] -- Generating done
+[0.555s] [33mCMake Warning:
+[0.555s]   Manually-specified variables were not used by the project:
+[0.557s] 
+[0.558s]     BUILD_TESTING
+[0.558s] 
+[0.558s] [0m
+[0.559s] -- Build files have been written to: /home/wellyowo/locobot_sim/locobot_ws/build/sophus
+[0.568s] Invoked command in '/home/wellyowo/locobot_sim/locobot_ws/build/sophus' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/wellyowo/locobot_sim/locobot_ws/src/ThirdParty/sophus -DBUILD_TESTING=OFF -DCMAKE_PREFIX_PATH= -DCMAKE_INSTALL_PREFIX=/home/wellyowo/locobot_sim/locobot_ws/install/sophus
+[0.569s] Invoking command in '/home/wellyowo/locobot_sim/locobot_ws/build/sophus': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wellyowo/locobot_sim/locobot_ws/build/sophus -- -j16 -l16
+[1.737s] [  4%] [32mBuilding CXX object test/core/CMakeFiles/test_se2.dir/test_se2.cpp.o[0m
+[1.737s] [  8%] [32mBuilding CXX object test/core/CMakeFiles/test_common.dir/test_common.cpp.o[0m
+[1.737s] [ 12%] [32mBuilding CXX object test/core/CMakeFiles/test_so2.dir/test_so2.cpp.o[0m
+[1.737s] [ 16%] [32mBuilding CXX object test/core/CMakeFiles/test_sim2.dir/test_sim2.cpp.o[0m
+[1.737s] [ 20%] [32mBuilding CXX object test/core/CMakeFiles/test_so3.dir/test_so3.cpp.o[0m
+[1.738s] [ 25%] [32mBuilding CXX object test/core/CMakeFiles/test_rxso2.dir/test_rxso2.cpp.o[0m
+[1.739s] [ 29%] [32mBuilding CXX object test/core/CMakeFiles/test_geometry.dir/test_geometry.cpp.o[0m
+[1.739s] [ 33%] [32mBuilding CXX object test/core/CMakeFiles/test_rxso3.dir/test_rxso3.cpp.o[0m
+[1.740s] [ 37%] [32mBuilding CXX object examples/CMakeFiles/HelloSO3.dir/HelloSO3.cpp.o[0m
+[1.740s] [ 41%] [32mBuilding CXX object test/core/CMakeFiles/test_se3.dir/test_se3.cpp.o[0m
+[1.740s] [ 45%] [32mBuilding CXX object test/core/CMakeFiles/test_sim3.dir/test_sim3.cpp.o[0m
+[1.740s] [ 50%] [32mBuilding CXX object test/core/CMakeFiles/test_velocities.dir/test_velocities.cpp.o[0m
+[4.433s] [ 54%] [32m[1mLinking CXX executable test_common[0m
+[4.952s] [ 58%] [32m[1mLinking CXX executable HelloSO3[0m
+[5.394s] [ 58%] Built target test_common
+[5.415s] [ 58%] Built target HelloSO3
+[24.214s] [ 62%] [32m[1mLinking CXX executable test_velocities[0m
+[24.575s] [ 62%] Built target test_velocities
+[50.318s] [ 66%] [32m[1mLinking CXX executable test_geometry[0m
+[50.978s] [ 66%] Built target test_geometry
+[66.246s] [ 70%] [32m[1mLinking CXX executable test_so2[0m
+[67.059s] [ 70%] Built target test_so2
+[104.610s] [ 75%] [32m[1mLinking CXX executable test_rxso2[0m
+[104.976s] [ 75%] Built target test_rxso2
+[123.474s] [ 79%] [32m[1mLinking CXX executable test_se2[0m
+[123.875s] [ 79%] Built target test_se2
+[125.241s] [ 83%] [32m[1mLinking CXX executable test_sim2[0m
+[125.680s] [ 83%] Built target test_sim2
+[136.664s] [ 87%] [32m[1mLinking CXX executable test_sim3[0m
+[136.757s] [ 87%] Built target test_sim3
+[145.432s] [ 91%] [32m[1mLinking CXX executable test_se3[0m
+[145.573s] [ 91%] Built target test_se3
+[165.592s] [ 95%] [32m[1mLinking CXX executable test_rxso3[0m
+[165.670s] [ 95%] Built target test_rxso3
+[167.619s] [100%] [32m[1mLinking CXX executable test_so3[0m
+[167.687s] [100%] Built target test_so3
+[167.696s] Invoked command in '/home/wellyowo/locobot_sim/locobot_ws/build/sophus' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wellyowo/locobot_sim/locobot_ws/build/sophus -- -j16 -l16
+[167.697s] Invoking command in '/home/wellyowo/locobot_sim/locobot_ws/build/sophus': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/wellyowo/locobot_sim/locobot_ws/build/sophus
+[167.703s] -- Install configuration: "Release"
+[167.703s] -- Installing: /home/wellyowo/locobot_sim/locobot_ws/install/sophus/share/sophus/cmake/SophusTargets.cmake
+[167.703s] -- Installing: /home/wellyowo/locobot_sim/locobot_ws/install/sophus/share/sophus/cmake/SophusConfig.cmake
+[167.703s] -- Installing: /home/wellyowo/locobot_sim/locobot_ws/install/sophus/share/sophus/cmake/SophusConfigVersion.cmake
+[167.703s] -- Installing: /home/wellyowo/locobot_sim/locobot_ws/install/sophus/include/sophus/average.hpp
+[167.703s] -- Installing: /home/wellyowo/locobot_sim/locobot_ws/install/sophus/include/sophus/common.hpp
+[167.703s] -- Installing: /home/wellyowo/locobot_sim/locobot_ws/install/sophus/include/sophus/geometry.hpp
+[167.703s] -- Installing: /home/wellyowo/locobot_sim/locobot_ws/install/sophus/include/sophus/interpolate.hpp
+[167.704s] -- Installing: /home/wellyowo/locobot_sim/locobot_ws/install/sophus/include/sophus/interpolate_details.hpp
+[167.704s] -- Installing: /home/wellyowo/locobot_sim/locobot_ws/install/sophus/include/sophus/num_diff.hpp
+[167.704s] -- Installing: /home/wellyowo/locobot_sim/locobot_ws/install/sophus/include/sophus/rotation_matrix.hpp
+[167.704s] -- Installing: /home/wellyowo/locobot_sim/locobot_ws/install/sophus/include/sophus/rxso2.hpp
+[167.704s] -- Installing: /home/wellyowo/locobot_sim/locobot_ws/install/sophus/include/sophus/rxso3.hpp
+[167.704s] -- Installing: /home/wellyowo/locobot_sim/locobot_ws/install/sophus/include/sophus/se2.hpp
+[167.704s] -- Installing: /home/wellyowo/locobot_sim/locobot_ws/install/sophus/include/sophus/se3.hpp
+[167.704s] -- Installing: /home/wellyowo/locobot_sim/locobot_ws/install/sophus/include/sophus/sim2.hpp
+[167.704s] -- Installing: /home/wellyowo/locobot_sim/locobot_ws/install/sophus/include/sophus/sim3.hpp
+[167.704s] -- Installing: /home/wellyowo/locobot_sim/locobot_ws/install/sophus/include/sophus/sim_details.hpp
+[167.704s] -- Installing: /home/wellyowo/locobot_sim/locobot_ws/install/sophus/include/sophus/so2.hpp
+[167.704s] -- Installing: /home/wellyowo/locobot_sim/locobot_ws/install/sophus/include/sophus/so3.hpp
+[167.704s] -- Installing: /home/wellyowo/locobot_sim/locobot_ws/install/sophus/include/sophus/types.hpp
+[167.704s] -- Installing: /home/wellyowo/locobot_sim/locobot_ws/install/sophus/include/sophus/velocities.hpp
+[167.704s] -- Installing: /home/wellyowo/locobot_sim/locobot_ws/install/sophus/include/sophus/formatstring.hpp
+[167.706s] Invoked command in '/home/wellyowo/locobot_sim/locobot_ws/build/sophus' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/wellyowo/locobot_sim/locobot_ws/build/sophus

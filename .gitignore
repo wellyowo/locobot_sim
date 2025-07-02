@@ -1,1 +1,6 @@
 *.pyc
+
+#ignore the ros install build log folder
+locobot_ws/install/
+locobot_ws/build/
+locobot_ws/log/

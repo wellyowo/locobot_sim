@@ -1,0 +1,112 @@
+[0.049s] Invoking command in '/home/wellyowo/locobot_sim/locobot_ws/build/interbotix_perception_pipelines': AMENT_PREFIX_PATH=/home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/wellyowo/locobot_sim/locobot_ws/src/interbotix_ros_toolboxes/interbotix_perception_toolbox/interbotix_perception_pipelines -DBUILD_TESTING=OFF -DCMAKE_PREFIX_PATH= -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_pipelines
+[1.422s] -- The C compiler identification is GNU 11.4.0
+[1.422s] -- The CXX compiler identification is GNU 11.4.0
+[1.422s] -- Detecting C compiler ABI info
+[1.423s] -- Detecting C compiler ABI info - done
+[1.430s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.430s] -- Detecting C compile features
+[1.430s] -- Detecting C compile features - done
+[1.431s] -- Detecting CXX compiler ABI info
+[1.673s] -- Detecting CXX compiler ABI info - done
+[1.706s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.706s] -- Detecting CXX compile features
+[1.709s] -- Detecting CXX compile features - done
+[1.741s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.517s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.857s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.903s] -- Found ament_index_cpp: 1.4.0 (/opt/ros/humble/share/ament_index_cpp/cmake)
+[2.906s] -- Found interbotix_perception_msgs: 0.0.0 (/home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/share/interbotix_perception_msgs/cmake)
+[2.961s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.976s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.990s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.009s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.036s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.158s] -- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)
+[3.236s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.242s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.648s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.840s] -- Found FastRTPS: /opt/ros/humble/include  
+[4.036s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.050s] -- Looking for pthread.h
+[4.526s] -- Looking for pthread.h - found
+[4.536s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.952s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.956s] -- Found Threads: TRUE  
+[5.160s] -- Checking for module 'eigen3'
+[5.241s] --   Found eigen3, version 3.4.0
+[5.399s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[5.400s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[5.551s] -- Checking for module 'flann'
+[5.626s] --   Found flann, version 1.9.1
+[5.989s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[5.992s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[10.623s] -- Checking for module 'libusb-1.0'
+[10.695s] --   Found libusb-1.0, version 1.0.25
+[10.856s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[10.865s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[11.135s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[11.930s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[11.958s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[12.001s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[13.000s] -- Found Qhull version 8.0.2
+[13.904s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[14.583s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[14.591s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[14.606s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[14.616s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[14.632s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[14.656s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[14.668s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[14.668s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[14.686s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[14.697s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[14.704s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[14.713s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[14.721s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[14.729s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[14.740s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[14.748s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[14.755s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[14.772s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[14.780s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[14.796s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[14.800s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[14.807s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[14.809s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[14.824s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[14.847s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[14.865s] -- Found pcl_ros: 2.4.5 (/opt/ros/humble/share/pcl_ros/cmake)
+[15.030s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[15.041s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[15.041s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[15.566s] -- Found std_srvs: 4.9.0 (/opt/ros/humble/share/std_srvs/cmake)
+[15.671s] -- Found visualization_msgs: 4.9.0 (/opt/ros/humble/share/visualization_msgs/cmake)
+[16.351s] -- Configuring done
+[16.759s] -- Generating done
+[16.808s] -- Build files have been written to: /home/wellyowo/locobot_sim/locobot_ws/build/interbotix_perception_pipelines
+[16.943s] Invoked command in '/home/wellyowo/locobot_sim/locobot_ws/build/interbotix_perception_pipelines' returned '0': AMENT_PREFIX_PATH=/home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/wellyowo/locobot_sim/locobot_ws/src/interbotix_ros_toolboxes/interbotix_perception_toolbox/interbotix_perception_pipelines -DBUILD_TESTING=OFF -DCMAKE_PREFIX_PATH= -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_pipelines
+[16.959s] Invoking command in '/home/wellyowo/locobot_sim/locobot_ws/build/interbotix_perception_pipelines': AMENT_PREFIX_PATH=/home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/wellyowo/locobot_sim/locobot_ws/build/interbotix_perception_pipelines -- -j16 -l16
+[19.156s] [ 50%] [32mBuilding CXX object CMakeFiles/pointcloud_pipeline.dir/src/pointcloud_pipeline.cpp.o[0m
+[61.070s] [100%] [32m[1mLinking CXX executable pointcloud_pipeline[0m
+[63.501s] [100%] Built target pointcloud_pipeline
+[63.513s] Invoked command in '/home/wellyowo/locobot_sim/locobot_ws/build/interbotix_perception_pipelines' returned '0': AMENT_PREFIX_PATH=/home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/wellyowo/locobot_sim/locobot_ws/build/interbotix_perception_pipelines -- -j16 -l16
+[63.515s] Invoking command in '/home/wellyowo/locobot_sim/locobot_ws/build/interbotix_perception_pipelines': AMENT_PREFIX_PATH=/home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/wellyowo/locobot_sim/locobot_ws/build/interbotix_perception_pipelines
+[63.522s] -- Install configuration: ""
+[63.522s] -- Execute custom install script
+[63.523s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_pipelines/lib/interbotix_perception_pipelines/pointcloud_pipeline
+[63.531s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_pipelines/share/ament_index/resource_index/package_run_dependencies/interbotix_perception_pipelines
+[63.540s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_pipelines/share/ament_index/resource_index/parent_prefix_path/interbotix_perception_pipelines
+[63.548s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_pipelines/share/interbotix_perception_pipelines/environment/ament_prefix_path.sh
+[63.557s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_pipelines/share/interbotix_perception_pipelines/environment/ament_prefix_path.dsv
+[63.566s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_pipelines/share/interbotix_perception_pipelines/environment/path.sh
+[63.574s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_pipelines/share/interbotix_perception_pipelines/environment/path.dsv
+[63.583s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_pipelines/share/interbotix_perception_pipelines/local_setup.bash
+[63.591s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_pipelines/share/interbotix_perception_pipelines/local_setup.sh
+[63.601s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_pipelines/share/interbotix_perception_pipelines/local_setup.zsh
+[63.610s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_pipelines/share/interbotix_perception_pipelines/local_setup.dsv
+[63.622s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_pipelines/share/interbotix_perception_pipelines/package.dsv
+[63.634s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_pipelines/share/ament_index/resource_index/packages/interbotix_perception_pipelines
+[63.643s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_pipelines/share/interbotix_perception_pipelines/cmake/interbotix_perception_pipelinesConfig.cmake
+[63.652s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_pipelines/share/interbotix_perception_pipelines/cmake/interbotix_perception_pipelinesConfig-version.cmake
+[63.665s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_pipelines/share/interbotix_perception_pipelines/package.xml
+[63.675s] Invoked command in '/home/wellyowo/locobot_sim/locobot_ws/build/interbotix_perception_pipelines' returned '0': AMENT_PREFIX_PATH=/home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/wellyowo/locobot_sim/locobot_ws/install/interbotix_perception_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/wellyowo/locobot_sim/locobot_ws/build/interbotix_perception_pipelines

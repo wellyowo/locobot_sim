@@ -1,0 +1,72 @@
+[0.095s] Invoking command in '/home/wellyowo/locobot_sim/locobot_ws/build/ecl_exceptions': AMENT_PREFIX_PATH=/home/wellyowo/locobot_sim/locobot_ws/install/ecl_errors:/home/wellyowo/locobot_sim/locobot_ws/install/ecl_config:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wellyowo/locobot_sim/locobot_ws/install/ecl_errors:/home/wellyowo/locobot_sim/locobot_ws/install/ecl_config:/opt/ros/humble LD_LIBRARY_PATH=/home/wellyowo/locobot_sim/locobot_ws/install/ecl_errors/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PATH=/home/wellyowo/locobot_sim/locobot_ws/install/ecl_config/bin:${PATH} /usr/bin/cmake /home/wellyowo/locobot_sim/locobot_ws/src/ThirdParty/ecl/ecl_core/ecl_exceptions -DBUILD_TESTING=OFF -DCMAKE_PREFIX_PATH= -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/wellyowo/locobot_sim/locobot_ws/install/ecl_exceptions
+[2.483s] -- The C compiler identification is GNU 11.4.0
+[2.485s] -- The CXX compiler identification is GNU 11.4.0
+[2.485s] -- Detecting C compiler ABI info
+[2.485s] -- Detecting C compiler ABI info - done
+[2.485s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.485s] -- Detecting C compile features
+[2.485s] -- Detecting C compile features - done
+[2.485s] -- Detecting CXX compiler ABI info
+[2.486s] -- Detecting CXX compiler ABI info - done
+[2.486s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.486s] -- Detecting CXX compile features
+[2.486s] -- Detecting CXX compile features - done
+[2.492s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.493s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.496s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.544s] -- Found ecl_build: 1.0.3 (/opt/ros/humble/share/ecl_build/cmake)
+[2.565s] -- Found ecl_config: 1.2.0 (/home/wellyowo/locobot_sim/locobot_ws/install/ecl_config/share/ecl_config/cmake)
+[2.571s] -- Found ecl_errors: 1.2.0 (/home/wellyowo/locobot_sim/locobot_ws/install/ecl_errors/share/ecl_errors/cmake)
+[2.732s] -- Configuring done
+[2.746s] -- Generating done
+[2.755s] -- Build files have been written to: /home/wellyowo/locobot_sim/locobot_ws/build/ecl_exceptions
+[2.790s] Invoked command in '/home/wellyowo/locobot_sim/locobot_ws/build/ecl_exceptions' returned '0': AMENT_PREFIX_PATH=/home/wellyowo/locobot_sim/locobot_ws/install/ecl_errors:/home/wellyowo/locobot_sim/locobot_ws/install/ecl_config:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wellyowo/locobot_sim/locobot_ws/install/ecl_errors:/home/wellyowo/locobot_sim/locobot_ws/install/ecl_config:/opt/ros/humble LD_LIBRARY_PATH=/home/wellyowo/locobot_sim/locobot_ws/install/ecl_errors/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PATH=/home/wellyowo/locobot_sim/locobot_ws/install/ecl_config/bin:${PATH} /usr/bin/cmake /home/wellyowo/locobot_sim/locobot_ws/src/ThirdParty/ecl/ecl_core/ecl_exceptions -DBUILD_TESTING=OFF -DCMAKE_PREFIX_PATH= -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/wellyowo/locobot_sim/locobot_ws/install/ecl_exceptions
+[2.791s] Invoking command in '/home/wellyowo/locobot_sim/locobot_ws/build/ecl_exceptions': AMENT_PREFIX_PATH=/home/wellyowo/locobot_sim/locobot_ws/install/ecl_errors:/home/wellyowo/locobot_sim/locobot_ws/install/ecl_config:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wellyowo/locobot_sim/locobot_ws/install/ecl_errors:/home/wellyowo/locobot_sim/locobot_ws/install/ecl_config:/opt/ros/humble LD_LIBRARY_PATH=/home/wellyowo/locobot_sim/locobot_ws/install/ecl_errors/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PATH=/home/wellyowo/locobot_sim/locobot_ws/install/ecl_config/bin:${PATH} /usr/bin/cmake --build /home/wellyowo/locobot_sim/locobot_ws/build/ecl_exceptions -- -j16 -l16
+[7.501s] [ 16%] [32mBuilding CXX object src/lib/CMakeFiles/ecl_exceptions.dir/standard_exception.cpp.o[0m
+[7.509s] [ 33%] [32m[1mLinking CXX shared library libecl_exceptions.so[0m
+[7.509s] [ 33%] Built target ecl_exceptions
+[7.509s] [ 50%] [32mBuilding CXX object src/examples/CMakeFiles/ecl_demo_exceptions.dir/exceptions.cpp.o[0m
+[7.510s] [ 66%] [32m[1mLinking CXX executable demo_exceptions[0m
+[7.510s] [ 66%] Built target ecl_demo_exceptions
+[7.510s] [ 83%] [32mBuilding CXX object src/examples/CMakeFiles/ecl_demo_exception_tracer.dir/exception_tracer.cpp.o[0m
+[7.510s] [100%] [32m[1mLinking CXX executable demo_exception_tracer[0m
+[7.830s] [100%] Built target ecl_demo_exception_tracer
+[7.926s] Invoked command in '/home/wellyowo/locobot_sim/locobot_ws/build/ecl_exceptions' returned '0': AMENT_PREFIX_PATH=/home/wellyowo/locobot_sim/locobot_ws/install/ecl_errors:/home/wellyowo/locobot_sim/locobot_ws/install/ecl_config:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wellyowo/locobot_sim/locobot_ws/install/ecl_errors:/home/wellyowo/locobot_sim/locobot_ws/install/ecl_config:/opt/ros/humble LD_LIBRARY_PATH=/home/wellyowo/locobot_sim/locobot_ws/install/ecl_errors/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PATH=/home/wellyowo/locobot_sim/locobot_ws/install/ecl_config/bin:${PATH} /usr/bin/cmake --build /home/wellyowo/locobot_sim/locobot_ws/build/ecl_exceptions -- -j16 -l16
+[7.927s] Invoking command in '/home/wellyowo/locobot_sim/locobot_ws/build/ecl_exceptions': AMENT_PREFIX_PATH=/home/wellyowo/locobot_sim/locobot_ws/install/ecl_errors:/home/wellyowo/locobot_sim/locobot_ws/install/ecl_config:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wellyowo/locobot_sim/locobot_ws/install/ecl_errors:/home/wellyowo/locobot_sim/locobot_ws/install/ecl_config:/opt/ros/humble LD_LIBRARY_PATH=/home/wellyowo/locobot_sim/locobot_ws/install/ecl_errors/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PATH=/home/wellyowo/locobot_sim/locobot_ws/install/ecl_config/bin:${PATH} /usr/bin/cmake --install /home/wellyowo/locobot_sim/locobot_ws/build/ecl_exceptions
+[11.396s] -- Install configuration: ""
+[11.396s] -- Execute custom install script
+[11.399s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_exceptions/include/ecl/exceptions/data_exception.hpp
+[11.399s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_exceptions/include/ecl/exceptions/exception.hpp
+[11.399s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_exceptions/include/ecl/exceptions/macros.hpp
+[11.399s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_exceptions/include/ecl/exceptions/posix_error_handler.hpp
+[11.399s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_exceptions/include/ecl/exceptions/standard_exception.hpp
+[11.399s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_exceptions/include/ecl/exceptions.hpp
+[11.399s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_exceptions/lib/ecl_exceptions/demo_exceptions
+[11.403s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_exceptions/lib/ecl_exceptions/demo_exception_tracer
+[11.403s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_exceptions/share/ecl_exceptions/environment/library_path.sh
+[11.403s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_exceptions/share/ecl_exceptions/environment/library_path.dsv
+[11.403s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_exceptions/share/ament_index/resource_index/package_run_dependencies/ecl_exceptions
+[11.404s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_exceptions/share/ament_index/resource_index/parent_prefix_path/ecl_exceptions
+[11.404s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_exceptions/share/ecl_exceptions/environment/ament_prefix_path.sh
+[11.406s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_exceptions/share/ecl_exceptions/environment/ament_prefix_path.dsv
+[11.406s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_exceptions/share/ecl_exceptions/environment/path.sh
+[11.407s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_exceptions/share/ecl_exceptions/environment/path.dsv
+[11.407s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_exceptions/share/ecl_exceptions/local_setup.bash
+[11.411s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_exceptions/share/ecl_exceptions/local_setup.sh
+[11.411s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_exceptions/share/ecl_exceptions/local_setup.zsh
+[11.411s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_exceptions/share/ecl_exceptions/local_setup.dsv
+[11.411s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_exceptions/share/ecl_exceptions/package.dsv
+[11.411s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_exceptions/share/ament_index/resource_index/packages/ecl_exceptions
+[11.411s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_exceptions/share/ecl_exceptions/cmake/ament_cmake_export_targets-extras.cmake
+[11.412s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_exceptions/share/ecl_exceptions/cmake/ament_cmake_export_include_directories-extras.cmake
+[11.412s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_exceptions/share/ecl_exceptions/cmake/ament_cmake_export_libraries-extras.cmake
+[11.412s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_exceptions/share/ecl_exceptions/cmake/ament_cmake_export_dependencies-extras.cmake
+[11.412s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_exceptions/share/ecl_exceptions/cmake/ecl_exceptionsConfig.cmake
+[11.412s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_exceptions/share/ecl_exceptions/cmake/ecl_exceptionsConfig-version.cmake
+[11.412s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_exceptions/share/ecl_exceptions/package.xml
+[11.412s] -- Installing: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_exceptions/share/ecl_exceptions/cmake/ecl_exceptionsExport.cmake
+[11.412s] -- Installing: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_exceptions/share/ecl_exceptions/cmake/ecl_exceptionsExport-noconfig.cmake
+[11.412s] -- Installing: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_exceptions/lib/libecl_exceptions.so.1.2.1
+[11.412s] -- Set runtime path of "/home/wellyowo/locobot_sim/locobot_ws/install/ecl_exceptions/lib/libecl_exceptions.so.1.2.1" to ""
+[11.412s] -- Installing: /home/wellyowo/locobot_sim/locobot_ws/install/ecl_exceptions/lib/libecl_exceptions.so
+[11.519s] Invoked command in '/home/wellyowo/locobot_sim/locobot_ws/build/ecl_exceptions' returned '0': AMENT_PREFIX_PATH=/home/wellyowo/locobot_sim/locobot_ws/install/ecl_errors:/home/wellyowo/locobot_sim/locobot_ws/install/ecl_config:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wellyowo/locobot_sim/locobot_ws/install/ecl_errors:/home/wellyowo/locobot_sim/locobot_ws/install/ecl_config:/opt/ros/humble LD_LIBRARY_PATH=/home/wellyowo/locobot_sim/locobot_ws/install/ecl_errors/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PATH=/home/wellyowo/locobot_sim/locobot_ws/install/ecl_config/bin:${PATH} /usr/bin/cmake --install /home/wellyowo/locobot_sim/locobot_ws/build/ecl_exceptions

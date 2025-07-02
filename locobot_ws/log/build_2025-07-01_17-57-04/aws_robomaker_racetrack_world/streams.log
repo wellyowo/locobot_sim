@@ -1,0 +1,243 @@
+[0.012s] Invoking command in '/home/wellyowo/locobot_sim/locobot_ws/build/aws_robomaker_racetrack_world': AMENT_PREFIX_PATH=/home/wellyowo/locobot_sim/locobot_ws/install/gazebo_plugins:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wellyowo/locobot_sim/locobot_ws/install/gazebo_plugins:/opt/ros/humble LD_LIBRARY_PATH=/home/wellyowo/locobot_sim/locobot_ws/install/gazebo_plugins/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake /home/wellyowo/locobot_sim/locobot_ws/src/ThirdParty/aws-robomaker-racetrack-world -DBUILD_TESTING=OFF -DCMAKE_PREFIX_PATH= -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_racetrack_world
+[0.063s] -- The C compiler identification is GNU 11.4.0
+[0.115s] -- The CXX compiler identification is GNU 11.4.0
+[0.123s] -- Detecting C compiler ABI info
+[0.181s] -- Detecting C compiler ABI info - done
+[0.187s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.187s] -- Detecting C compile features
+[0.188s] -- Detecting C compile features - done
+[0.191s] -- Detecting CXX compiler ABI info
+[0.262s] -- Detecting CXX compiler ABI info - done
+[0.268s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.268s] -- Detecting CXX compile features
+[0.269s] -- Detecting CXX compile features - done
+[0.271s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.395s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.449s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.485s] -- Found gazebo_ros: 3.9.0 (/opt/ros/humble/share/gazebo_ros/cmake)
+[0.527s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.532s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.542s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.553s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.567s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.609s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.612s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.700s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.731s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.770s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.777s] -- Looking for pthread.h
+[0.839s] -- Looking for pthread.h - found
+[0.839s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.897s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.898s] -- Found Threads: TRUE  
+[0.981s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[0.982s] -- Checking for module 'bullet>=2.82'
+[0.994s] --   Found bullet, version 3.05
+[1.087s] -- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") 
+[1.124s] -- Found assimp: /usr/include (found version "5.2.0") 
+[1.143s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[1.179s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[1.195s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[1.202s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.208s] -- Searching for dependencies of ignition-math6
+[1.210s] -- Looking for OGRE...
+[1.210s] -- OGRE_PREFIX_WATCH changed.
+[1.216s] -- Checking for module 'OGRE'
+[1.227s] --   Found OGRE, version 1.9.0
+[1.251s] -- Found Ogre Ghadamon (1.9.0)
+[1.255s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[1.266s] -- Looking for OGRE_Paging...
+[1.272s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[1.272s] -- Looking for OGRE_Terrain...
+[1.277s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[1.277s] -- Looking for OGRE_Property...
+[1.282s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[1.282s] -- Looking for OGRE_RTShaderSystem...
+[1.287s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[1.287s] -- Looking for OGRE_Volume...
+[1.292s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[1.292s] -- Looking for OGRE_Overlay...
+[1.297s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[1.364s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.366s] -- Looking for ignition-transport8 -- found version 8.2.1
+[1.367s] -- Searching for dependencies of ignition-transport8
+[1.383s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[1.393s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[1.397s] -- Checking for module 'libzmq >= 4'
+[1.405s] --   Found libzmq , version 4.3.4
+[1.432s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[1.436s] -- Checking for module 'uuid'
+[1.446s] --   Found uuid, version 2.37.2
+[1.471s] -- Found UUID: TRUE  
+[1.474s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.474s] -- Searching for dependencies of ignition-msgs5
+[1.497s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.501s] -- Checking for module 'tinyxml2'
+[1.512s] --   Found tinyxml2, version 9.0.0
+[1.535s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.537s] -- Looking for ignition-common3 -- found version 3.14.0
+[1.537s] -- Searching for dependencies of ignition-common3
+[1.538s] -- Looking for dlfcn.h - found
+[1.538s] -- Looking for libdl - found
+[1.540s] -- Found DL: TRUE  
+[1.550s] -- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") 
+[1.550s] -- Searching for <ignition-common3> component [graphics]
+[1.553s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[1.553s] -- Searching for dependencies of ignition-common3-graphics
+[1.554s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.557s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[1.558s] -- Searching for dependencies of ignition-fuel_tools4
+[1.620s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  
+[1.626s] -- Checking for module 'jsoncpp'
+[1.636s] --   Found jsoncpp, version 1.9.5
+[1.661s] -- Found JSONCPP: TRUE  
+[1.665s] -- Checking for module 'libzip'
+[1.674s] --   Found libzip, version 1.7.3
+[1.700s] -- Found ZIP: TRUE  
+[1.701s] -- Looking for ignition-common3 -- found version 3.14.0
+[1.701s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.702s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.704s] -- Gazebo version: 11.10
+[1.705s] -- Checking for module 'tbb'
+[1.714s] --   Found tbb, version 2021.5.0
+[1.795s] -- Configuring done
+[1.802s] -- Generating done
+[1.806s] -- Build files have been written to: /home/wellyowo/locobot_sim/locobot_ws/build/aws_robomaker_racetrack_world
+[1.821s] Invoked command in '/home/wellyowo/locobot_sim/locobot_ws/build/aws_robomaker_racetrack_world' returned '0': AMENT_PREFIX_PATH=/home/wellyowo/locobot_sim/locobot_ws/install/gazebo_plugins:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wellyowo/locobot_sim/locobot_ws/install/gazebo_plugins:/opt/ros/humble LD_LIBRARY_PATH=/home/wellyowo/locobot_sim/locobot_ws/install/gazebo_plugins/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake /home/wellyowo/locobot_sim/locobot_ws/src/ThirdParty/aws-robomaker-racetrack-world -DBUILD_TESTING=OFF -DCMAKE_PREFIX_PATH= -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_racetrack_world
+[1.822s] Invoking command in '/home/wellyowo/locobot_sim/locobot_ws/build/aws_robomaker_racetrack_world': AMENT_PREFIX_PATH=/home/wellyowo/locobot_sim/locobot_ws/install/gazebo_plugins:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wellyowo/locobot_sim/locobot_ws/install/gazebo_plugins:/opt/ros/humble LD_LIBRARY_PATH=/home/wellyowo/locobot_sim/locobot_ws/install/gazebo_plugins/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/wellyowo/locobot_sim/locobot_ws/build/aws_robomaker_racetrack_world -- -j16 -l16
+[1.853s] Invoked command in '/home/wellyowo/locobot_sim/locobot_ws/build/aws_robomaker_racetrack_world' returned '0': AMENT_PREFIX_PATH=/home/wellyowo/locobot_sim/locobot_ws/install/gazebo_plugins:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wellyowo/locobot_sim/locobot_ws/install/gazebo_plugins:/opt/ros/humble LD_LIBRARY_PATH=/home/wellyowo/locobot_sim/locobot_ws/install/gazebo_plugins/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/wellyowo/locobot_sim/locobot_ws/build/aws_robomaker_racetrack_world -- -j16 -l16
+[1.854s] Invoking command in '/home/wellyowo/locobot_sim/locobot_ws/build/aws_robomaker_racetrack_world': AMENT_PREFIX_PATH=/home/wellyowo/locobot_sim/locobot_ws/install/gazebo_plugins:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wellyowo/locobot_sim/locobot_ws/install/gazebo_plugins:/opt/ros/humble LD_LIBRARY_PATH=/home/wellyowo/locobot_sim/locobot_ws/install/gazebo_plugins/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --install /home/wellyowo/locobot_sim/locobot_ws/build/aws_robomaker_racetrack_world
+[1.859s] -- Install configuration: ""
+[1.859s] -- Execute custom install script
+[1.860s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/launch/racetrack.launch.py
+[1.865s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/launch/view_racetrack.launch.py
+[1.873s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Archway_01/materials/textures/aws_Archway_01.png
+[1.878s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Archway_01/meshes/aws_Archway_01_collision.DAE
+[1.884s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Archway_01/meshes/aws_Archway_01_visual.DAE
+[1.890s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Archway_01/model.config
+[1.896s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Archway_01/model.sdf
+[1.902s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Billboard_01/materials/textures/aws_Billboard_01.png
+[1.908s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Billboard_01/meshes/aws_Billboard_01_collision.DAE
+[1.914s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Billboard_01/meshes/aws_Billboard_01_visual.DAE
+[1.920s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Billboard_01/model.config
+[1.926s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Billboard_01/model.sdf
+[1.932s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Column_01/materials/textures/aws_Column_01.png
+[1.938s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Column_01/meshes/aws_Column_01_collision.DAE
+[1.944s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Column_01/meshes/aws_Column_01_visual.DAE
+[1.951s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Column_01/model.config
+[1.957s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Column_01/model.sdf
+[1.964s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_CrashworthBucket_01/materials/textures/aws_CrashworthBucket_01.png
+[1.970s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_CrashworthBucket_01/meshes/aws_CrashworthBucket_01_collision.DAE
+[1.976s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_CrashworthBucket_01/meshes/aws_CrashworthBucket_01_visual.DAE
+[1.983s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_CrashworthBucket_01/model.config
+[1.989s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_CrashworthBucket_01/model.sdf
+[1.995s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_FenceMesh_01/materials/textures/aws_FenceMesh_01.png
+[2.001s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_FenceMesh_01/meshes/aws_FenceMesh_01_collision.DAE
+[2.007s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_FenceMesh_01/meshes/aws_FenceMesh_01_visual.DAE
+[2.013s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_FenceMesh_01/model.config
+[2.020s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_FenceMesh_01/model.sdf
+[2.026s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Fence_01/materials/textures/aws_Fence_01.png
+[2.032s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Fence_01/meshes/aws_Fence_01_collision.DAE
+[2.039s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Fence_01/meshes/aws_Fence_01_visual.DAE
+[2.045s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Fence_01/model.config
+[2.051s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Fence_01/model.sdf
+[2.057s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Fence_02/materials/textures/aws_Fence_02.png
+[2.064s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Fence_02/meshes/aws_Fence_02_collision.DAE
+[2.070s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Fence_02/meshes/aws_Fence_02_visual.DAE
+[2.077s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Fence_02/model.config
+[2.083s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Fence_02/model.sdf
+[2.089s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Ground_01/materials/textures/aws_GroundN_01.png
+[2.095s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Ground_01/materials/textures/aws_Ground_01.png
+[2.102s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Ground_01/meshes/aws_Ground_01_collision.DAE
+[2.108s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Ground_01/meshes/aws_Ground_01_visual.DAE
+[2.115s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Ground_01/model.config
+[2.121s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Ground_01/model.sdf
+[2.128s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Light_01/materials/textures/aws_Light_01.png
+[2.135s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Light_01/meshes/aws_Light_01_collision.DAE
+[2.141s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Light_01/meshes/aws_Light_01_visual.DAE
+[2.148s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Light_01/model.config
+[2.154s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Light_01/model.sdf
+[2.160s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_RaceStartLight_01/materials/textures/aws_RaceStartLight_01.png
+[2.167s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_RaceStartLight_01/meshes/aws_RaceStartLight_01_collision.DAE
+[2.173s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_RaceStartLight_01/meshes/aws_RaceStartLight_01_visual.DAE
+[2.179s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_RaceStartLight_01/model.config
+[2.187s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_RaceStartLight_01/model.sdf
+[2.194s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_StonePier_01/materials/textures/aws_StonePier_01.png
+[2.200s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_StonePier_01/meshes/aws_StonePier_01_collision.DAE
+[2.206s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_StonePier_01/meshes/aws_StonePier_01_visual.DAE
+[2.212s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_StonePier_01/model.config
+[2.219s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_StonePier_01/model.sdf
+[2.225s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_StopSign_01/materials/textures/aws_StopSign_01.png
+[2.232s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_StopSign_01/meshes/aws_StopSign_01_collision.DAE
+[2.238s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_StopSign_01/meshes/aws_StopSign_01_visual.DAE
+[2.244s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_StopSign_01/model.config
+[2.251s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_StopSign_01/model.sdf
+[2.257s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Track_01/materials/textures/aws_Track_01.png
+[2.264s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Track_01/materials/textures/aws_Track_01A.png
+[2.271s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Track_01/meshes/aws_Track_01_collision.DAE
+[2.278s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Track_01/meshes/aws_Track_01_visual.DAE
+[2.284s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Track_01/model.config
+[2.291s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Track_01/model.sdf
+[2.297s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Track_02/materials/textures/aws_Track_02.png
+[2.303s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Track_02/materials/textures/aws_Track_02B.png
+[2.310s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Track_02/meshes/aws_Track_02_collision.DAE
+[2.317s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Track_02/meshes/aws_Track_02_visual.DAE
+[2.323s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Track_02/model.config
+[2.329s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Track_02/model.sdf
+[2.336s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Track_03/materials/textures/aws_Track_03.png
+[2.343s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Track_03/materials/textures/aws_Track_03B.png
+[2.350s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Track_03/meshes/aws_Track_03_collision.DAE
+[2.356s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Track_03/meshes/aws_Track_03_visual.DAE
+[2.362s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Track_03/model.config
+[2.368s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Track_03/model.sdf
+[2.375s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Track_04/materials/textures/aws_Track_04.png
+[2.382s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Track_04/materials/textures/aws_Track_04B.png
+[2.389s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Track_04/meshes/aws_Track_04_collision.DAE
+[2.396s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Track_04/meshes/aws_Track_04_visual.DAE
+[2.402s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Track_04/model.config
+[2.409s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Track_04/model.sdf
+[2.415s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Track_05/materials/aws_Track_05.png
+[2.421s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Track_05/materials/aws_Track_05B.png
+[2.427s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Track_05/materials/aws_Track_05C.png
+[2.434s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Track_05/materials/textures/aws_Track_05.png
+[2.440s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Track_05/materials/textures/aws_Track_05B.png
+[2.447s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Track_05/materials/textures/aws_Track_05C.png
+[2.453s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Track_05/meshes/aws_Track_05_collision.DAE
+[2.459s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Track_05/meshes/aws_Track_05_visual.DAE
+[2.465s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Track_05/model.config
+[2.472s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Track_05/model.sdf
+[2.478s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Trackline_01/materials/textures/aws_Trackline_01.png
+[2.484s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Trackline_01/meshes/aws_Trackline_01_collision.DAE
+[2.491s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Trackline_01/meshes/aws_Trackline_01_visual.DAE
+[2.497s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Trackline_01/model.config
+[2.503s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Trackline_01/model.sdf
+[2.510s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_TrafficCone_01/materials/textures/aws_TrafficCone_01.png
+[2.516s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_TrafficCone_01/meshes/aws_TrafficCone_01_coliision.DAE
+[2.523s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_TrafficCone_01/meshes/aws_TrafficCone_01_visual.DAE
+[2.529s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_TrafficCone_01/model.config
+[2.535s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_TrafficCone_01/model.sdf
+[2.542s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Wall_01/materials/textures/aws_Wall_01.png
+[2.548s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Wall_01/meshes/aws_Wall_01_collision.DAE
+[2.554s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Wall_01/meshes/aws_Wall_01_visual.DAE
+[2.560s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Wall_01/model.config
+[2.567s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Wall_01/model.sdf
+[2.574s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/worlds/racetrack_day.world
+[2.580s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/worlds/racetrack_day_empty.world
+[2.587s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/worlds/racetrack_night.world
+[2.593s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_racetrack_world/share/ament_index/resource_index/package_run_dependencies/aws_robomaker_racetrack_world
+[2.600s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_racetrack_world/share/ament_index/resource_index/parent_prefix_path/aws_robomaker_racetrack_world
+[2.606s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/environment/ament_prefix_path.sh
+[2.612s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/environment/ament_prefix_path.dsv
+[2.618s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/environment/path.sh
+[2.624s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/environment/path.dsv
+[2.631s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/local_setup.bash
+[2.637s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/local_setup.sh
+[2.643s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/local_setup.zsh
+[2.649s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/local_setup.dsv
+[2.655s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/package.dsv
+[2.662s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_racetrack_world/share/ament_index/resource_index/packages/aws_robomaker_racetrack_world
+[2.668s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.674s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/cmake/aws_robomaker_racetrack_worldConfig.cmake
+[2.681s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/cmake/aws_robomaker_racetrack_worldConfig-version.cmake
+[2.687s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/package.xml
+[2.695s] Invoked command in '/home/wellyowo/locobot_sim/locobot_ws/build/aws_robomaker_racetrack_world' returned '0': AMENT_PREFIX_PATH=/home/wellyowo/locobot_sim/locobot_ws/install/gazebo_plugins:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wellyowo/locobot_sim/locobot_ws/install/gazebo_plugins:/opt/ros/humble LD_LIBRARY_PATH=/home/wellyowo/locobot_sim/locobot_ws/install/gazebo_plugins/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --install /home/wellyowo/locobot_sim/locobot_ws/build/aws_robomaker_racetrack_world

@@ -1,0 +1,240 @@
+[0.010s] Invoking command in '/home/wellyowo/locobot_sim/locobot_ws/build/aws_robomaker_small_warehouse_world': AMENT_PREFIX_PATH=/home/wellyowo/locobot_sim/locobot_ws/install/gazebo_plugins:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wellyowo/locobot_sim/locobot_ws/install/gazebo_plugins:/opt/ros/humble LD_LIBRARY_PATH=/home/wellyowo/locobot_sim/locobot_ws/install/gazebo_plugins/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake /home/wellyowo/locobot_sim/locobot_ws/src/ThirdParty/aws-robomaker-small-warehouse-world -DBUILD_TESTING=OFF -DCMAKE_PREFIX_PATH= -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_small_warehouse_world
+[0.076s] -- The C compiler identification is GNU 11.4.0
+[0.130s] -- The CXX compiler identification is GNU 11.4.0
+[0.136s] -- Detecting C compiler ABI info
+[0.195s] -- Detecting C compiler ABI info - done
+[0.205s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.205s] -- Detecting C compile features
+[0.206s] -- Detecting C compile features - done
+[0.210s] -- Detecting CXX compiler ABI info
+[0.283s] -- Detecting CXX compiler ABI info - done
+[0.295s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.295s] -- Detecting CXX compile features
+[0.295s] -- Detecting CXX compile features - done
+[0.299s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.429s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.494s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.536s] -- Found gazebo_ros: 3.9.0 (/opt/ros/humble/share/gazebo_ros/cmake)
+[0.580s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.584s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.592s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.603s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.619s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.671s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.674s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.757s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.783s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.821s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.829s] -- Looking for pthread.h
+[0.890s] -- Looking for pthread.h - found
+[0.890s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.953s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.954s] -- Found Threads: TRUE  
+[1.002s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[1.003s] -- Checking for module 'bullet>=2.82'
+[1.012s] --   Found bullet, version 3.05
+[1.089s] -- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") 
+[1.127s] -- Found assimp: /usr/include (found version "5.2.0") 
+[1.149s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[1.185s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[1.199s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[1.206s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.213s] -- Searching for dependencies of ignition-math6
+[1.214s] -- Looking for OGRE...
+[1.214s] -- OGRE_PREFIX_WATCH changed.
+[1.219s] -- Checking for module 'OGRE'
+[1.229s] --   Found OGRE, version 1.9.0
+[1.252s] -- Found Ogre Ghadamon (1.9.0)
+[1.259s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[1.272s] -- Looking for OGRE_Paging...
+[1.278s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[1.278s] -- Looking for OGRE_Terrain...
+[1.283s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[1.283s] -- Looking for OGRE_Property...
+[1.288s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[1.288s] -- Looking for OGRE_RTShaderSystem...
+[1.293s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[1.293s] -- Looking for OGRE_Volume...
+[1.298s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[1.298s] -- Looking for OGRE_Overlay...
+[1.302s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[1.367s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.369s] -- Looking for ignition-transport8 -- found version 8.2.1
+[1.370s] -- Searching for dependencies of ignition-transport8
+[1.386s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[1.396s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[1.400s] -- Checking for module 'libzmq >= 4'
+[1.409s] --   Found libzmq , version 4.3.4
+[1.432s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[1.437s] -- Checking for module 'uuid'
+[1.446s] --   Found uuid, version 2.37.2
+[1.473s] -- Found UUID: TRUE  
+[1.476s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.476s] -- Searching for dependencies of ignition-msgs5
+[1.497s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.501s] -- Checking for module 'tinyxml2'
+[1.511s] --   Found tinyxml2, version 9.0.0
+[1.535s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.537s] -- Looking for ignition-common3 -- found version 3.14.0
+[1.538s] -- Searching for dependencies of ignition-common3
+[1.538s] -- Looking for dlfcn.h - found
+[1.538s] -- Looking for libdl - found
+[1.540s] -- Found DL: TRUE  
+[1.551s] -- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") 
+[1.551s] -- Searching for <ignition-common3> component [graphics]
+[1.554s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[1.554s] -- Searching for dependencies of ignition-common3-graphics
+[1.554s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.558s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[1.558s] -- Searching for dependencies of ignition-fuel_tools4
+[1.617s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  
+[1.624s] -- Checking for module 'jsoncpp'
+[1.635s] --   Found jsoncpp, version 1.9.5
+[1.661s] -- Found JSONCPP: TRUE  
+[1.667s] -- Checking for module 'libzip'
+[1.676s] --   Found libzip, version 1.7.3
+[1.701s] -- Found ZIP: TRUE  
+[1.702s] -- Looking for ignition-common3 -- found version 3.14.0
+[1.702s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.702s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.705s] -- Gazebo version: 11.10
+[1.705s] -- Checking for module 'tbb'
+[1.715s] --   Found tbb, version 2021.5.0
+[1.797s] -- Configuring done
+[1.801s] -- Generating done
+[1.803s] -- Build files have been written to: /home/wellyowo/locobot_sim/locobot_ws/build/aws_robomaker_small_warehouse_world
+[1.817s] Invoked command in '/home/wellyowo/locobot_sim/locobot_ws/build/aws_robomaker_small_warehouse_world' returned '0': AMENT_PREFIX_PATH=/home/wellyowo/locobot_sim/locobot_ws/install/gazebo_plugins:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wellyowo/locobot_sim/locobot_ws/install/gazebo_plugins:/opt/ros/humble LD_LIBRARY_PATH=/home/wellyowo/locobot_sim/locobot_ws/install/gazebo_plugins/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake /home/wellyowo/locobot_sim/locobot_ws/src/ThirdParty/aws-robomaker-small-warehouse-world -DBUILD_TESTING=OFF -DCMAKE_PREFIX_PATH= -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_small_warehouse_world
+[1.818s] Invoking command in '/home/wellyowo/locobot_sim/locobot_ws/build/aws_robomaker_small_warehouse_world': AMENT_PREFIX_PATH=/home/wellyowo/locobot_sim/locobot_ws/install/gazebo_plugins:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wellyowo/locobot_sim/locobot_ws/install/gazebo_plugins:/opt/ros/humble LD_LIBRARY_PATH=/home/wellyowo/locobot_sim/locobot_ws/install/gazebo_plugins/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/wellyowo/locobot_sim/locobot_ws/build/aws_robomaker_small_warehouse_world -- -j16 -l16
+[1.845s] Invoked command in '/home/wellyowo/locobot_sim/locobot_ws/build/aws_robomaker_small_warehouse_world' returned '0': AMENT_PREFIX_PATH=/home/wellyowo/locobot_sim/locobot_ws/install/gazebo_plugins:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wellyowo/locobot_sim/locobot_ws/install/gazebo_plugins:/opt/ros/humble LD_LIBRARY_PATH=/home/wellyowo/locobot_sim/locobot_ws/install/gazebo_plugins/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/wellyowo/locobot_sim/locobot_ws/build/aws_robomaker_small_warehouse_world -- -j16 -l16
+[1.846s] Invoking command in '/home/wellyowo/locobot_sim/locobot_ws/build/aws_robomaker_small_warehouse_world': AMENT_PREFIX_PATH=/home/wellyowo/locobot_sim/locobot_ws/install/gazebo_plugins:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wellyowo/locobot_sim/locobot_ws/install/gazebo_plugins:/opt/ros/humble LD_LIBRARY_PATH=/home/wellyowo/locobot_sim/locobot_ws/install/gazebo_plugins/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --install /home/wellyowo/locobot_sim/locobot_ws/build/aws_robomaker_small_warehouse_world
+[1.851s] -- Install configuration: ""
+[1.852s] -- Execute custom install script
+[1.852s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/launch/no_roof_small_warehouse.launch.py
+[1.858s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/launch/small_warehouse.launch.py
+[1.866s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/.DS_Store
+[1.872s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_Bucket_01/.DS_Store
+[1.878s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_Bucket_01/materials/.DS_Store
+[1.884s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_Bucket_01/materials/textures/aws_robomaker_warehouse_Bucket_01.png
+[1.890s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_Bucket_01/meshes/aws_robomaker_warehouse_Bucket_01_collision.DAE
+[1.895s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_Bucket_01/meshes/aws_robomaker_warehouse_Bucket_01_visual.DAE
+[1.902s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_Bucket_01/model.config
+[1.908s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_Bucket_01/model.sdf
+[1.914s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ClutteringA_01/.DS_Store
+[1.920s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ClutteringA_01/materials/.DS_Store
+[1.926s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ClutteringA_01/materials/textures/.DS_Store
+[1.932s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ClutteringA_01/materials/textures/aws_robomaker_warehouse_ClutteringA_01.png
+[1.938s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ClutteringA_01/materials/textures/aws_robomaker_warehouse_ClutteringA_02.png
+[1.945s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ClutteringA_01/materials/textures/aws_robomaker_warehouse_ClutteringA_03.png
+[1.951s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ClutteringA_01/meshes/aws_robomaker_warehouse_ClutteringA_01_collision.DAE
+[1.957s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ClutteringA_01/meshes/aws_robomaker_warehouse_ClutteringA_01_visual.DAE
+[1.964s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ClutteringA_01/model.config
+[1.970s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ClutteringA_01/model.sdf
+[1.977s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ClutteringC_01/materials/textures/aws_robomaker_warehouse_ClutteringC_01.png
+[1.983s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ClutteringC_01/materials/textures/aws_robomaker_warehouse_ClutteringC_02.png
+[1.989s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ClutteringC_01/meshes/aws_robomaker_warehouse_ClutteringC_01_collision.DAE
+[1.995s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ClutteringC_01/meshes/aws_robomaker_warehouse_ClutteringC_01_visual.DAE
+[2.001s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ClutteringC_01/model.config
+[2.007s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ClutteringC_01/model.sdf
+[2.014s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ClutteringD_01/materials/textures/aws_robomaker_warehouse_ClutteringD_01.png
+[2.020s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ClutteringD_01/materials/textures/aws_robomaker_warehouse_ClutteringD_02.png
+[2.026s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ClutteringD_01/meshes/aws_robomaker_warehouse_ClutteringD_01_collision.DAE
+[2.032s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ClutteringD_01/meshes/aws_robomaker_warehouse_ClutteringD_01_visual.DAE
+[2.039s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ClutteringD_01/model.config
+[2.045s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ClutteringD_01/model.sdf
+[2.051s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_DeskC_01/materials/.DS_Store
+[2.058s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_DeskC_01/materials/textures/aws_robomaker_warehouse_DeskC_01.png
+[2.064s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_DeskC_01/materials/textures/aws_robomaker_warehouse_DeskC_02.png
+[2.070s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_DeskC_01/materials/textures/aws_robomaker_warehouse_DeskC_03.png
+[2.076s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_DeskC_01/materials/textures/aws_robomaker_warehouse_DeskC_03.psd
+[2.083s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_DeskC_01/materials/textures/aws_robomaker_warehouse_DeskC_04.png
+[2.089s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_DeskC_01/meshes/aws_robomaker_warehouse_DeskC_01_collision.DAE
+[2.096s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_DeskC_01/meshes/aws_robomaker_warehouse_DeskC_01_visual.DAE
+[2.102s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_DeskC_01/model.config
+[2.109s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_DeskC_01/model.sdf
+[2.115s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_GroundB_01/materials/textures/aws_robomaker_warehouse_GroundB_01.png
+[2.122s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_GroundB_01/materials/textures/aws_robomaker_warehouse_GroundB_02.png
+[2.128s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_GroundB_01/meshes/aws_robomaker_warehouse_GroundB_01_collision.DAE
+[2.135s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_GroundB_01/meshes/aws_robomaker_warehouse_GroundB_01_visual.DAE
+[2.141s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_GroundB_01/model.config
+[2.148s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_GroundB_01/model.sdf
+[2.154s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_Lamp_01/materials/textures/aws_robomaker_warehouse_Lamp_01.png
+[2.161s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_Lamp_01/meshes/aws_robomaker_warehouse_Lamp_01_collision.DAE
+[2.166s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_Lamp_01/meshes/aws_robomaker_warehouse_Lamp_01_visual.DAE
+[2.173s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_Lamp_01/model.config
+[2.181s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_Lamp_01/model.sdf
+[2.187s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_PalletJackB_01/.DS_Store
+[2.194s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_PalletJackB_01/materials/.DS_Store
+[2.200s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_PalletJackB_01/materials/textures/aws_robomaker_warehouse_PalletJackB_01.png
+[2.206s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_PalletJackB_01/materials/textures/aws_robomaker_warehouse_PalletJackB_02.png
+[2.213s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_PalletJackB_01/meshes/aws_robomaker_warehouse_PalletJackB_01_collision.DAE
+[2.219s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_PalletJackB_01/meshes/aws_robomaker_warehouse_PalletJackB_01_visual.DAE
+[2.225s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_PalletJackB_01/model.config
+[2.232s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_PalletJackB_01/model.sdf
+[2.238s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_RoofB_01/materials/textures/aws_robomaker_warehouse_RoofB_01.png
+[2.245s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_RoofB_01/meshes/aws_robomaker_warehouse_RoofB_01_collision.DAE
+[2.251s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_RoofB_01/meshes/aws_robomaker_warehouse_RoofB_01_visual.DAE
+[2.258s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_RoofB_01/model.config
+[2.265s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_RoofB_01/model.sdf
+[2.271s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ShelfD_01/materials/textures/aws_robomaker_warehouse_ShelfD_01.png
+[2.278s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ShelfD_01/materials/textures/aws_robomaker_warehouse_ShelfD_02.png
+[2.284s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ShelfD_01/materials/textures/aws_robomaker_warehouse_ShelfD_03.png
+[2.291s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ShelfD_01/materials/textures/aws_robomaker_warehouse_ShelfD_04.png
+[2.297s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_collision.DAE
+[2.304s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_visual.DAE
+[2.310s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ShelfD_01/model.config
+[2.317s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ShelfD_01/model.sdf
+[2.323s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ShelfE_01/.DS_Store
+[2.330s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ShelfE_01/materials/.DS_Store
+[2.337s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ShelfE_01/materials/textures/aws_robomaker_warehouse_ShelfE_01.png
+[2.343s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ShelfE_01/materials/textures/aws_robomaker_warehouse_ShelfE_02.png
+[2.350s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ShelfE_01/materials/textures/aws_robomaker_warehouse_ShelfE_03.png
+[2.356s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ShelfE_01/materials/textures/aws_robomaker_warehouse_ShelfE_04.png
+[2.362s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ShelfE_01/meshes/aws_robomaker_warehouse_ShelfE_01_collision.DAE
+[2.369s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ShelfE_01/meshes/aws_robomaker_warehouse_ShelfE_01_visual.DAE
+[2.376s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ShelfE_01/model.config
+[2.385s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ShelfE_01/model.sdf
+[2.391s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ShelfF_01/materials/textures/aws_robomaker_warehouse_ShelfF_01.png
+[2.397s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ShelfF_01/materials/textures/aws_robomaker_warehouse_ShelfF_02.png
+[2.403s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ShelfF_01/materials/textures/aws_robomaker_warehouse_ShelfF_03.png
+[2.409s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ShelfF_01/meshes/aws_robomaker_warehouse_ShelfF_01_collision.DAE
+[2.415s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ShelfF_01/meshes/aws_robomaker_warehouse_ShelfF_01_visual.DAE
+[2.421s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ShelfF_01/model.config
+[2.427s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_ShelfF_01/model.sdf
+[2.434s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_TrashCanC_01/materials/textures/aws_robomaker_warehouse_TrashCanC_01.png
+[2.440s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_TrashCanC_01/meshes/aws_robomaker_warehouse_TrashCanC_01_collision.DAE
+[2.447s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_TrashCanC_01/meshes/aws_robomaker_warehouse_TrashCanC_01_visual.DAE
+[2.453s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_TrashCanC_01/model.config
+[2.459s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_TrashCanC_01/model.sdf
+[2.465s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_WallB_01/materials/textures/aws_robomaker_warehouse_WallB_01.png
+[2.472s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_WallB_01/meshes/aws_robomaker_warehouse_WallB_01_collision.DAE
+[2.478s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_WallB_01/meshes/aws_robomaker_warehouse_WallB_01_visual.DAE
+[2.484s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_WallB_01/model.config
+[2.491s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/models/aws_robomaker_warehouse_WallB_01/model.sdf
+[2.497s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/worlds/no_roof_small_warehouse/no_roof_small_warehouse.world
+[2.503s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/worlds/small_warehouse/small_warehouse.world
+[2.510s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/maps/.DS_Store
+[2.516s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/maps/002/map.pgm
+[2.523s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/maps/002/map.yaml
+[2.529s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/maps/005/map.pgm
+[2.535s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/maps/005/map.yaml
+[2.542s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/maps/005/map_rotated.pgm
+[2.548s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/maps/005/map_rotated.png
+[2.555s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/rviz/basic_data.rviz
+[2.561s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/environment/aws_robomaker_small_warehouse_world.dsv
+[2.568s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_small_warehouse_world/share/ament_index/resource_index/package_run_dependencies/aws_robomaker_small_warehouse_world
+[2.574s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_small_warehouse_world/share/ament_index/resource_index/parent_prefix_path/aws_robomaker_small_warehouse_world
+[2.581s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/environment/ament_prefix_path.sh
+[2.587s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/environment/ament_prefix_path.dsv
+[2.593s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/environment/path.sh
+[2.600s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/environment/path.dsv
+[2.606s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/local_setup.bash
+[2.612s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/local_setup.sh
+[2.618s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/local_setup.zsh
+[2.625s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/local_setup.dsv
+[2.631s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/package.dsv
+[2.637s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_small_warehouse_world/share/ament_index/resource_index/packages/aws_robomaker_small_warehouse_world
+[2.643s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.649s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/cmake/aws_robomaker_small_warehouse_worldConfig.cmake
+[2.655s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/cmake/aws_robomaker_small_warehouse_worldConfig-version.cmake
+[2.662s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/aws_robomaker_small_warehouse_world/share/aws_robomaker_small_warehouse_world/package.xml
+[2.670s] Invoked command in '/home/wellyowo/locobot_sim/locobot_ws/build/aws_robomaker_small_warehouse_world' returned '0': AMENT_PREFIX_PATH=/home/wellyowo/locobot_sim/locobot_ws/install/gazebo_plugins:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wellyowo/locobot_sim/locobot_ws/install/gazebo_plugins:/opt/ros/humble LD_LIBRARY_PATH=/home/wellyowo/locobot_sim/locobot_ws/install/gazebo_plugins/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --install /home/wellyowo/locobot_sim/locobot_ws/build/aws_robomaker_small_warehouse_world

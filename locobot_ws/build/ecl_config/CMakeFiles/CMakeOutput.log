@@ -28,10 +28,10 @@ The CXX compiler identification is GNU, found in "/home/wellyowo/locobot_sim/loc
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: /home/wellyowo/locobot_sim/locobot_ws/build/ecl_config/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_ca46e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ca46e.dir/build.make CMakeFiles/cmTC_ca46e.dir/build
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_83924/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_83924.dir/build.make CMakeFiles/cmTC_83924.dir/build
 gmake[1]: Entering directory '/home/wellyowo/locobot_sim/locobot_ws/build/ecl_config/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_ca46e.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc   -v -o CMakeFiles/cmTC_ca46e.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c
+Building C object CMakeFiles/cmTC_83924.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc   -v -o CMakeFiles/cmTC_83924.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
@@ -41,8 +41,8 @@ Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~2
 Thread model: posix
 Supported LTO compression algorithms: zlib zstd
 gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) 
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ca46e.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_ca46e.dir/'
- /usr/lib/gcc/x86_64-linux-gnu/11/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_ca46e.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccLbH7Q9.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_83924.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_83924.dir/'
+ /usr/lib/gcc/x86_64-linux-gnu/11/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_83924.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccHeIcfy.s
 GNU C17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)
 	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
 
@@ -62,15 +62,15 @@ GNU C17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)
 
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 Compiler executable checksum: 50eaa2331df977b8016186198deb2d18
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ca46e.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_ca46e.dir/'
- as -v --64 -o CMakeFiles/cmTC_ca46e.dir/CMakeCCompilerABI.c.o /tmp/ccLbH7Q9.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_83924.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_83924.dir/'
+ as -v --64 -o CMakeFiles/cmTC_83924.dir/CMakeCCompilerABI.c.o /tmp/ccHeIcfy.s
 GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ca46e.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_ca46e.dir/CMakeCCompilerABI.c.'
-Linking C executable cmTC_ca46e
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ca46e.dir/link.txt --verbose=1
-/usr/bin/cc  -v CMakeFiles/cmTC_ca46e.dir/CMakeCCompilerABI.c.o -o cmTC_ca46e 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_83924.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_83924.dir/CMakeCCompilerABI.c.'
+Linking C executable cmTC_83924
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_83924.dir/link.txt --verbose=1
+/usr/bin/cc  -v CMakeFiles/cmTC_83924.dir/CMakeCCompilerABI.c.o -o cmTC_83924 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper
@@ -83,9 +83,9 @@ Supported LTO compression algorithms: zlib zstd
 gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ca46e' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_ca46e.'
- /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccYQwuvP.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_ca46e /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_ca46e.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ca46e' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_ca46e.'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_83924' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_83924.'
+ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccfr479u.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_83924 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_83924.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_83924' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_83924.'
 gmake[1]: Leaving directory '/home/wellyowo/locobot_sim/locobot_ws/build/ecl_config/CMakeFiles/CMakeTmp'
 
 
@@ -109,10 +109,10 @@ Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/wellyowo/locobot_sim/locobot_ws/build/ecl_config/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_ca46e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ca46e.dir/build.make CMakeFiles/cmTC_ca46e.dir/build]
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_83924/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_83924.dir/build.make CMakeFiles/cmTC_83924.dir/build]
   ignore line: [gmake[1]: Entering directory '/home/wellyowo/locobot_sim/locobot_ws/build/ecl_config/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_ca46e.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_ca46e.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c]
+  ignore line: [Building C object CMakeFiles/cmTC_83924.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_83924.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
@@ -122,8 +122,8 @@ Parsed C implicit link information from above output:
   ignore line: [Thread model: posix]
   ignore line: [Supported LTO compression algorithms: zlib zstd]
   ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ca46e.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_ca46e.dir/']
-  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_ca46e.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccLbH7Q9.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_83924.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_83924.dir/']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_83924.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccHeIcfy.s]
   ignore line: [GNU C17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)]
   ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
   ignore line: []
@@ -143,15 +143,15 @@ Parsed C implicit link information from above output:
   ignore line: []
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
   ignore line: [Compiler executable checksum: 50eaa2331df977b8016186198deb2d18]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ca46e.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_ca46e.dir/']
-  ignore line: [ as -v --64 -o CMakeFiles/cmTC_ca46e.dir/CMakeCCompilerABI.c.o /tmp/ccLbH7Q9.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_83924.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_83924.dir/']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_83924.dir/CMakeCCompilerABI.c.o /tmp/ccHeIcfy.s]
   ignore line: [GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ca46e.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_ca46e.dir/CMakeCCompilerABI.c.']
-  ignore line: [Linking C executable cmTC_ca46e]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ca46e.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc  -v CMakeFiles/cmTC_ca46e.dir/CMakeCCompilerABI.c.o -o cmTC_ca46e ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_83924.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_83924.dir/CMakeCCompilerABI.c.']
+  ignore line: [Linking C executable cmTC_83924]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_83924.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc  -v CMakeFiles/cmTC_83924.dir/CMakeCCompilerABI.c.o -o cmTC_83924 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper]
@@ -164,13 +164,13 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ca46e' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_ca46e.']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccYQwuvP.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_ca46e /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_ca46e.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_83924' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_83924.']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccfr479u.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_83924 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_83924.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/11/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccYQwuvP.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccfr479u.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -188,7 +188,7 @@ Parsed C implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_ca46e] ==> ignore
+    arg [cmTC_83924] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o]
@@ -200,7 +200,7 @@ Parsed C implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..]
-    arg [CMakeFiles/cmTC_ca46e.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_83924.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--push-state] ==> ignore
     arg [--as-needed] ==> ignore
@@ -234,10 +234,10 @@ Parsed C implicit link information from above output:
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: /home/wellyowo/locobot_sim/locobot_ws/build/ecl_config/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_d01e2/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d01e2.dir/build.make CMakeFiles/cmTC_d01e2.dir/build
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_dfc7a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_dfc7a.dir/build.make CMakeFiles/cmTC_dfc7a.dir/build
 gmake[1]: Entering directory '/home/wellyowo/locobot_sim/locobot_ws/build/ecl_config/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_d01e2.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++   -v -o CMakeFiles/cmTC_d01e2.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp
+Building CXX object CMakeFiles/cmTC_dfc7a.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++   -v -o CMakeFiles/cmTC_dfc7a.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
@@ -247,8 +247,8 @@ Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~2
 Thread model: posix
 Supported LTO compression algorithms: zlib zstd
 gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) 
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d01e2.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_d01e2.dir/'
- /usr/lib/gcc/x86_64-linux-gnu/11/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_d01e2.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccI6T8Ag.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_dfc7a.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_dfc7a.dir/'
+ /usr/lib/gcc/x86_64-linux-gnu/11/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_dfc7a.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccLbL9JS.s
 GNU C++17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)
 	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
 
@@ -272,15 +272,15 @@ GNU C++17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)
 
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 Compiler executable checksum: d591828bb4d392ae8b7b160e5bb0b95f
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d01e2.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_d01e2.dir/'
- as -v --64 -o CMakeFiles/cmTC_d01e2.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccI6T8Ag.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_dfc7a.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_dfc7a.dir/'
+ as -v --64 -o CMakeFiles/cmTC_dfc7a.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccLbL9JS.s
 GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d01e2.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_d01e2.dir/CMakeCXXCompilerABI.cpp.'
-Linking CXX executable cmTC_d01e2
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d01e2.dir/link.txt --verbose=1
-/usr/bin/c++  -v CMakeFiles/cmTC_d01e2.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_d01e2 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_dfc7a.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_dfc7a.dir/CMakeCXXCompilerABI.cpp.'
+Linking CXX executable cmTC_dfc7a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dfc7a.dir/link.txt --verbose=1
+/usr/bin/c++  -v CMakeFiles/cmTC_dfc7a.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_dfc7a 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper
@@ -293,9 +293,9 @@ Supported LTO compression algorithms: zlib zstd
 gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d01e2' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_d01e2.'
- /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccTPhcpt.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_d01e2 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_d01e2.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d01e2' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_d01e2.'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_dfc7a' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_dfc7a.'
+ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccFtc9Ft.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_dfc7a /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_dfc7a.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_dfc7a' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_dfc7a.'
 gmake[1]: Leaving directory '/home/wellyowo/locobot_sim/locobot_ws/build/ecl_config/CMakeFiles/CMakeTmp'
 
 
@@ -325,10 +325,10 @@ Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/wellyowo/locobot_sim/locobot_ws/build/ecl_config/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_d01e2/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d01e2.dir/build.make CMakeFiles/cmTC_d01e2.dir/build]
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_dfc7a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_dfc7a.dir/build.make CMakeFiles/cmTC_dfc7a.dir/build]
   ignore line: [gmake[1]: Entering directory '/home/wellyowo/locobot_sim/locobot_ws/build/ecl_config/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_d01e2.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_d01e2.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Building CXX object CMakeFiles/cmTC_dfc7a.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_dfc7a.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
@@ -338,8 +338,8 @@ Parsed CXX implicit link information from above output:
   ignore line: [Thread model: posix]
   ignore line: [Supported LTO compression algorithms: zlib zstd]
   ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d01e2.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_d01e2.dir/']
-  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_d01e2.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccI6T8Ag.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_dfc7a.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_dfc7a.dir/']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_dfc7a.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccLbL9JS.s]
   ignore line: [GNU C++17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)]
   ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
   ignore line: []
@@ -363,15 +363,15 @@ Parsed CXX implicit link information from above output:
   ignore line: []
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
   ignore line: [Compiler executable checksum: d591828bb4d392ae8b7b160e5bb0b95f]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d01e2.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_d01e2.dir/']
-  ignore line: [ as -v --64 -o CMakeFiles/cmTC_d01e2.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccI6T8Ag.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_dfc7a.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_dfc7a.dir/']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_dfc7a.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccLbL9JS.s]
   ignore line: [GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d01e2.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_d01e2.dir/CMakeCXXCompilerABI.cpp.']
-  ignore line: [Linking CXX executable cmTC_d01e2]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d01e2.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++  -v CMakeFiles/cmTC_d01e2.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_d01e2 ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_dfc7a.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_dfc7a.dir/CMakeCXXCompilerABI.cpp.']
+  ignore line: [Linking CXX executable cmTC_dfc7a]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dfc7a.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++  -v CMakeFiles/cmTC_dfc7a.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_dfc7a ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper]
@@ -384,13 +384,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d01e2' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_d01e2.']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccTPhcpt.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_d01e2 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_d01e2.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_dfc7a' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_dfc7a.']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccFtc9Ft.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_dfc7a /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_dfc7a.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/11/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccTPhcpt.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccFtc9Ft.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -408,7 +408,7 @@ Parsed CXX implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_d01e2] ==> ignore
+    arg [cmTC_dfc7a] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o]
@@ -420,7 +420,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..]
-    arg [CMakeFiles/cmTC_d01e2.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_dfc7a.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -450,13 +450,13 @@ Parsed CXX implicit link information from above output:
 Determining if the _POSIX_VERSION exist passed with the following output:
 Change Dir: /home/wellyowo/locobot_sim/locobot_ws/build/ecl_config/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_acc6b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_acc6b.dir/build.make CMakeFiles/cmTC_acc6b.dir/build
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_aecea/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_aecea.dir/build.make CMakeFiles/cmTC_aecea.dir/build
 gmake[1]: Entering directory '/home/wellyowo/locobot_sim/locobot_ws/build/ecl_config/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_acc6b.dir/CheckSymbolExists.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_acc6b.dir/CheckSymbolExists.c.o -c /home/wellyowo/locobot_sim/locobot_ws/build/ecl_config/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_acc6b
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_acc6b.dir/link.txt --verbose=1
-/usr/bin/cc CMakeFiles/cmTC_acc6b.dir/CheckSymbolExists.c.o -o cmTC_acc6b 
+Building C object CMakeFiles/cmTC_aecea.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_aecea.dir/CheckSymbolExists.c.o -c /home/wellyowo/locobot_sim/locobot_ws/build/ecl_config/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_aecea
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aecea.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_aecea.dir/CheckSymbolExists.c.o -o cmTC_aecea 
 gmake[1]: Leaving directory '/home/wellyowo/locobot_sim/locobot_ws/build/ecl_config/CMakeFiles/CMakeTmp'
 
 
@@ -477,13 +477,13 @@ int main(int argc, char** argv)
 Determining if the function realpath exists in the rt passed with the following output:
 Change Dir: /home/wellyowo/locobot_sim/locobot_ws/build/ecl_config/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_3d028/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_3d028.dir/build.make CMakeFiles/cmTC_3d028.dir/build
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_ee82f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ee82f.dir/build.make CMakeFiles/cmTC_ee82f.dir/build
 gmake[1]: Entering directory '/home/wellyowo/locobot_sim/locobot_ws/build/ecl_config/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_3d028.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=realpath -o CMakeFiles/cmTC_3d028.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
-Linking C executable cmTC_3d028
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3d028.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=realpath CMakeFiles/cmTC_3d028.dir/CheckFunctionExists.c.o -o cmTC_3d028  -lrt 
+Building C object CMakeFiles/cmTC_ee82f.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=realpath -o CMakeFiles/cmTC_ee82f.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_ee82f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ee82f.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=realpath CMakeFiles/cmTC_ee82f.dir/CheckFunctionExists.c.o -o cmTC_ee82f  -lrt 
 gmake[1]: Leaving directory '/home/wellyowo/locobot_sim/locobot_ws/build/ecl_config/CMakeFiles/CMakeTmp'
 
 
@@ -491,13 +491,13 @@ gmake[1]: Leaving directory '/home/wellyowo/locobot_sim/locobot_ws/build/ecl_con
 Determining if the function clock_nanosleep exists in the rt passed with the following output:
 Change Dir: /home/wellyowo/locobot_sim/locobot_ws/build/ecl_config/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_12314/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_12314.dir/build.make CMakeFiles/cmTC_12314.dir/build
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_91bdb/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_91bdb.dir/build.make CMakeFiles/cmTC_91bdb.dir/build
 gmake[1]: Entering directory '/home/wellyowo/locobot_sim/locobot_ws/build/ecl_config/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_12314.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=clock_nanosleep -o CMakeFiles/cmTC_12314.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
-Linking C executable cmTC_12314
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_12314.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=clock_nanosleep CMakeFiles/cmTC_12314.dir/CheckFunctionExists.c.o -o cmTC_12314  -lrt 
+Building C object CMakeFiles/cmTC_91bdb.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=clock_nanosleep -o CMakeFiles/cmTC_91bdb.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_91bdb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_91bdb.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=clock_nanosleep CMakeFiles/cmTC_91bdb.dir/CheckFunctionExists.c.o -o cmTC_91bdb  -lrt 
 gmake[1]: Leaving directory '/home/wellyowo/locobot_sim/locobot_ws/build/ecl_config/CMakeFiles/CMakeTmp'
 
 
@@ -505,13 +505,13 @@ gmake[1]: Leaving directory '/home/wellyowo/locobot_sim/locobot_ws/build/ecl_con
 Determining if the function clock_gettime exists in the rt passed with the following output:
 Change Dir: /home/wellyowo/locobot_sim/locobot_ws/build/ecl_config/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_76f6c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_76f6c.dir/build.make CMakeFiles/cmTC_76f6c.dir/build
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_f6176/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f6176.dir/build.make CMakeFiles/cmTC_f6176.dir/build
 gmake[1]: Entering directory '/home/wellyowo/locobot_sim/locobot_ws/build/ecl_config/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_76f6c.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=clock_gettime -o CMakeFiles/cmTC_76f6c.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
-Linking C executable cmTC_76f6c
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_76f6c.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=clock_gettime CMakeFiles/cmTC_76f6c.dir/CheckFunctionExists.c.o -o cmTC_76f6c  -lrt 
+Building C object CMakeFiles/cmTC_f6176.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=clock_gettime -o CMakeFiles/cmTC_f6176.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f6176
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f6176.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=clock_gettime CMakeFiles/cmTC_f6176.dir/CheckFunctionExists.c.o -o cmTC_f6176  -lrt 
 gmake[1]: Leaving directory '/home/wellyowo/locobot_sim/locobot_ws/build/ecl_config/CMakeFiles/CMakeTmp'
 
 
@@ -519,13 +519,13 @@ gmake[1]: Leaving directory '/home/wellyowo/locobot_sim/locobot_ws/build/ecl_con
 Determining if the function pthread_mutex_timedlock exists in the pthread passed with the following output:
 Change Dir: /home/wellyowo/locobot_sim/locobot_ws/build/ecl_config/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_dd174/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_dd174.dir/build.make CMakeFiles/cmTC_dd174.dir/build
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_1647b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_1647b.dir/build.make CMakeFiles/cmTC_1647b.dir/build
 gmake[1]: Entering directory '/home/wellyowo/locobot_sim/locobot_ws/build/ecl_config/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_dd174.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_mutex_timedlock -o CMakeFiles/cmTC_dd174.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
-Linking C executable cmTC_dd174
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dd174.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_mutex_timedlock CMakeFiles/cmTC_dd174.dir/CheckFunctionExists.c.o -o cmTC_dd174  -lpthread 
+Building C object CMakeFiles/cmTC_1647b.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_mutex_timedlock -o CMakeFiles/cmTC_1647b.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_1647b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1647b.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_mutex_timedlock CMakeFiles/cmTC_1647b.dir/CheckFunctionExists.c.o -o cmTC_1647b  -lpthread 
 gmake[1]: Leaving directory '/home/wellyowo/locobot_sim/locobot_ws/build/ecl_config/CMakeFiles/CMakeTmp'
 
 
@@ -533,13 +533,13 @@ gmake[1]: Leaving directory '/home/wellyowo/locobot_sim/locobot_ws/build/ecl_con
 Determining if the function nanosleep exists in the pthread passed with the following output:
 Change Dir: /home/wellyowo/locobot_sim/locobot_ws/build/ecl_config/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_d0e65/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d0e65.dir/build.make CMakeFiles/cmTC_d0e65.dir/build
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_1942a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_1942a.dir/build.make CMakeFiles/cmTC_1942a.dir/build
 gmake[1]: Entering directory '/home/wellyowo/locobot_sim/locobot_ws/build/ecl_config/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_d0e65.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=nanosleep -o CMakeFiles/cmTC_d0e65.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
-Linking C executable cmTC_d0e65
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d0e65.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=nanosleep CMakeFiles/cmTC_d0e65.dir/CheckFunctionExists.c.o -o cmTC_d0e65  -lpthread 
+Building C object CMakeFiles/cmTC_1942a.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=nanosleep -o CMakeFiles/cmTC_1942a.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_1942a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1942a.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=nanosleep CMakeFiles/cmTC_1942a.dir/CheckFunctionExists.c.o -o cmTC_1942a  -lpthread 
 gmake[1]: Leaving directory '/home/wellyowo/locobot_sim/locobot_ws/build/ecl_config/CMakeFiles/CMakeTmp'
 
 
@@ -547,13 +547,13 @@ gmake[1]: Leaving directory '/home/wellyowo/locobot_sim/locobot_ws/build/ecl_con
 Determining if the function shm_open exists in the rt passed with the following output:
 Change Dir: /home/wellyowo/locobot_sim/locobot_ws/build/ecl_config/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e5d29/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e5d29.dir/build.make CMakeFiles/cmTC_e5d29.dir/build
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_74a65/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_74a65.dir/build.make CMakeFiles/cmTC_74a65.dir/build
 gmake[1]: Entering directory '/home/wellyowo/locobot_sim/locobot_ws/build/ecl_config/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_e5d29.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=shm_open -o CMakeFiles/cmTC_e5d29.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
-Linking C executable cmTC_e5d29
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e5d29.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=shm_open CMakeFiles/cmTC_e5d29.dir/CheckFunctionExists.c.o -o cmTC_e5d29  -lrt 
+Building C object CMakeFiles/cmTC_74a65.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=shm_open -o CMakeFiles/cmTC_74a65.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_74a65
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_74a65.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=shm_open CMakeFiles/cmTC_74a65.dir/CheckFunctionExists.c.o -o cmTC_74a65  -lrt 
 gmake[1]: Leaving directory '/home/wellyowo/locobot_sim/locobot_ws/build/ecl_config/CMakeFiles/CMakeTmp'
 
 
@@ -561,13 +561,13 @@ gmake[1]: Leaving directory '/home/wellyowo/locobot_sim/locobot_ws/build/ecl_con
 Determining if the function sched_setscheduler exists in the pthread passed with the following output:
 Change Dir: /home/wellyowo/locobot_sim/locobot_ws/build/ecl_config/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_7d1ad/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_7d1ad.dir/build.make CMakeFiles/cmTC_7d1ad.dir/build
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_c33d4/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c33d4.dir/build.make CMakeFiles/cmTC_c33d4.dir/build
 gmake[1]: Entering directory '/home/wellyowo/locobot_sim/locobot_ws/build/ecl_config/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_7d1ad.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=sched_setscheduler -o CMakeFiles/cmTC_7d1ad.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
-Linking C executable cmTC_7d1ad
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7d1ad.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=sched_setscheduler CMakeFiles/cmTC_7d1ad.dir/CheckFunctionExists.c.o -o cmTC_7d1ad  -lpthread 
+Building C object CMakeFiles/cmTC_c33d4.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=sched_setscheduler -o CMakeFiles/cmTC_c33d4.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_c33d4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c33d4.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=sched_setscheduler CMakeFiles/cmTC_c33d4.dir/CheckFunctionExists.c.o -o cmTC_c33d4  -lpthread 
 gmake[1]: Leaving directory '/home/wellyowo/locobot_sim/locobot_ws/build/ecl_config/CMakeFiles/CMakeTmp'
 
 
@@ -575,13 +575,13 @@ gmake[1]: Leaving directory '/home/wellyowo/locobot_sim/locobot_ws/build/ecl_con
 Determining if the function sem_timedwait exists in the pthread passed with the following output:
 Change Dir: /home/wellyowo/locobot_sim/locobot_ws/build/ecl_config/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_22aba/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_22aba.dir/build.make CMakeFiles/cmTC_22aba.dir/build
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_19ba5/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_19ba5.dir/build.make CMakeFiles/cmTC_19ba5.dir/build
 gmake[1]: Entering directory '/home/wellyowo/locobot_sim/locobot_ws/build/ecl_config/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_22aba.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=sem_timedwait -o CMakeFiles/cmTC_22aba.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
-Linking C executable cmTC_22aba
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_22aba.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=sem_timedwait CMakeFiles/cmTC_22aba.dir/CheckFunctionExists.c.o -o cmTC_22aba  -lpthread 
+Building C object CMakeFiles/cmTC_19ba5.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=sem_timedwait -o CMakeFiles/cmTC_19ba5.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_19ba5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_19ba5.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=sem_timedwait CMakeFiles/cmTC_19ba5.dir/CheckFunctionExists.c.o -o cmTC_19ba5  -lpthread 
 gmake[1]: Leaving directory '/home/wellyowo/locobot_sim/locobot_ws/build/ecl_config/CMakeFiles/CMakeTmp'
 
 
@@ -589,13 +589,13 @@ gmake[1]: Leaving directory '/home/wellyowo/locobot_sim/locobot_ws/build/ecl_con
 Determining if the function sem_init exists in the pthread passed with the following output:
 Change Dir: /home/wellyowo/locobot_sim/locobot_ws/build/ecl_config/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_c6909/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c6909.dir/build.make CMakeFiles/cmTC_c6909.dir/build
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_d818b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d818b.dir/build.make CMakeFiles/cmTC_d818b.dir/build
 gmake[1]: Entering directory '/home/wellyowo/locobot_sim/locobot_ws/build/ecl_config/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_c6909.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=sem_init -o CMakeFiles/cmTC_c6909.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
-Linking C executable cmTC_c6909
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c6909.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=sem_init CMakeFiles/cmTC_c6909.dir/CheckFunctionExists.c.o -o cmTC_c6909  -lpthread 
+Building C object CMakeFiles/cmTC_d818b.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=sem_init -o CMakeFiles/cmTC_d818b.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_d818b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d818b.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=sem_init CMakeFiles/cmTC_d818b.dir/CheckFunctionExists.c.o -o cmTC_d818b  -lpthread 
 gmake[1]: Leaving directory '/home/wellyowo/locobot_sim/locobot_ws/build/ecl_config/CMakeFiles/CMakeTmp'
 
 
@@ -603,13 +603,13 @@ gmake[1]: Leaving directory '/home/wellyowo/locobot_sim/locobot_ws/build/ecl_con
 Determining if the CLOCK_MONOTONIC exist passed with the following output:
 Change Dir: /home/wellyowo/locobot_sim/locobot_ws/build/ecl_config/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_2f4b9/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_2f4b9.dir/build.make CMakeFiles/cmTC_2f4b9.dir/build
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_3e630/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_3e630.dir/build.make CMakeFiles/cmTC_3e630.dir/build
 gmake[1]: Entering directory '/home/wellyowo/locobot_sim/locobot_ws/build/ecl_config/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_2f4b9.dir/CheckSymbolExists.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_2f4b9.dir/CheckSymbolExists.c.o -c /home/wellyowo/locobot_sim/locobot_ws/build/ecl_config/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_2f4b9
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2f4b9.dir/link.txt --verbose=1
-/usr/bin/cc CMakeFiles/cmTC_2f4b9.dir/CheckSymbolExists.c.o -o cmTC_2f4b9 
+Building C object CMakeFiles/cmTC_3e630.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_3e630.dir/CheckSymbolExists.c.o -c /home/wellyowo/locobot_sim/locobot_ws/build/ecl_config/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_3e630
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3e630.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_3e630.dir/CheckSymbolExists.c.o -o cmTC_3e630 
 gmake[1]: Leaving directory '/home/wellyowo/locobot_sim/locobot_ws/build/ecl_config/CMakeFiles/CMakeTmp'
 
 
@@ -630,13 +630,13 @@ int main(int argc, char** argv)
 Determining if the CLOCK_PROCESS_CPUTIME_ID exist passed with the following output:
 Change Dir: /home/wellyowo/locobot_sim/locobot_ws/build/ecl_config/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_4b0c1/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_4b0c1.dir/build.make CMakeFiles/cmTC_4b0c1.dir/build
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_4886f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_4886f.dir/build.make CMakeFiles/cmTC_4886f.dir/build
 gmake[1]: Entering directory '/home/wellyowo/locobot_sim/locobot_ws/build/ecl_config/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_4b0c1.dir/CheckSymbolExists.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_4b0c1.dir/CheckSymbolExists.c.o -c /home/wellyowo/locobot_sim/locobot_ws/build/ecl_config/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_4b0c1
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4b0c1.dir/link.txt --verbose=1
-/usr/bin/cc CMakeFiles/cmTC_4b0c1.dir/CheckSymbolExists.c.o -o cmTC_4b0c1 
+Building C object CMakeFiles/cmTC_4886f.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_4886f.dir/CheckSymbolExists.c.o -c /home/wellyowo/locobot_sim/locobot_ws/build/ecl_config/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_4886f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4886f.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_4886f.dir/CheckSymbolExists.c.o -o cmTC_4886f 
 gmake[1]: Leaving directory '/home/wellyowo/locobot_sim/locobot_ws/build/ecl_config/CMakeFiles/CMakeTmp'
 
 
@@ -657,13 +657,13 @@ int main(int argc, char** argv)
 Determining if the include file pthread.h exists passed with the following output:
 Change Dir: /home/wellyowo/locobot_sim/locobot_ws/build/ecl_config/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_14129/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_14129.dir/build.make CMakeFiles/cmTC_14129.dir/build
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_1246c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_1246c.dir/build.make CMakeFiles/cmTC_1246c.dir/build
 gmake[1]: Entering directory '/home/wellyowo/locobot_sim/locobot_ws/build/ecl_config/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_14129.dir/CheckIncludeFile.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_14129.dir/CheckIncludeFile.c.o -c /home/wellyowo/locobot_sim/locobot_ws/build/ecl_config/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_14129
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_14129.dir/link.txt --verbose=1
-/usr/bin/cc CMakeFiles/cmTC_14129.dir/CheckIncludeFile.c.o -o cmTC_14129 
+Building C object CMakeFiles/cmTC_1246c.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_1246c.dir/CheckIncludeFile.c.o -c /home/wellyowo/locobot_sim/locobot_ws/build/ecl_config/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_1246c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1246c.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_1246c.dir/CheckIncludeFile.c.o -o cmTC_1246c 
 gmake[1]: Leaving directory '/home/wellyowo/locobot_sim/locobot_ws/build/ecl_config/CMakeFiles/CMakeTmp'
 
 
@@ -671,13 +671,13 @@ gmake[1]: Leaving directory '/home/wellyowo/locobot_sim/locobot_ws/build/ecl_con
 Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD succeeded with the following output:
 Change Dir: /home/wellyowo/locobot_sim/locobot_ws/build/ecl_config/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_66b59/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_66b59.dir/build.make CMakeFiles/cmTC_66b59.dir/build
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_9b614/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_9b614.dir/build.make CMakeFiles/cmTC_9b614.dir/build
 gmake[1]: Entering directory '/home/wellyowo/locobot_sim/locobot_ws/build/ecl_config/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_66b59.dir/src.c.o
-/usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_66b59.dir/src.c.o -c /home/wellyowo/locobot_sim/locobot_ws/build/ecl_config/CMakeFiles/CMakeTmp/src.c
-Linking C executable cmTC_66b59
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_66b59.dir/link.txt --verbose=1
-/usr/bin/cc CMakeFiles/cmTC_66b59.dir/src.c.o -o cmTC_66b59 
+Building C object CMakeFiles/cmTC_9b614.dir/src.c.o
+/usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_9b614.dir/src.c.o -c /home/wellyowo/locobot_sim/locobot_ws/build/ecl_config/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_9b614
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9b614.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_9b614.dir/src.c.o -o cmTC_9b614 
 gmake[1]: Leaving directory '/home/wellyowo/locobot_sim/locobot_ws/build/ecl_config/CMakeFiles/CMakeTmp'
 
 
@@ -705,13 +705,13 @@ int main(void)
 Determining if the include file sys/types.h exists passed with the following output:
 Change Dir: /home/wellyowo/locobot_sim/locobot_ws/build/ecl_config/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_5a066/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5a066.dir/build.make CMakeFiles/cmTC_5a066.dir/build
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e5f51/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e5f51.dir/build.make CMakeFiles/cmTC_e5f51.dir/build
 gmake[1]: Entering directory '/home/wellyowo/locobot_sim/locobot_ws/build/ecl_config/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_5a066.dir/CheckIncludeFile.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_5a066.dir/CheckIncludeFile.c.o -c /home/wellyowo/locobot_sim/locobot_ws/build/ecl_config/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_5a066
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5a066.dir/link.txt --verbose=1
-/usr/bin/cc CMakeFiles/cmTC_5a066.dir/CheckIncludeFile.c.o -o cmTC_5a066 
+Building C object CMakeFiles/cmTC_e5f51.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_e5f51.dir/CheckIncludeFile.c.o -c /home/wellyowo/locobot_sim/locobot_ws/build/ecl_config/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_e5f51
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e5f51.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_e5f51.dir/CheckIncludeFile.c.o -o cmTC_e5f51 
 gmake[1]: Leaving directory '/home/wellyowo/locobot_sim/locobot_ws/build/ecl_config/CMakeFiles/CMakeTmp'
 
 
@@ -719,13 +719,13 @@ gmake[1]: Leaving directory '/home/wellyowo/locobot_sim/locobot_ws/build/ecl_con
 Determining if the include file stdint.h exists passed with the following output:
 Change Dir: /home/wellyowo/locobot_sim/locobot_ws/build/ecl_config/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b3fd5/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b3fd5.dir/build.make CMakeFiles/cmTC_b3fd5.dir/build
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_cba7b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_cba7b.dir/build.make CMakeFiles/cmTC_cba7b.dir/build
 gmake[1]: Entering directory '/home/wellyowo/locobot_sim/locobot_ws/build/ecl_config/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_b3fd5.dir/CheckIncludeFile.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_b3fd5.dir/CheckIncludeFile.c.o -c /home/wellyowo/locobot_sim/locobot_ws/build/ecl_config/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_b3fd5
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b3fd5.dir/link.txt --verbose=1
-/usr/bin/cc CMakeFiles/cmTC_b3fd5.dir/CheckIncludeFile.c.o -o cmTC_b3fd5 
+Building C object CMakeFiles/cmTC_cba7b.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_cba7b.dir/CheckIncludeFile.c.o -c /home/wellyowo/locobot_sim/locobot_ws/build/ecl_config/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_cba7b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cba7b.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_cba7b.dir/CheckIncludeFile.c.o -o cmTC_cba7b 
 gmake[1]: Leaving directory '/home/wellyowo/locobot_sim/locobot_ws/build/ecl_config/CMakeFiles/CMakeTmp'
 
 
@@ -733,13 +733,13 @@ gmake[1]: Leaving directory '/home/wellyowo/locobot_sim/locobot_ws/build/ecl_con
 Determining if the include file stddef.h exists passed with the following output:
 Change Dir: /home/wellyowo/locobot_sim/locobot_ws/build/ecl_config/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_3515b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_3515b.dir/build.make CMakeFiles/cmTC_3515b.dir/build
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_938e8/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_938e8.dir/build.make CMakeFiles/cmTC_938e8.dir/build
 gmake[1]: Entering directory '/home/wellyowo/locobot_sim/locobot_ws/build/ecl_config/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_3515b.dir/CheckIncludeFile.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_3515b.dir/CheckIncludeFile.c.o -c /home/wellyowo/locobot_sim/locobot_ws/build/ecl_config/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_3515b
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3515b.dir/link.txt --verbose=1
-/usr/bin/cc CMakeFiles/cmTC_3515b.dir/CheckIncludeFile.c.o -o cmTC_3515b 
+Building C object CMakeFiles/cmTC_938e8.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_938e8.dir/CheckIncludeFile.c.o -c /home/wellyowo/locobot_sim/locobot_ws/build/ecl_config/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_938e8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_938e8.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_938e8.dir/CheckIncludeFile.c.o -o cmTC_938e8 
 gmake[1]: Leaving directory '/home/wellyowo/locobot_sim/locobot_ws/build/ecl_config/CMakeFiles/CMakeTmp'
 
 
@@ -747,13 +747,13 @@ gmake[1]: Leaving directory '/home/wellyowo/locobot_sim/locobot_ws/build/ecl_con
 Determining size of char passed with the following output:
 Change Dir: /home/wellyowo/locobot_sim/locobot_ws/build/ecl_config/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_8ae7d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_8ae7d.dir/build.make CMakeFiles/cmTC_8ae7d.dir/build
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b7eb9/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b7eb9.dir/build.make CMakeFiles/cmTC_b7eb9.dir/build
 gmake[1]: Entering directory '/home/wellyowo/locobot_sim/locobot_ws/build/ecl_config/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_8ae7d.dir/PLATFORM_SIZE_OF_CHAR.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_8ae7d.dir/PLATFORM_SIZE_OF_CHAR.c.o -c /home/wellyowo/locobot_sim/locobot_ws/build/ecl_config/CMakeFiles/CheckTypeSize/PLATFORM_SIZE_OF_CHAR.c
-Linking C executable cmTC_8ae7d
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8ae7d.dir/link.txt --verbose=1
-/usr/bin/cc CMakeFiles/cmTC_8ae7d.dir/PLATFORM_SIZE_OF_CHAR.c.o -o cmTC_8ae7d 
+Building C object CMakeFiles/cmTC_b7eb9.dir/PLATFORM_SIZE_OF_CHAR.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_b7eb9.dir/PLATFORM_SIZE_OF_CHAR.c.o -c /home/wellyowo/locobot_sim/locobot_ws/build/ecl_config/CMakeFiles/CheckTypeSize/PLATFORM_SIZE_OF_CHAR.c
+Linking C executable cmTC_b7eb9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b7eb9.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_b7eb9.dir/PLATFORM_SIZE_OF_CHAR.c.o -o cmTC_b7eb9 
 gmake[1]: Leaving directory '/home/wellyowo/locobot_sim/locobot_ws/build/ecl_config/CMakeFiles/CMakeTmp'
 
 
@@ -761,13 +761,13 @@ gmake[1]: Leaving directory '/home/wellyowo/locobot_sim/locobot_ws/build/ecl_con
 Determining size of short passed with the following output:
 Change Dir: /home/wellyowo/locobot_sim/locobot_ws/build/ecl_config/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_2381e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_2381e.dir/build.make CMakeFiles/cmTC_2381e.dir/build
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_8fbd1/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_8fbd1.dir/build.make CMakeFiles/cmTC_8fbd1.dir/build
 gmake[1]: Entering directory '/home/wellyowo/locobot_sim/locobot_ws/build/ecl_config/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_2381e.dir/PLATFORM_SIZE_OF_SHORT.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_2381e.dir/PLATFORM_SIZE_OF_SHORT.c.o -c /home/wellyowo/locobot_sim/locobot_ws/build/ecl_config/CMakeFiles/CheckTypeSize/PLATFORM_SIZE_OF_SHORT.c
-Linking C executable cmTC_2381e
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2381e.dir/link.txt --verbose=1
-/usr/bin/cc CMakeFiles/cmTC_2381e.dir/PLATFORM_SIZE_OF_SHORT.c.o -o cmTC_2381e 
+Building C object CMakeFiles/cmTC_8fbd1.dir/PLATFORM_SIZE_OF_SHORT.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_8fbd1.dir/PLATFORM_SIZE_OF_SHORT.c.o -c /home/wellyowo/locobot_sim/locobot_ws/build/ecl_config/CMakeFiles/CheckTypeSize/PLATFORM_SIZE_OF_SHORT.c
+Linking C executable cmTC_8fbd1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8fbd1.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_8fbd1.dir/PLATFORM_SIZE_OF_SHORT.c.o -o cmTC_8fbd1 
 gmake[1]: Leaving directory '/home/wellyowo/locobot_sim/locobot_ws/build/ecl_config/CMakeFiles/CMakeTmp'
 
 
@@ -775,13 +775,13 @@ gmake[1]: Leaving directory '/home/wellyowo/locobot_sim/locobot_ws/build/ecl_con
 Determining size of int passed with the following output:
 Change Dir: /home/wellyowo/locobot_sim/locobot_ws/build/ecl_config/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_ad9b5/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ad9b5.dir/build.make CMakeFiles/cmTC_ad9b5.dir/build
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_67b2c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_67b2c.dir/build.make CMakeFiles/cmTC_67b2c.dir/build
 gmake[1]: Entering directory '/home/wellyowo/locobot_sim/locobot_ws/build/ecl_config/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_ad9b5.dir/PLATFORM_SIZE_OF_INT.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_ad9b5.dir/PLATFORM_SIZE_OF_INT.c.o -c /home/wellyowo/locobot_sim/locobot_ws/build/ecl_config/CMakeFiles/CheckTypeSize/PLATFORM_SIZE_OF_INT.c
-Linking C executable cmTC_ad9b5
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ad9b5.dir/link.txt --verbose=1
-/usr/bin/cc CMakeFiles/cmTC_ad9b5.dir/PLATFORM_SIZE_OF_INT.c.o -o cmTC_ad9b5 
+Building C object CMakeFiles/cmTC_67b2c.dir/PLATFORM_SIZE_OF_INT.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_67b2c.dir/PLATFORM_SIZE_OF_INT.c.o -c /home/wellyowo/locobot_sim/locobot_ws/build/ecl_config/CMakeFiles/CheckTypeSize/PLATFORM_SIZE_OF_INT.c
+Linking C executable cmTC_67b2c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_67b2c.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_67b2c.dir/PLATFORM_SIZE_OF_INT.c.o -o cmTC_67b2c 
 gmake[1]: Leaving directory '/home/wellyowo/locobot_sim/locobot_ws/build/ecl_config/CMakeFiles/CMakeTmp'
 
 
@@ -789,13 +789,13 @@ gmake[1]: Leaving directory '/home/wellyowo/locobot_sim/locobot_ws/build/ecl_con
 Determining size of long passed with the following output:
 Change Dir: /home/wellyowo/locobot_sim/locobot_ws/build/ecl_config/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_c2173/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c2173.dir/build.make CMakeFiles/cmTC_c2173.dir/build
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_4ba98/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_4ba98.dir/build.make CMakeFiles/cmTC_4ba98.dir/build
 gmake[1]: Entering directory '/home/wellyowo/locobot_sim/locobot_ws/build/ecl_config/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_c2173.dir/PLATFORM_SIZE_OF_LONG.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_c2173.dir/PLATFORM_SIZE_OF_LONG.c.o -c /home/wellyowo/locobot_sim/locobot_ws/build/ecl_config/CMakeFiles/CheckTypeSize/PLATFORM_SIZE_OF_LONG.c
-Linking C executable cmTC_c2173
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c2173.dir/link.txt --verbose=1
-/usr/bin/cc CMakeFiles/cmTC_c2173.dir/PLATFORM_SIZE_OF_LONG.c.o -o cmTC_c2173 
+Building C object CMakeFiles/cmTC_4ba98.dir/PLATFORM_SIZE_OF_LONG.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_4ba98.dir/PLATFORM_SIZE_OF_LONG.c.o -c /home/wellyowo/locobot_sim/locobot_ws/build/ecl_config/CMakeFiles/CheckTypeSize/PLATFORM_SIZE_OF_LONG.c
+Linking C executable cmTC_4ba98
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4ba98.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_4ba98.dir/PLATFORM_SIZE_OF_LONG.c.o -o cmTC_4ba98 
 gmake[1]: Leaving directory '/home/wellyowo/locobot_sim/locobot_ws/build/ecl_config/CMakeFiles/CMakeTmp'
 
 
@@ -803,13 +803,13 @@ gmake[1]: Leaving directory '/home/wellyowo/locobot_sim/locobot_ws/build/ecl_con
 Determining size of long long passed with the following output:
 Change Dir: /home/wellyowo/locobot_sim/locobot_ws/build/ecl_config/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_1da1a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_1da1a.dir/build.make CMakeFiles/cmTC_1da1a.dir/build
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_2b6ba/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_2b6ba.dir/build.make CMakeFiles/cmTC_2b6ba.dir/build
 gmake[1]: Entering directory '/home/wellyowo/locobot_sim/locobot_ws/build/ecl_config/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_1da1a.dir/PLATFORM_SIZE_OF_LONG_LONG.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_1da1a.dir/PLATFORM_SIZE_OF_LONG_LONG.c.o -c /home/wellyowo/locobot_sim/locobot_ws/build/ecl_config/CMakeFiles/CheckTypeSize/PLATFORM_SIZE_OF_LONG_LONG.c
-Linking C executable cmTC_1da1a
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1da1a.dir/link.txt --verbose=1
-/usr/bin/cc CMakeFiles/cmTC_1da1a.dir/PLATFORM_SIZE_OF_LONG_LONG.c.o -o cmTC_1da1a 
+Building C object CMakeFiles/cmTC_2b6ba.dir/PLATFORM_SIZE_OF_LONG_LONG.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_2b6ba.dir/PLATFORM_SIZE_OF_LONG_LONG.c.o -c /home/wellyowo/locobot_sim/locobot_ws/build/ecl_config/CMakeFiles/CheckTypeSize/PLATFORM_SIZE_OF_LONG_LONG.c
+Linking C executable cmTC_2b6ba
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2b6ba.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_2b6ba.dir/PLATFORM_SIZE_OF_LONG_LONG.c.o -o cmTC_2b6ba 
 gmake[1]: Leaving directory '/home/wellyowo/locobot_sim/locobot_ws/build/ecl_config/CMakeFiles/CMakeTmp'
 
 
@@ -817,13 +817,13 @@ gmake[1]: Leaving directory '/home/wellyowo/locobot_sim/locobot_ws/build/ecl_con
 Determining size of float passed with the following output:
 Change Dir: /home/wellyowo/locobot_sim/locobot_ws/build/ecl_config/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_17388/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_17388.dir/build.make CMakeFiles/cmTC_17388.dir/build
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_1beee/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_1beee.dir/build.make CMakeFiles/cmTC_1beee.dir/build
 gmake[1]: Entering directory '/home/wellyowo/locobot_sim/locobot_ws/build/ecl_config/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_17388.dir/PLATFORM_SIZE_OF_FLOAT.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_17388.dir/PLATFORM_SIZE_OF_FLOAT.c.o -c /home/wellyowo/locobot_sim/locobot_ws/build/ecl_config/CMakeFiles/CheckTypeSize/PLATFORM_SIZE_OF_FLOAT.c
-Linking C executable cmTC_17388
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_17388.dir/link.txt --verbose=1
-/usr/bin/cc CMakeFiles/cmTC_17388.dir/PLATFORM_SIZE_OF_FLOAT.c.o -o cmTC_17388 
+Building C object CMakeFiles/cmTC_1beee.dir/PLATFORM_SIZE_OF_FLOAT.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_1beee.dir/PLATFORM_SIZE_OF_FLOAT.c.o -c /home/wellyowo/locobot_sim/locobot_ws/build/ecl_config/CMakeFiles/CheckTypeSize/PLATFORM_SIZE_OF_FLOAT.c
+Linking C executable cmTC_1beee
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1beee.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_1beee.dir/PLATFORM_SIZE_OF_FLOAT.c.o -o cmTC_1beee 
 gmake[1]: Leaving directory '/home/wellyowo/locobot_sim/locobot_ws/build/ecl_config/CMakeFiles/CMakeTmp'
 
 
@@ -831,13 +831,13 @@ gmake[1]: Leaving directory '/home/wellyowo/locobot_sim/locobot_ws/build/ecl_con
 Determining size of double passed with the following output:
 Change Dir: /home/wellyowo/locobot_sim/locobot_ws/build/ecl_config/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_cd534/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_cd534.dir/build.make CMakeFiles/cmTC_cd534.dir/build
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_bf808/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_bf808.dir/build.make CMakeFiles/cmTC_bf808.dir/build
 gmake[1]: Entering directory '/home/wellyowo/locobot_sim/locobot_ws/build/ecl_config/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_cd534.dir/PLATFORM_SIZE_OF_DOUBLE.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_cd534.dir/PLATFORM_SIZE_OF_DOUBLE.c.o -c /home/wellyowo/locobot_sim/locobot_ws/build/ecl_config/CMakeFiles/CheckTypeSize/PLATFORM_SIZE_OF_DOUBLE.c
-Linking C executable cmTC_cd534
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cd534.dir/link.txt --verbose=1
-/usr/bin/cc CMakeFiles/cmTC_cd534.dir/PLATFORM_SIZE_OF_DOUBLE.c.o -o cmTC_cd534 
+Building C object CMakeFiles/cmTC_bf808.dir/PLATFORM_SIZE_OF_DOUBLE.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_bf808.dir/PLATFORM_SIZE_OF_DOUBLE.c.o -c /home/wellyowo/locobot_sim/locobot_ws/build/ecl_config/CMakeFiles/CheckTypeSize/PLATFORM_SIZE_OF_DOUBLE.c
+Linking C executable cmTC_bf808
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bf808.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_bf808.dir/PLATFORM_SIZE_OF_DOUBLE.c.o -o cmTC_bf808 
 gmake[1]: Leaving directory '/home/wellyowo/locobot_sim/locobot_ws/build/ecl_config/CMakeFiles/CMakeTmp'
 
 
@@ -845,13 +845,13 @@ gmake[1]: Leaving directory '/home/wellyowo/locobot_sim/locobot_ws/build/ecl_con
 Determining size of long double passed with the following output:
 Change Dir: /home/wellyowo/locobot_sim/locobot_ws/build/ecl_config/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e7ead/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e7ead.dir/build.make CMakeFiles/cmTC_e7ead.dir/build
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_a0ab7/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_a0ab7.dir/build.make CMakeFiles/cmTC_a0ab7.dir/build
 gmake[1]: Entering directory '/home/wellyowo/locobot_sim/locobot_ws/build/ecl_config/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_e7ead.dir/PLATFORM_SIZE_OF_LONG_DOUBLE.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_e7ead.dir/PLATFORM_SIZE_OF_LONG_DOUBLE.c.o -c /home/wellyowo/locobot_sim/locobot_ws/build/ecl_config/CMakeFiles/CheckTypeSize/PLATFORM_SIZE_OF_LONG_DOUBLE.c
-Linking C executable cmTC_e7ead
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e7ead.dir/link.txt --verbose=1
-/usr/bin/cc CMakeFiles/cmTC_e7ead.dir/PLATFORM_SIZE_OF_LONG_DOUBLE.c.o -o cmTC_e7ead 
+Building C object CMakeFiles/cmTC_a0ab7.dir/PLATFORM_SIZE_OF_LONG_DOUBLE.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_a0ab7.dir/PLATFORM_SIZE_OF_LONG_DOUBLE.c.o -c /home/wellyowo/locobot_sim/locobot_ws/build/ecl_config/CMakeFiles/CheckTypeSize/PLATFORM_SIZE_OF_LONG_DOUBLE.c
+Linking C executable cmTC_a0ab7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a0ab7.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_a0ab7.dir/PLATFORM_SIZE_OF_LONG_DOUBLE.c.o -o cmTC_a0ab7 
 gmake[1]: Leaving directory '/home/wellyowo/locobot_sim/locobot_ws/build/ecl_config/CMakeFiles/CMakeTmp'
 
 

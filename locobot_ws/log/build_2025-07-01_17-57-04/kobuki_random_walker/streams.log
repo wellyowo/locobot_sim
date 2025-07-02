@@ -1,0 +1,73 @@
+[0.211s] Invoking command in '/home/wellyowo/locobot_sim/locobot_ws/build/kobuki_random_walker': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/wellyowo/locobot_sim/locobot_ws/src/ThirdParty/kobuki_ros/kobuki_random_walker -DBUILD_TESTING=OFF -DCMAKE_PREFIX_PATH= -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/wellyowo/locobot_sim/locobot_ws/install/kobuki_random_walker
+[1.170s] -- The C compiler identification is GNU 11.4.0
+[1.178s] -- The CXX compiler identification is GNU 11.4.0
+[1.178s] -- Detecting C compiler ABI info
+[1.178s] -- Detecting C compiler ABI info - done
+[1.178s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.178s] -- Detecting C compile features
+[1.178s] -- Detecting C compile features - done
+[1.178s] -- Detecting CXX compiler ABI info
+[1.179s] -- Detecting CXX compiler ABI info - done
+[1.179s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.179s] -- Detecting CXX compile features
+[1.179s] -- Detecting CXX compile features - done
+[1.179s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.179s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.180s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.388s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.674s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.699s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.759s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.804s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.906s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.091s] -- Found kobuki_ros_interfaces: 1.0.0 (/opt/ros/humble/share/kobuki_ros_interfaces/cmake)
+[2.283s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[2.490s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.504s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.806s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.905s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.013s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.044s] -- Looking for pthread.h
+[3.260s] -- Looking for pthread.h - found
+[3.260s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.466s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.467s] -- Found Threads: TRUE  
+[3.596s] -- Found rclcpp_components: 16.0.12 (/opt/ros/humble/share/rclcpp_components/cmake)
+[3.862s] -- Configuring done
+[3.880s] -- Generating done
+[3.888s] -- Build files have been written to: /home/wellyowo/locobot_sim/locobot_ws/build/kobuki_random_walker
+[3.931s] Invoked command in '/home/wellyowo/locobot_sim/locobot_ws/build/kobuki_random_walker' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/wellyowo/locobot_sim/locobot_ws/src/ThirdParty/kobuki_ros/kobuki_random_walker -DBUILD_TESTING=OFF -DCMAKE_PREFIX_PATH= -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/wellyowo/locobot_sim/locobot_ws/install/kobuki_random_walker
+[3.931s] Invoking command in '/home/wellyowo/locobot_sim/locobot_ws/build/kobuki_random_walker': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wellyowo/locobot_sim/locobot_ws/build/kobuki_random_walker -- -j16 -l16
+[4.867s] [ 25%] [32mBuilding CXX object CMakeFiles/kobuki_random_walker.dir/src/random_walker.cpp.o[0m
+[4.868s] [ 50%] [32mBuilding CXX object CMakeFiles/kobuki_random_walker_node.dir/rclcpp_components/node_main_kobuki_random_walker_node.cpp.o[0m
+[29.003s] [ 75%] [32m[1mLinking CXX executable kobuki_random_walker_node[0m
+[29.652s] [ 75%] Built target kobuki_random_walker_node
+[119.797s] [100%] [32m[1mLinking CXX shared library libkobuki_random_walker.so[0m
+[122.692s] [100%] Built target kobuki_random_walker
+[122.741s] Invoked command in '/home/wellyowo/locobot_sim/locobot_ws/build/kobuki_random_walker' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wellyowo/locobot_sim/locobot_ws/build/kobuki_random_walker -- -j16 -l16
+[122.742s] Invoking command in '/home/wellyowo/locobot_sim/locobot_ws/build/kobuki_random_walker': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/wellyowo/locobot_sim/locobot_ws/build/kobuki_random_walker
+[122.762s] -- Install configuration: ""
+[122.765s] -- Execute custom install script
+[122.767s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/kobuki_random_walker/lib/kobuki_random_walker/kobuki_random_walker_node
+[122.799s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/kobuki_random_walker/lib/libkobuki_random_walker.so
+[122.829s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/kobuki_random_walker/include/kobuki_random_walker/random_walker.hpp
+[122.861s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/kobuki_random_walker/share/kobuki_random_walker/launch/random_walker_app.launch
+[122.879s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/kobuki_random_walker/share/kobuki_random_walker/launch/safe_random_walker_app.launch
+[122.911s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/kobuki_random_walker/share/kobuki_random_walker/launch/standalone.launch
+[122.933s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/kobuki_random_walker/share/ament_index/resource_index/package_run_dependencies/kobuki_random_walker
+[122.972s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/kobuki_random_walker/share/ament_index/resource_index/parent_prefix_path/kobuki_random_walker
+[122.994s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/kobuki_random_walker/share/kobuki_random_walker/environment/ament_prefix_path.sh
+[123.025s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/kobuki_random_walker/share/kobuki_random_walker/environment/ament_prefix_path.dsv
+[123.061s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/kobuki_random_walker/share/kobuki_random_walker/environment/path.sh
+[123.093s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/kobuki_random_walker/share/kobuki_random_walker/environment/path.dsv
+[123.135s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/kobuki_random_walker/share/kobuki_random_walker/local_setup.bash
+[123.171s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/kobuki_random_walker/share/kobuki_random_walker/local_setup.sh
+[123.208s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/kobuki_random_walker/share/kobuki_random_walker/local_setup.zsh
+[123.249s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/kobuki_random_walker/share/kobuki_random_walker/local_setup.dsv
+[123.285s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/kobuki_random_walker/share/kobuki_random_walker/package.dsv
+[123.303s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/kobuki_random_walker/share/ament_index/resource_index/packages/kobuki_random_walker
+[123.337s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/kobuki_random_walker/share/ament_index/resource_index/rclcpp_components/kobuki_random_walker
+[123.372s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/kobuki_random_walker/share/kobuki_random_walker/cmake/kobuki_random_walkerConfig.cmake
+[123.418s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/kobuki_random_walker/share/kobuki_random_walker/cmake/kobuki_random_walkerConfig-version.cmake
+[123.444s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/kobuki_random_walker/share/kobuki_random_walker/package.xml
+[123.482s] Invoked command in '/home/wellyowo/locobot_sim/locobot_ws/build/kobuki_random_walker' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/wellyowo/locobot_sim/locobot_ws/build/kobuki_random_walker

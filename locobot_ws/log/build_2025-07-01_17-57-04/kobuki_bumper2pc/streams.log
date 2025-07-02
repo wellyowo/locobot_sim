@@ -1,0 +1,72 @@
+[0.211s] Invoking command in '/home/wellyowo/locobot_sim/locobot_ws/build/kobuki_bumper2pc': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/wellyowo/locobot_sim/locobot_ws/src/ThirdParty/kobuki_ros/kobuki_bumper2pc -DBUILD_TESTING=OFF -DCMAKE_PREFIX_PATH= -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/wellyowo/locobot_sim/locobot_ws/install/kobuki_bumper2pc
+[0.285s] -- The C compiler identification is GNU 11.4.0
+[0.386s] -- The CXX compiler identification is GNU 11.4.0
+[0.396s] -- Detecting C compiler ABI info
+[0.494s] -- Detecting C compiler ABI info - done
+[0.505s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.507s] -- Detecting C compile features
+[0.507s] -- Detecting C compile features - done
+[0.516s] -- Detecting CXX compiler ABI info
+[0.640s] -- Detecting CXX compiler ABI info - done
+[0.657s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.663s] -- Detecting CXX compile features
+[0.663s] -- Detecting CXX compile features - done
+[0.683s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.026s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.148s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.548s] -- Found kobuki_ros_interfaces: 1.0.0 (/opt/ros/humble/share/kobuki_ros_interfaces/cmake)
+[1.820s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.859s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.939s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.006s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.079s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.355s] -- Found rcl_interfaces: 1.2.1 (/opt/ros/humble/share/rcl_interfaces/cmake)
+[2.397s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[2.546s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.555s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.802s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.878s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.008s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.044s] -- Looking for pthread.h
+[3.236s] -- Looking for pthread.h - found
+[3.236s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.405s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.413s] -- Found Threads: TRUE  
+[3.508s] -- Found rclcpp_components: 16.0.12 (/opt/ros/humble/share/rclcpp_components/cmake)
+[3.630s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[4.002s] -- Configuring done
+[4.127s] -- Generating done
+[4.162s] -- Build files have been written to: /home/wellyowo/locobot_sim/locobot_ws/build/kobuki_bumper2pc
+[4.258s] Invoked command in '/home/wellyowo/locobot_sim/locobot_ws/build/kobuki_bumper2pc' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/wellyowo/locobot_sim/locobot_ws/src/ThirdParty/kobuki_ros/kobuki_bumper2pc -DBUILD_TESTING=OFF -DCMAKE_PREFIX_PATH= -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/wellyowo/locobot_sim/locobot_ws/install/kobuki_bumper2pc
+[4.259s] Invoking command in '/home/wellyowo/locobot_sim/locobot_ws/build/kobuki_bumper2pc': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wellyowo/locobot_sim/locobot_ws/build/kobuki_bumper2pc -- -j16 -l16
+[6.437s] [ 25%] [32mBuilding CXX object CMakeFiles/kobuki_bumper2pc_node.dir/rclcpp_components/node_main_kobuki_bumper2pc_node.cpp.o[0m
+[6.437s] [ 50%] [32mBuilding CXX object CMakeFiles/kobuki_bumper2pc.dir/src/kobuki_bumper2pc.cpp.o[0m
+[29.776s] [ 75%] [32m[1mLinking CXX executable kobuki_bumper2pc_node[0m
+[31.979s] [ 75%] Built target kobuki_bumper2pc_node
+[93.462s] [100%] [32m[1mLinking CXX shared library libkobuki_bumper2pc.so[0m
+[96.660s] [100%] Built target kobuki_bumper2pc
+[96.716s] Invoked command in '/home/wellyowo/locobot_sim/locobot_ws/build/kobuki_bumper2pc' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wellyowo/locobot_sim/locobot_ws/build/kobuki_bumper2pc -- -j16 -l16
+[96.717s] Invoking command in '/home/wellyowo/locobot_sim/locobot_ws/build/kobuki_bumper2pc': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/wellyowo/locobot_sim/locobot_ws/build/kobuki_bumper2pc
+[99.516s] -- Install configuration: ""
+[99.516s] -- Execute custom install script
+[99.523s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/kobuki_bumper2pc/lib/kobuki_bumper2pc/kobuki_bumper2pc_node
+[99.561s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/kobuki_bumper2pc/lib/libkobuki_bumper2pc.so
+[99.561s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/kobuki_bumper2pc/include/kobuki_bumper2pc/kobuki_bumper2pc.hpp
+[99.562s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/kobuki_bumper2pc/share/kobuki_bumper2pc/launch/kobuki_bumper2pc-launch.py
+[99.562s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/kobuki_bumper2pc/share/ament_index/resource_index/package_run_dependencies/kobuki_bumper2pc
+[99.562s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/kobuki_bumper2pc/share/ament_index/resource_index/parent_prefix_path/kobuki_bumper2pc
+[99.562s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/kobuki_bumper2pc/share/kobuki_bumper2pc/environment/ament_prefix_path.sh
+[99.562s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/kobuki_bumper2pc/share/kobuki_bumper2pc/environment/ament_prefix_path.dsv
+[99.562s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/kobuki_bumper2pc/share/kobuki_bumper2pc/environment/path.sh
+[99.562s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/kobuki_bumper2pc/share/kobuki_bumper2pc/environment/path.dsv
+[99.562s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/kobuki_bumper2pc/share/kobuki_bumper2pc/local_setup.bash
+[99.562s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/kobuki_bumper2pc/share/kobuki_bumper2pc/local_setup.sh
+[99.562s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/kobuki_bumper2pc/share/kobuki_bumper2pc/local_setup.zsh
+[99.563s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/kobuki_bumper2pc/share/kobuki_bumper2pc/local_setup.dsv
+[99.563s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/kobuki_bumper2pc/share/kobuki_bumper2pc/package.dsv
+[99.563s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/kobuki_bumper2pc/share/ament_index/resource_index/packages/kobuki_bumper2pc
+[99.563s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/kobuki_bumper2pc/share/ament_index/resource_index/rclcpp_components/kobuki_bumper2pc
+[99.563s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/kobuki_bumper2pc/share/kobuki_bumper2pc/cmake/kobuki_bumper2pcConfig.cmake
+[99.563s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/kobuki_bumper2pc/share/kobuki_bumper2pc/cmake/kobuki_bumper2pcConfig-version.cmake
+[99.563s] -- Symlinking: /home/wellyowo/locobot_sim/locobot_ws/install/kobuki_bumper2pc/share/kobuki_bumper2pc/package.xml
+[99.790s] Invoked command in '/home/wellyowo/locobot_sim/locobot_ws/build/kobuki_bumper2pc' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/wellyowo/locobot_sim/locobot_ws/build/kobuki_bumper2pc
