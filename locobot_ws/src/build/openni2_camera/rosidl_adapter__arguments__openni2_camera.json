@@ -1,6 +1,0 @@
-{
-  "package_name": "openni2_camera",
-  "non_idl_tuples": [
-    "/home/wellyowo/locobot_sim/locobot_ws/src/ThirdParty/openni2_camera/openni2_camera:srv/GetSerial.srv"
-  ]
-}

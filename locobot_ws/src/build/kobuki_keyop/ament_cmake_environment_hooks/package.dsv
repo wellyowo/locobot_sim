@@ -1,4 +1,0 @@
-source;share/kobuki_keyop/local_setup.bash
-source;share/kobuki_keyop/local_setup.dsv
-source;share/kobuki_keyop/local_setup.sh
-source;share/kobuki_keyop/local_setup.zsh

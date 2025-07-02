@@ -1,4 +1,0 @@
-source;share/kobuki_random_walker/local_setup.bash
-source;share/kobuki_random_walker/local_setup.dsv
-source;share/kobuki_random_walker/local_setup.sh
-source;share/kobuki_random_walker/local_setup.zsh

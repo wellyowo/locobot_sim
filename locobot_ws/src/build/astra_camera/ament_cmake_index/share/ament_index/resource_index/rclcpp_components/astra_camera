@@ -1,3 +1,0 @@
-astra_camera::PointCloudXyzrgbNode;lib/libastra_camera.so
-astra_camera::PointCloudXyzNode;lib/libastra_camera.so
-astra_camera::OBCameraNodeFactory;lib/libastra_camera.so

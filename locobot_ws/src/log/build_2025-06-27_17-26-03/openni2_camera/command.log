@@ -1,1 +1,0 @@
-Invoking command in '/home/wellyowo/locobot_sim/locobot_ws/src/build/openni2_camera': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wellyowo/locobot_sim/locobot_ws/src/build/openni2_camera -- -j16 -l16

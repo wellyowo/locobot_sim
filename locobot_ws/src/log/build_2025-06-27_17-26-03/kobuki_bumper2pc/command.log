@@ -1,4 +1,0 @@
-Invoking command in '/home/wellyowo/locobot_sim/locobot_ws/src/build/kobuki_bumper2pc': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wellyowo/locobot_sim/locobot_ws/src/build/kobuki_bumper2pc -- -j16 -l16
-Invoked command in '/home/wellyowo/locobot_sim/locobot_ws/src/build/kobuki_bumper2pc' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wellyowo/locobot_sim/locobot_ws/src/build/kobuki_bumper2pc -- -j16 -l16
-Invoking command in '/home/wellyowo/locobot_sim/locobot_ws/src/build/kobuki_bumper2pc': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/wellyowo/locobot_sim/locobot_ws/src/build/kobuki_bumper2pc
-Invoked command in '/home/wellyowo/locobot_sim/locobot_ws/src/build/kobuki_bumper2pc' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/wellyowo/locobot_sim/locobot_ws/src/build/kobuki_bumper2pc

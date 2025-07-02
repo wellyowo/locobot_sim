@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/ecl_io_example_sockets.dir/sockets.cpp.o -o demo_sockets  -Wl,-rpath,/home/wellyowo/locobot_sim/locobot_ws/src/build/ecl_io/src/lib:/home/wellyowo/locobot_sim/locobot_ws/src/install/ecl_errors/lib: ../lib/libecl_io.so.1.2.0 /home/wellyowo/locobot_sim/locobot_ws/src/install/ecl_errors/lib/libecl_errors.so.1.2.0 

@@ -1,4 +1,0 @@
-Invoking command in '/home/wellyowo/locobot_sim/locobot_ws/src/build/interbotix_common_sim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wellyowo/locobot_sim/locobot_ws/src/build/interbotix_common_sim -- -j16 -l16
-Invoked command in '/home/wellyowo/locobot_sim/locobot_ws/src/build/interbotix_common_sim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wellyowo/locobot_sim/locobot_ws/src/build/interbotix_common_sim -- -j16 -l16
-Invoking command in '/home/wellyowo/locobot_sim/locobot_ws/src/build/interbotix_common_sim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/wellyowo/locobot_sim/locobot_ws/src/build/interbotix_common_sim
-Invoked command in '/home/wellyowo/locobot_sim/locobot_ws/src/build/interbotix_common_sim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/wellyowo/locobot_sim/locobot_ws/src/build/interbotix_common_sim

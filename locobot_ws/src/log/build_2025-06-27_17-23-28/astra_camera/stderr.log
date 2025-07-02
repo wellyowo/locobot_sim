@@ -1,7 +1,0 @@
-[01m[K/home/wellyowo/locobot_sim/locobot_ws/src/ThirdParty/ros_astra_camera/astra_camera/src/point_cloud_proc/point_cloud_xyz.cpp:37:10:[m[K [01;31m[Kfatal error: [m[Kimage_geometry/pinhole_camera_model.hpp: No such file or directory
-   37 | #include [01;31m[K<image_geometry/pinhole_camera_model.hpp>[m[K
-      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
-compilation terminated.
-gmake[2]: *** [CMakeFiles/astra_camera.dir/build.make:76: CMakeFiles/astra_camera.dir/src/point_cloud_proc/point_cloud_xyz.cpp.o] Error 1
-gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/astra_camera.dir/all] Error 2
-gmake: *** [Makefile:146: all] Error 2

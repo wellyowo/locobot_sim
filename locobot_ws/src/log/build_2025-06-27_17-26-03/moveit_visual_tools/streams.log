@@ -1,6 +1,0 @@
-[0.281s] Invoking command in '/home/wellyowo/locobot_sim/locobot_ws/src/build/moveit_visual_tools': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wellyowo/locobot_sim/locobot_ws/src/build/moveit_visual_tools -- -j16 -l16
-[0.339s] [35m[1mConsolidate compiler generated dependencies of target moveit_visual_tools[0m
-[0.441s] [ 16%] [32mBuilding CXX object CMakeFiles/moveit_visual_tools.dir/src/imarker_robot_state.cpp.o[0m
-[16.635s] gmake[2]: *** [CMakeFiles/moveit_visual_tools.dir/build.make:90: CMakeFiles/moveit_visual_tools.dir/src/imarker_robot_state.cpp.o] Interrupt
-[16.636s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/moveit_visual_tools.dir/all] Interrupt
-[16.637s] gmake: *** [Makefile:146: all] Interrupt
