@@ -25,10 +25,6 @@ rm -f locobot_ws/src/interbotix_ros_toolboxes/interbotix_common_toolbox/interbot
 rm -f locobot_ws/src/interbotix_ros_toolboxes/interbotix_common_toolbox/interbotix_moveit_interface_msgs/COLCON_IGNORE
 rm -f locobot_ws/src/interbotix_ros_toolboxes/interbotix_perception_toolbox/COLCON_IGNORE
 
-echo "--- 🚫 Ignoring incompatible package: openni2_camera ---"
-touch locobot_ws/src/ThirdParty/openni2_camera/COLCON_IGNORE
-touch locobot_ws/src/ThirdParty/ros_astra_camera/COLCON_IGNORE
-echo ""
 
 
 # --- STEP 4: DIAGNOSTIC - Verify the Environment ---
